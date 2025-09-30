@@ -1,0 +1,4 @@
+ERROR - 2025-02-19 23:55:37 --> Severity: Warning --> Undefined variable $states /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 85
+ERROR - 2025-02-19 23:55:37 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 85
+ERROR - 2025-02-19 23:55:37 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 97
+ERROR - 2025-02-19 23:57:49 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 97

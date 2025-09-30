@@ -1,0 +1,39 @@
+ERROR - 2025-04-09 02:00:27 --> Query error: Column 'franchisee_id' in where clause is ambiguous - Invalid query: SELECT `p`.`id`, `fullname`, `client_name`, `project_name`, `project_type`
+FROM `tbl_solar_project` `p`
+LEFT JOIN `tbl_users` `u` ON `u`.`id` = `p`.`franchisee_id`
+LEFT JOIN `tbl_franchisee_client` `c` ON `c`.`id` = `p`.`client_id`
+WHERE `franchisee_id` = '1'
+ORDER BY `fullname` ASC
+ LIMIT 10
+ERROR - 2025-04-09 02:01:02 --> Query error: Column 'franchisee_id' in where clause is ambiguous - Invalid query: SELECT `p`.`id`, `fullname`, `client_name`, `project_name`, `project_type`
+FROM `tbl_solar_project` `p`
+LEFT JOIN `tbl_users` `u` ON `u`.`id` = `p`.`franchisee_id`
+LEFT JOIN `tbl_franchisee_client` `c` ON `c`.`id` = `p`.`client_id`
+WHERE `franchisee_id` = '1'
+ORDER BY `fullname` ASC
+ LIMIT 10
+ERROR - 2025-04-09 03:20:52 --> Query error: Column 'franchisee_id' in where clause is ambiguous - Invalid query: SELECT `p`.`id`, `fullname`, `client_name`, `project_name`, `project_type`
+FROM `tbl_solar_project` `p`
+LEFT JOIN `tbl_users` `u` ON `u`.`id` = `p`.`franchisee_id`
+LEFT JOIN `tbl_franchisee_client` `c` ON `c`.`id` = `p`.`client_id`
+WHERE `franchisee_id` = '1'
+ORDER BY `fullname` ASC
+ LIMIT 10
+ERROR - 2025-04-09 03:46:23 --> Query error: Column 'franchisee_id' in where clause is ambiguous - Invalid query: SELECT `p`.`id`, `fullname`, `client_name`, `project_name`, `project_type`
+FROM `tbl_solar_project` `p`
+LEFT JOIN `tbl_users` `u` ON `u`.`id` = `p`.`franchisee_id`
+LEFT JOIN `tbl_franchisee_client` `c` ON `c`.`id` = `p`.`client_id`
+WHERE `franchisee_id` = '1'
+ORDER BY `fullname` ASC
+ LIMIT 10
+ERROR - 2025-04-09 03:46:51 --> Query error: Column 'franchisee_id' in where clause is ambiguous - Invalid query: SELECT `p`.`id`, `fullname`, `client_name`, `project_name`, `project_type`
+FROM `tbl_solar_project` `p`
+LEFT JOIN `tbl_users` `u` ON `u`.`id` = `p`.`franchisee_id`
+LEFT JOIN `tbl_franchisee_client` `c` ON `c`.`id` = `p`.`client_id`
+WHERE `franchisee_id` = '1'
+ORDER BY `fullname` ASC
+ LIMIT 10
+ERROR - 2025-04-09 03:48:57 --> Query error: Unknown column 'fullname' in 'field list' - Invalid query: SELECT `p`.`id`, `fullname`, `client_name`, `project_name`, `project_type`
+FROM `tbl_solar_project` `p`
+ORDER BY `fullname` ASC
+ LIMIT 10

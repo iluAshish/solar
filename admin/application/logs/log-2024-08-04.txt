@@ -1,0 +1,71 @@
+ERROR - 2024-08-04 00:18:27 --> Severity: Warning --> Undefined variable $company_person /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 79
+ERROR - 2024-08-04 00:20:09 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 160
+ERROR - 2024-08-04 00:22:14 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 161
+ERROR - 2024-08-04 00:22:20 --> 404 Page Not Found: Master/add
+ERROR - 2024-08-04 00:22:24 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 161
+ERROR - 2024-08-04 00:23:31 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 00:27:30 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 00:45:49 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 00:48:41 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 00:48:45 --> 404 Page Not Found: Master/add
+ERROR - 2024-08-04 00:48:47 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 00:57:25 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 01:19:31 --> Severity: Warning --> Undefined variable $sector_name /home3/riyominfotech/public_html/crm/admin/application/views/partials/vendor-scripts.php 114
+ERROR - 2024-08-04 01:19:31 --> Severity: 8192 --> strlen(): Passing null to parameter #1 ($string) of type string is deprecated /home3/riyominfotech/public_html/crm/system/helpers/form_helper.php 968
+ERROR - 2024-08-04 01:19:40 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 01:21:13 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 01:37:14 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 01:56:55 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 02:03:39 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 02:10:16 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 02:33:31 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 03:26:03 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 03:30:11 --> 404 Page Not Found: Company/company
+ERROR - 2024-08-04 03:30:43 --> 404 Page Not Found: Company/company
+ERROR - 2024-08-04 03:31:22 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 03:34:07 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 03:39:04 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 03:39:22 --> 404 Page Not Found: Https:/riyominfotech.com
+ERROR - 2024-08-04 03:40:47 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 03:40:54 --> 404 Page Not Found: Sectorget_details/index
+ERROR - 2024-08-04 03:42:17 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 03:42:33 --> Severity: error --> Exception: Undefined constant "TBl" /home3/riyominfotech/public_html/crm/admin/application/controllers/Sector.php 153
+ERROR - 2024-08-04 03:43:17 --> Severity: error --> Exception: Undefined constant "TBl" /home3/riyominfotech/public_html/crm/admin/application/controllers/Sector.php 153
+ERROR - 2024-08-04 03:45:12 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 03:45:27 --> Severity: error --> Exception: Undefined constant "TBl" /home3/riyominfotech/public_html/crm/admin/application/controllers/Sector.php 153
+ERROR - 2024-08-04 03:45:43 --> Severity: error --> Exception: Undefined constant "TBl" /home3/riyominfotech/public_html/crm/admin/application/controllers/Sector.php 153
+ERROR - 2024-08-04 03:46:09 --> Severity: error --> Exception: Undefined constant "TBL" /home3/riyominfotech/public_html/crm/admin/application/controllers/Sector.php 153
+ERROR - 2024-08-04 03:46:48 --> Query error: Table 'riyominf_crm.tbl_SECTOR' doesn't exist - Invalid query: SELECT `sector_id`, `sector_name`
+FROM `tbl_SECTOR`
+ERROR - 2024-08-04 03:47:55 --> Query error: Table 'riyominf_crm.tbl_sector' doesn't exist - Invalid query: SELECT `sector_id`, `sector_name`
+FROM `tbl_sector`
+ERROR - 2024-08-04 03:59:42 --> 404 Page Not Found: Brand/get_details
+ERROR - 2024-08-04 04:00:04 --> 404 Page Not Found: Brand/get_details
+ERROR - 2024-08-04 04:07:15 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 04:14:35 --> Query error: Unknown column 'designation_title' in 'field list' - Invalid query: SELECT `id`, `staff_id`, `role`, `staff_name`, `designation_title`, `email`, `mobile`
+FROM `tbl_users` `u`
+LEFT JOIN `tbl_designation_master` `d` ON `d`.`designation_id` = `u`.`designation`
+WHERE `role` != 'SuperAdmin'
+ORDER BY `id` ASC, `staff_id` ASC
+ LIMIT 10
+ERROR - 2024-08-04 04:14:40 --> Query error: Unknown column 'designation_title' in 'field list' - Invalid query: SELECT `designation_id`, `designation_title`
+FROM `tbl_designation_master`
+WHERE `is_active` = 1
+ERROR - 2024-08-04 04:16:07 --> Query error: Unknown column 'designation_title' in 'field list' - Invalid query: SELECT `designation_id`, `designation_title`
+FROM `tbl_designation_master`
+WHERE `is_active` = 1
+ERROR - 2024-08-04 04:16:17 --> Query error: Unknown column 'designation_title' in 'field list' - Invalid query: SELECT `designation_id`, `designation_title`
+FROM `tbl_designation_master`
+WHERE `is_active` = 1
+ERROR - 2024-08-04 04:17:52 --> Query error: Unknown column 'designation_title' in 'field list' - Invalid query: SELECT `designation_id`, `designation_title`
+FROM `tbl_designation_master`
+WHERE `is_active` = 1
+ERROR - 2024-08-04 04:18:26 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 04:28:16 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 04:29:40 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 04:30:14 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 04:34:59 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 04:36:57 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 04:38:26 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 08:13:23 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-04 23:24:48 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163

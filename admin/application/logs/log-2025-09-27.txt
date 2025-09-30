@@ -1,0 +1,38 @@
+ERROR - 2025-09-27 14:49:25 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 15:11:15 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 15:11:15 --> 404 Page Not Found: Assets/media
+ERROR - 2025-09-27 15:11:15 --> 404 Page Not Found: Assets/media
+ERROR - 2025-09-27 15:11:15 --> 404 Page Not Found: Assets/media
+ERROR - 2025-09-27 15:11:48 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 15:11:48 --> 404 Page Not Found: Assets/media
+ERROR - 2025-09-27 15:11:48 --> 404 Page Not Found: Assets/media
+ERROR - 2025-09-27 15:11:48 --> 404 Page Not Found: Assets/media
+ERROR - 2025-09-27 15:11:51 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 15:11:51 --> 404 Page Not Found: Assets/media
+ERROR - 2025-09-27 15:11:51 --> 404 Page Not Found: Assets/media
+ERROR - 2025-09-27 15:11:51 --> 404 Page Not Found: Assets/media
+ERROR - 2025-09-27 15:12:06 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 15:28:12 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 15:28:13 --> 404 Page Not Found: Assets/media
+ERROR - 2025-09-27 15:28:59 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 15:35:32 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 15:35:32 --> 404 Page Not Found: Assets/media
+ERROR - 2025-09-27 15:39:14 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 15:39:14 --> 404 Page Not Found: Assets/media
+ERROR - 2025-09-27 15:39:27 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 15:45:01 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 15:45:02 --> 404 Page Not Found: Assets/media
+ERROR - 2025-09-27 15:47:14 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 15:48:00 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 15:49:21 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 15:49:51 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 15:50:32 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 15:50:47 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 15:52:41 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 15:58:31 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 16:01:42 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 16:02:01 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 16:02:32 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 16:04:37 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 16:04:40 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-27 16:04:56 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483

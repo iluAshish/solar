@@ -1,0 +1,80 @@
+ERROR - 2024-07-26 00:10:44 --> Query error: Unknown column 'id' in 'field list' - Invalid query: SELECT COUNT(id) as companies
+FROM `tbl_company`
+WHERE `user_id` = "2"
+AND 1 = 1
+ERROR - 2024-07-26 00:28:03 --> Query error: Column 'user_id' in where clause is ambiguous - Invalid query: SELECT `quotation_id`, `qauote_date`, `reference_no`, `company_name`, `cust_ref_no`
+FROM `tbl_quotation` `q`
+LEFT JOIN `tbl_company` `c` ON `c`.`company_id` = `q`.`customer_id`
+WHERE `user_id` = '2'
+ORDER BY `quotation_id` ASC, `qauote_date` ASC
+ LIMIT 10
+ERROR - 2024-07-26 00:28:44 --> Query error: Column 'user_id' in where clause is ambiguous - Invalid query: SELECT `quotation_id`, `qauote_date`, `reference_no`, `company_name`, `cust_ref_no`
+FROM `tbl_quotation` `q`
+LEFT JOIN `tbl_company` `c` ON `c`.`company_id` = `q`.`customer_id`
+WHERE `user_id` = '2'
+ORDER BY `quotation_id` ASC, `qauote_date` ASC
+ LIMIT 10
+ERROR - 2024-07-26 00:35:47 --> Severity: Warning --> Undefined property: stdClass::$company_id /home3/riyominfotech/public_html/crm/admin/application/controllers/Quotation.php 57
+ERROR - 2024-07-26 00:36:52 --> Severity: error --> Exception: Object of class stdClass could not be converted to string /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 81
+ERROR - 2024-07-26 00:47:52 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 160
+ERROR - 2024-07-26 00:47:59 --> Severity: Warning --> Undefined variable $company_person /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 79
+ERROR - 2024-07-26 00:55:26 --> Severity: Warning --> Undefined variable $edit_id /home3/riyominfotech/public_html/crm/admin/application/controllers/Quotation.php 232
+ERROR - 2024-07-26 00:57:58 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`user_id` = "2"' at line 3 - Invalid query: SELECT `company_id`, `company_name`
+FROM `tbl_company`
+WHERE `is_active = 1` `user_id` = "2"
+ERROR - 2024-07-26 01:09:01 --> Severity: Warning --> Array to string conversion /home3/riyominfotech/public_html/crm/admin/application/controllers/Company.php 171
+ERROR - 2024-07-26 01:09:01 --> Query error: Unknown column 'Array' in 'where clause' - Invalid query: SELECT `person_id`, `person_name`
+FROM `tbl_company_person`
+WHERE `company_id` = `Array`
+ERROR - 2024-07-26 01:09:01 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-07-26 01:10:38 --> 404 Page Not Found: Product/sent_mail
+ERROR - 2024-07-26 01:11:09 --> 404 Page Not Found: Product/sent_mail
+ERROR - 2024-07-26 01:12:33 --> 404 Page Not Found: Sendmail/sent_mail
+ERROR - 2024-07-26 01:13:05 --> 404 Page Not Found: Sendmail/sent_mail
+ERROR - 2024-07-26 01:13:10 --> 404 Page Not Found: Sendmail/send_mail
+ERROR - 2024-07-26 01:18:35 --> Severity: error --> Exception: Cannot use object of type stdClass as array /home3/riyominfotech/public_html/crm/admin/application/controllers/SendMail.php 50
+ERROR - 2024-07-26 04:23:53 --> 404 Page Not Found: Reports/quotations
+ERROR - 2024-07-26 04:25:17 --> 404 Page Not Found: Reports/quotations
+ERROR - 2024-07-26 04:39:06 --> 404 Page Not Found: Report/quotation
+ERROR - 2024-07-26 04:51:03 --> 404 Page Not Found: Report/quotation
+ERROR - 2024-07-26 07:00:15 --> Query error: Unknown column 'invoice_id' in 'field list' - Invalid query: SELECT COUNT(invoice_id) as users
+FROM `tbl_users`
+WHERE `role` <> "SuperAdmin"
+AND 1 = 1
+ERROR - 2024-07-26 07:10:48 --> Severity: Warning --> Undefined variable $form_attr /home3/riyominfotech/public_html/crm/admin/application/views/report/quotations.php 13
+ERROR - 2024-07-26 07:10:48 --> Severity: Warning --> Undefined variable $companies /home3/riyominfotech/public_html/crm/admin/application/views/report/quotations.php 22
+ERROR - 2024-07-26 07:10:48 --> Severity: Warning --> Undefined variable $users /home3/riyominfotech/public_html/crm/admin/application/views/report/quotations.php 36
+ERROR - 2024-07-26 07:10:49 --> 404 Page Not Found: Report/quotation
+ERROR - 2024-07-26 07:12:25 --> Severity: Warning --> Undefined variable $where /home3/riyominfotech/public_html/crm/admin/application/controllers/Report.php 24
+ERROR - 2024-07-26 07:12:25 --> Severity: Warning --> Undefined variable $users /home3/riyominfotech/public_html/crm/admin/application/views/report/quotations.php 35
+ERROR - 2024-07-26 07:12:27 --> 404 Page Not Found: Report/quotation
+ERROR - 2024-07-26 07:13:05 --> Severity: Warning --> Undefined variable $where /home3/riyominfotech/public_html/crm/admin/application/controllers/Report.php 24
+ERROR - 2024-07-26 07:13:05 --> Severity: Warning --> Undefined variable $users /home3/riyominfotech/public_html/crm/admin/application/views/report/quotations.php 39
+ERROR - 2024-07-26 07:13:07 --> 404 Page Not Found: Report/quotation
+ERROR - 2024-07-26 07:13:48 --> Severity: Warning --> Undefined variable $users /home3/riyominfotech/public_html/crm/admin/application/views/report/quotations.php 39
+ERROR - 2024-07-26 07:13:50 --> 404 Page Not Found: Report/quotation
+ERROR - 2024-07-26 07:15:09 --> Severity: Warning --> Undefined variable $users /home3/riyominfotech/public_html/crm/admin/application/views/report/quotations.php 42
+ERROR - 2024-07-26 07:15:10 --> 404 Page Not Found: Report/quotation
+ERROR - 2024-07-26 07:16:19 --> Severity: Warning --> Undefined variable $users /home3/riyominfotech/public_html/crm/admin/application/views/report/quotations.php 39
+ERROR - 2024-07-26 07:16:21 --> 404 Page Not Found: Report/quotation
+ERROR - 2024-07-26 07:17:18 --> Severity: Warning --> Undefined variable $users /home3/riyominfotech/public_html/crm/admin/application/views/report/quotations.php 40
+ERROR - 2024-07-26 07:17:20 --> 404 Page Not Found: Report/quotation
+ERROR - 2024-07-26 07:18:36 --> Query error: Unknown column 'name' in 'field list' - Invalid query: SELECT `id`, `name`
+FROM `tbl_users`
+WHERE `role` <> "SuperAdmin" 
+ERROR - 2024-07-26 07:18:55 --> 404 Page Not Found: Report/quotation
+ERROR - 2024-07-26 07:19:17 --> 404 Page Not Found: Report/quotation
+ERROR - 2024-07-26 07:19:30 --> Severity: Warning --> Undefined variable $company_person /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 79
+ERROR - 2024-07-26 07:19:54 --> 404 Page Not Found: Report/quotation
+ERROR - 2024-07-26 07:20:57 --> 404 Page Not Found: Report/report
+ERROR - 2024-07-26 07:22:01 --> 404 Page Not Found: Report/report
+ERROR - 2024-07-26 07:24:31 --> Severity: Warning --> Undefined variable $company_person /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 79
+ERROR - 2024-07-26 07:34:28 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/admin/application/controllers/Report.php:52) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-07-26 07:34:28 --> Severity: Compile Error --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead) /home3/riyominfotech/public_html/crm/admin/application/controllers/Report.php 52
+ERROR - 2024-07-26 07:34:54 --> 404 Page Not Found: Report/manage
+ERROR - 2024-07-26 07:35:07 --> 404 Page Not Found: Report/manage
+ERROR - 2024-07-26 07:59:18 --> Severity: Warning --> Undefined variable $users /home3/riyominfotech/public_html/crm/admin/application/views/report/invoices.php 40
+ERROR - 2024-07-26 07:59:19 --> 404 Page Not Found: Report/manage_invoices
+ERROR - 2024-07-26 07:59:33 --> Severity: Warning --> Undefined variable $users /home3/riyominfotech/public_html/crm/admin/application/views/report/invoices.php 40
+ERROR - 2024-07-26 07:59:34 --> 404 Page Not Found: Report/manage_invoices
+ERROR - 2024-07-26 07:59:49 --> Severity: Warning --> Undefined variable $users /home3/riyominfotech/public_html/crm/admin/application/views/report/invoices.php 40

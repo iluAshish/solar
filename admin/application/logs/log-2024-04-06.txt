@@ -1,0 +1,17 @@
+ERROR - 2024-04-06 01:00:50 --> 404 Page Not Found: Assets/plugins
+ERROR - 2024-04-06 01:00:50 --> Severity: 8192 --> Creation of dynamic property Datatables::$order_by is deprecated /home3/riyominfotech/public_html/pms-n/admin/application/libraries/Datatables.php 101
+ERROR - 2024-04-06 01:16:27 --> 404 Page Not Found: Assets/plugins
+ERROR - 2024-04-06 01:16:27 --> Severity: 8192 --> Creation of dynamic property Datatables::$order_by is deprecated /home3/riyominfotech/public_html/pms-n/admin/application/libraries/Datatables.php 101
+ERROR - 2024-04-06 01:16:27 --> Query error: Unknown column 'email.dob' in 'field list' - Invalid query: SELECT `id`, `patient_id`, `name`, `contact_no`, `email`.`dob`, `gender`
+FROM `tbl_users`
+WHERE `user_type` = '2'
+ORDER BY `id` ASC, `patient_id` ASC
+ LIMIT 10
+ERROR - 2024-04-06 01:16:27 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/pms-n/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/pms-n/system/core/Common.php 571
+ERROR - 2024-04-06 01:20:23 --> 404 Page Not Found: Assets/plugins
+ERROR - 2024-04-06 01:20:24 --> Query error: Unknown column 'email.dob' in 'field list' - Invalid query: SELECT `id`, `patient_id`, `name`, `contact_no`, `email`.`dob`, `gender`
+FROM `tbl_users`
+WHERE `user_type` = '2'
+ORDER BY `id` ASC, `patient_id` ASC
+ LIMIT 10
+ERROR - 2024-04-06 01:21:05 --> 404 Page Not Found: Assets/plugins

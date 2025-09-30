@@ -1,0 +1,5 @@
+ERROR - 2025-04-21 00:49:41 --> 404 Page Not Found: User/permission
+ERROR - 2025-04-21 00:52:29 --> Severity: Warning --> Undefined variable $franchisees /home3/riyominfotech/public_html/solar/admin/application/views/users/permission.php 31
+ERROR - 2025-04-21 00:52:29 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/users/permission.php 31
+ERROR - 2025-04-21 07:30:17 --> Severity: Warning --> Undefined variable $user_id /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php 248
+ERROR - 2025-04-21 07:30:57 --> Severity: Warning --> Undefined variable $user_id /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php 248

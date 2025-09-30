@@ -1,0 +1,16 @@
+ERROR - 2024-07-02 04:47:34 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/crm/admin/application/views/quotation/view.php 3
+ERROR - 2024-07-02 04:52:46 --> 404 Page Not Found: Dashboard_crm/index
+ERROR - 2024-07-02 04:54:16 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 3
+ERROR - 2024-07-02 04:54:16 --> Severity: Warning --> Undefined property: stdClass::$reference_no /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 89
+ERROR - 2024-07-02 04:54:16 --> Severity: Warning --> Undefined property: stdClass::$cust_ref_no /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 95
+ERROR - 2024-07-02 04:54:16 --> Severity: Warning --> Undefined property: stdClass::$qauote_date /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 101
+ERROR - 2024-07-02 04:54:16 --> Severity: 8192 --> strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 101
+ERROR - 2024-07-02 04:54:16 --> Severity: Warning --> Undefined property: stdClass::$quote_notes /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 166
+ERROR - 2024-07-02 04:54:16 --> Severity: Warning --> Undefined property: stdClass::$quote_terms /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 171
+ERROR - 2024-07-02 06:41:18 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 3
+ERROR - 2024-07-02 06:41:18 --> Severity: Warning --> Undefined property: stdClass::$reference_no /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 89
+ERROR - 2024-07-02 06:41:18 --> Severity: Warning --> Undefined property: stdClass::$cust_ref_no /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 95
+ERROR - 2024-07-02 06:41:18 --> Severity: Warning --> Undefined property: stdClass::$qauote_date /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 101
+ERROR - 2024-07-02 06:41:18 --> Severity: 8192 --> strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 101
+ERROR - 2024-07-02 06:41:18 --> Severity: Warning --> Undefined property: stdClass::$quote_notes /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 166
+ERROR - 2024-07-02 06:41:18 --> Severity: Warning --> Undefined property: stdClass::$quote_terms /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 171

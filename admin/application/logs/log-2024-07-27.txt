@@ -1,0 +1,2 @@
+ERROR - 2024-07-27 09:34:36 --> Severity: Warning --> Undefined variable $company_person /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 79
+ERROR - 2024-07-27 09:37:30 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 160

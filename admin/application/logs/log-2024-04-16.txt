@@ -1,0 +1,27 @@
+ERROR - 2024-04-16 01:26:23 --> Severity: error --> Exception: Call to undefined method Brand::show_image() /home3/riyominfotech/public_html/crm/admin/application/controllers/Brand.php 127
+ERROR - 2024-04-16 01:26:54 --> Severity: error --> Exception: Call to undefined method Brand::show_image() /home3/riyominfotech/public_html/crm/admin/application/controllers/Brand.php 127
+ERROR - 2024-04-16 01:29:13 --> Severity: Warning --> Undefined variable $category_name /home3/riyominfotech/public_html/crm/admin/application/views/brand/form.php 26
+ERROR - 2024-04-16 01:29:13 --> Severity: 8192 --> strlen(): Passing null to parameter #1 ($string) of type string is deprecated /home3/riyominfotech/public_html/crm/system/helpers/form_helper.php 968
+ERROR - 2024-04-16 01:42:26 --> Severity: Warning --> Undefined variable $field_name /home3/riyominfotech/public_html/crm/admin/application/models/Common.php 184
+ERROR - 2024-04-16 01:42:26 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/crm/system/database/DB_query_builder.php 295
+ERROR - 2024-04-16 01:42:26 --> Severity: Warning --> Undefined variable $field_name /home3/riyominfotech/public_html/crm/admin/application/models/Common.php 187
+ERROR - 2024-04-16 01:42:26 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 'lenevo'' at line 3 - Invalid query: SELECT *
+FROM `tbl_brand_master`
+WHERE  = 'lenevo'
+ERROR - 2024-04-16 01:42:26 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-04-16 01:49:10 --> Query error: Unknown column 'CategoryID' in 'where clause' - Invalid query: SELECT `is_active`
+FROM `tbl_brand_master`
+WHERE `CategoryID` = '1'
+ERROR - 2024-04-16 01:49:22 --> Query error: Unknown column 'CategoryID' in 'where clause' - Invalid query: SELECT `is_active`
+FROM `tbl_brand_master`
+WHERE `CategoryID` = '1'
+ERROR - 2024-04-16 01:52:02 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/admin/application/helpers/custom_helper.php:97) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-04-16 01:52:02 --> Severity: Compile Error --> Redefinition of parameter $column /home3/riyominfotech/public_html/crm/admin/application/helpers/custom_helper.php 97
+ERROR - 2024-04-16 01:52:31 --> Severity: error --> Exception: Too few arguments to function active_row(), 3 passed in /home3/riyominfotech/public_html/crm/admin/application/libraries/Datatables.php on line 471 and exactly 4 expected /home3/riyominfotech/public_html/crm/admin/application/helpers/custom_helper.php 97
+ERROR - 2024-04-16 01:54:46 --> Severity: Warning --> Undefined variable $i /home3/riyominfotech/public_html/crm/admin/application/controllers/Brand.php 125
+ERROR - 2024-04-16 01:54:46 --> Severity: error --> Exception: Too few arguments to function active_row(), 3 passed in /home3/riyominfotech/public_html/crm/admin/application/libraries/Datatables.php on line 471 and exactly 4 expected /home3/riyominfotech/public_html/crm/admin/application/helpers/custom_helper.php 97
+ERROR - 2024-04-16 01:54:46 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-04-16 01:56:49 --> Severity: 8192 --> explode(): Passing null to parameter #2 ($string) of type string is deprecated /home3/riyominfotech/public_html/crm/admin/application/libraries/Datatables.php 547
+ERROR - 2024-04-16 02:08:00 --> Severity: Warning --> Undefined property: stdClass::$isActive /home3/riyominfotech/public_html/crm/admin/application/helpers/custom_helper.php 102
+ERROR - 2024-04-16 02:09:12 --> 404 Page Not Found: Brand/brand
+ERROR - 2024-04-16 02:09:15 --> 404 Page Not Found: Brand/brand

@@ -1,0 +1,1 @@
+ERROR - 2025-04-01 00:35:44 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429

@@ -1,0 +1,25 @@
+ERROR - 2024-04-15 00:51:05 --> 404 Page Not Found: Company/index
+ERROR - 2024-04-15 01:10:42 --> Severity: error --> Exception: Undefined constant "TBL_COMPANY" /home3/riyominfotech/public_html/crm/system/core/CodeIgniter.php 519
+ERROR - 2024-04-15 01:53:49 --> Severity: error --> Exception: Undefined constant "CATEGORY" /home3/riyominfotech/public_html/crm/admin/application/controllers/Category.php 147
+ERROR - 2024-04-15 01:54:31 --> Severity: error --> Exception: Undefined constant "CATEGORY" /home3/riyominfotech/public_html/crm/admin/application/controllers/Category.php 147
+ERROR - 2024-04-15 02:10:00 --> Severity: error --> Exception: Undefined constant "CATEGORY" /home3/riyominfotech/public_html/crm/admin/application/controllers/Category.php 147
+ERROR - 2024-04-15 02:10:17 --> Severity: error --> Exception: Undefined constant "CATEGORY" /home3/riyominfotech/public_html/crm/admin/application/controllers/Category.php 147
+ERROR - 2024-04-15 02:10:53 --> Query error: Unknown column 'CompanyID' in 'field list' - Invalid query: SELECT `CompanyID`, `customer_code`, `company_name`, `contact_person`, `company_sector`, `person_email`, `person_mobile`, `gst_no`
+FROM `tbl_customer`
+ORDER BY `customer_code` ASC
+ LIMIT 10
+ERROR - 2024-04-15 23:50:58 --> Query error: Table 'riyominf_crm.tbl_category' doesn't exist - Invalid query: SELECT `CategoryID`, `CategoryName`
+FROM `tbl_category`
+WHERE `isActive` = 1
+ERROR - 2024-04-15 23:51:00 --> Query error: Table 'riyominf_crm.tbl_category' doesn't exist - Invalid query: SELECT `CategoryID`, `CategoryName`
+FROM `tbl_category`
+WHERE `isActive` = 1
+ERROR - 2024-04-15 23:51:01 --> Query error: Table 'riyominf_crm.tbl_category' doesn't exist - Invalid query: SELECT `CategoryID`, `CategoryName`
+FROM `tbl_category`
+WHERE `isActive` = 1
+ERROR - 2024-04-15 23:51:02 --> Query error: Table 'riyominf_crm.tbl_category' doesn't exist - Invalid query: SELECT `CategoryID`, `CategoryName`
+FROM `tbl_category`
+WHERE `isActive` = 1
+ERROR - 2024-04-15 23:52:35 --> Query error: Table 'riyominf_crm.tbl_category' doesn't exist - Invalid query: SELECT `CategoryID`, `CategoryName`
+FROM `tbl_category`
+WHERE `isActive` = 1

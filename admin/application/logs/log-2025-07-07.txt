@@ -1,0 +1,62 @@
+ERROR - 2025-07-07 00:44:50 --> Severity: Warning --> Attempt to read property "quote_notes" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 64
+ERROR - 2025-07-07 00:44:50 --> Severity: Warning --> Attempt to read property "client_name" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 67
+ERROR - 2025-07-07 00:44:50 --> Severity: Warning --> Attempt to read property "client_email" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 68
+ERROR - 2025-07-07 00:44:50 --> Severity: Warning --> Attempt to read property "phone" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 69
+ERROR - 2025-07-07 00:45:05 --> Severity: Warning --> Attempt to read property "quote_notes" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 64
+ERROR - 2025-07-07 00:45:05 --> Severity: Warning --> Attempt to read property "client_name" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 67
+ERROR - 2025-07-07 00:45:05 --> Severity: Warning --> Attempt to read property "client_email" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 68
+ERROR - 2025-07-07 00:45:05 --> Severity: Warning --> Attempt to read property "phone" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 69
+ERROR - 2025-07-07 00:52:30 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 115
+ERROR - 2025-07-07 00:52:30 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 122
+ERROR - 2025-07-07 00:52:30 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 123
+ERROR - 2025-07-07 00:52:30 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 124
+ERROR - 2025-07-07 00:52:30 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 125
+ERROR - 2025-07-07 00:52:30 --> Severity: 8192 --> strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 128
+ERROR - 2025-07-07 00:52:30 --> Query error: Column 'franchisee_id' cannot be null - Invalid query: INSERT INTO `tbl_payments` (`franchisee_id`, `client_id`, `quotation_id`, `pending_quote_amount`, `paid_amount`, `remaining_amount`, `payment_date`, `payment_mode`, `transaction_id`, `remarks`, `updated_at`, `created_at`, `user_id`) VALUES (NULL, NULL, NULL, NULL, 36000, -36000, '1969-12-31', 'online', 5114919065413, 'cashfree payments', '2025-07-07 00:52:30', '2025-07-07 00:52:30', '1')
+ERROR - 2025-07-07 00:52:30 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-07-07 00:53:12 --> Query error: Duplicate entry '5114919065413' for key 'transaction_id' - Invalid query: INSERT INTO `tbl_cf_transaction` (`cf_order_id`, `transaction_id`, `quote_amount`, `status`, `payment_date`, `payment_amount`, `bank_reference`) VALUES ('order_1751863884', 5114919065413, 36000, 'SUCCESS', 'SUCCESS', 36000, '1234567890')
+ERROR - 2025-07-07 00:53:36 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 115
+ERROR - 2025-07-07 00:53:36 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 122
+ERROR - 2025-07-07 00:53:36 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 123
+ERROR - 2025-07-07 00:53:36 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 124
+ERROR - 2025-07-07 00:53:36 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 125
+ERROR - 2025-07-07 00:53:36 --> Severity: 8192 --> strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 128
+ERROR - 2025-07-07 00:53:36 --> Query error: Column 'franchisee_id' cannot be null - Invalid query: INSERT INTO `tbl_payments` (`franchisee_id`, `client_id`, `quotation_id`, `pending_quote_amount`, `paid_amount`, `remaining_amount`, `payment_date`, `payment_mode`, `transaction_id`, `remarks`, `updated_at`, `created_at`, `user_id`) VALUES (NULL, NULL, NULL, NULL, 36000, -36000, '1969-12-31', 'online', 5114919065413, 'cashfree payments', '2025-07-07 00:53:36', '2025-07-07 00:53:36', '1')
+ERROR - 2025-07-07 00:53:36 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-07-07 00:54:39 --> Query error: Duplicate entry '5114919065413' for key 'transaction_id' - Invalid query: INSERT INTO `tbl_cf_transaction` (`cf_order_id`, `transaction_id`, `quote_amount`, `status`, `payment_date`, `payment_amount`, `bank_reference`) VALUES ('order_1751863884', 5114919065413, 36000, 'SUCCESS', 'SUCCESS', 36000, '1234567890')
+ERROR - 2025-07-07 00:59:58 --> Query error: Unknown column 'order_1751863884' in 'where clause' - Invalid query: SELECT `q`.*
+FROM `tbl_quotation` `q`
+WHERE `order_1751863884` = 'q.cf_order_id'
+ERROR - 2025-07-07 01:01:58 --> Severity: error --> Exception: Cannot use object of type stdClass as array /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 114
+ERROR - 2025-07-07 01:03:27 --> Severity: 8192 --> strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 127
+ERROR - 2025-07-07 01:12:59 --> Query error: Duplicate entry '5114919065489' for key 'transaction_id' - Invalid query: INSERT INTO `tbl_cf_transaction` (`cf_order_id`, `transaction_id`, `quote_amount`, `status`, `payment_date`, `payment_amount`, `bank_reference`) VALUES ('order_1751864827', 5114919065489, 36000, 'SUCCESS', 'SUCCESS', 36000, '1234567890')
+ERROR - 2025-07-07 01:33:42 --> 404 Page Not Found: Clients/index
+ERROR - 2025-07-07 01:34:28 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/solar/admin/application/views/clients/form.php 90
+ERROR - 2025-07-07 07:02:56 --> 404 Page Not Found: Users/emiCalculator
+ERROR - 2025-07-07 07:03:03 --> Severity: Warning --> Undefined variable $roles /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 31
+ERROR - 2025-07-07 07:03:03 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 31
+ERROR - 2025-07-07 07:03:03 --> Severity: Warning --> Undefined variable $franchisee_code /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 49
+ERROR - 2025-07-07 07:03:03 --> Severity: Warning --> Undefined variable $states /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 102
+ERROR - 2025-07-07 07:03:03 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 102
+ERROR - 2025-07-07 07:03:03 --> Severity: Warning --> Undefined variable $districts /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 114
+ERROR - 2025-07-07 07:03:36 --> Severity: Warning --> Undefined variable $roles /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 31
+ERROR - 2025-07-07 07:03:36 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 31
+ERROR - 2025-07-07 07:03:36 --> Severity: Warning --> Undefined variable $franchisee_code /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 49
+ERROR - 2025-07-07 07:03:36 --> Severity: Warning --> Undefined variable $states /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 102
+ERROR - 2025-07-07 07:03:36 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 102
+ERROR - 2025-07-07 07:03:36 --> Severity: Warning --> Undefined variable $districts /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 114
+ERROR - 2025-07-07 07:04:14 --> Severity: Warning --> Undefined variable $roles /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 31
+ERROR - 2025-07-07 07:04:14 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 31
+ERROR - 2025-07-07 07:04:14 --> Severity: Warning --> Undefined variable $franchisee_code /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 49
+ERROR - 2025-07-07 07:04:14 --> Severity: Warning --> Undefined variable $states /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 102
+ERROR - 2025-07-07 07:04:14 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 102
+ERROR - 2025-07-07 07:04:14 --> Severity: Warning --> Undefined variable $districts /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 114
+ERROR - 2025-07-07 07:04:55 --> Severity: Warning --> Undefined variable $roles /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 31
+ERROR - 2025-07-07 07:04:55 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 31
+ERROR - 2025-07-07 07:04:55 --> Severity: Warning --> Undefined variable $franchisee_code /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 49
+ERROR - 2025-07-07 07:04:55 --> Severity: Warning --> Undefined variable $states /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 102
+ERROR - 2025-07-07 07:04:55 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 102
+ERROR - 2025-07-07 07:04:55 --> Severity: Warning --> Undefined variable $districts /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 114
+ERROR - 2025-07-07 07:05:55 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/solar/admin/application/views/users/emi-calculator.php 3
+ERROR - 2025-07-07 07:05:55 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/solar/admin/application/views/users/emi-calculator.php 9
+ERROR - 2025-07-07 07:05:55 --> Severity: error --> Exception: Unsupported operand types: array + null /home3/riyominfotech/public_html/solar/admin/application/views/users/emi-calculator.php 9

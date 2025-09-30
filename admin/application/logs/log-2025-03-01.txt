@@ -1,0 +1,4 @@
+ERROR - 2025-03-01 00:09:18 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-01 06:11:10 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-01 06:17:38 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-01 06:21:20 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429

@@ -1,0 +1,24 @@
+ERROR - 2022-02-17 08:16:23 --> Severity: Warning --> Use of undefined constant TBL_STATUS - assumed 'TBL_STATUS' (this will throw an Error in a future version of PHP) /home1/cliendri/public_html/projects/lapmo/admin/application/controllers/Order.php 41
+ERROR - 2022-02-17 08:16:23 --> Query error: Table 'cliendri_lapmo.TBL_STATUS' doesn't exist - Invalid query: SELECT `StatusID`, `StatusName`
+FROM `TBL_STATUS`
+ERROR - 2022-02-17 08:16:23 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home1/cliendri/public_html/projects/lapmo/system/core/Exceptions.php:271) /home1/cliendri/public_html/projects/lapmo/system/core/Common.php 564
+ERROR - 2022-02-17 08:16:48 --> Query error: Table 'cliendri_lapmo.status' doesn't exist - Invalid query: SELECT `StatusID`, `StatusName`
+FROM `status`
+ERROR - 2022-02-17 08:16:51 --> Query error: Table 'cliendri_lapmo.status' doesn't exist - Invalid query: SELECT `StatusID`, `StatusName`
+FROM `status`
+ERROR - 2022-02-17 08:18:08 --> Query error: Unknown column 'o.invoice_pdf' in 'field list' - Invalid query: SELECT `o`.`OrderhdrID`, `o`.`invoice_pdf`, `u`.`username`, `o`.`deliver_date`, `o`.`order_total`, `o`.`transactionid`, `st`.`StatusName`
+FROM `tbl_orderhde` `o`
+LEFT JOIN `users` `u` ON `o`.`UserID`=`u`.`id`
+LEFT JOIN `status` `st` ON `st`.`StatusID`=`o`.`order_status`
+LEFT JOIN `tbl_orderdtl` `ord` ON `ord`.`OrderhdrID`=`o`.`OrderhdrID`
+GROUP BY `o`.`OrderhdrID`
+ORDER BY `o`.`OrderhdrID` ASC, `o`.`invoice_pdf` ASC
+ LIMIT 10
+ERROR - 2022-02-17 08:19:14 --> Query error: Unknown column 'o.invoice_pdf' in 'field list' - Invalid query: SELECT `o`.`OrderhdrID`, `o`.`invoice_pdf`, `u`.`username`, `o`.`deliver_date`, `o`.`order_total`, `o`.`transactionid`, `st`.`StatusName`
+FROM `tbl_orderhde` `o`
+LEFT JOIN `users` `u` ON `o`.`UserID`=`u`.`id`
+LEFT JOIN `status` `st` ON `st`.`StatusID`=`o`.`order_status`
+LEFT JOIN `tbl_orderdtl` `ord` ON `ord`.`OrderhdrID`=`o`.`OrderhdrID`
+GROUP BY `o`.`OrderhdrID`
+ORDER BY `o`.`OrderhdrID` ASC, `o`.`invoice_pdf` ASC
+ LIMIT 10

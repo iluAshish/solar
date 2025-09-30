@@ -1,0 +1,45 @@
+ERROR - 2024-07-18 08:12:54 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 154
+ERROR - 2024-07-18 08:20:40 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 154
+ERROR - 2024-07-18 08:20:45 --> 404 Page Not Found: Clinic/get_cities
+ERROR - 2024-07-18 08:22:44 --> 404 Page Not Found: Clinic/get_cities
+ERROR - 2024-07-18 08:28:12 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 154
+ERROR - 2024-07-18 08:28:30 --> 404 Page Not Found: Clinic/get_cities
+ERROR - 2024-07-18 08:30:47 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 154
+ERROR - 2024-07-18 13:56:10 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 154
+ERROR - 2024-07-18 14:01:57 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 154
+ERROR - 2024-07-18 14:07:29 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 154
+ERROR - 2024-07-18 14:10:33 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 154
+ERROR - 2024-07-18 14:11:28 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 154
+ERROR - 2024-07-18 14:11:58 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 154
+ERROR - 2024-07-18 14:17:43 --> Severity: Warning --> Undefined variable $states /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 142
+ERROR - 2024-07-18 14:17:43 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 142
+ERROR - 2024-07-18 14:17:43 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 154
+ERROR - 2024-07-18 14:18:08 --> Severity: Warning --> Undefined variable $states /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 142
+ERROR - 2024-07-18 14:18:08 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 142
+ERROR - 2024-07-18 14:18:08 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 154
+ERROR - 2024-07-18 14:18:31 --> Severity: Warning --> Undefined variable $states /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 142
+ERROR - 2024-07-18 14:18:31 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 142
+ERROR - 2024-07-18 14:18:31 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 154
+ERROR - 2024-07-18 14:19:03 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 154
+ERROR - 2024-07-18 14:19:08 --> Severity: Warning --> Undefined variable $states /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 142
+ERROR - 2024-07-18 14:19:08 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 142
+ERROR - 2024-07-18 14:19:08 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 154
+ERROR - 2024-07-18 14:19:29 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/crm/admin/application/controllers/Company.php 116
+ERROR - 2024-07-18 14:19:29 --> Query error: Column 'is_send_mail' cannot be null - Invalid query: INSERT INTO `tbl_company_person` (`company_id`, `person_name`, `person_designation`, `person_email`, `person_mobile`, `is_send_mail`) VALUES ('2', 'xyz', '1', 'test@gmail.com', '1234567890', NULL)
+ERROR - 2024-07-18 14:19:29 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-07-18 14:19:44 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/crm/admin/application/controllers/Company.php 116
+ERROR - 2024-07-18 14:19:44 --> Query error: Column 'is_send_mail' cannot be null - Invalid query: INSERT INTO `tbl_company_person` (`company_id`, `person_name`, `person_designation`, `person_email`, `person_mobile`, `is_send_mail`) VALUES ('2', 'xyz', '1', 'test@gmail.com', '1234567890', NULL)
+ERROR - 2024-07-18 14:19:44 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-07-18 14:21:23 --> Severity: Warning --> Undefined variable $states /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 142
+ERROR - 2024-07-18 14:21:23 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 142
+ERROR - 2024-07-18 14:21:23 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 154
+ERROR - 2024-07-18 14:22:30 --> Severity: Warning --> Undefined variable $states /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 142
+ERROR - 2024-07-18 14:22:30 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 142
+ERROR - 2024-07-18 14:22:30 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 154
+ERROR - 2024-07-18 14:22:36 --> Severity: Warning --> Undefined array key 1 /home3/riyominfotech/public_html/crm/admin/application/controllers/Company.php 116
+ERROR - 2024-07-18 14:22:36 --> Query error: Column 'is_send_mail' cannot be null - Invalid query: INSERT INTO `tbl_company_person` (`company_id`, `person_name`, `person_designation`, `person_email`, `person_mobile`, `is_send_mail`) VALUES ('2', 'sid', '1', 'sidkanojiya835@gmail.com', '09662352099', NULL)
+ERROR - 2024-07-18 14:22:36 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-07-18 14:22:51 --> Severity: Warning --> Undefined array key 1 /home3/riyominfotech/public_html/crm/admin/application/controllers/Company.php 116
+ERROR - 2024-07-18 14:22:51 --> Query error: Column 'is_send_mail' cannot be null - Invalid query: INSERT INTO `tbl_company_person` (`company_id`, `person_name`, `person_designation`, `person_email`, `person_mobile`, `is_send_mail`) VALUES ('2', 'sid', '1', 'sidkanojiya835@gmail.com', '09662352099', NULL)
+ERROR - 2024-07-18 14:22:51 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-07-18 14:24:56 --> Severity: Warning --> Undefined array key 1 /home3/riyominfotech/public_html/crm/admin/application/controllers/Company.php 116

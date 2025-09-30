@@ -1,0 +1,5 @@
+ERROR - 2025-07-27 01:33:57 --> Severity: error --> Exception: Undefined constant "base_url" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/Auth.php 358
+ERROR - 2025-07-27 01:34:09 --> Severity: error --> Exception: Undefined constant "base_url" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/Auth.php 358
+ERROR - 2025-07-27 01:42:18 --> 404 Page Not Found: Auth/auth
+ERROR - 2025-07-27 11:10:07 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-07-27 21:47:54 --> 404 Page Not Found: Robotstxt/index

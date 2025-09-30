@@ -1,0 +1,67 @@
+ERROR - 2024-04-25 06:16:39 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 06:16:39 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 06:16:39 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 06:33:25 --> 404 Page Not Found: Quotation/brand
+ERROR - 2024-04-25 06:34:31 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 06:34:31 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 06:34:31 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 06:42:44 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 06:42:44 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:11:12 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:11:12 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:11:12 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:14:11 --> Severity: Warning --> Undefined variable $Brands /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 21
+ERROR - 2024-04-25 23:14:11 --> Severity: Warning --> Undefined variable $brand_id /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 21
+ERROR - 2024-04-25 23:15:03 --> Severity: Warning --> Undefined variable $Brands /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 21
+ERROR - 2024-04-25 23:15:03 --> Severity: Warning --> Undefined variable $brand_id /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 21
+ERROR - 2024-04-25 23:15:04 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:15:04 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:15:04 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:18:28 --> Severity: Warning --> Undefined variable $Company /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 3
+ERROR - 2024-04-25 23:18:28 --> Severity: error --> Exception: Unsupported operand types: array + null /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 3
+ERROR - 2024-04-25 23:20:24 --> Severity: Warning --> Undefined variable $Company /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 3
+ERROR - 2024-04-25 23:20:24 --> Severity: error --> Exception: Unsupported operand types: array + null /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 3
+ERROR - 2024-04-25 23:22:26 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:22:26 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:22:27 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:24:15 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:24:15 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:24:15 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:25:02 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:25:02 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:25:02 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:25:52 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:25:52 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:25:52 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:26:48 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:26:48 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:26:48 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:28:55 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:28:55 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:28:55 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:31:40 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:31:40 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:32:19 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:32:19 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:32:19 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:33:46 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:33:46 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:33:46 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:34:22 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:34:22 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:34:22 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:38:55 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:38:55 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:39:25 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:39:25 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:39:25 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:40:31 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:40:31 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:40:31 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:42:15 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:42:15 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:42:26 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:42:26 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:42:26 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:44:56 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-25 23:44:56 --> 404 Page Not Found: Quotation/assets

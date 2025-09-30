@@ -1,0 +1,46 @@
+ERROR - 2025-07-03 02:19:50 --> 404 Page Not Found: Franchisee/get_client
+ERROR - 2025-07-03 02:22:14 --> 404 Page Not Found: Franchisee/get_client
+ERROR - 2025-07-03 02:26:30 --> 404 Page Not Found: Quotation/get_quotation
+ERROR - 2025-07-03 02:57:37 --> Severity: Warning --> Undefined variable $response /home3/riyominfotech/public_html/solar/admin/application/controllers/Quotation.php 308
+ERROR - 2025-07-03 02:57:37 --> Severity: Warning --> Attempt to read property "message" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Quotation.php 308
+ERROR - 2025-07-03 02:58:38 --> Severity: Warning --> Undefined variable $response /home3/riyominfotech/public_html/solar/admin/application/controllers/Quotation.php 297
+ERROR - 2025-07-03 02:58:38 --> Severity: Warning --> Attempt to read property "message" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Quotation.php 297
+ERROR - 2025-07-03 03:00:44 --> Severity: Warning --> Undefined variable $response /home3/riyominfotech/public_html/solar/admin/application/controllers/Quotation.php 297
+ERROR - 2025-07-03 03:00:44 --> Severity: Warning --> Attempt to read property "message" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Quotation.php 297
+ERROR - 2025-07-03 04:42:04 --> Query error: Unknown column 'payment_amount' in 'field list' - Invalid query: SELECT `pr`.`id`, `fullname`, `client_name`, `reference_no`, `project_name`, `payment_mode`, `payment_amount`, `pr`.`status`
+FROM `tbl_payments` `p`
+LEFT JOIN `tbl_users` `u` ON `u`.`id` = `p`.`franchisee_id`
+LEFT JOIN `tbl_franchisee_client` `c` ON `c`.`id` = `p`.`client_id`
+LEFT JOIN `tbl_quotation` `q` ON `q`.`id` = `p`.`qauote_id`
+LEFT JOIN `tbl_solar_project` `pr` ON `pr`.`id` = `q`.`project_id`
+WHERE `q`.`user_id` = '1'
+ORDER BY `q`.`id` ASC, `pr`.`id` ASC
+ LIMIT 10
+ERROR - 2025-07-03 04:43:27 --> Query error: Unknown column 'quotation_id' in 'field list' - Invalid query: INSERT INTO `tbl_payments` (`franchisee_id`, `client_id`, `quotation_id`, `pending_quote_amount`, `paid_amount`, `remaining_amount`, `payment_date`, `payment_mode`, `transaction_id`, `remarks`, `modified_on`, `created_on`, `user_id`) VALUES ('2', '2', '6', '72000.00', '36000', 36000, '2025-07-03', 'Cash', '123456', 'cash payment', '2025-07-03 04:43:27', '2025-07-03 04:43:27', '1')
+ERROR - 2025-07-03 04:43:48 --> Query error: Unknown column 'quotation_id' in 'field list' - Invalid query: INSERT INTO `tbl_payments` (`franchisee_id`, `client_id`, `quotation_id`, `pending_quote_amount`, `paid_amount`, `remaining_amount`, `payment_date`, `payment_mode`, `transaction_id`, `remarks`, `modified_on`, `created_on`, `user_id`) VALUES ('2', '2', '6', '72000.00', '36000', 36000, '2025-07-03', 'Cash', '123456', 'cash payment', '2025-07-03 04:43:48', '2025-07-03 04:43:48', '1')
+ERROR - 2025-07-03 04:45:14 --> Query error: Unknown column 'modified_on' in 'field list' - Invalid query: INSERT INTO `tbl_payments` (`franchisee_id`, `client_id`, `quotation_id`, `pending_quote_amount`, `paid_amount`, `remaining_amount`, `payment_date`, `payment_mode`, `transaction_id`, `remarks`, `modified_on`, `created_on`, `user_id`) VALUES ('2', '2', '6', '72000.00', '36000', 36000, '2025-07-03', 'Cash', '123456', 'cash payment', '2025-07-03 04:45:14', '2025-07-03 04:45:14', '1')
+ERROR - 2025-07-03 04:45:57 --> Query error: Unknown column 'user_id' in 'field list' - Invalid query: INSERT INTO `tbl_payments` (`franchisee_id`, `client_id`, `quotation_id`, `pending_quote_amount`, `paid_amount`, `remaining_amount`, `payment_date`, `payment_mode`, `transaction_id`, `remarks`, `updated_at`, `created_at`, `user_id`) VALUES ('2', '2', '6', '72000.00', '36000', 36000, '2025-07-03', 'Cash', '123456', 'cash payment', '2025-07-03 04:45:57', '2025-07-03 04:45:57', '1')
+ERROR - 2025-07-03 04:46:55 --> Query error: Unknown column 'payment_amount' in 'field list' - Invalid query: SELECT `pr`.`id`, `fullname`, `client_name`, `reference_no`, `project_name`, `payment_mode`, `payment_amount`, `pr`.`status`
+FROM `tbl_payments` `p`
+LEFT JOIN `tbl_users` `u` ON `u`.`id` = `p`.`franchisee_id`
+LEFT JOIN `tbl_franchisee_client` `c` ON `c`.`id` = `p`.`client_id`
+LEFT JOIN `tbl_quotation` `q` ON `q`.`id` = `p`.`qauote_id`
+LEFT JOIN `tbl_solar_project` `pr` ON `pr`.`id` = `q`.`project_id`
+WHERE `q`.`user_id` = '1'
+ORDER BY `q`.`id` ASC, `pr`.`id` DESC
+ LIMIT 10
+ERROR - 2025-07-03 04:47:45 --> Severity: 8192 --> str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated /home3/riyominfotech/public_html/solar/admin/application/libraries/Datatables.php 478
+ERROR - 2025-07-03 04:49:15 --> Severity: 8192 --> str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated /home3/riyominfotech/public_html/solar/admin/application/libraries/Datatables.php 478
+ERROR - 2025-07-03 04:50:22 --> Severity: 8192 --> str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated /home3/riyominfotech/public_html/solar/admin/application/libraries/Datatables.php 478
+ERROR - 2025-07-03 04:51:19 --> Severity: 8192 --> str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated /home3/riyominfotech/public_html/solar/admin/application/libraries/Datatables.php 478
+ERROR - 2025-07-03 04:53:32 --> Severity: 8192 --> str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated /home3/riyominfotech/public_html/solar/admin/application/libraries/Datatables.php 478
+ERROR - 2025-07-03 04:55:32 --> Severity: error --> Exception: syntax error, unexpected token ";" /home3/riyominfotech/public_html/solar/admin/application/libraries/Datatables.php 478
+ERROR - 2025-07-03 04:56:06 --> Severity: 8192 --> str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated /home3/riyominfotech/public_html/solar/admin/application/libraries/Datatables.php 478
+ERROR - 2025-07-03 08:38:35 --> Severity: error --> Exception: Undefined constant "pending_amount" /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 154
+ERROR - 2025-07-03 08:39:20 --> Query error: Unknown column 'quotation_id' in 'field list' - Invalid query: UPDATE `tbl_quotation` SET `franchisee_id` = '2', `client_id` = '2', `quotation_id` = '6', `pending_quote_amount` = '72000.00', `paid_amount` = '36000', `remaining_amount` = 36000, `payment_date` = '2025-07-03', `payment_mode` = 'Cash', `transaction_id` = '123456', `remarks` = 'test', `updated_at` = '2025-07-03 08:39:19', `created_at` = '2025-07-03 08:39:19', `user_id` = '1', `pending_amount` = 36000, `modified_on` = '2025-07-03 08:39:20'
+WHERE `id` = 1
+ERROR - 2025-07-03 09:31:23 --> Query error: Unknown column 'quotation_id' in 'field list' - Invalid query: UPDATE `tbl_quotation` SET `franchisee_id` = '2', `client_id` = '2', `quotation_id` = '6', `pending_quote_amount` = '72000.00', `paid_amount` = '36000', `remaining_amount` = 36000, `payment_date` = '2025-07-03', `payment_mode` = 'Cash', `transaction_id` = '0', `remarks` = 'test payment', `updated_at` = '2025-07-03 09:31:23', `created_at` = '2025-07-03 09:31:23', `user_id` = '1', `pending_amount` = 36000, `modified_on` = '2025-07-03 09:31:23'
+WHERE `id` = 1
+ERROR - 2025-07-03 09:31:37 --> Query error: Duplicate entry '0' for key 'transaction_id' - Invalid query: INSERT INTO `tbl_payments` (`franchisee_id`, `client_id`, `quotation_id`, `pending_quote_amount`, `paid_amount`, `remaining_amount`, `payment_date`, `payment_mode`, `transaction_id`, `remarks`, `updated_at`, `created_at`, `user_id`) VALUES ('2', '2', '6', '72000.00', '36000', 36000, '2025-07-03', 'Cash', '0', 'test payment', '2025-07-03 09:31:37', '2025-07-03 09:31:37', '1')
+ERROR - 2025-07-03 09:31:56 --> Query error: Unknown column 'quotation_id' in 'field list' - Invalid query: UPDATE `tbl_quotation` SET `franchisee_id` = '2', `client_id` = '2', `quotation_id` = '6', `pending_quote_amount` = '72000.00', `paid_amount` = '36000', `remaining_amount` = 36000, `payment_date` = '2025-07-03', `payment_mode` = 'Cash', `transaction_id` = '123', `remarks` = 'test payment', `updated_at` = '2025-07-03 09:31:56', `created_at` = '2025-07-03 09:31:56', `user_id` = '1', `pending_amount` = 36000, `modified_on` = '2025-07-03 09:31:56'
+WHERE `id` = 3

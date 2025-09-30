@@ -1,0 +1,12 @@
+ERROR - 2024-08-06 07:07:26 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-06 07:15:14 --> Severity: Warning --> Undefined variable $company_person /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 79
+ERROR - 2024-08-06 07:19:19 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/crm/admin/application/controllers/Quotation.php 160
+ERROR - 2024-08-06 07:19:19 --> Query error: Column 'basic_rate' cannot be null - Invalid query: INSERT INTO `tbl_quote_product` (`quote_id`, `product_id`, `qty`, `unit`, `basic_rate`, `gst`, `amount`) VALUES (8, '11', '1', '', NULL, '18.00', '29500.00')
+ERROR - 2024-08-06 07:19:19 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-08-06 07:26:05 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/crm/admin/application/views/quotation/view.php 3
+ERROR - 2024-08-06 07:26:05 --> Severity: Warning --> Undefined property: stdClass::$sector_name /home3/riyominfotech/public_html/crm/admin/application/views/partials/vendor-scripts.php 100
+ERROR - 2024-08-06 07:26:05 --> Severity: Warning --> Undefined property: stdClass::$description /home3/riyominfotech/public_html/crm/admin/application/views/partials/vendor-scripts.php 122
+ERROR - 2024-08-06 07:26:05 --> Severity: Warning --> Undefined property: stdClass::$brand_name /home3/riyominfotech/public_html/crm/admin/application/views/partials/vendor-scripts.php 140
+ERROR - 2024-08-06 07:26:05 --> Severity: Warning --> Undefined property: stdClass::$description /home3/riyominfotech/public_html/crm/admin/application/views/partials/vendor-scripts.php 162
+ERROR - 2024-08-06 07:26:05 --> Severity: Warning --> Undefined property: stdClass::$designation_name /home3/riyominfotech/public_html/crm/admin/application/views/partials/vendor-scripts.php 181
+ERROR - 2024-08-06 07:26:05 --> Severity: Warning --> Undefined property: stdClass::$description /home3/riyominfotech/public_html/crm/admin/application/views/partials/vendor-scripts.php 203

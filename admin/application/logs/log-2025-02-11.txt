@@ -1,0 +1,236 @@
+ERROR - 2025-02-11 03:50:53 --> Query error: Table 'riyominf_solar.tbl_company' doesn't exist - Invalid query: SELECT COUNT(company_id) as companies
+FROM `tbl_company`
+WHERE 1 = 1
+ERROR - 2025-02-11 04:24:29 --> Severity: Warning --> Undefined variable $companies /home3/riyominfotech/public_html/solar/admin/application/views/dashboard/dashboard.php 25
+ERROR - 2025-02-11 04:24:29 --> Severity: Warning --> Undefined variable $companies /home3/riyominfotech/public_html/solar/admin/application/views/dashboard/dashboard.php 25
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/custom
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:30 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:31 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:24:31 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:24:31 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:24:31 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:24:31 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:31 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:31 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:32 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:24:32 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:24:32 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:24:33 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:24:33 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:24:33 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:24:33 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:24:33 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:24:33 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:24:35 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:35 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:35 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:35 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:35 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:24:37 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:37 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:37 --> 404 Page Not Found: Assets/custom
+ERROR - 2025-02-11 04:24:37 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:37 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:37 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:24:37 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:24:37 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:38:05 --> Severity: Warning --> Undefined variable $companies /home3/riyominfotech/public_html/solar/admin/application/views/dashboard/dashboard.php 25
+ERROR - 2025-02-11 04:38:05 --> Severity: Warning --> Undefined variable $companies /home3/riyominfotech/public_html/solar/admin/application/views/dashboard/dashboard.php 25
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/custom
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:38:06 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:38:07 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:07 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:07 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:07 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:07 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:38:08 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:38:08 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:08 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:08 --> 404 Page Not Found: Assets/custom
+ERROR - 2025-02-11 04:38:08 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:08 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:08 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:38:08 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:38:08 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:57:26 --> Severity: Warning --> Undefined variable $companies /home3/riyominfotech/public_html/solar/admin/application/views/dashboard/dashboard.php 25
+ERROR - 2025-02-11 04:57:26 --> Severity: Warning --> Undefined variable $companies /home3/riyominfotech/public_html/solar/admin/application/views/dashboard/dashboard.php 25
+ERROR - 2025-02-11 04:57:27 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:57:27 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:57:27 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:57:27 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:57:27 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:27 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:57:27 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:27 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:27 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:57:27 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:57:27 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:57:27 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:57:27 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:57:27 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:57:27 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:57:27 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:57:28 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:28 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:28 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:28 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:57:28 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:28 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:28 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:28 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:28 --> 404 Page Not Found: Assets/custom
+ERROR - 2025-02-11 04:57:28 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:28 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:28 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:57:28 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:57:29 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:57:29 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:57:29 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:29 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:29 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:29 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:57:29 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 04:57:29 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:57:29 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:57:29 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:57:29 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:57:29 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:57:29 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:57:29 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:57:29 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 04:57:31 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:31 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:31 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:31 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:31 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:57:33 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:33 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:33 --> 404 Page Not Found: Assets/custom
+ERROR - 2025-02-11 04:57:33 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:33 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:33 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 04:57:34 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 04:57:34 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 05:02:28 --> Severity: Warning --> Undefined variable $companies /home3/riyominfotech/public_html/solar/admin/application/views/dashboard/dashboard.php 25
+ERROR - 2025-02-11 05:02:28 --> Severity: Warning --> Undefined variable $companies /home3/riyominfotech/public_html/solar/admin/application/views/dashboard/dashboard.php 25
+ERROR - 2025-02-11 05:02:28 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 05:02:28 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 05:02:28 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 05:02:28 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 05:02:28 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 05:02:28 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 05:02:28 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 05:02:28 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 05:02:28 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 05:02:28 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/custom
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 05:02:29 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 05:02:35 --> Severity: Warning --> Undefined variable $companies /home3/riyominfotech/public_html/solar/admin/application/views/dashboard/dashboard.php 25
+ERROR - 2025-02-11 05:02:35 --> Severity: Warning --> Undefined variable $companies /home3/riyominfotech/public_html/solar/admin/application/views/dashboard/dashboard.php 25
+ERROR - 2025-02-11 05:02:35 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 05:02:35 --> 404 Page Not Found: Assets/libs
+ERROR - 2025-02-11 05:02:35 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 05:02:35 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 05:02:35 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 05:02:35 --> 404 Page Not Found: Assets/images
+ERROR - 2025-02-11 08:10:09 --> 404 Page Not Found: Assets/plugins
+ERROR - 2025-02-11 08:10:09 --> 404 Page Not Found: Assets/css
+ERROR - 2025-02-11 08:10:09 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 08:10:09 --> 404 Page Not Found: Assets/plugins
+ERROR - 2025-02-11 08:10:09 --> 404 Page Not Found: Assets/media
+ERROR - 2025-02-11 08:10:09 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 08:10:10 --> 404 Page Not Found: Assets/media
+ERROR - 2025-02-11 08:10:12 --> 404 Page Not Found: Assets/media
+ERROR - 2025-02-11 08:10:12 --> 404 Page Not Found: Assets/media
+ERROR - 2025-02-11 08:10:12 --> 404 Page Not Found: Assets/plugins
+ERROR - 2025-02-11 08:10:13 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 08:10:13 --> 404 Page Not Found: Assets/js
+ERROR - 2025-02-11 22:44:23 --> Severity: Warning --> Undefined property: stdClass::$designation /home3/riyominfotech/public_html/solar/admin/application/libraries/Tank_auth.php 75
+ERROR - 2025-02-11 22:44:23 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/helpers/url_helper.php 565
+ERROR - 2025-02-11 22:47:53 --> 404 Page Not Found: Users/index
+ERROR - 2025-02-11 23:14:46 --> Query error: Table 'riyominf_solar.tbl_product' doesn't exist - Invalid query: SELECT `product_id`, `product_name`, `brand_name`, `model_number`, `basic_rate`, `net_rate`, `hsn_code`, `gst`
+FROM `tbl_product` `p`
+LEFT JOIN `tbl_brand_master` `b` ON `b`.`brand_id` = `p`.`brand`
+ORDER BY `product_id` ASC
+ LIMIT 0
+ERROR - 2025-02-11 23:17:03 --> Query error: Table 'riyominf_solar.tbl_product' doesn't exist - Invalid query: SELECT `product_id`, `product_name`, `brand_name`, `model_number`, `basic_rate`, `net_rate`, `hsn_code`, `gst`
+FROM `tbl_product` `p`
+LEFT JOIN `tbl_brand_master` `b` ON `b`.`brand_id` = `p`.`brand`
+ORDER BY `product_id` ASC
+ LIMIT 0

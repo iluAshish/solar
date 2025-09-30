@@ -1,0 +1,123 @@
+ERROR - 2024-07-13 01:22:57 --> Query error: Unknown column 'patient_id' in 'field list' - Invalid query: SELECT `id`, `patient_id`, `name`, `contact_no`, `email`, `dob`, `gender`
+FROM `tbl_users`
+WHERE `user_type` = '3'
+ORDER BY `id` ASC, `patient_id` ASC
+ LIMIT 10
+ERROR - 2024-07-13 01:34:09 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`Admin`
+ORDER BY `id` ASC, `staff_id` ASC
+ LIMIT 10' at line 4 - Invalid query: SELECT `id`, `staff_id`, `role`, `fullname`, `designation_title`, `email`, `mobile`
+FROM `tbl_users` `u`
+LEFT JOIN `tbl_designation_master` `d` ON `d`.`designation_id` = `u`.`designation`
+WHERE `role` <> `Super` `Admin`
+ORDER BY `id` ASC, `staff_id` ASC
+ LIMIT 10
+ERROR - 2024-07-13 01:34:28 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`Admin`
+ORDER BY `id` ASC, `staff_id` ASC
+ LIMIT 10' at line 4 - Invalid query: SELECT `id`, `staff_id`, `role`, `fullname`, `designation_title`, `email`, `mobile`
+FROM `tbl_users` `u`
+LEFT JOIN `tbl_designation_master` `d` ON `d`.`designation_id` = `u`.`designation`
+WHERE `role` <> `Super` `Admin`
+ORDER BY `id` ASC, `staff_id` ASC
+ LIMIT 10
+ERROR - 2024-07-13 01:35:34 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`Admin`
+ORDER BY `id` ASC, `staff_id` ASC
+ LIMIT 10' at line 4 - Invalid query: SELECT `id`, `staff_id`, `role`, `fullname`, `designation_title`, `email`, `mobile`
+FROM `tbl_users` `u`
+LEFT JOIN `tbl_designation_master` `d` ON `d`.`designation_id` = `u`.`designation`
+WHERE `role` <> `Super` `Admin`
+ORDER BY `id` ASC, `staff_id` ASC
+ LIMIT 10
+ERROR - 2024-07-13 01:36:15 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`Admin`
+ORDER BY `id` ASC, `staff_id` ASC
+ LIMIT 10' at line 4 - Invalid query: SELECT `id`, `staff_id`, `role`, `fullname`, `designation_title`, `email`, `mobile`
+FROM `tbl_users` `u`
+LEFT JOIN `tbl_designation_master` `d` ON `d`.`designation_id` = `u`.`designation`
+WHERE `role` != `Super` `Admin`
+ORDER BY `id` ASC, `staff_id` ASC
+ LIMIT 10
+ERROR - 2024-07-13 01:37:12 --> Query error: Unknown column 'fullname' in 'field list' - Invalid query: SELECT `id`, `staff_id`, `role`, `fullname`, `designation_title`, `email`, `mobile`
+FROM `tbl_users` `u`
+LEFT JOIN `tbl_designation_master` `d` ON `d`.`designation_id` = `u`.`designation`
+WHERE `role` != 'SuperAdmin'
+ORDER BY `id` ASC, `staff_id` ASC
+ LIMIT 10
+ERROR - 2024-07-13 01:38:16 --> Query error: Unknown column 'fullname' in 'field list' - Invalid query: SELECT `id`, `staff_id`, `role`, `fullname`, `designation_title`, `email`, `mobile`
+FROM `tbl_users` `u`
+LEFT JOIN `tbl_designation_master` `d` ON `d`.`designation_id` = `u`.`designation`
+WHERE `role` != 'SuperAdmin'
+ORDER BY `id` ASC, `staff_id` ASC
+ LIMIT 10
+ERROR - 2024-07-13 01:38:38 --> Query error: Unknown column 'mobile' in 'field list' - Invalid query: SELECT `id`, `staff_id`, `role`, `staff_name`, `designation_title`, `email`, `mobile`
+FROM `tbl_users` `u`
+LEFT JOIN `tbl_designation_master` `d` ON `d`.`designation_id` = `u`.`designation`
+WHERE `role` != 'SuperAdmin'
+ORDER BY `id` ASC, `staff_id` ASC
+ LIMIT 10
+ERROR - 2024-07-13 01:39:16 --> Query error: Unknown column 'u.designation' in 'on clause' - Invalid query: SELECT `id`, `staff_id`, `role`, `staff_name`, `designation_title`, `email`, `mobile`
+FROM `tbl_users` `u`
+LEFT JOIN `tbl_designation_master` `d` ON `d`.`designation_id` = `u`.`designation`
+WHERE `role` != 'SuperAdmin'
+ORDER BY `id` ASC, `staff_id` ASC
+ LIMIT 10
+ERROR - 2024-07-13 01:39:54 --> Severity: Warning --> Undefined variable $sectors /home3/riyominfotech/public_html/crm/admin/application/views/users/form.php 3
+ERROR - 2024-07-13 01:39:54 --> Severity: error --> Exception: Unsupported operand types: array + null /home3/riyominfotech/public_html/crm/admin/application/views/users/form.php 3
+ERROR - 2024-07-13 01:54:57 --> Severity: Warning --> Undefined variable $sectors /home3/riyominfotech/public_html/crm/admin/application/views/users/form.php 3
+ERROR - 2024-07-13 01:54:57 --> Severity: error --> Exception: Unsupported operand types: array + null /home3/riyominfotech/public_html/crm/admin/application/views/users/form.php 3
+ERROR - 2024-07-13 01:55:09 --> Severity: Warning --> Undefined variable $sectors /home3/riyominfotech/public_html/crm/admin/application/views/users/form.php 3
+ERROR - 2024-07-13 01:55:09 --> Severity: error --> Exception: Unsupported operand types: array + null /home3/riyominfotech/public_html/crm/admin/application/views/users/form.php 3
+ERROR - 2024-07-13 01:56:06 --> Severity: Warning --> Undefined variable $i /home3/riyominfotech/public_html/crm/admin/application/views/users/form.php 91
+ERROR - 2024-07-13 01:56:06 --> Severity: Warning --> Undefined variable $data_info /home3/riyominfotech/public_html/crm/admin/application/views/users/form.php 92
+ERROR - 2024-07-13 01:56:06 --> Severity: Warning --> Attempt to read property "designation" on null /home3/riyominfotech/public_html/crm/admin/application/views/users/form.php 92
+ERROR - 2024-07-13 01:56:33 --> Severity: error --> Exception: syntax error, unexpected token "class", expecting ")" /home3/riyominfotech/public_html/crm/admin/application/views/users/form.php 91
+ERROR - 2024-07-13 01:56:51 --> Severity: Warning --> Undefined variable $data_info /home3/riyominfotech/public_html/crm/admin/application/views/users/form.php 92
+ERROR - 2024-07-13 01:56:51 --> Severity: Warning --> Attempt to read property "designation" on null /home3/riyominfotech/public_html/crm/admin/application/views/users/form.php 92
+ERROR - 2024-07-13 02:02:43 --> Query error: Table 'riyominf_crm.users' doesn't exist - Invalid query: SELECT *
+FROM `users`
+WHERE `email` = 'abhangi.mohit@gmail.com'
+ LIMIT 1
+ERROR - 2024-07-13 02:02:56 --> Query error: Table 'riyominf_crm.users' doesn't exist - Invalid query: SELECT *
+FROM `users`
+WHERE `email` = 'abhangi.mohit@gmail.com'
+ LIMIT 1
+ERROR - 2024-07-13 02:05:57 --> Severity: Warning --> Undefined variable $site_name /home3/riyominfotech/public_html/crm/admin/application/views/email/confirmation-txt.php 1
+ERROR - 2024-07-13 02:05:57 --> Severity: Warning --> Undefined variable $site_name /home3/riyominfotech/public_html/crm/admin/application/views/email/confirmation-txt.php 3
+ERROR - 2024-07-13 02:05:57 --> Severity: Warning --> Undefined variable $site_name /home3/riyominfotech/public_html/crm/admin/application/views/email/confirmation-txt.php 20
+ERROR - 2024-07-13 02:06:00 --> Query error: Unknown column 'passwordUser' in 'field list' - Invalid query: INSERT INTO `tbl_users` (`staff_id`, `designation`, `staff_name`, `email`, `mobile`, `username`, `activated`, `role`, `created`, `password`, `passwordUser`) VALUES ('123', '1', 'sid', 'abhangi.mohit@gmail.com', '1234567890', 'sid', 1, 'Admin', '2024-07-13 02:05:57', '$2a$08$j/ExKhA3BG7V71DnNtdTluRTi6VMrjUbODFI46LP3hgx4iQJsMlSy', 'cJy3bb')
+ERROR - 2024-07-13 02:06:34 --> Severity: Warning --> Undefined variable $passwordUser /home3/riyominfotech/public_html/crm/admin/application/views/email/confirmation-html.php 19
+ERROR - 2024-07-13 02:06:34 --> Severity: Warning --> Undefined variable $site_name /home3/riyominfotech/public_html/crm/admin/application/views/email/confirmation-txt.php 1
+ERROR - 2024-07-13 02:06:34 --> Severity: Warning --> Undefined variable $site_name /home3/riyominfotech/public_html/crm/admin/application/views/email/confirmation-txt.php 3
+ERROR - 2024-07-13 02:06:34 --> Severity: Warning --> Undefined variable $site_name /home3/riyominfotech/public_html/crm/admin/application/views/email/confirmation-txt.php 20
+ERROR - 2024-07-13 02:07:45 --> Query error: Unknown column 'is_active' in 'field list' - Invalid query: SELECT `is_active`
+FROM `tbl_users`
+WHERE `user_id` = '2'
+ERROR - 2024-07-13 02:07:58 --> Query error: Unknown column 'is_active' in 'field list' - Invalid query: SELECT `is_active`
+FROM `tbl_users`
+WHERE `user_id` = '2'
+ERROR - 2024-07-13 02:09:25 --> Query error: Unknown column 'user_id' in 'where clause' - Invalid query: SELECT `is_active`
+FROM `tbl_users`
+WHERE `user_id` = '2'
+ERROR - 2024-07-13 02:09:32 --> Query error: Unknown column 'user_id' in 'where clause' - Invalid query: SELECT `is_active`
+FROM `tbl_users`
+WHERE `user_id` = '2'
+ERROR - 2024-07-13 02:12:00 --> Severity: Warning --> Undefined variable $column /home3/riyominfotech/public_html/crm/admin/application/helpers/custom_helper.php 120
+ERROR - 2024-07-13 02:16:42 --> Severity: Warning --> Undefined variable $i /home3/riyominfotech/public_html/crm/admin/application/helpers/custom_helper.php 120
+ERROR - 2024-07-13 02:16:42 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/crm/system/database/DB_query_builder.php 295
+ERROR - 2024-07-13 02:17:03 --> Severity: Warning --> foreach() argument must be of type array|object, int given /home3/riyominfotech/public_html/crm/system/database/DB_query_builder.php 295
+ERROR - 2024-07-13 02:18:03 --> Severity: Warning --> foreach() argument must be of type array|object, int given /home3/riyominfotech/public_html/crm/system/database/DB_query_builder.php 295
+ERROR - 2024-07-13 02:19:29 --> Query error: Unknown column '$1' in 'field list' - Invalid query: SELECT `$1`
+FROM `tbl_users`
+WHERE `activated` = 1
+ERROR - 2024-07-13 02:22:36 --> Severity: Warning --> Undefined property: stdClass::$is_active /home3/riyominfotech/public_html/crm/admin/application/helpers/custom_helper.php 122
+ERROR - 2024-07-13 02:22:36 --> Severity: Warning --> Undefined variable $control /home3/riyominfotech/public_html/crm/admin/application/helpers/custom_helper.php 129
+ERROR - 2024-07-13 02:23:01 --> Severity: Warning --> Undefined variable $control /home3/riyominfotech/public_html/crm/admin/application/helpers/custom_helper.php 129
+ERROR - 2024-07-13 02:24:32 --> Severity: Warning --> Undefined property: stdClass::$full_name /home3/riyominfotech/public_html/crm/admin/application/views/users/form.php 83
+ERROR - 2024-07-13 02:24:32 --> Severity: Warning --> Undefined property: stdClass::$address /home3/riyominfotech/public_html/crm/admin/application/views/users/form.php 115
+ERROR - 2024-07-13 02:26:09 --> Severity: Warning --> Undefined property: stdClass::$full_name /home3/riyominfotech/public_html/crm/admin/application/views/users/form.php 83
+ERROR - 2024-07-13 09:38:51 --> 404 Page Not Found: Company/get_product_data
+ERROR - 2024-07-13 09:38:53 --> 404 Page Not Found: Company/get_product_data
+ERROR - 2024-07-13 09:39:15 --> 404 Page Not Found: Company/get_product_data
+ERROR - 2024-07-13 09:40:50 --> 404 Page Not Found: Company/get_product_data
+ERROR - 2024-07-13 09:48:06 --> Query error: Unknown column 'p.brand_id' in 'on clause' - Invalid query: SELECT `p`.*, `brand_name`
+FROM `tbl_product` `p`
+LEFT JOIN `tbl_brand_master` `b` ON `b`.`brand_id`=`p`.`brand_id`
+WHERE `product_id` = '1'

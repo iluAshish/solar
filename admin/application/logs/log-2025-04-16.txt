@@ -1,0 +1,1 @@
+ERROR - 2025-04-16 01:46:39 --> Severity: error --> Exception: Using $this when not in object context /home3/riyominfotech/public_html/solar/admin/application/helpers/custom_helper.php 144

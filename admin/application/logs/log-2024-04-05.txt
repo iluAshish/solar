@@ -1,0 +1,33 @@
+ERROR - 2024-04-05 06:41:01 --> Query error: Table 'riyominf_pms_new.login_attempts' doesn't exist - Invalid query: SELECT 1
+FROM `login_attempts`
+WHERE `ip_address` = '1.23.99.67'
+ERROR - 2024-04-05 06:41:30 --> Query error: Table 'riyominf_pms_new.login_attempts' doesn't exist - Invalid query: SELECT 1
+FROM `login_attempts`
+WHERE `ip_address` = '1.23.99.67'
+ERROR - 2024-04-05 06:41:32 --> Query error: Table 'riyominf_pms_new.login_attempts' doesn't exist - Invalid query: SELECT 1
+FROM `login_attempts`
+WHERE `ip_address` = '1.23.99.67'
+ERROR - 2024-04-05 06:42:58 --> Severity: Warning --> Undefined property: Auth::$tank_auth /home3/riyominfotech/public_html/pms-n/admin/application/controllers/Auth.php 60
+ERROR - 2024-04-05 06:42:58 --> Severity: error --> Exception: Call to a member function is_logged_in() on null /home3/riyominfotech/public_html/pms-n/admin/application/controllers/Auth.php 60
+ERROR - 2024-04-05 06:42:58 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/pms-n/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/pms-n/system/core/Common.php 571
+ERROR - 2024-04-05 06:44:17 --> Query error: Table 'riyominf_pms_new.login_attempts' doesn't exist - Invalid query: SELECT 1
+FROM `login_attempts`
+WHERE `ip_address` = '1.23.99.67'
+ERROR - 2024-04-05 10:13:33 --> Query error: Unknown column 'username' in 'where clause' - Invalid query: SELECT *
+FROM `tbl_users`
+WHERE LOWER(username) = 'patel.mihir1988@gmail.com'
+OR LOWER(email) = 'patel.mihir1988@gmail.com'
+ERROR - 2024-04-05 10:14:53 --> Severity: error --> Exception: Object of class stdClass could not be converted to string /home3/riyominfotech/public_html/pms-n/admin/application/libraries/Tank_auth.php 59
+ERROR - 2024-04-05 10:16:46 --> Severity: Warning --> Undefined property: stdClass::$banned /home3/riyominfotech/public_html/pms-n/admin/application/libraries/Tank_auth.php 67
+ERROR - 2024-04-05 10:16:46 --> Severity: Warning --> Undefined property: stdClass::$activated /home3/riyominfotech/public_html/pms-n/admin/application/libraries/Tank_auth.php 74
+ERROR - 2024-04-05 10:16:46 --> Severity: Warning --> Undefined property: stdClass::$activated /home3/riyominfotech/public_html/pms-n/admin/application/libraries/Tank_auth.php 77
+ERROR - 2024-04-05 10:16:46 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/pms-n/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/pms-n/system/helpers/url_helper.php 565
+ERROR - 2024-04-05 23:22:57 --> Severity: Warning --> Undefined property: Dashboard::$tank_auth /home3/riyominfotech/public_html/pms-n/admin/application/controllers/Dashboard.php 11
+ERROR - 2024-04-05 23:22:57 --> Severity: error --> Exception: Call to a member function is_logged_in() on null /home3/riyominfotech/public_html/pms-n/admin/application/controllers/Dashboard.php 11
+ERROR - 2024-04-05 23:22:57 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/pms-n/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/pms-n/system/core/Common.php 571
+ERROR - 2024-04-05 23:26:25 --> Query error: Unknown column 'new_password_key' in 'field list' - Invalid query: UPDATE `tbl_users` SET `new_password_key` = NULL, `new_password_requested` = NULL, `last_ip` = '1.23.99.67', `last_login` = '2024-04-05 23:26:25'
+WHERE `id` = '51'
+ERROR - 2024-04-05 23:29:35 --> Query error: Unknown column 'issocial' in 'where clause' - Invalid query: SELECT COUNT(id) as registeruser
+FROM `tbl_users`
+WHERE `issocial` =0
+AND 1 = 1

@@ -1,0 +1,12 @@
+ERROR - 2025-08-18 03:37:37 --> Severity: Warning --> Undefined variable $districts /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/users/form.php 114
+ERROR - 2025-08-18 03:45:09 --> Severity: Warning --> Undefined variable $districts /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/users/form.php 114
+ERROR - 2025-08-18 03:45:44 --> Severity: Warning --> Undefined variable $districts /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/users/form.php 114
+ERROR - 2025-08-18 06:09:46 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-18 06:09:46 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-18 06:09:46 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-18 06:10:29 --> Severity: Warning --> Undefined variable $cities /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/clients/form.php 92
+ERROR - 2025-08-18 06:14:37 --> 404 Page Not Found: Wp_content/plugins
+ERROR - 2025-08-18 21:30:26 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-08-18 21:37:15 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-08-18 21:56:10 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-08-18 22:27:31 --> 404 Page Not Found: Robotstxt/index

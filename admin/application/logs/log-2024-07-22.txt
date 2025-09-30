@@ -1,0 +1,3 @@
+ERROR - 2024-07-22 01:56:07 --> Severity: Warning --> Undefined property: stdClass::$product_name /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 119
+ERROR - 2024-07-22 01:56:25 --> Severity: Warning --> Undefined property: stdClass::$product_name /home3/riyominfotech/public_html/crm/admin/application/views/invoice/add.php 156
+ERROR - 2024-07-22 01:57:06 --> 404 Page Not Found: Report/index

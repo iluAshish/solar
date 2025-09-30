@@ -1,0 +1,4 @@
+ERROR - 2025-07-09 00:53:05 --> 404 Page Not Found: Admin/auth
+ERROR - 2025-07-09 00:55:53 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/partials/menu.php 478
+ERROR - 2025-07-09 03:28:44 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-07-09 18:14:30 --> 404 Page Not Found: Robotstxt/index

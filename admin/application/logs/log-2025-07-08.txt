@@ -1,0 +1,96 @@
+ERROR - 2025-07-08 06:14:06 --> 404 Page Not Found: Account/overview.html
+ERROR - 2025-07-08 06:39:58 --> 404 Page Not Found: Account/overview.html
+ERROR - 2025-07-08 06:40:58 --> Severity: error --> Exception: Too few arguments to function User::profile(), 0 passed in /home3/riyominfotech/public_html/solar/system/core/CodeIgniter.php on line 533 and exactly 1 expected /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php 348
+ERROR - 2025-07-08 06:41:58 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 478
+ERROR - 2025-07-08 06:41:58 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 3
+ERROR - 2025-07-08 06:41:58 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 9
+ERROR - 2025-07-08 06:41:58 --> Severity: error --> Exception: Unsupported operand types: array + null /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 9
+ERROR - 2025-07-08 06:43:34 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 478
+ERROR - 2025-07-08 06:43:34 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 3
+ERROR - 2025-07-08 06:43:34 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 9
+ERROR - 2025-07-08 06:43:34 --> Severity: error --> Exception: Unsupported operand types: array + null /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 9
+ERROR - 2025-07-08 06:43:34 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php:361) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-07-08 06:44:19 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 478
+ERROR - 2025-07-08 06:44:19 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 3
+ERROR - 2025-07-08 06:44:19 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 9
+ERROR - 2025-07-08 06:44:19 --> Severity: error --> Exception: Unsupported operand types: array + null /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 9
+ERROR - 2025-07-08 06:44:19 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php:361) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-07-08 06:44:24 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 478
+ERROR - 2025-07-08 06:44:24 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 3
+ERROR - 2025-07-08 06:44:24 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 9
+ERROR - 2025-07-08 06:44:24 --> Severity: error --> Exception: Unsupported operand types: array + null /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 9
+ERROR - 2025-07-08 06:44:24 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php:361) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 478
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> Undefined property: stdClass::$qauote_date /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 204
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> Undefined property: stdClass::$reference_no /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 212
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> Undefined variable $ref_no /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 212
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> Undefined variable $franchisees /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 221
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 221
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> Undefined variable $clients /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 233
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 233
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 245
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 245
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> Undefined variable $projects /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 311
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 311
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> Undefined property: stdClass::$work_scope /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 343
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 349
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> Undefined property: stdClass::$quote_notes /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 355
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> Undefined variable $settings /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 355
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> Attempt to read property "quote_note" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 355
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> Undefined property: stdClass::$quote_terms /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 359
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> Undefined variable $settings /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 359
+ERROR - 2025-07-08 06:45:56 --> Severity: Warning --> Attempt to read property "quote_terms" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 359
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 478
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> Undefined property: stdClass::$qauote_date /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 204
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> Undefined property: stdClass::$reference_no /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 212
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> Undefined variable $ref_no /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 212
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> Undefined variable $franchisees /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 221
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 221
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> Undefined variable $clients /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 233
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 233
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 245
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 245
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> Undefined variable $projects /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 311
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 311
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> Undefined property: stdClass::$work_scope /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 343
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 349
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> Undefined property: stdClass::$quote_notes /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 355
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> Undefined variable $settings /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 355
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> Attempt to read property "quote_note" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 355
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> Undefined property: stdClass::$quote_terms /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 359
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> Undefined variable $settings /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 359
+ERROR - 2025-07-08 06:46:48 --> Severity: Warning --> Attempt to read property "quote_terms" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/profile.php 359
+ERROR - 2025-07-08 06:48:10 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 478
+ERROR - 2025-07-08 06:52:06 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 478
+ERROR - 2025-07-08 06:54:41 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 478
+ERROR - 2025-07-08 06:55:22 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 478
+ERROR - 2025-07-08 06:57:55 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 478
+ERROR - 2025-07-08 06:58:18 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 478
+ERROR - 2025-07-08 07:01:42 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 478
+ERROR - 2025-07-08 07:02:50 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 478
+ERROR - 2025-07-08 07:03:05 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 478
+ERROR - 2025-07-08 07:12:28 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 478
+ERROR - 2025-07-08 07:12:39 --> 404 Page Not Found: Assets/plugins
+ERROR - 2025-07-08 07:12:39 --> 404 Page Not Found: Assets/plugins
+ERROR - 2025-07-08 07:12:39 --> 404 Page Not Found: Assets/plugins
+ERROR - 2025-07-08 07:12:39 --> 404 Page Not Found: Assets/plugins
+ERROR - 2025-07-08 07:12:39 --> 404 Page Not Found: Assets/css
+ERROR - 2025-07-08 07:12:39 --> 404 Page Not Found: Assets/plugins
+ERROR - 2025-07-08 07:12:39 --> 404 Page Not Found: Assets/css
+ERROR - 2025-07-08 07:12:39 --> 404 Page Not Found: Assets/plugins
+ERROR - 2025-07-08 07:12:39 --> 404 Page Not Found: Assets/css
+ERROR - 2025-07-08 07:12:39 --> 404 Page Not Found: Assets/plugins
+ERROR - 2025-07-08 07:12:39 --> 404 Page Not Found: Assets/img
+ERROR - 2025-07-08 07:12:39 --> 404 Page Not Found: Assets/plugins
+ERROR - 2025-07-08 07:12:39 --> 404 Page Not Found: Assets/css
+ERROR - 2025-07-08 07:12:39 --> 404 Page Not Found: Assets/js
+ERROR - 2025-07-08 07:12:39 --> 404 Page Not Found: Assets/plugins
+ERROR - 2025-07-08 07:12:39 --> 404 Page Not Found: Assets/plugins
+ERROR - 2025-07-08 07:12:39 --> 404 Page Not Found: Assets/plugins
+ERROR - 2025-07-08 07:12:39 --> 404 Page Not Found: Assets/plugins
+ERROR - 2025-07-08 07:12:39 --> 404 Page Not Found: Assets/plugins
+ERROR - 2025-07-08 07:12:40 --> 404 Page Not Found: Assets/js
+ERROR - 2025-07-08 07:12:40 --> 404 Page Not Found: Assets/img
+ERROR - 2025-07-08 07:21:39 --> Severity: Warning --> Undefined variable $page_title /home3/riyominfotech/public_html/solar/admin/application/views/main_content.php 22
+ERROR - 2025-07-08 07:21:39 --> Severity: Warning --> Undefined variable $page_title /home3/riyominfotech/public_html/solar/admin/application/views/partials/topbar.php 41
+ERROR - 2025-07-08 07:33:40 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 478

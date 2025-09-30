@@ -1,0 +1,73 @@
+ERROR - 2022-02-22 05:05:16 --> 404 Page Not Found: Undefined/index
+ERROR - 2022-02-22 05:08:21 --> Query error: Unknown column 'o.invoice_pdf' in 'field list' - Invalid query: SELECT `o`.`OrderhdrID`, `o`.`invoice_pdf`, `u`.`username`, `o`.`deliver_date`, `o`.`order_total`, `o`.`transactionid`, `st`.`StatusName`
+FROM `tbl_orderhde` `o`
+LEFT JOIN `users` `u` ON `o`.`UserID`=`u`.`id`
+LEFT JOIN `status` `st` ON `st`.`StatusID`=`o`.`order_status`
+LEFT JOIN `tbl_orderdtl` `ord` ON `ord`.`OrderhdrID`=`o`.`OrderhdrID`
+GROUP BY `o`.`OrderhdrID`
+ORDER BY `o`.`OrderhdrID` ASC, `o`.`invoice_pdf` ASC
+ LIMIT 10
+ERROR - 2022-02-22 05:08:24 --> Query error: Unknown column 'o.invoice_pdf' in 'field list' - Invalid query: SELECT `o`.`OrderhdrID`, `o`.`invoice_pdf`, `u`.`username`, `o`.`deliver_date`, `o`.`order_total`, `o`.`transactionid`, `st`.`StatusName`
+FROM `tbl_orderhde` `o`
+LEFT JOIN `users` `u` ON `o`.`UserID`=`u`.`id`
+LEFT JOIN `status` `st` ON `st`.`StatusID`=`o`.`order_status`
+LEFT JOIN `tbl_orderdtl` `ord` ON `ord`.`OrderhdrID`=`o`.`OrderhdrID`
+GROUP BY `o`.`OrderhdrID`
+ORDER BY `o`.`OrderhdrID` ASC, `o`.`invoice_pdf` ASC
+ LIMIT 10
+ERROR - 2022-02-22 07:00:41 --> Query error: Unknown column 'o.invoice_pdf' in 'field list' - Invalid query: SELECT `o`.`OrderhdrID`, `o`.`invoice_pdf`, `u`.`username`, `o`.`deliver_date`, `o`.`order_total`, `o`.`transactionid`, `st`.`StatusName`
+FROM `tbl_orderhde` `o`
+LEFT JOIN `users` `u` ON `o`.`UserID`=`u`.`id`
+LEFT JOIN `status` `st` ON `st`.`StatusID`=`o`.`order_status`
+LEFT JOIN `tbl_orderdtl` `ord` ON `ord`.`OrderhdrID`=`o`.`OrderhdrID`
+GROUP BY `o`.`OrderhdrID`
+ORDER BY `o`.`OrderhdrID` ASC, `o`.`invoice_pdf` ASC
+ LIMIT 10
+ERROR - 2022-02-22 07:03:54 --> Query error: Unknown column 'o.invoice_pdf' in 'field list' - Invalid query: SELECT `o`.`OrderhdrID`, `o`.`invoice_pdf`, `u`.`username`, `o`.`deliver_date`, `o`.`order_total`, `o`.`transactionid`, `st`.`StatusName`
+FROM `tbl_orderhde` `o`
+LEFT JOIN `users` `u` ON `o`.`UserID`=`u`.`id`
+LEFT JOIN `status` `st` ON `st`.`StatusID`=`o`.`order_status`
+LEFT JOIN `tbl_orderdtl` `ord` ON `ord`.`OrderhdrID`=`o`.`OrderhdrID`
+GROUP BY `o`.`OrderhdrID`
+ORDER BY `o`.`OrderhdrID` ASC, `o`.`invoice_pdf` ASC
+ LIMIT 10
+ERROR - 2022-02-22 07:04:20 --> Query error: Unknown column 'o.invoice_pdf' in 'field list' - Invalid query: SELECT `o`.`OrderhdrID`, `o`.`invoice_pdf`, `u`.`username`, `o`.`deliver_date`, `o`.`order_total`, `o`.`transactionid`, `st`.`StatusName`
+FROM `tbl_orderhde` `o`
+LEFT JOIN `users` `u` ON `o`.`UserID`=`u`.`id`
+LEFT JOIN `status` `st` ON `st`.`StatusID`=`o`.`order_status`
+LEFT JOIN `tbl_orderdtl` `ord` ON `ord`.`OrderhdrID`=`o`.`OrderhdrID`
+GROUP BY `o`.`OrderhdrID`
+ORDER BY `o`.`OrderhdrID` ASC, `o`.`invoice_pdf` ASC
+ LIMIT 10
+ERROR - 2022-02-22 07:04:21 --> Query error: Unknown column 'o.invoice_pdf' in 'field list' - Invalid query: SELECT `o`.`OrderhdrID`, `o`.`invoice_pdf`, `u`.`username`, `o`.`deliver_date`, `o`.`order_total`, `o`.`transactionid`, `st`.`StatusName`
+FROM `tbl_orderhde` `o`
+LEFT JOIN `users` `u` ON `o`.`UserID`=`u`.`id`
+LEFT JOIN `status` `st` ON `st`.`StatusID`=`o`.`order_status`
+LEFT JOIN `tbl_orderdtl` `ord` ON `ord`.`OrderhdrID`=`o`.`OrderhdrID`
+GROUP BY `o`.`OrderhdrID`
+ORDER BY `o`.`OrderhdrID` ASC, `o`.`invoice_pdf` ASC
+ LIMIT 10
+ERROR - 2022-02-22 07:04:34 --> Query error: Unknown column 'o.invoice_pdf' in 'field list' - Invalid query: SELECT `o`.`OrderhdrID`, `o`.`invoice_pdf`, `u`.`username`, `o`.`deliver_date`, `o`.`order_total`, `o`.`transactionid`, `st`.`StatusName`
+FROM `tbl_orderhde` `o`
+LEFT JOIN `users` `u` ON `o`.`UserID`=`u`.`id`
+LEFT JOIN `status` `st` ON `st`.`StatusID`=`o`.`order_status`
+LEFT JOIN `tbl_orderdtl` `ord` ON `ord`.`OrderhdrID`=`o`.`OrderhdrID`
+GROUP BY `o`.`OrderhdrID`
+ORDER BY `o`.`OrderhdrID` ASC, `o`.`invoice_pdf` ASC
+ LIMIT 10
+ERROR - 2022-02-22 07:04:38 --> Query error: Unknown column 'o.invoice_pdf' in 'field list' - Invalid query: SELECT `o`.`OrderhdrID`, `o`.`invoice_pdf`, `u`.`username`, `o`.`deliver_date`, `o`.`order_total`, `o`.`transactionid`, `st`.`StatusName`
+FROM `tbl_orderhde` `o`
+LEFT JOIN `users` `u` ON `o`.`UserID`=`u`.`id`
+LEFT JOIN `status` `st` ON `st`.`StatusID`=`o`.`order_status`
+LEFT JOIN `tbl_orderdtl` `ord` ON `ord`.`OrderhdrID`=`o`.`OrderhdrID`
+GROUP BY `o`.`OrderhdrID`
+ORDER BY `o`.`OrderhdrID` ASC, `o`.`invoice_pdf` ASC
+ LIMIT 10
+ERROR - 2022-02-22 07:04:44 --> Query error: Unknown column 'o.invoice_pdf' in 'field list' - Invalid query: SELECT `o`.`OrderhdrID`, `o`.`invoice_pdf`, `u`.`username`, `o`.`deliver_date`, `o`.`order_total`, `o`.`transactionid`, `st`.`StatusName`
+FROM `tbl_orderhde` `o`
+LEFT JOIN `users` `u` ON `o`.`UserID`=`u`.`id`
+LEFT JOIN `status` `st` ON `st`.`StatusID`=`o`.`order_status`
+LEFT JOIN `tbl_orderdtl` `ord` ON `ord`.`OrderhdrID`=`o`.`OrderhdrID`
+GROUP BY `o`.`OrderhdrID`
+ORDER BY `o`.`OrderhdrID` ASC, `o`.`invoice_pdf` ASC
+ LIMIT 10

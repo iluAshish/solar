@@ -1,0 +1,90 @@
+ERROR - 2025-03-12 01:15:03 --> Severity: error --> Exception: Undefined constant "TBL_COMPANY" /home3/riyominfotech/public_html/solar/admin/application/controllers/Quotation.php 61
+ERROR - 2025-03-12 01:51:50 --> Query error: Unknown column 'p.product_id' in 'on clause' - Invalid query: SELECT `qp`.*, `p`.`product_name`
+FROM `tbl_quote_product` `qp`
+LEFT JOIN `tbl_solar_product` `p` ON `p`.`product_id`=`qp`.`product_id`
+WHERE `quote_id` = "1"
+ERROR - 2025-03-12 01:52:11 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 01:52:11 --> Severity: Warning --> Undefined variable $clients /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 78
+ERROR - 2025-03-12 01:52:11 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 78
+ERROR - 2025-03-12 01:52:11 --> Severity: Warning --> Undefined variable $projects /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 01:52:11 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 01:52:11 --> Severity: Warning --> Undefined variable $settings /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 101
+ERROR - 2025-03-12 01:52:11 --> Severity: Warning --> Attempt to read property "quote_cust_ref_no" on null /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 101
+ERROR - 2025-03-12 01:53:58 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 01:53:58 --> Severity: Warning --> Undefined variable $projects /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 01:53:58 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 01:53:58 --> Severity: Warning --> Undefined variable $settings /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 101
+ERROR - 2025-03-12 01:53:58 --> Severity: Warning --> Attempt to read property "quote_cust_ref_no" on null /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 101
+ERROR - 2025-03-12 01:56:34 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 01:56:34 --> Severity: Warning --> Undefined variable $projects /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 01:56:34 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 01:56:34 --> Severity: Warning --> Undefined variable $settings /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 101
+ERROR - 2025-03-12 01:56:34 --> Severity: Warning --> Attempt to read property "quote_cust_ref_no" on null /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 101
+ERROR - 2025-03-12 01:57:45 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 01:57:45 --> Severity: Warning --> Undefined variable $projects /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 01:57:45 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 01:57:45 --> Severity: Warning --> Undefined variable $settings /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 101
+ERROR - 2025-03-12 01:57:45 --> Severity: Warning --> Attempt to read property "quote_cust_ref_no" on null /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 101
+ERROR - 2025-03-12 01:58:10 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 01:58:10 --> Severity: Warning --> Undefined variable $projects /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 01:58:10 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 01:58:10 --> Severity: Warning --> Undefined variable $settings /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 101
+ERROR - 2025-03-12 01:58:10 --> Severity: Warning --> Attempt to read property "quote_cust_ref_no" on null /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 101
+ERROR - 2025-03-12 01:59:07 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 01:59:07 --> Severity: Warning --> Undefined variable $projects /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 01:59:07 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 01:59:07 --> Severity: Warning --> Undefined variable $settings /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 101
+ERROR - 2025-03-12 01:59:07 --> Severity: Warning --> Attempt to read property "quote_cust_ref_no" on null /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 101
+ERROR - 2025-03-12 02:00:13 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 02:00:13 --> Severity: Warning --> Undefined variable $projects /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 02:00:13 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 02:00:13 --> Severity: Warning --> Undefined variable $settings /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 101
+ERROR - 2025-03-12 02:00:13 --> Severity: Warning --> Attempt to read property "quote_cust_ref_no" on null /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 101
+ERROR - 2025-03-12 02:01:44 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 02:01:44 --> Severity: Warning --> Undefined variable $projects /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 02:01:44 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 02:01:44 --> Severity: Warning --> Undefined variable $settings /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 101
+ERROR - 2025-03-12 02:01:44 --> Severity: Warning --> Attempt to read property "cust_ref_no" on null /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 101
+ERROR - 2025-03-12 02:03:16 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 02:03:16 --> Severity: Warning --> Undefined variable $projects /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 02:03:16 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 02:03:16 --> Severity: Warning --> Undefined property: stdClass::$cust_ref_no /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 101
+ERROR - 2025-03-12 02:03:53 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 02:03:53 --> Severity: Warning --> Undefined variable $projects /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 02:03:53 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 91
+ERROR - 2025-03-12 02:05:31 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 02:06:12 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 02:08:01 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 02:08:59 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 06:52:13 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 07:06:23 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 07:10:10 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 07:10:36 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 07:11:31 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 07:11:40 --> 404 Page Not Found: Product/getdata
+ERROR - 2025-03-12 07:12:52 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 07:12:58 --> 404 Page Not Found: Product/getdata
+ERROR - 2025-03-12 07:14:26 --> 404 Page Not Found: Product/getdata
+ERROR - 2025-03-12 07:15:19 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 07:16:21 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 07:19:09 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 07:20:49 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 07:28:02 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 07:36:37 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 10:00:59 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 10:03:45 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 10:05:54 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 10:07:41 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 10:09:01 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 10:09:27 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 10:09:36 --> Query error: Unknown column 'is_active' in 'field list' - Invalid query: UPDATE `tbl_quotation` SET `reference_no` = 'FA/QUO/0001/2025', `franchisee_id` = '3', `client_id` = '1', `project_id` = '1', `qauote_date` = '2025-05-20', `quote_notes` = '<p>note</p>', `quote_terms` = '<p><strong>TEAMS &amp; CONDITIONS:</strong><br><strong>-Taxes: </strong>GST Extra as Applicable.<br><strong>-Delivery:</strong> EX-STOCK AVAILABLE<br><strong>-Payment:</strong> 100 % ADVANCE AGAINS PROFORMA INVOICE.<br><strong>-Validity:</strong> 30 Days<br><strong>-Packing &amp; Forwarding:</strong> Include</p>', `is_active` = 1, `modified_on` = '2025-03-12 10:09:36'
+WHERE `id` = '1'
+ERROR - 2025-03-12 10:09:50 --> Query error: Unknown column 'is_active' in 'field list' - Invalid query: UPDATE `tbl_quotation` SET `reference_no` = 'FA/QUO/0001/2025', `franchisee_id` = '3', `client_id` = '1', `project_id` = '1', `qauote_date` = '2025-05-20', `quote_notes` = '<p>note</p>', `quote_terms` = '<p><strong>TEAMS &amp; CONDITIONS:</strong><br><strong>-Taxes: </strong>GST Extra as Applicable.<br><strong>-Delivery:</strong> EX-STOCK AVAILABLE<br><strong>-Payment:</strong> 100 % ADVANCE AGAINS PROFORMA INVOICE.<br><strong>-Validity:</strong> 30 Days<br><strong>-Packing &amp; Forwarding:</strong> Include</p>', `is_active` = 1, `modified_on` = '2025-03-12 10:09:50'
+WHERE `id` = '1'
+ERROR - 2025-03-12 10:11:25 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Quotation.php 134
+ERROR - 2025-03-12 10:11:25 --> Query error: Column 'amount' cannot be null - Invalid query: INSERT INTO `tbl_quote_product` (`quote_id`, `product_id`, `qty`, `basic_rate`, `amount`) VALUES ('1', '1', '4', '63500.00', NULL)
+ERROR - 2025-03-12 10:11:25 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-03-12 10:12:19 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 10:14:46 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 10:15:39 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-12 10:16:55 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429

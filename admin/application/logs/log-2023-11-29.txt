@@ -1,0 +1,4 @@
+ERROR - 2023-11-29 01:03:08 --> Query error: Unknown column 'issocial' in 'where clause' - Invalid query: SELECT COUNT(id) as registeruser
+FROM `users`
+WHERE `issocial` =0
+AND 1 = 1

@@ -1,0 +1,72 @@
+ERROR - 2025-02-12 06:33:09 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '. ON `u`.`id` = `c`.`franchisee_id`
+ORDER BY `client_name` ASC
+ LIMIT 10' at line 3 - Invalid query: SELECT `id`, `client_name`, `fullname`, `contact_person`, `client_email`, `phone`
+FROM `tbl_franchisee_client` `c`
+LEFT JOIN `tbl_users` `u`. ON `u`.`id` = `c`.`franchisee_id`
+ORDER BY `client_name` ASC
+ LIMIT 10
+ERROR - 2025-02-12 06:33:41 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '. ON `u`.`id` = `c`.`franchisee_id`
+ORDER BY `client_name` ASC
+ LIMIT 10' at line 3 - Invalid query: SELECT `id`, `client_name`, `fullname`, `contact_person`, `client_email`, `phone`
+FROM `tbl_franchisee_client` `c`
+LEFT JOIN `tbl_users` `u`. ON `u`.`id` = `c`.`franchisee_id`
+ORDER BY `client_name` ASC
+ LIMIT 10
+ERROR - 2025-02-12 06:34:48 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '. ON `u`.`id` = `c`.`franchisee_id`
+ORDER BY `client_name` ASC
+ LIMIT 10' at line 3 - Invalid query: SELECT `id`, `client_name`, `fullname`, `contact_person`, `client_email`, `phone`
+FROM `tbl_franchisee_client` `c`
+LEFT JOIN `tbl_users` `u`. ON `u`.`id` = `c`.`franchisee_id`
+ORDER BY `client_name` ASC
+ LIMIT 10
+ERROR - 2025-02-12 06:36:18 --> Query error: Unknown column 'cid' in 'field list' - Invalid query: SELECT `cid`, `client_name`, `fullname`, `contact_person`, `client_email`, `phone`
+FROM `tbl_franchisee_client` `c`
+LEFT JOIN `tbl_users` `u` ON `u`.`id` = `c`.`franchisee_id`
+ORDER BY `cid` ASC
+ LIMIT 10
+ERROR - 2025-02-12 06:39:44 --> Query error: Table 'riyominf_solar.tbl_sector_master' doesn't exist - Invalid query: SELECT `sector_id`, `sector_name`
+FROM `tbl_sector_master`
+WHERE `is_active` = 1
+ERROR - 2025-02-12 06:40:13 --> Query error: Table 'riyominf_solar.tbl_sector_master' doesn't exist - Invalid query: SELECT `sector_id`, `sector_name`
+FROM `tbl_sector_master`
+WHERE `is_active` = 1
+ERROR - 2025-02-12 06:46:38 --> Severity: Warning --> Undefined variable $franchisees /home3/riyominfotech/public_html/solar/admin/application/controllers/Clients.php 29
+ERROR - 2025-02-12 06:47:55 --> Severity: Warning --> Attempt to read property "id" on string /home3/riyominfotech/public_html/solar/admin/application/views/clients/form.php 32
+ERROR - 2025-02-12 06:47:55 --> Severity: Warning --> Attempt to read property "fullname" on string /home3/riyominfotech/public_html/solar/admin/application/views/clients/form.php 32
+ERROR - 2025-02-12 06:47:55 --> Severity: Warning --> Attempt to read property "id" on string /home3/riyominfotech/public_html/solar/admin/application/views/clients/form.php 32
+ERROR - 2025-02-12 06:47:55 --> Severity: Warning --> Attempt to read property "fullname" on string /home3/riyominfotech/public_html/solar/admin/application/views/clients/form.php 32
+ERROR - 2025-02-12 06:48:39 --> Severity: error --> Exception: Cannot access offset of type string on string /home3/riyominfotech/public_html/solar/admin/application/views/clients/form.php 32
+ERROR - 2025-02-12 06:48:53 --> Severity: error --> Exception: Cannot access offset of type string on string /home3/riyominfotech/public_html/solar/admin/application/views/clients/form.php 32
+ERROR - 2025-02-12 06:49:56 --> Severity: Warning --> Attempt to read property "id" on string /home3/riyominfotech/public_html/solar/admin/application/views/clients/form.php 32
+ERROR - 2025-02-12 06:49:56 --> Severity: Warning --> Attempt to read property "fullname" on string /home3/riyominfotech/public_html/solar/admin/application/views/clients/form.php 32
+ERROR - 2025-02-12 06:49:56 --> Severity: Warning --> Attempt to read property "id" on string /home3/riyominfotech/public_html/solar/admin/application/views/clients/form.php 32
+ERROR - 2025-02-12 06:49:56 --> Severity: Warning --> Attempt to read property "fullname" on string /home3/riyominfotech/public_html/solar/admin/application/views/clients/form.php 32
+ERROR - 2025-02-12 07:10:41 --> Severity: Warning --> Undefined array key "company_name" /home3/riyominfotech/public_html/solar/admin/application/controllers/Clients.php 99
+ERROR - 2025-02-12 07:10:41 --> Severity: 8192 --> preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated /home3/riyominfotech/public_html/solar/admin/application/models/Common.php 189
+ERROR - 2025-02-12 07:10:41 --> Query error: Unknown column 'company_name' in 'field list' - Invalid query: SELECT `company_name`
+FROM `tbl_franchisee_client`
+WHERE `company_name` = ''
+ERROR - 2025-02-12 07:10:41 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-02-12 07:10:57 --> Severity: Warning --> Undefined array key "company_name" /home3/riyominfotech/public_html/solar/admin/application/controllers/Clients.php 99
+ERROR - 2025-02-12 07:10:57 --> Severity: 8192 --> preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated /home3/riyominfotech/public_html/solar/admin/application/models/Common.php 189
+ERROR - 2025-02-12 07:10:57 --> Query error: Unknown column 'company_name' in 'field list' - Invalid query: SELECT `company_name`
+FROM `tbl_franchisee_client`
+WHERE `company_name` = ''
+ERROR - 2025-02-12 07:10:57 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-02-12 07:12:10 --> Query error: Unknown column 'landmark' in 'field list' - Invalid query: INSERT INTO `tbl_franchisee_client` (`client_name`, `franchisee_id`, `contact_person`, `client_email`, `phone`, `status`, `landmark`, `created_on`, `user_id`) VALUES ('weberse', '3', 'Prashant Pandey', 'mprashantpandey@gmail.com', '8449183686', 'Active', NULL, '2025-02-12 07:12:10', '1')
+ERROR - 2025-02-12 07:12:28 --> Query error: Unknown column 'created_on' in 'field list' - Invalid query: INSERT INTO `tbl_franchisee_client` (`client_name`, `franchisee_id`, `contact_person`, `client_email`, `phone`, `status`, `created_on`, `user_id`) VALUES ('weberse', '3', 'Prashant Pandey', 'mprashantpandey@gmail.com', '8449183686', 'Active', '2025-02-12 07:12:28', '1')
+ERROR - 2025-02-12 07:14:21 --> Severity: error --> Exception: count(): Argument #1 ($value) must be of type Countable|array, null given /home3/riyominfotech/public_html/solar/admin/application/controllers/Clients.php 130
+ERROR - 2025-02-12 07:16:51 --> Query error: Unknown column 'is_active' in 'field list' - Invalid query: SELECT `is_active`
+FROM `tbl_franchisee_client`
+WHERE `client_id` = '1'
+ERROR - 2025-02-12 07:17:05 --> Query error: Unknown column 'is_active' in 'field list' - Invalid query: SELECT `is_active`
+FROM `tbl_franchisee_client`
+WHERE `client_id` = '1'
+ERROR - 2025-02-12 07:17:50 --> Query error: Unknown column 'is_active' in 'field list' - Invalid query: SELECT `is_active`
+FROM `tbl_franchisee_client`
+WHERE `client_id` = '1'
+ERROR - 2025-02-12 07:19:32 --> Query error: Unknown column 'client_id' in 'where clause' - Invalid query: SELECT 1
+FROM `tbl_franchisee_client`
+WHERE `client_id` = '1'
+ERROR - 2025-02-12 07:20:09 --> Severity: Warning --> Undefined property: stdClass::$is_active /home3/riyominfotech/public_html/solar/admin/application/helpers/custom_helper.php 102
+ERROR - 2025-02-12 07:20:41 --> Severity: Warning --> Undefined property: stdClass::$status /home3/riyominfotech/public_html/solar/admin/application/helpers/custom_helper.php 102

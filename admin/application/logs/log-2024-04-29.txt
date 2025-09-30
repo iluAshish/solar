@@ -1,0 +1,45 @@
+ERROR - 2024-04-29 00:16:12 --> Severity: Warning --> foreach() argument must be of type array|object, string given /home3/riyominfotech/public_html/crm/admin/application/models/Common.php 45
+ERROR - 2024-04-29 00:18:05 --> Severity: error --> Exception: Cannot access offset of type string on string /home3/riyominfotech/public_html/crm/admin/application/models/Common.php 46
+ERROR - 2024-04-29 00:18:52 --> Query error: Unknown column 'id' in 'order clause' - Invalid query: SELECT *
+FROM `tbl_quotation`
+WHERE `reference_no` like "%2024%"
+ORDER BY `id` DESC
+ERROR - 2024-04-29 00:26:14 --> Severity: error --> Exception: Cannot use object of type stdClass as array /home3/riyominfotech/public_html/crm/admin/application/controllers/Quotation.php 38
+ERROR - 2024-04-29 00:27:15 --> Severity: error --> Exception: Cannot use object of type stdClass as array /home3/riyominfotech/public_html/crm/admin/application/controllers/Quotation.php 38
+ERROR - 2024-04-29 07:43:16 --> Query error: Column 'quote_notes' cannot be null - Invalid query: INSERT INTO `tbl_quotation` (`reference_no`, `customer_id`, `cust_ref_no`, `qauote_date`, `quote_notes`, `quote_terms`, `is_active`, `modified_on`, `created_on`) VALUES ('FA/QUO/0001/2024', '1', 'BY MAIL/WHATSAPP', '2024-04-29', NULL, NULL, 1, '2024-04-29 07:43:16', '2024-04-29 07:43:16')
+ERROR - 2024-04-29 07:43:34 --> Query error: Column 'quote_notes' cannot be null - Invalid query: INSERT INTO `tbl_quotation` (`reference_no`, `customer_id`, `cust_ref_no`, `qauote_date`, `quote_notes`, `quote_terms`, `is_active`, `modified_on`, `created_on`) VALUES ('FA/QUO/0001/2024', '1', 'BY MAIL/WHATSAPP', '2024-04-29', NULL, NULL, 1, '2024-04-29 07:43:34', '2024-04-29 07:43:34')
+ERROR - 2024-04-29 07:44:41 --> Severity: error --> Exception: count(): Argument #1 ($value) must be of type Countable|array, null given /home3/riyominfotech/public_html/crm/admin/application/controllers/Quotation.php 128
+ERROR - 2024-04-29 07:45:58 --> Severity: error --> Exception: Cannot use object of type stdClass as array /home3/riyominfotech/public_html/crm/admin/application/controllers/Quotation.php 34
+ERROR - 2024-04-29 07:46:08 --> Severity: error --> Exception: Cannot use object of type stdClass as array /home3/riyominfotech/public_html/crm/admin/application/controllers/Quotation.php 34
+ERROR - 2024-04-29 07:49:14 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/crm/admin/application/controllers/Quotation.php 136
+ERROR - 2024-04-29 07:49:14 --> Query error: Column 'amount' cannot be null - Invalid query: INSERT INTO `tbl_quote_product` (`quote_id`, `product_id`, `qty`, `unit`, `basic_rate`, `gst`, `amount`) VALUES (2, '1', '1', '0', '100.00', '18.00', NULL)
+ERROR - 2024-04-29 07:49:14 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-04-29 07:49:24 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/crm/admin/application/controllers/Quotation.php 136
+ERROR - 2024-04-29 07:49:24 --> Query error: Column 'amount' cannot be null - Invalid query: INSERT INTO `tbl_quote_product` (`quote_id`, `product_id`, `qty`, `unit`, `basic_rate`, `gst`, `amount`) VALUES (3, '1', '1', '0', '100.00', '18.00', NULL)
+ERROR - 2024-04-29 07:49:24 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-04-29 07:53:27 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/crm/admin/application/controllers/Quotation.php 135
+ERROR - 2024-04-29 07:53:27 --> Query error: Column 'amount' cannot be null - Invalid query: INSERT INTO `tbl_quote_product` (`quote_id`, `product_id`, `qty`, `unit`, `basic_rate`, `gst`, `amount`) VALUES (6, '1', '2', '0', '100.00', '18.00', NULL)
+ERROR - 2024-04-29 07:53:27 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-04-29 08:01:42 --> Query error: Unknown column 'customer_name' in 'field list' - Invalid query: SELECT `quotation_id`, `qauote_date`, `reference_no`, `customer_name`, `cust_ref_no`
+FROM `tbl_quotation` `q`
+LEFT JOIN `tbl_customer` `c` ON `c`.`company_id` = `q`.`company_id`
+ORDER BY `quotation_id` ASC, `qauote_date` ASC
+ LIMIT 10
+ERROR - 2024-04-29 08:01:51 --> Query error: Unknown column 'customer_name' in 'field list' - Invalid query: SELECT `quotation_id`, `qauote_date`, `reference_no`, `customer_name`, `cust_ref_no`
+FROM `tbl_quotation` `q`
+LEFT JOIN `tbl_customer` `c` ON `c`.`company_id` = `q`.`company_id`
+ORDER BY `quotation_id` ASC, `qauote_date` ASC
+ LIMIT 10
+ERROR - 2024-04-29 08:02:15 --> Query error: Unknown column 'q.company_id' in 'on clause' - Invalid query: SELECT `quotation_id`, `qauote_date`, `reference_no`, `company_name`, `cust_ref_no`
+FROM `tbl_quotation` `q`
+LEFT JOIN `tbl_customer` `c` ON `c`.`company_id` = `q`.`company_id`
+ORDER BY `quotation_id` ASC, `qauote_date` ASC
+ LIMIT 10
+ERROR - 2024-04-29 10:12:03 --> Severity: Warning --> Undefined property: stdClass::$product_image /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 16
+ERROR - 2024-04-29 10:12:03 --> Severity: Warning --> Undefined property: stdClass::$brand /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 106
+ERROR - 2024-04-29 10:12:27 --> Severity: Warning --> Undefined property: stdClass::$brand /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 106
+ERROR - 2024-04-29 10:21:45 --> Severity: error --> Exception: Unclosed '{' on line 143 /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 234
+ERROR - 2024-04-29 10:22:31 --> Severity: error --> Exception: Cannot use object of type stdClass as array /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 117
+ERROR - 2024-04-29 10:25:36 --> Severity: error --> Exception: syntax error, unexpected token "<", expecting ")" /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 110
+ERROR - 2024-04-29 10:30:20 --> Severity: Warning --> Undefined property: stdClass::$rate /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 132
+ERROR - 2024-04-29 10:30:20 --> Severity: Warning --> Undefined property: stdClass::$rate /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 132

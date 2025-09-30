@@ -1,0 +1,2 @@
+ERROR - 2025-08-05 06:03:25 --> Severity: Warning --> Undefined variable $districts /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/users/form.php 114
+ERROR - 2025-08-05 19:06:45 --> 404 Page Not Found: Robotstxt/index

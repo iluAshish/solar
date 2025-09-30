@@ -1,0 +1,28 @@
+ERROR - 2018-12-14 20:10:51 --> Severity: Notice --> Undefined variable: PrimaryKey D:\Projects\parth\news_portal\admin\application\controllers\Category.php 36
+ERROR - 2018-12-14 20:10:51 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '1'' at line 3 - Invalid query: SELECT *
+FROM `category`
+WHERE  = '1'
+ERROR - 2018-12-14 20:10:56 --> Severity: Notice --> Undefined variable: PrimaryKey D:\Projects\parth\news_portal\admin\application\controllers\Category.php 36
+ERROR - 2018-12-14 20:10:56 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '1'' at line 3 - Invalid query: SELECT *
+FROM `category`
+WHERE  = '1'
+ERROR - 2018-12-14 20:11:36 --> Severity: Notice --> Undefined variable: PrimaryKey D:\Projects\parth\news_portal\admin\application\controllers\Category.php 36
+ERROR - 2018-12-14 20:11:36 --> Severity: Error --> Cannot access empty property D:\Projects\parth\news_portal\admin\application\controllers\Category.php 36
+ERROR - 2018-12-14 20:11:51 --> Severity: Notice --> Undefined variable: PrimaryKey D:\Projects\parth\news_portal\admin\application\views\category\form.php 4
+ERROR - 2018-12-14 20:11:51 --> Severity: Error --> Cannot access empty property D:\Projects\parth\news_portal\admin\application\views\category\form.php 4
+ERROR - 2018-12-14 20:12:24 --> Severity: 4096 --> Object of class CI_Loader could not be converted to string D:\Projects\parth\news_portal\admin\application\views\category\form.php 4
+ERROR - 2018-12-14 20:12:24 --> Severity: Notice --> Object of class CI_Loader to string conversion D:\Projects\parth\news_portal\admin\application\views\category\form.php 4
+ERROR - 2018-12-14 20:12:24 --> Severity: Notice --> Undefined property: stdClass::$Object D:\Projects\parth\news_portal\admin\application\views\category\form.php 4
+ERROR - 2018-12-14 20:12:24 --> Severity: Notice --> Trying to get property of non-object D:\Projects\parth\news_portal\admin\application\views\category\form.php 4
+ERROR - 2018-12-14 20:12:24 --> Severity: 4096 --> Object of class CI_Loader could not be converted to string D:\Projects\parth\news_portal\admin\application\views\category\form.php 32
+ERROR - 2018-12-14 20:12:24 --> Severity: Notice --> Object of class CI_Loader to string conversion D:\Projects\parth\news_portal\admin\application\views\category\form.php 32
+ERROR - 2018-12-14 20:12:24 --> Severity: Notice --> Undefined property: stdClass::$Object D:\Projects\parth\news_portal\admin\application\views\category\form.php 32
+ERROR - 2018-12-14 20:12:24 --> Severity: Notice --> Trying to get property of non-object D:\Projects\parth\news_portal\admin\application\views\category\form.php 32
+ERROR - 2018-12-14 20:13:26 --> Severity: 4096 --> Object of class CI_Loader could not be converted to string D:\Projects\parth\news_portal\admin\application\views\category\form.php 6
+ERROR - 2018-12-14 20:13:26 --> Severity: Notice --> Object of class CI_Loader to string conversion D:\Projects\parth\news_portal\admin\application\views\category\form.php 6
+ERROR - 2018-12-14 20:13:26 --> Severity: Notice --> Undefined property: stdClass::$Object D:\Projects\parth\news_portal\admin\application\views\category\form.php 6
+ERROR - 2018-12-14 20:13:26 --> Severity: Notice --> Trying to get property of non-object D:\Projects\parth\news_portal\admin\application\views\category\form.php 6
+ERROR - 2018-12-14 20:13:26 --> Severity: 4096 --> Object of class CI_Loader could not be converted to string D:\Projects\parth\news_portal\admin\application\views\category\form.php 33
+ERROR - 2018-12-14 20:13:26 --> Severity: Notice --> Object of class CI_Loader to string conversion D:\Projects\parth\news_portal\admin\application\views\category\form.php 33
+ERROR - 2018-12-14 20:13:26 --> Severity: Notice --> Undefined property: stdClass::$Object D:\Projects\parth\news_portal\admin\application\views\category\form.php 33
+ERROR - 2018-12-14 20:13:26 --> Severity: Notice --> Trying to get property of non-object D:\Projects\parth\news_portal\admin\application\views\category\form.php 33

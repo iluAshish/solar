@@ -1,0 +1,33 @@
+ERROR - 2024-04-19 00:28:45 --> 404 Page Not Found: Undefined/edit
+ERROR - 2024-04-19 01:17:46 --> 404 Page Not Found: Remove/undefined
+ERROR - 2024-04-19 01:18:39 --> 404 Page Not Found: Remove/brand
+ERROR - 2024-04-19 02:44:00 --> Severity: 8192 --> strcspn(): Passing null to parameter #1 ($string) of type string is deprecated /home3/riyominfotech/public_html/crm/system/database/DB_driver.php 1848
+ERROR - 2024-04-19 02:44:00 --> Severity: 8192 --> strlen(): Passing null to parameter #1 ($string) of type string is deprecated /home3/riyominfotech/public_html/crm/system/database/DB_driver.php 1848
+ERROR - 2024-04-19 02:44:00 --> Severity: 8192 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated /home3/riyominfotech/public_html/crm/system/database/DB_driver.php 1854
+ERROR - 2024-04-19 02:44:00 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE  = '1'' at line 2 - Invalid query: DELETE FROM 
+WHERE  = '1'
+ERROR - 2024-04-19 02:44:00 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-04-19 07:50:59 --> Severity: error --> Exception: Undefined constant "PRODUCT" /home3/riyominfotech/public_html/crm/admin/application/controllers/Product.php 99
+ERROR - 2024-04-19 07:52:12 --> Severity: error --> Exception: Undefined constant "PRODUCT" /home3/riyominfotech/public_html/crm/admin/application/controllers/Product.php 99
+ERROR - 2024-04-19 08:13:13 --> Query error: Unknown column 'brand_id' in 'field list' - Invalid query: INSERT INTO `tbl_product` (`brand_id`, `product_name`, `product_type`, `product_size`, `hsn_code`, `gst`, `description`, `status`, `Image`, `CreatedBy`, `CreatedOn`) VALUES ('2', 'test', 'test', '20', '20', '18', 'test', 1, 'e04a2cc89460dad0bfafe9a043501104.jpg', 'admin', '2024-04-19 08:13:13')
+ERROR - 2024-04-19 08:14:08 --> Query error: Unknown column 'description' in 'field list' - Invalid query: INSERT INTO `tbl_product` (`brand`, `product_name`, `product_type`, `product_size`, `hsn_code`, `gst`, `description`, `status`, `Image`, `modified_on`, `created_on`) VALUES ('2', 'test', 'test', '20', '20', '18', 'test', 1, 'c6a64059e4785fad6ca49c31964623a1.jpg', '2024-04-19 08:14:08', '2024-04-19 08:14:08')
+ERROR - 2024-04-19 08:14:43 --> Query error: Unknown column 'Image' in 'field list' - Invalid query: INSERT INTO `tbl_product` (`brand`, `product_name`, `product_type`, `product_size`, `hsn_code`, `gst`, `description`, `status`, `Image`, `modified_on`, `created_on`) VALUES ('2', 'test', 'test', '20', '20', '18', 'test', 1, 'dd5bd94bfceaefa5662d0311f416d874.jpg', '2024-04-19 08:14:43', '2024-04-19 08:14:43')
+ERROR - 2024-04-19 08:15:07 --> Query error: Unknown column 'modified_on' in 'field list' - Invalid query: INSERT INTO `tbl_product` (`brand`, `product_name`, `product_type`, `product_size`, `hsn_code`, `gst`, `description`, `status`, `product_image`, `modified_on`, `created_on`) VALUES ('2', 'test', 'test', '20', '20', '18', 'test', 1, 'b0aa53956af56a6e9dbb8b11e399bce0.jpg', '2024-04-19 08:15:07', '2024-04-19 08:15:07')
+ERROR - 2024-04-19 08:38:34 --> Severity: error --> Exception: Too few arguments to function active_row(), 1 passed in /home3/riyominfotech/public_html/crm/admin/application/controllers/Product.php on line 186 and exactly 4 expected /home3/riyominfotech/public_html/crm/admin/application/helpers/custom_helper.php 96
+ERROR - 2024-04-19 08:48:18 --> Severity: error --> Exception: Too few arguments to function active_row(), 3 passed in /home3/riyominfotech/public_html/crm/admin/application/libraries/Datatables.php on line 471 and exactly 4 expected /home3/riyominfotech/public_html/crm/admin/application/helpers/custom_helper.php 96
+ERROR - 2024-04-19 09:09:23 --> Severity: Warning --> Undefined variable $column /home3/riyominfotech/public_html/crm/admin/application/helpers/custom_helper.php 100
+ERROR - 2024-04-19 10:20:09 --> Query error: Table 'riyominf_crm.tbl_productp' doesn't exist - Invalid query: SELECT `product_id`, `product_name`, `product_type`, `product_size`, `brand_name`, `hsn_code`, `gst`
+FROM `tbl_productp`
+LEFT JOIN `tbl_brand_master` `b` ON `b`.`brand_id` = `p`.`brand`
+ORDER BY `product_id` ASC, `product_name` ASC
+ LIMIT 10
+ERROR - 2024-04-19 10:20:17 --> Query error: Table 'riyominf_crm.tbl_productp' doesn't exist - Invalid query: SELECT `product_id`, `product_name`, `product_type`, `product_size`, `brand_name`, `hsn_code`, `gst`
+FROM `tbl_productp`
+LEFT JOIN `tbl_brand_master` `b` ON `b`.`brand_id` = `p`.`brand`
+ORDER BY `product_id` ASC, `product_name` ASC
+ LIMIT 10
+ERROR - 2024-04-19 12:04:18 --> 404 Page Not Found: Auth/assets
+ERROR - 2024-04-19 12:04:18 --> 404 Page Not Found: Auth/assets
+ERROR - 2024-04-19 12:04:53 --> 404 Page Not Found: Dashboard_crm/index
+ERROR - 2024-04-19 12:05:39 --> 404 Page Not Found: Product/product
+ERROR - 2024-04-19 12:05:41 --> 404 Page Not Found: Product/product

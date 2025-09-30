@@ -1,0 +1,51 @@
+ERROR - 2025-02-22 00:02:09 --> Query error: Unknown column 'status' in 'field list' - Invalid query: SELECT `status`
+FROM `tbl_states`
+WHERE `id` = '4077'
+ERROR - 2025-02-22 00:02:11 --> Query error: Unknown column 'status' in 'field list' - Invalid query: SELECT `status`
+FROM `tbl_states`
+WHERE `id` = '4077'
+ERROR - 2025-02-22 04:49:40 --> Query error: Column 'id' in field list is ambiguous - Invalid query: SELECT `id`, `s`.`name`, `name`, `short_name`, `rto_code`
+FROM `tbl_districts` `d`
+LEFT JOIN `tbl_states` `s` ON `s`.`id` = `d`.`state_id`
+ORDER BY `s`.`name` ASC
+ LIMIT 10
+ERROR - 2025-02-22 04:50:25 --> Query error: Column 'id' in field list is ambiguous - Invalid query: SELECT `id`, `s`.`name`, `name`, `short_name`, `rto_code`
+FROM `tbl_districts` `d`
+LEFT JOIN `tbl_states` `s` ON `s`.`id` = `d`.`state_id`
+ORDER BY `s`.`name` ASC
+ LIMIT 10
+ERROR - 2025-02-22 04:51:30 --> Query error: Column 'name' in field list is ambiguous - Invalid query: SELECT `d`.`id`, `s`.`name`, `name`, `short_name`, `rto_code`
+FROM `tbl_districts` `d`
+LEFT JOIN `tbl_states` `s` ON `s`.`id` = `d`.`state_id`
+ORDER BY `s`.`name` ASC
+ LIMIT 10
+ERROR - 2025-02-22 04:55:03 --> Severity: Warning --> Undefined array key "district_name" /home3/riyominfotech/public_html/solar/admin/application/controllers/Districts.php 74
+ERROR - 2025-02-22 04:55:03 --> Severity: 8192 --> preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated /home3/riyominfotech/public_html/solar/admin/application/models/Common.php 189
+ERROR - 2025-02-22 04:55:03 --> Query error: Unknown column 'district_name' in 'field list' - Invalid query: SELECT `district_name`
+FROM `tbl_districts`
+WHERE `district_name` = ''
+ERROR - 2025-02-22 04:55:03 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-02-22 04:55:17 --> Severity: Warning --> Undefined array key "district_name" /home3/riyominfotech/public_html/solar/admin/application/controllers/Districts.php 74
+ERROR - 2025-02-22 04:55:17 --> Severity: 8192 --> preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated /home3/riyominfotech/public_html/solar/admin/application/models/Common.php 189
+ERROR - 2025-02-22 04:55:17 --> Query error: Unknown column 'district_name' in 'field list' - Invalid query: SELECT `district_name`
+FROM `tbl_districts`
+WHERE `district_name` = ''
+ERROR - 2025-02-22 04:55:17 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-02-22 04:55:53 --> Query error: Unknown column 'district_name' in 'field list' - Invalid query: SELECT `district_name`
+FROM `tbl_districts`
+WHERE `district_name` = 'rajkot'
+ERROR - 2025-02-22 04:56:21 --> Query error: Unknown column 'created_at' in 'field list' - Invalid query: INSERT INTO `tbl_districts` (`name`, `short_name`, `rto_code`, `state_id`, `created_at`) VALUES ('Rajkot', 'RJ', '03', '12', '2025-02-22 04:56:21')
+ERROR - 2025-02-22 05:00:32 --> Severity: Warning --> Undefined property: Districts::$datatable /home3/riyominfotech/public_html/solar/admin/application/controllers/Districts.php 138
+ERROR - 2025-02-22 05:00:32 --> Severity: error --> Exception: Call to a member function last_query() on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Districts.php 138
+ERROR - 2025-02-22 05:00:32 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/admin/application/controllers/Districts.php:137) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-02-22 05:01:08 --> Severity: error --> Exception: Call to undefined method Datatables::last_query() /home3/riyominfotech/public_html/solar/admin/application/controllers/Districts.php 138
+ERROR - 2025-02-22 05:01:08 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/admin/application/controllers/Districts.php:137) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-02-22 05:02:06 --> Severity: error --> Exception: Call to undefined method Datatables::last_query() /home3/riyominfotech/public_html/solar/admin/application/controllers/Districts.php 137
+ERROR - 2025-02-22 05:02:46 --> Severity: error --> Exception: Call to undefined method Datatables::last_query() /home3/riyominfotech/public_html/solar/admin/application/controllers/Districts.php 138
+ERROR - 2025-02-22 05:16:44 --> Severity: error --> Exception: Undefined constant "TBL_DISTRICTS" /home3/riyominfotech/public_html/solar/admin/application/controllers/Franchisee.php 50
+ERROR - 2025-02-22 05:17:11 --> Severity: error --> Exception: Undefined constant "TBL_DISTRICTS" /home3/riyominfotech/public_html/solar/admin/application/controllers/Franchisee.php 50
+ERROR - 2025-02-22 05:18:13 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 112
+ERROR - 2025-02-22 05:18:41 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 112
+ERROR - 2025-02-22 06:42:47 --> Severity: Warning --> Undefined variable $data /home3/riyominfotech/public_html/solar/admin/application/controllers/Franchisee.php 102
+ERROR - 2025-02-22 06:42:47 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Franchisee.php 102
+ERROR - 2025-02-22 06:42:47 --> Severity: Warning --> Attempt to read property "franchisee_code" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Franchisee.php 102

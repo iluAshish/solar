@@ -1,0 +1,33 @@
+ERROR - 2025-06-11 01:39:54 --> Severity: Warning --> Undefined variable $user_id /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 33
+ERROR - 2025-06-11 01:39:54 --> Severity: Warning --> Attempt to read property "reference_no" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 40
+ERROR - 2025-06-11 01:39:54 --> Severity: Warning --> Attempt to read property "quote_notes" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 43
+ERROR - 2025-06-11 01:39:54 --> Severity: Warning --> Attempt to read property "quote_notes" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 45
+ERROR - 2025-06-11 01:39:54 --> Severity: Warning --> Attempt to read property "quote_notes" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 46
+ERROR - 2025-06-11 01:39:54 --> Severity: Warning --> Attempt to read property "quote_notes" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 47
+ERROR - 2025-06-11 01:39:54 --> Severity: Warning --> Attempt to read property "quote_notes" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 48
+ERROR - 2025-06-11 01:41:29 --> Severity: Warning --> Attempt to read property "reference_no" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 41
+ERROR - 2025-06-11 01:41:29 --> Severity: Warning --> Attempt to read property "quote_notes" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 44
+ERROR - 2025-06-11 01:41:29 --> Severity: Warning --> Attempt to read property "client_name" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 47
+ERROR - 2025-06-11 01:41:29 --> Severity: Warning --> Attempt to read property "client_email" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 48
+ERROR - 2025-06-11 01:41:29 --> Severity: Warning --> Attempt to read property "phone" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 49
+ERROR - 2025-06-11 01:48:04 --> Query error: Unknown column 'cl.q' in 'field list' - Invalid query: SELECT `q`.*, `cl`.`q`
+FROM `tbl_quotation` `q`
+LEFT JOIN `tbl_franchisee_client` `cl` ON `cl`.`id`=`q`.`client_id`
+WHERE `user_id` = "1"
+AND `id` = '1'
+ERROR - 2025-06-11 01:49:05 --> Query error: Column 'user_id' in where clause is ambiguous - Invalid query: SELECT `q`.*, `cl`.*
+FROM `tbl_quotation` `q`
+LEFT JOIN `tbl_franchisee_client` `cl` ON `cl`.`id`=`q`.`client_id`
+WHERE `user_id` = "1"
+AND `id` = '1'
+ERROR - 2025-06-11 01:49:41 --> Query error: Column 'user_id' in where clause is ambiguous - Invalid query: SELECT `q`.*, `cl`.*
+FROM `tbl_quotation` `q`
+LEFT JOIN `tbl_franchisee_client` `cl` ON `cl`.`id`=`q`.`client_id`
+WHERE `user_id` = "1"
+AND `id` = '1'
+ERROR - 2025-06-11 01:49:58 --> Query error: Column 'id' in where clause is ambiguous - Invalid query: SELECT `q`.*, `cl`.*
+FROM `tbl_quotation` `q`
+LEFT JOIN `tbl_franchisee_client` `cl` ON `cl`.`id`=`q`.`client_id`
+WHERE `q`.`user_id` = "1"
+AND `id` = '1'
+ERROR - 2025-06-11 07:51:46 --> Severity: error --> Exception: Too few arguments to function Payments::cfReturn(), 0 passed in /home3/riyominfotech/public_html/solar/system/core/CodeIgniter.php on line 533 and exactly 1 expected /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 71

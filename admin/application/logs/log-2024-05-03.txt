@@ -1,0 +1,5 @@
+ERROR - 2024-05-03 00:34:06 --> Query error: Unknown column 'qauote_date' in 'field list' - Invalid query: SELECT `invoice_id`, `qauote_date`, `reference_no`, `company_name`, `cust_ref_no`
+FROM `tbl_invoice` `q`
+LEFT JOIN `tbl_customer` `c` ON `c`.`company_id` = `q`.`customer_id`
+ORDER BY `invoice_id` ASC, `qauote_date` ASC
+ LIMIT 10

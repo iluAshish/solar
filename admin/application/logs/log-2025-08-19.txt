@@ -1,0 +1,2 @@
+ERROR - 2025-08-19 11:42:30 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-08-19 16:28:13 --> 404 Page Not Found: Wp_content/plugins

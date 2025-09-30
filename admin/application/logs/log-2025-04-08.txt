@@ -1,0 +1,24 @@
+ERROR - 2025-04-08 01:39:02 --> Query error: Unknown column 'admin@admin.com' in 'where clause' - Invalid query: SELECT *
+FROM `tbl_users`
+WHERE (LOWER(username) = `admin@admin`.`com` or LOWER(email) = `admin@admin`.`com` and `role` = `Admin`)
+ERROR - 2025-04-08 01:42:03 --> Severity: Warning --> Undefined variable $districts /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 112
+ERROR - 2025-04-08 02:07:31 --> 404 Page Not Found: Franchisee/index
+ERROR - 2025-04-08 02:07:39 --> Severity: error --> Exception: Class Users already exists and doesn't extend CI_Model /home3/riyominfotech/public_html/solar/system/core/Loader.php 355
+ERROR - 2025-04-08 02:09:07 --> 404 Page Not Found: Users/index
+ERROR - 2025-04-08 02:09:23 --> 404 Page Not Found: Franchisee/manage
+ERROR - 2025-04-08 02:11:46 --> Severity: Warning --> Undefined variable $districts /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 114
+ERROR - 2025-04-08 04:13:06 --> Severity: Warning --> Undefined variable $districts /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 114
+ERROR - 2025-04-08 04:13:39 --> 404 Page Not Found: Franchisee/get_city
+ERROR - 2025-04-08 04:14:07 --> 404 Page Not Found: Franchisee/get_city
+ERROR - 2025-04-08 04:15:01 --> Severity: Warning --> Undefined variable $districts /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 114
+ERROR - 2025-04-08 04:15:41 --> 404 Page Not Found: User/get_city
+ERROR - 2025-04-08 04:17:02 --> Severity: Warning --> Undefined variable $districts /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 114
+ERROR - 2025-04-08 04:18:47 --> 404 Page Not Found: Franchisee/submit_form
+ERROR - 2025-04-08 04:19:42 --> Severity: Warning --> Undefined variable $districts /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 114
+ERROR - 2025-04-08 04:21:42 --> Severity: Warning --> Undefined variable $user_code /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php 587
+ERROR - 2025-04-08 04:22:10 --> Severity: Warning --> Undefined variable $data /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php 575
+ERROR - 2025-04-08 04:22:10 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php 575
+ERROR - 2025-04-08 04:22:10 --> Severity: Warning --> Attempt to read property "franchisee_code" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php 575
+ERROR - 2025-04-08 04:24:00 --> Severity: Warning --> Undefined variable $data /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php 584
+ERROR - 2025-04-08 04:24:00 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php 584
+ERROR - 2025-04-08 04:24:00 --> Severity: Warning --> Attempt to read property "franchisee_code" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php 584

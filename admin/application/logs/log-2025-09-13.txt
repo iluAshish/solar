@@ -1,0 +1,8 @@
+ERROR - 2025-09-13 00:04:16 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-09-13 11:37:13 --> 404 Page Not Found: Apple_touch_icon_precomposedpng/index
+ERROR - 2025-09-13 11:37:13 --> 404 Page Not Found: Apple_touch_iconpng/index
+ERROR - 2025-09-13 12:19:47 --> 404 Page Not Found: Xmlrpcphp/index
+ERROR - 2025-09-13 12:19:48 --> 404 Page Not Found: Blog/robots.txt
+ERROR - 2025-09-13 12:19:48 --> 404 Page Not Found: Blog/index
+ERROR - 2025-09-13 12:19:48 --> 404 Page Not Found: Wordpress/index
+ERROR - 2025-09-13 12:19:48 --> 404 Page Not Found: Wp/index

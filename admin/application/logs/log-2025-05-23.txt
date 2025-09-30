@@ -1,0 +1,5 @@
+ERROR - 2025-05-23 23:31:21 --> 404 Page Not Found: Invoice/create
+ERROR - 2025-05-23 23:34:28 --> Query error: Unknown column 'p.product_name' in 'field list' - Invalid query: SELECT `qp`.*, `p`.`product_name`
+FROM `tbl_quote_projects` `qp`
+LEFT JOIN `tbl_solar_project` `p` ON `p`.`id`=`qp`.`project_id`
+WHERE `quote_id` = "1"

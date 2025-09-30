@@ -1,0 +1,12 @@
+ERROR - 2025-08-11 01:03:13 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-08-11 01:44:59 --> Severity: Warning --> Undefined variable $districts /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/users/form.php 114
+ERROR - 2025-08-11 01:47:23 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/partials/menu.php 482
+ERROR - 2025-08-11 01:47:48 --> 404 Page Not Found: User/user
+ERROR - 2025-08-11 01:47:56 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/partials/menu.php 482
+ERROR - 2025-08-11 01:48:15 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/partials/menu.php 482
+ERROR - 2025-08-11 01:48:44 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-11 01:48:44 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-11 01:48:44 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-11 06:57:36 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-08-11 11:49:32 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-08-11 13:21:43 --> 404 Page Not Found: Robotstxt/index

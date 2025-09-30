@@ -1,0 +1,6 @@
+ERROR - 2022-03-14 05:40:23 --> Severity: Notice --> Undefined variable: site_name /home1/cliendri/public_html/projects/lapmo/admin/application/views/email/confirmation-txt.php 1
+ERROR - 2022-03-14 05:40:23 --> Severity: Notice --> Undefined variable: site_name /home1/cliendri/public_html/projects/lapmo/admin/application/views/email/confirmation-txt.php 3
+ERROR - 2022-03-14 05:40:23 --> Severity: Notice --> Undefined variable: site_name /home1/cliendri/public_html/projects/lapmo/admin/application/views/email/confirmation-txt.php 20
+ERROR - 2022-03-14 12:11:20 --> Severity: Notice --> Undefined variable: site_name /home1/cliendri/public_html/projects/lapmo/admin/application/views/email/confirmation-txt.php 1
+ERROR - 2022-03-14 12:11:20 --> Severity: Notice --> Undefined variable: site_name /home1/cliendri/public_html/projects/lapmo/admin/application/views/email/confirmation-txt.php 3
+ERROR - 2022-03-14 12:11:20 --> Severity: Notice --> Undefined variable: site_name /home1/cliendri/public_html/projects/lapmo/admin/application/views/email/confirmation-txt.php 20

@@ -1,0 +1,40 @@
+ERROR - 2024-04-26 00:07:12 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:07:12 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:07:13 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:12:44 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:12:44 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:13:07 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:13:07 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:13:07 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:14:39 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:14:39 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:14:40 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:16:41 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:16:41 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:16:41 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:17:47 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:17:47 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:17:47 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:18:08 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:18:08 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:18:08 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:20:53 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:20:53 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:20:53 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:22:07 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:22:07 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:22:07 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:22:25 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:22:26 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:22:26 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:25:32 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:25:32 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:25:32 --> 404 Page Not Found: Quotation/assets
+ERROR - 2024-04-26 00:37:36 --> 404 Page Not Found: Assets/libs
+ERROR - 2024-04-26 00:38:26 --> 404 Page Not Found: Assets/libs
+ERROR - 2024-04-26 00:39:19 --> 404 Page Not Found: Assets/libs
+ERROR - 2024-04-26 00:40:01 --> 404 Page Not Found: Assets/libs
+ERROR - 2024-04-26 01:00:35 --> Severity: Warning --> Array to string conversion /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 21
+ERROR - 2024-04-26 01:10:00 --> Severity: Warning --> Array to string conversion /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 21
+ERROR - 2024-04-26 01:12:41 --> Severity: Warning --> Array to string conversion /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 21
+ERROR - 2024-04-26 09:23:05 --> Severity: Warning --> Undefined property: stdClass::$product_image /home3/riyominfotech/public_html/crm/admin/application/views/settings/index.php 3

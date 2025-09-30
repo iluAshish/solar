@@ -1,0 +1,11 @@
+ERROR - 2025-07-28 02:17:30 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-07-28 21:02:55 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-07-28 23:47:22 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/partials/menu.php 450
+ERROR - 2025-07-28 23:47:30 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/partials/menu.php 450
+ERROR - 2025-07-28 23:48:12 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/partials/menu.php 450
+ERROR - 2025-07-28 23:49:52 --> Severity: Warning --> Undefined property: stdClass::$role /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/users/roles.php 53
+ERROR - 2025-07-28 23:49:52 --> Severity: Warning --> Undefined property: stdClass::$role /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/users/roles.php 53
+ERROR - 2025-07-28 23:49:52 --> Severity: Warning --> Undefined property: stdClass::$role /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/users/roles.php 53
+ERROR - 2025-07-28 23:49:52 --> Severity: Warning --> Undefined property: stdClass::$role /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/users/roles.php 53
+ERROR - 2025-07-28 23:49:52 --> Severity: Warning --> Undefined property: stdClass::$role /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/users/roles.php 53
+ERROR - 2025-07-28 23:49:52 --> Severity: Warning --> Undefined property: stdClass::$role /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/users/roles.php 53

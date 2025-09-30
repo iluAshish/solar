@@ -1,0 +1,20 @@
+ERROR - 2024-07-14 06:57:58 --> Severity: Warning --> Undefined variable $site_name /home3/riyominfotech/public_html/crm/admin/application/views/email/confirmation-txt.php 1
+ERROR - 2024-07-14 06:57:58 --> Severity: Warning --> Undefined variable $site_name /home3/riyominfotech/public_html/crm/admin/application/views/email/confirmation-txt.php 3
+ERROR - 2024-07-14 06:57:58 --> Severity: Warning --> Undefined variable $site_name /home3/riyominfotech/public_html/crm/admin/application/views/email/confirmation-txt.php 20
+ERROR - 2024-07-14 07:04:40 --> Severity: Warning --> Undefined property: User::$phpmailer_library /home3/riyominfotech/public_html/crm/admin/application/controllers/User.php 188
+ERROR - 2024-07-14 07:04:40 --> Severity: error --> Exception: Call to a member function load() on null /home3/riyominfotech/public_html/crm/admin/application/controllers/User.php 188
+ERROR - 2024-07-14 07:04:40 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-07-14 07:05:22 --> Severity: Warning --> Undefined property: User::$phpmailer_library /home3/riyominfotech/public_html/crm/admin/application/controllers/User.php 188
+ERROR - 2024-07-14 07:05:22 --> Severity: error --> Exception: Call to a member function load() on null /home3/riyominfotech/public_html/crm/admin/application/controllers/User.php 188
+ERROR - 2024-07-14 07:05:22 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-07-14 07:09:16 --> Severity: 8192 --> Creation of dynamic property Phpmailer_library::$CharSet is deprecated /home3/riyominfotech/public_html/crm/admin/application/controllers/User.php 190
+ERROR - 2024-07-14 07:09:16 --> Severity: error --> Exception: Call to undefined method Phpmailer_library::SetFrom() /home3/riyominfotech/public_html/crm/admin/application/controllers/User.php 191
+ERROR - 2024-07-14 07:09:16 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-07-14 07:09:47 --> Severity: error --> Exception: Call to undefined method Phpmailer_library::SetFrom() /home3/riyominfotech/public_html/crm/admin/application/controllers/User.php 191
+ERROR - 2024-07-14 07:15:09 --> Severity: Warning --> Undefined variable $site_name /home3/riyominfotech/public_html/crm/admin/application/views/email/confirmation-txt.php 1
+ERROR - 2024-07-14 07:15:09 --> Severity: Warning --> Undefined variable $site_name /home3/riyominfotech/public_html/crm/admin/application/views/email/confirmation-txt.php 3
+ERROR - 2024-07-14 07:15:09 --> Severity: Warning --> Undefined variable $site_name /home3/riyominfotech/public_html/crm/admin/application/views/email/confirmation-txt.php 20
+ERROR - 2024-07-14 07:44:12 --> 404 Page Not Found: Report/index
+ERROR - 2024-07-14 07:53:40 --> 404 Page Not Found: Product/sent_mail
+ERROR - 2024-07-14 07:53:44 --> 404 Page Not Found: Product/sent_mail
+ERROR - 2024-07-14 07:54:40 --> 404 Page Not Found: Mail_settings/index

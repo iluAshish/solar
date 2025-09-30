@@ -1,0 +1,26 @@
+ERROR - 2025-04-22 01:20:01 --> Severity: Warning --> Undefined variable $districts /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 114
+ERROR - 2025-04-22 01:20:32 --> Severity: error --> Exception: Cannot use object of type stdClass as array /home3/riyominfotech/public_html/solar/admin/application/views/users/roles.php 53
+ERROR - 2025-04-22 01:24:14 --> 404 Page Not Found: User/user
+ERROR - 2025-04-22 03:00:03 --> Severity: Warning --> Undefined variable $role_id /home3/riyominfotech/public_html/solar/admin/application/views/users/permission.php 24
+ERROR - 2025-04-22 03:01:56 --> Query error: Unknown column 'role_id' in 'where clause' - Invalid query: SELECT *
+FROM `tbl_user_permission`
+WHERE `role_id` = '1'
+ERROR - 2025-04-22 03:32:10 --> Severity: Warning --> Undefined array key 3 /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php 188
+ERROR - 2025-04-22 03:32:10 --> Severity: Warning --> Undefined array key 3 /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php 189
+ERROR - 2025-04-22 03:32:10 --> Severity: Warning --> Undefined array key 3 /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php 190
+ERROR - 2025-04-22 03:32:10 --> Query error: Column 'is_add' cannot be null - Invalid query: INSERT INTO `tbl_user_permission` (`role_id`, `module_name`, `is_view`, `is_add`, `is_edit`, `is_delete`) VALUES ('3', 'category', '1', NULL, NULL, NULL)
+ERROR - 2025-04-22 03:32:10 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-04-22 03:44:17 --> Severity: Warning --> Undefined property: stdClass::$is_update /home3/riyominfotech/public_html/solar/admin/application/views/users/permission.php 67
+ERROR - 2025-04-22 03:44:17 --> Severity: Warning --> Undefined property: stdClass::$is_update /home3/riyominfotech/public_html/solar/admin/application/views/users/permission.php 67
+ERROR - 2025-04-22 03:44:17 --> Severity: Warning --> Undefined property: stdClass::$is_update /home3/riyominfotech/public_html/solar/admin/application/views/users/permission.php 67
+ERROR - 2025-04-22 03:44:17 --> Severity: Warning --> Undefined property: stdClass::$is_update /home3/riyominfotech/public_html/solar/admin/application/views/users/permission.php 67
+ERROR - 2025-04-22 03:44:17 --> Severity: Warning --> Undefined property: stdClass::$is_update /home3/riyominfotech/public_html/solar/admin/application/views/users/permission.php 67
+ERROR - 2025-04-22 03:44:17 --> Severity: Warning --> Undefined property: stdClass::$is_update /home3/riyominfotech/public_html/solar/admin/application/views/users/permission.php 67
+ERROR - 2025-04-22 03:44:17 --> Severity: Warning --> Undefined property: stdClass::$is_update /home3/riyominfotech/public_html/solar/admin/application/views/users/permission.php 67
+ERROR - 2025-04-22 06:32:48 --> Severity: Warning --> Attempt to read property "is_view" on null /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 166
+ERROR - 2025-04-22 06:34:04 --> Severity: Warning --> Attempt to read property "is_view" on null /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 167
+ERROR - 2025-04-22 06:34:51 --> Severity: Warning --> Attempt to read property "is_view" on null /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 167
+ERROR - 2025-04-22 06:35:51 --> Severity: Warning --> Attempt to read property "is_view" on null /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 167
+ERROR - 2025-04-22 06:44:28 --> Severity: Warning --> Attempt to read property "is_view" on null /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 302
+ERROR - 2025-04-22 06:49:17 --> Severity: Warning --> Undefined variable $role_id /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php 20
+ERROR - 2025-04-22 06:49:17 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/helpers/url_helper.php 565

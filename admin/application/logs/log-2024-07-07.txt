@@ -1,0 +1,26 @@
+ERROR - 2024-07-07 02:35:25 --> 404 Page Not Found: Send_mail/index
+ERROR - 2024-07-07 02:35:34 --> 404 Page Not Found: Sendmail/index
+ERROR - 2024-07-07 02:35:38 --> 404 Page Not Found: SendMail/index
+ERROR - 2024-07-07 02:35:41 --> 404 Page Not Found: SendMail/index
+ERROR - 2024-07-07 02:35:59 --> Severity: Warning --> Undefined variable $companies /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 3
+ERROR - 2024-07-07 02:35:59 --> Severity: error --> Exception: Unsupported operand types: array + null /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 3
+ERROR - 2024-07-07 02:36:03 --> 404 Page Not Found: Sendmail/index
+ERROR - 2024-07-07 02:37:36 --> Severity: Warning --> Undefined variable $form_attr /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 24
+ERROR - 2024-07-07 02:37:36 --> Severity: Warning --> Undefined variable $companies /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 42
+ERROR - 2024-07-07 02:37:36 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 42
+ERROR - 2024-07-07 02:37:36 --> Severity: Warning --> Undefined variable $submit_btn /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 68
+ERROR - 2024-07-07 02:37:36 --> Severity: 8192 --> strlen(): Passing null to parameter #1 ($string) of type string is deprecated /home3/riyominfotech/public_html/crm/system/helpers/form_helper.php 968
+ERROR - 2024-07-07 02:38:08 --> Severity: Warning --> Undefined variable $companies /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 46
+ERROR - 2024-07-07 02:38:08 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 46
+ERROR - 2024-07-07 02:39:30 --> Severity: Warning --> Undefined variable $companies /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 46
+ERROR - 2024-07-07 02:39:30 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 46
+ERROR - 2024-07-07 02:40:13 --> Severity: Warning --> Undefined variable $companies /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 46
+ERROR - 2024-07-07 02:40:13 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 46
+ERROR - 2024-07-07 02:40:16 --> Severity: Warning --> Undefined variable $companies /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 46
+ERROR - 2024-07-07 02:40:16 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 46
+ERROR - 2024-07-07 02:40:37 --> Severity: Warning --> Attempt to read property "company_id" on string /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 47
+ERROR - 2024-07-07 02:40:37 --> Severity: Warning --> Attempt to read property "company_name" on string /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 47
+ERROR - 2024-07-07 02:40:37 --> Severity: Warning --> Attempt to read property "company_id" on string /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 47
+ERROR - 2024-07-07 02:40:37 --> Severity: Warning --> Attempt to read property "company_name" on string /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 47
+ERROR - 2024-07-07 02:40:37 --> Severity: Warning --> Attempt to read property "company_id" on string /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 47
+ERROR - 2024-07-07 02:40:37 --> Severity: Warning --> Attempt to read property "company_name" on string /home3/riyominfotech/public_html/crm/admin/application/views/send-mail/index.php 47

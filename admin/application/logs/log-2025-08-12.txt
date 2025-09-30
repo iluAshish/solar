@@ -1,0 +1,9 @@
+ERROR - 2025-08-12 00:50:44 --> Severity: error --> Exception: Undefined constant "UPLOADS" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/partials/menu.php 6
+ERROR - 2025-08-12 00:50:48 --> Severity: error --> Exception: Undefined constant "UPLOADS" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/partials/menu.php 6
+ERROR - 2025-08-12 00:51:31 --> Severity: error --> Exception: Undefined constant "UPLOADS" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/partials/menu.php 6
+ERROR - 2025-08-12 00:51:34 --> Severity: error --> Exception: Undefined constant "UPLOADS" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/partials/menu.php 6
+ERROR - 2025-08-12 01:04:35 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/partials/menu.php 483
+ERROR - 2025-08-12 01:11:17 --> Severity: Warning --> Undefined variable $districts /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/users/form.php 114
+ERROR - 2025-08-12 21:47:29 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-08-12 22:16:52 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-08-12 23:15:44 --> 404 Page Not Found: Robotstxt/index

@@ -1,0 +1,12 @@
+ERROR - 2022-03-25 00:28:06 --> Query error: Table 'thinkme_db.tbl_banner' doesn't exist - Invalid query: SELECT `BannerID`, `BannerURL`, `DisplayOrder`
+FROM `tbl_banner`
+ORDER BY `BannerID` ASC, `BannerURL` ASC
+ LIMIT 10
+ERROR - 2022-03-25 00:43:30 --> Query error: Table 'thinkme_db.tbl_banner' doesn't exist - Invalid query: SELECT `BannerID`, `BannerURL`, `DisplayOrder`
+FROM `tbl_banner`
+ORDER BY `BannerID` ASC, `BannerURL` ASC
+ LIMIT 10
+ERROR - 2022-03-25 00:43:52 --> Query error: Table 'thinkme_db.tbl_banner' doesn't exist - Invalid query: SELECT `BannerID`, `BannerURL`, `DisplayOrder`
+FROM `tbl_banner`
+ORDER BY `BannerID` ASC, `BannerURL` ASC
+ LIMIT 10

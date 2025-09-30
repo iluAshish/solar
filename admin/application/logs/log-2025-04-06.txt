@@ -1,0 +1,14 @@
+ERROR - 2025-04-06 00:01:38 --> Severity: Warning --> Undefined variable $districts /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 112
+ERROR - 2025-04-06 01:47:47 --> Query error: Column 'id' in field list is ambiguous - Invalid query: SELECT `id`, `franchisee_level`, `franchisee_code`, `fullname`, `role`, `email`, `mobile`, `activated`
+FROM `tbl_users` `u`, `tbl_users`
+WHERE `id` = '$1'
+ERROR - 2025-04-06 01:48:21 --> Query error: Column 'id' in field list is ambiguous - Invalid query: SELECT `id`, `franchisee_level`, `franchisee_code`, `fullname`, `role`, `email`, `mobile`, `activated`
+FROM `tbl_users` `u`, `tbl_users`
+WHERE `id` = '$1'
+ERROR - 2025-04-06 01:56:20 --> Severity: error --> Exception: syntax error, unexpected variable "$this" /home3/riyominfotech/public_html/solar/admin/application/controllers/Franchisee.php 233
+ERROR - 2025-04-06 01:56:45 --> Severity: Warning --> Undefined property: stdClass::$is_aadhar_verified /home3/riyominfotech/public_html/solar/admin/application/helpers/custom_helper.php 142
+ERROR - 2025-04-06 01:56:45 --> Severity: error --> Exception: Using $this when not in object context /home3/riyominfotech/public_html/solar/admin/application/helpers/custom_helper.php 176
+ERROR - 2025-04-06 01:56:45 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-04-06 01:57:29 --> Severity: error --> Exception: Using $this when not in object context /home3/riyominfotech/public_html/solar/admin/application/helpers/custom_helper.php 176
+ERROR - 2025-04-06 02:00:14 --> Severity: error --> Exception: Using $this when not in object context /home3/riyominfotech/public_html/solar/admin/application/helpers/custom_helper.php 176
+ERROR - 2025-04-06 04:46:25 --> Severity: Warning --> Undefined variable $districts /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 112

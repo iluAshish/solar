@@ -1,0 +1,19 @@
+ERROR - 2025-08-16 04:42:33 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-08-16 04:42:45 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-08-16 05:10:01 --> 404 Page Not Found: Indexhtml/index
+ERROR - 2025-08-16 05:10:18 --> 404 Page Not Found: Scopnixsolarcom/index
+ERROR - 2025-08-16 05:10:40 --> 404 Page Not Found: Indexhtml/index
+ERROR - 2025-08-16 05:12:33 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-16 05:12:33 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-16 05:12:33 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-16 05:12:46 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-16 05:12:46 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-16 05:12:46 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-16 10:48:52 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-16 10:48:52 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-16 10:48:52 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-16 10:50:12 --> Severity: Warning --> Attempt to read property "is_view" on null /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/User.php 21
+ERROR - 2025-08-16 10:50:41 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-16 10:50:41 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-16 10:50:41 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-16 11:20:49 --> 404 Page Not Found: Robotstxt/index

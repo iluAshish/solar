@@ -1,0 +1,24 @@
+ERROR - 2025-07-30 00:20:46 --> Severity: Warning --> Undefined variable $districts /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/users/form.php 114
+ERROR - 2025-07-30 00:23:51 --> Severity: Warning --> Undefined variable $cities /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/clients/form.php 90
+ERROR - 2025-07-30 00:30:25 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/partials/menu.php 450
+ERROR - 2025-07-30 00:32:55 --> 404 Page Not Found: Admin/index
+ERROR - 2025-07-30 00:32:55 --> 404 Page Not Found: Admin/index
+ERROR - 2025-07-30 00:32:55 --> 404 Page Not Found: Admin/index
+ERROR - 2025-07-30 00:33:55 --> 404 Page Not Found: Admin/index
+ERROR - 2025-07-30 00:35:56 --> 404 Page Not Found: Admin/index
+ERROR - 2025-07-30 00:40:56 --> 404 Page Not Found: Admin/index
+ERROR - 2025-07-30 00:47:55 --> 404 Page Not Found: Admin/index
+ERROR - 2025-07-30 00:47:56 --> 404 Page Not Found: Admin/index
+ERROR - 2025-07-30 01:17:56 --> 404 Page Not Found: Admin/index
+ERROR - 2025-07-30 01:17:57 --> 404 Page Not Found: Admin/index
+ERROR - 2025-07-30 02:17:57 --> 404 Page Not Found: Admin/index
+ERROR - 2025-07-30 02:17:58 --> 404 Page Not Found: Admin/index
+ERROR - 2025-07-30 02:51:30 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-07-30 03:29:10 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-07-30 05:17:57 --> 404 Page Not Found: Admin/index
+ERROR - 2025-07-30 05:17:59 --> 404 Page Not Found: Admin/index
+ERROR - 2025-07-30 11:17:59 --> 404 Page Not Found: Admin/index
+ERROR - 2025-07-30 11:18:00 --> 404 Page Not Found: Admin/index
+ERROR - 2025-07-30 14:48:08 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-07-30 21:38:09 --> 404 Page Not Found: Adminphp/index
+ERROR - 2025-07-30 23:55:20 --> 404 Page Not Found: Robotstxt/index

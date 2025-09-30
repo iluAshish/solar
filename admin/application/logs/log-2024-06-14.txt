@@ -1,0 +1,7 @@
+ERROR - 2024-06-14 00:26:43 --> Severity: Warning --> Undefined variable $image /home3/riyominfotech/public_html/crm/admin/application/controllers/Company.php 189
+ERROR - 2024-06-14 00:26:43 --> Severity: 8192 --> str_ireplace(): Passing null to parameter #3 ($subject) of type array|string is deprecated /home3/riyominfotech/public_html/crm/admin/application/libraries/Datatables.php 478
+ERROR - 2024-06-14 00:26:43 --> Severity: 8192 --> str_ireplace(): Passing null to parameter #3 ($subject) of type array|string is deprecated /home3/riyominfotech/public_html/crm/admin/application/libraries/Datatables.php 478
+ERROR - 2024-06-14 00:27:10 --> Severity: Warning --> Undefined variable $image /home3/riyominfotech/public_html/crm/admin/application/controllers/Company.php 189
+ERROR - 2024-06-14 00:27:10 --> Severity: 8192 --> str_ireplace(): Passing null to parameter #3 ($subject) of type array|string is deprecated /home3/riyominfotech/public_html/crm/admin/application/libraries/Datatables.php 478
+ERROR - 2024-06-14 00:27:10 --> Severity: 8192 --> str_ireplace(): Passing null to parameter #3 ($subject) of type array|string is deprecated /home3/riyominfotech/public_html/crm/admin/application/libraries/Datatables.php 478
+ERROR - 2024-06-14 02:02:09 --> Severity: error --> Exception: trim(): Argument #1 ($string) must be of type string, array given /home3/riyominfotech/public_html/crm/system/database/DB_query_builder.php 1140

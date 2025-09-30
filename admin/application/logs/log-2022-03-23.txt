@@ -1,0 +1,94 @@
+ERROR - 2022-03-23 01:19:52 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:19:52 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:19:52 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:19:52 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:19:52 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:19:52 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:19:52 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:19:52 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:20:18 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:20:18 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:20:18 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:20:18 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:20:18 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:20:18 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:20:18 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:20:18 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:22:47 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:22:47 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:22:47 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:22:47 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:22:47 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:22:47 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:22:47 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:22:47 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:23:12 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:23:12 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:23:12 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:23:12 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:23:12 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:23:12 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:23:12 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:23:12 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:28:46 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:28:46 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:28:46 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:28:46 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:28:46 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:28:46 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:28:46 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:28:46 --> Severity: Warning --> imagettftext(): Could not find/open font D:\wamp\www\thinkme\system\helpers\captcha_helper.php 308
+ERROR - 2022-03-23 01:43:58 --> Query error: Table 'thinkme_db.tbl_orderhdr' doesn't exist - Invalid query: SELECT COUNT(OrderhdrID) as todayorders
+FROM `tbl_orderhdr`
+WHERE `OrderDate` = '2022-03-23'
+ERROR - 2022-03-23 01:47:19 --> Query error: Unknown column 'roleid' in 'where clause' - Invalid query: SELECT COUNT(id) as registeruser
+FROM `users`
+WHERE `roleid` = 2
+AND 1 = 1
+ERROR - 2022-03-23 01:48:15 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as registeruser
+AND 1 = 1' at line 3 - Invalid query: SELECT *
+FROM `users`
+WHERE COUNT(id) as registeruser
+AND 1 = 1
+ERROR - 2022-03-23 01:49:53 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COUNT(id) as registeruser
+AND 1 = 1' at line 3 - Invalid query: SELECT *
+FROM `users`
+WHERE "",COUNT(id) as registeruser
+AND 1 = 1
+ERROR - 2022-03-23 01:51:08 --> Severity: Notice --> Undefined variable: where D:\wamp\www\thinkme\admin\application\models\Common.php 30
+ERROR - 2022-03-23 01:52:00 --> Query error: Unknown column 'registertype' in 'where clause' - Invalid query: SELECT COUNT(id) as facebookuser
+FROM `users`
+WHERE `registertype` = "Facebook"
+AND 1 = 1
+ERROR - 2022-03-23 02:12:37 --> Query error: Unknown column 'roleid' in 'where clause' - Invalid query: SELECT `id`, `username`, `email`
+FROM `users`
+WHERE `roleid` != 1
+ORDER BY `id` ASC, `username` ASC
+ LIMIT 10
+ERROR - 2022-03-23 02:12:58 --> Severity: Warning --> Use of undefined constant CATEGORY - assumed 'CATEGORY' (this will throw an Error in a future version of PHP) D:\wamp\www\thinkme\admin\application\controllers\Category.php 147
+ERROR - 2022-03-23 02:12:58 --> Query error: Table 'thinkme_db.tbl_category' doesn't exist - Invalid query: SELECT `CategoryID`, `CategoryName`, `Image`
+FROM `tbl_category`
+ORDER BY `CategoryName` ASC
+ LIMIT 10
+ERROR - 2022-03-23 02:13:03 --> Query error: Table 'thinkme_db.tbl_category' doesn't exist - Invalid query: SELECT `CategoryID`, `CategoryName`
+FROM `tbl_category`
+WHERE `isActive` = 1
+ERROR - 2022-03-23 02:13:07 --> Severity: Warning --> Use of undefined constant CATEGORY - assumed 'CATEGORY' (this will throw an Error in a future version of PHP) D:\wamp\www\thinkme\admin\application\controllers\Category.php 147
+ERROR - 2022-03-23 02:13:07 --> Query error: Table 'thinkme_db.tbl_category' doesn't exist - Invalid query: SELECT `CategoryID`, `CategoryName`, `Image`
+FROM `tbl_category`
+ORDER BY `CategoryName` ASC
+ LIMIT 10
+ERROR - 2022-03-23 02:13:13 --> Query error: Table 'thinkme_db.tbl_cms' doesn't exist - Invalid query: SELECT `CmsID`, `PageName`
+FROM `tbl_cms`
+ORDER BY `PageName` ASC
+ LIMIT 10
+ERROR - 2022-03-23 06:45:43 --> Query error: Unknown column 'roleid' in 'where clause' - Invalid query: SELECT `id`, `username`, `email`
+FROM `users`
+WHERE `roleid` != 1
+ORDER BY `id` ASC, `username` ASC
+ LIMIT 10
+ERROR - 2022-03-23 06:46:29 --> Query error: Unknown column 'roleid' in 'where clause' - Invalid query: SELECT `id`, `username`, `email`
+FROM `users`
+WHERE `roleid` != 1
+ORDER BY `id` ASC, `username` ASC
+ LIMIT 10

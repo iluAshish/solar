@@ -1,0 +1,27 @@
+ERROR - 2025-06-04 00:37:50 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-04 00:37:50 --> Severity: Warning --> Undefined property: stdClass::$invoice_date /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 49
+ERROR - 2025-06-04 00:37:50 --> Severity: Warning --> Undefined property: stdClass::$invoice_details /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 155
+ERROR - 2025-06-04 00:37:50 --> Severity: Warning --> Undefined property: stdClass::$invoice_terms /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 159
+ERROR - 2025-06-04 06:26:42 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-04 06:26:42 --> Severity: Warning --> Undefined property: stdClass::$invoice_date /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 49
+ERROR - 2025-06-04 06:26:42 --> Severity: Warning --> Undefined property: stdClass::$invoice_details /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 155
+ERROR - 2025-06-04 06:26:42 --> Severity: Warning --> Undefined property: stdClass::$invoice_terms /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 159
+ERROR - 2025-06-04 06:34:00 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-04 06:34:00 --> Severity: Warning --> Undefined property: stdClass::$invoice_details /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 155
+ERROR - 2025-06-04 06:34:00 --> Severity: Warning --> Undefined property: stdClass::$invoice_terms /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 159
+ERROR - 2025-06-04 06:36:56 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-04 06:36:56 --> Severity: Warning --> Undefined property: stdClass::$invoice_details /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 155
+ERROR - 2025-06-04 06:36:56 --> Severity: Warning --> Undefined property: stdClass::$invoice_terms /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 159
+ERROR - 2025-06-04 06:40:10 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-04 06:40:10 --> Severity: Warning --> Undefined property: stdClass::$invoice_details /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 155
+ERROR - 2025-06-04 06:40:10 --> Severity: Warning --> Undefined property: stdClass::$invoice_terms /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 159
+ERROR - 2025-06-04 06:43:38 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-04 06:43:38 --> Severity: Warning --> Undefined property: stdClass::$invoice_details /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 155
+ERROR - 2025-06-04 06:43:38 --> Severity: Warning --> Undefined property: stdClass::$invoice_terms /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 159
+ERROR - 2025-06-04 06:45:19 --> Severity: Warning --> Array to string conversion /home3/riyominfotech/public_html/solar/admin/application/controllers/Invoice.php 54
+ERROR - 2025-06-04 06:46:47 --> Severity: Warning --> Array to string conversion /home3/riyominfotech/public_html/solar/admin/application/controllers/Invoice.php 54
+ERROR - 2025-06-04 07:08:30 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-04 07:08:30 --> Severity: Warning --> Undefined property: stdClass::$invoice_details /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 155
+ERROR - 2025-06-04 07:08:30 --> Severity: Warning --> Undefined property: stdClass::$invoice_terms /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 159
+ERROR - 2025-06-04 07:10:27 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-04 07:11:10 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462

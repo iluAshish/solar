@@ -1,0 +1,20 @@
+ERROR - 2024-04-18 06:24:51 --> Query error: Unknown column 'designation_name' in 'field list' - Invalid query: SELECT `designation_id`, `designation_name`, `description`
+FROM `tbl_designation_master`
+ORDER BY `designation_name` ASC
+ LIMIT 10
+ERROR - 2024-04-18 06:26:57 --> Query error: Unknown column 'designation_name' in 'field list' - Invalid query: SELECT `designation_id`, `designation_name`, `description`
+FROM `tbl_designation_master`
+ORDER BY `designation_name` ASC
+ LIMIT 10
+ERROR - 2024-04-18 06:27:13 --> Query error: Unknown column 'designation_name' in 'field list' - Invalid query: SELECT `designation_id`, `designation_name`, `description`
+FROM `tbl_designation_master`
+ORDER BY `designation_name` ASC
+ LIMIT 10
+ERROR - 2024-04-18 06:36:31 --> Severity: Warning --> Undefined array key "designation_title" /home3/riyominfotech/public_html/crm/admin/application/controllers/Designation.php 64
+ERROR - 2024-04-18 06:36:31 --> Severity: 8192 --> preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated /home3/riyominfotech/public_html/crm/admin/application/models/Common.php 185
+ERROR - 2024-04-18 06:36:31 --> Query error: Unknown column 'desingation_title' in 'field list' - Invalid query: INSERT INTO `tbl_designation_master` (`desingation_title`, `description`, `is_active`, `created_on`) VALUES ('Manager', 'Manager', 1, '2024-04-18 06:36:31')
+ERROR - 2024-04-18 06:36:31 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-04-18 06:37:25 --> Query error: Unknown column 'desingation_title' in 'field list' - Invalid query: SELECT `desingation_title`
+FROM `tbl_designation_master`
+WHERE `desingation_title` = 'manager'
+ERROR - 2024-04-18 23:36:37 --> Severity: Warning --> Undefined variable $brand_id /home3/riyominfotech/public_html/crm/admin/application/views/product/form.php 57

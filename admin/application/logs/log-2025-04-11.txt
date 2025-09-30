@@ -1,0 +1,13 @@
+ERROR - 2025-04-11 00:38:39 --> Severity: error --> Exception: Call to undefined method Projects::show_person_data() /home3/riyominfotech/public_html/solar/admin/application/controllers/Projects.php 192
+ERROR - 2025-04-11 00:39:29 --> Severity: error --> Exception: Call to undefined method Projects::show_person_data() /home3/riyominfotech/public_html/solar/admin/application/controllers/Projects.php 192
+ERROR - 2025-04-11 00:40:25 --> Query error: Unknown column 'price_data' in 'field list' - Invalid query: SELECT `p`.`id`, `project_name`, `price_data`
+FROM `tbl_solar_project` `p`
+ORDER BY `project_name` ASC
+ LIMIT 10
+ERROR - 2025-04-11 02:00:25 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/projects/form.php 110
+ERROR - 2025-04-11 02:00:25 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/projects/form.php 110
+ERROR - 2025-04-11 02:00:25 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/projects/form.php 110
+ERROR - 2025-04-11 02:00:25 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/projects/form.php 110
+ERROR - 2025-04-11 02:00:25 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/projects/form.php 110
+ERROR - 2025-04-11 02:00:25 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/projects/form.php 110
+ERROR - 2025-04-11 02:00:25 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/projects/form.php 110

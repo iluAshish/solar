@@ -1,0 +1,354 @@
+ERROR - 2025-04-04 03:43:49 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 52
+ERROR - 2025-04-04 03:43:49 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 52
+ERROR - 2025-04-04 03:43:49 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 53
+ERROR - 2025-04-04 03:43:49 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 53
+ERROR - 2025-04-04 03:43:49 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 53
+ERROR - 2025-04-04 03:43:49 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 54
+ERROR - 2025-04-04 03:43:49 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 54
+ERROR - 2025-04-04 03:43:49 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 56
+ERROR - 2025-04-04 03:43:49 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 56
+ERROR - 2025-04-04 03:43:49 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 56
+ERROR - 2025-04-04 03:43:49 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 03:43:49 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 03:43:49 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 03:43:49 --> Severity: Warning --> Undefined variable $data_info /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 03:43:49 --> Severity: Warning --> Attempt to read property "work_scope" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 03:43:49 --> Severity: Warning --> Undefined variable $data_info /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 03:43:49 --> Severity: Warning --> Attempt to read property "specification" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 03:54:05 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 53
+ERROR - 2025-04-04 03:54:05 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 53
+ERROR - 2025-04-04 03:54:05 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 54
+ERROR - 2025-04-04 03:54:05 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 54
+ERROR - 2025-04-04 03:54:05 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 54
+ERROR - 2025-04-04 03:54:05 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 55
+ERROR - 2025-04-04 03:54:05 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 55
+ERROR - 2025-04-04 03:54:05 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 03:54:05 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 03:54:05 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 03:54:05 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 58
+ERROR - 2025-04-04 03:54:05 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 58
+ERROR - 2025-04-04 03:54:05 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 58
+ERROR - 2025-04-04 03:54:05 --> Severity: Warning --> Undefined variable $data_info /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 03:54:05 --> Severity: Warning --> Attempt to read property "work_scope" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 03:54:05 --> Severity: Warning --> Undefined variable $data_info /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 03:54:05 --> Severity: Warning --> Attempt to read property "specification" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 03:56:21 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 53
+ERROR - 2025-04-04 03:56:21 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 53
+ERROR - 2025-04-04 03:56:21 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 54
+ERROR - 2025-04-04 03:56:21 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 54
+ERROR - 2025-04-04 03:56:21 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 54
+ERROR - 2025-04-04 03:56:21 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 55
+ERROR - 2025-04-04 03:56:21 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 55
+ERROR - 2025-04-04 03:56:21 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 03:56:21 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 03:56:21 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 03:56:21 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 58
+ERROR - 2025-04-04 03:56:21 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 58
+ERROR - 2025-04-04 03:56:21 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 58
+ERROR - 2025-04-04 03:56:21 --> Severity: Warning --> Undefined variable $data_info /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 03:56:21 --> Severity: Warning --> Attempt to read property "work_scope" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 03:56:21 --> Severity: Warning --> Undefined variable $data_info /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 03:56:21 --> Severity: Warning --> Attempt to read property "specification" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 04:07:17 --> Severity: Warning --> Undefined variable $data_info /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 43
+ERROR - 2025-04-04 04:07:17 --> Severity: Warning --> Attempt to read property "franchisee_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 43
+ERROR - 2025-04-04 04:07:17 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 55
+ERROR - 2025-04-04 04:07:17 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 55
+ERROR - 2025-04-04 04:07:17 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 56
+ERROR - 2025-04-04 04:07:17 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 56
+ERROR - 2025-04-04 04:07:17 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 56
+ERROR - 2025-04-04 04:07:17 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 04:07:17 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 04:07:17 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 04:07:17 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 04:07:17 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 04:07:17 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 04:07:17 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 04:07:17 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 04:07:17 --> Severity: Warning --> Undefined variable $data_info /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 62
+ERROR - 2025-04-04 04:07:17 --> Severity: Warning --> Attempt to read property "work_scope" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 62
+ERROR - 2025-04-04 04:07:17 --> Severity: Warning --> Undefined variable $data_info /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 04:07:17 --> Severity: Warning --> Attempt to read property "specification" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 04:11:45 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 04:11:45 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 55
+ERROR - 2025-04-04 04:11:45 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 55
+ERROR - 2025-04-04 04:11:45 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 56
+ERROR - 2025-04-04 04:11:45 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 56
+ERROR - 2025-04-04 04:11:45 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 56
+ERROR - 2025-04-04 04:11:45 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 04:11:45 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 04:11:45 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 04:11:45 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 04:11:45 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 04:11:45 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 04:11:45 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 04:11:45 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 04:11:45 --> Severity: Warning --> Undefined property: stdClass::$work_scope /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 62
+ERROR - 2025-04-04 04:11:45 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 04:18:11 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 04:18:11 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 56
+ERROR - 2025-04-04 04:18:11 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 56
+ERROR - 2025-04-04 04:18:11 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 04:18:11 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 04:18:11 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 04:18:11 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 58
+ERROR - 2025-04-04 04:18:11 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 58
+ERROR - 2025-04-04 04:18:11 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 04:18:11 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 04:18:11 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 04:18:11 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 04:18:11 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 04:18:11 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 04:18:11 --> Severity: Warning --> Undefined property: stdClass::$work_scope /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 04:18:11 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:18:04 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 05:18:04 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 56
+ERROR - 2025-04-04 05:18:04 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 56
+ERROR - 2025-04-04 05:18:04 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 05:18:04 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 05:18:04 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 05:18:04 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 58
+ERROR - 2025-04-04 05:18:04 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 58
+ERROR - 2025-04-04 05:18:04 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:18:04 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:18:04 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:18:04 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:18:04 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:18:04 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:18:04 --> Severity: Warning --> Undefined property: stdClass::$work_scope /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:18:04 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:27:58 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 05:27:58 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 56
+ERROR - 2025-04-04 05:27:58 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 56
+ERROR - 2025-04-04 05:27:58 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 05:27:58 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 05:27:58 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 57
+ERROR - 2025-04-04 05:27:58 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 58
+ERROR - 2025-04-04 05:27:58 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 58
+ERROR - 2025-04-04 05:27:58 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:27:58 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:27:58 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:27:58 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:27:58 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:27:58 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:27:58 --> Severity: Warning --> Undefined property: stdClass::$work_scope /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:27:58 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:32:08 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 05:32:08 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 58
+ERROR - 2025-04-04 05:32:08 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 58
+ERROR - 2025-04-04 05:32:08 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:32:08 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:32:08 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:32:08 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:32:08 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:32:08 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 62
+ERROR - 2025-04-04 05:32:08 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 62
+ERROR - 2025-04-04 05:32:08 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 62
+ERROR - 2025-04-04 05:32:08 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:32:08 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:32:08 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:32:08 --> Severity: Warning --> Undefined property: stdClass::$work_scope /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 65
+ERROR - 2025-04-04 05:32:08 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 66
+ERROR - 2025-04-04 05:36:12 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 05:36:12 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 58
+ERROR - 2025-04-04 05:36:12 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 58
+ERROR - 2025-04-04 05:36:12 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:36:12 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:36:12 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:36:12 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:36:12 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:36:12 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 62
+ERROR - 2025-04-04 05:36:12 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 62
+ERROR - 2025-04-04 05:36:12 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 62
+ERROR - 2025-04-04 05:36:12 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:36:12 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:36:12 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:36:12 --> Severity: Warning --> Undefined property: stdClass::$work_scope /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 65
+ERROR - 2025-04-04 05:36:12 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 66
+ERROR - 2025-04-04 05:47:51 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 05:47:51 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:47:51 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:47:51 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:47:51 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:47:51 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:47:51 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:47:51 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:47:51 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:47:51 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:47:51 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:47:51 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:47:51 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:47:51 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:47:51 --> Severity: Warning --> Undefined property: stdClass::$work_scope /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 66
+ERROR - 2025-04-04 05:47:51 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 67
+ERROR - 2025-04-04 05:50:10 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 05:50:10 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:50:10 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:50:10 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:50:10 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:50:10 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:50:10 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:50:10 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:50:10 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:50:10 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:50:10 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:50:10 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:50:10 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:50:10 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:50:10 --> Severity: Warning --> Undefined property: stdClass::$work_scope /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 66
+ERROR - 2025-04-04 05:50:10 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 67
+ERROR - 2025-04-04 05:50:36 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 05:50:36 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:50:36 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:50:36 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:50:36 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:50:36 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:50:36 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:50:36 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:50:36 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:50:36 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:50:36 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:50:36 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:50:36 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:50:36 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:50:36 --> Severity: Warning --> Undefined property: stdClass::$work_scope /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 66
+ERROR - 2025-04-04 05:50:36 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 67
+ERROR - 2025-04-04 05:51:04 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 05:51:04 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:51:04 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:51:04 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:51:04 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:51:04 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:51:04 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:51:04 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:51:04 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:51:04 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:51:04 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:51:04 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:51:04 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:51:04 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:51:04 --> Severity: Warning --> Undefined property: stdClass::$work_scope /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 66
+ERROR - 2025-04-04 05:51:04 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 67
+ERROR - 2025-04-04 05:52:38 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 05:52:38 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:52:38 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:52:38 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:52:38 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:52:38 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:52:38 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:52:38 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:52:38 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:52:38 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:52:38 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:52:38 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:52:38 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:52:38 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:52:38 --> Severity: Warning --> Undefined property: stdClass::$work_scope /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 66
+ERROR - 2025-04-04 05:52:38 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 67
+ERROR - 2025-04-04 05:55:00 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 05:55:00 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:55:00 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:55:00 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:55:00 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:55:00 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:55:00 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:55:00 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:55:00 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:55:00 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:55:00 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:55:00 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:55:00 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:55:00 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:55:00 --> Severity: Warning --> Undefined property: stdClass::$work_scope /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 66
+ERROR - 2025-04-04 05:55:00 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 67
+ERROR - 2025-04-04 05:59:22 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 05:59:22 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:59:22 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 59
+ERROR - 2025-04-04 05:59:22 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:59:22 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:59:22 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 60
+ERROR - 2025-04-04 05:59:22 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:59:22 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 61
+ERROR - 2025-04-04 05:59:22 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:59:22 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:59:22 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 05:59:22 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:59:22 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:59:22 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 05:59:22 --> Severity: Warning --> Undefined property: stdClass::$work_scope /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 66
+ERROR - 2025-04-04 05:59:22 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 67
+ERROR - 2025-04-04 06:02:52 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:02:52 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 62
+ERROR - 2025-04-04 06:02:52 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 62
+ERROR - 2025-04-04 06:02:52 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 06:02:52 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 06:02:52 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 06:02:52 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 06:02:52 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 06:02:52 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 66
+ERROR - 2025-04-04 06:02:52 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 66
+ERROR - 2025-04-04 06:02:52 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 66
+ERROR - 2025-04-04 06:02:52 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 67
+ERROR - 2025-04-04 06:02:52 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 67
+ERROR - 2025-04-04 06:02:52 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 67
+ERROR - 2025-04-04 06:02:52 --> Severity: Warning --> Undefined property: stdClass::$work_scope /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 69
+ERROR - 2025-04-04 06:02:52 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 70
+ERROR - 2025-04-04 06:03:10 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:03:10 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 62
+ERROR - 2025-04-04 06:03:10 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 62
+ERROR - 2025-04-04 06:03:10 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 06:03:10 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 06:03:10 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 63
+ERROR - 2025-04-04 06:03:10 --> Severity: Warning --> Undefined variable $project /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 06:03:10 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 64
+ERROR - 2025-04-04 06:03:10 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 66
+ERROR - 2025-04-04 06:03:10 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 66
+ERROR - 2025-04-04 06:03:10 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 66
+ERROR - 2025-04-04 06:03:10 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 67
+ERROR - 2025-04-04 06:03:10 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 67
+ERROR - 2025-04-04 06:03:10 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 67
+ERROR - 2025-04-04 06:03:10 --> Severity: Warning --> Undefined property: stdClass::$work_scope /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 69
+ERROR - 2025-04-04 06:03:10 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/users/certificate.php 70
+ERROR - 2025-04-04 06:04:06 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:06:15 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:07:17 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:07:37 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:07:52 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:12:06 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:14:34 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:17:22 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:18:30 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:19:10 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:19:33 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:19:48 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:19:58 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:20:13 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:27:39 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:28:15 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:30:10 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:32:19 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:33:26 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:35:46 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:38:37 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:39:08 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:39:41 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 06:40:06 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 07:32:48 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 07:33:26 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 07:34:01 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 07:34:20 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 07:34:40 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 07:35:10 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 07:35:59 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 07:38:16 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 07:38:44 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 07:39:00 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 07:40:47 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 07:41:36 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 07:42:31 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 07:43:10 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 23:50:02 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 23:52:18 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 23:53:13 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 23:53:39 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 23:54:07 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-04 23:54:46 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429

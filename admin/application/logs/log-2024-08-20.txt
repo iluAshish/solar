@@ -1,0 +1,15 @@
+ERROR - 2024-08-20 08:21:23 --> Severity: Warning --> Undefined property: stdClass::$sector_name /home3/riyominfotech/public_html/crm/admin/application/views/partials/vendor-scripts.php 100
+ERROR - 2024-08-20 08:21:23 --> Severity: Warning --> Undefined property: stdClass::$description /home3/riyominfotech/public_html/crm/admin/application/views/partials/vendor-scripts.php 122
+ERROR - 2024-08-20 08:21:23 --> Severity: Warning --> Undefined property: stdClass::$brand_name /home3/riyominfotech/public_html/crm/admin/application/views/partials/vendor-scripts.php 140
+ERROR - 2024-08-20 08:21:23 --> Severity: Warning --> Undefined property: stdClass::$description /home3/riyominfotech/public_html/crm/admin/application/views/partials/vendor-scripts.php 162
+ERROR - 2024-08-20 08:21:23 --> Severity: Warning --> Undefined property: stdClass::$designation_name /home3/riyominfotech/public_html/crm/admin/application/views/partials/vendor-scripts.php 181
+ERROR - 2024-08-20 08:21:23 --> Severity: Warning --> Undefined property: stdClass::$description /home3/riyominfotech/public_html/crm/admin/application/views/partials/vendor-scripts.php 203
+ERROR - 2024-08-20 08:22:28 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 163
+ERROR - 2024-08-20 08:22:58 --> Severity: Warning --> Undefined property: stdClass::$designation_title /home3/riyominfotech/public_html/crm/admin/application/views/company/persons_details.php 38
+ERROR - 2024-08-20 08:23:57 --> Severity: Warning --> Undefined property: stdClass::$designation_title /home3/riyominfotech/public_html/crm/admin/application/views/company/persons_details.php 38
+ERROR - 2024-08-20 08:27:08 --> Severity: Warning --> Undefined property: stdClass::$sector_name /home3/riyominfotech/public_html/crm/admin/application/views/partials/vendor-scripts.php 100
+ERROR - 2024-08-20 08:27:08 --> Severity: Warning --> Undefined property: stdClass::$description /home3/riyominfotech/public_html/crm/admin/application/views/partials/vendor-scripts.php 122
+ERROR - 2024-08-20 08:27:08 --> Severity: Warning --> Undefined property: stdClass::$brand_name /home3/riyominfotech/public_html/crm/admin/application/views/partials/vendor-scripts.php 140
+ERROR - 2024-08-20 08:27:08 --> Severity: Warning --> Undefined property: stdClass::$description /home3/riyominfotech/public_html/crm/admin/application/views/partials/vendor-scripts.php 162
+ERROR - 2024-08-20 08:27:08 --> Severity: Warning --> Undefined property: stdClass::$designation_name /home3/riyominfotech/public_html/crm/admin/application/views/partials/vendor-scripts.php 181
+ERROR - 2024-08-20 08:27:08 --> Severity: Warning --> Undefined property: stdClass::$description /home3/riyominfotech/public_html/crm/admin/application/views/partials/vendor-scripts.php 203

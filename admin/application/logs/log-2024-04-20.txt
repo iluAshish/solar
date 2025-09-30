@@ -1,0 +1,16 @@
+ERROR - 2024-04-20 03:32:27 --> 404 Page Not Found: Auth/assets
+ERROR - 2024-04-20 03:32:27 --> 404 Page Not Found: Auth/assets
+ERROR - 2024-04-20 03:32:39 --> 404 Page Not Found: Product/product
+ERROR - 2024-04-20 03:32:39 --> 404 Page Not Found: Product/product
+ERROR - 2024-04-20 06:32:07 --> Severity: error --> Exception: Undefined constant "TBL_SUBCATEGORY" /home3/riyominfotech/public_html/crm/admin/application/controllers/Product.php 51
+ERROR - 2024-04-20 06:32:19 --> Severity: error --> Exception: Undefined constant "TBL_SUBCATEGORY" /home3/riyominfotech/public_html/crm/admin/application/controllers/Product.php 51
+ERROR - 2024-04-20 06:33:07 --> Severity: Warning --> Undefined property: stdClass::$CategoryName /home3/riyominfotech/public_html/crm/admin/application/views/product/form.php 3
+ERROR - 2024-04-20 06:33:07 --> Severity: Warning --> Undefined property: stdClass::$Image /home3/riyominfotech/public_html/crm/admin/application/views/product/form.php 8
+ERROR - 2024-04-20 06:33:07 --> Severity: Warning --> Undefined property: stdClass::$brand_id /home3/riyominfotech/public_html/crm/admin/application/views/product/form.php 73
+ERROR - 2024-04-20 06:34:44 --> Severity: Warning --> Undefined property: stdClass::$Image /home3/riyominfotech/public_html/crm/admin/application/views/product/form.php 8
+ERROR - 2024-04-20 06:34:44 --> Severity: Warning --> Undefined property: stdClass::$brand_id /home3/riyominfotech/public_html/crm/admin/application/views/product/form.php 73
+ERROR - 2024-04-20 06:50:08 --> Severity: Warning --> Undefined property: stdClass::$product_img /home3/riyominfotech/public_html/crm/admin/application/views/product/form.php 7
+ERROR - 2024-04-20 06:55:32 --> Severity: error --> Exception: Undefined constant "PRODUCT" /home3/riyominfotech/public_html/crm/admin/application/views/product/form.php 50
+ERROR - 2024-04-20 06:55:41 --> Severity: error --> Exception: Undefined constant "PRODUCT" /home3/riyominfotech/public_html/crm/admin/application/views/product/form.php 50
+ERROR - 2024-04-20 06:57:27 --> Severity: Warning --> Undefined property: stdClass::$Image /home3/riyominfotech/public_html/crm/admin/application/views/product/form.php 50
+ERROR - 2024-04-20 08:54:58 --> 404 Page Not Found: Dashboard_crm/index

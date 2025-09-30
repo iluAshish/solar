@@ -1,0 +1,19 @@
+ERROR - 2025-05-28 00:27:24 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-05-28 00:27:24 --> Severity: Warning --> Undefined property: stdClass::$invoice_date /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 49
+ERROR - 2025-05-28 00:27:24 --> Severity: Warning --> Undefined property: stdClass::$invoice_no /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 57
+ERROR - 2025-05-28 00:27:24 --> Severity: Warning --> Undefined variable $invoice_no /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 57
+ERROR - 2025-05-28 00:27:24 --> Severity: Warning --> Undefined property: stdClass::$invoice_details /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 155
+ERROR - 2025-05-28 00:27:24 --> Severity: Warning --> Undefined property: stdClass::$invoice_terms /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 159
+ERROR - 2025-05-28 00:30:01 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-05-28 00:30:01 --> Severity: Warning --> Undefined property: stdClass::$invoice_date /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 49
+ERROR - 2025-05-28 00:30:01 --> Severity: Warning --> Undefined variable $invoice_no /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 57
+ERROR - 2025-05-28 00:30:01 --> Severity: Warning --> Undefined property: stdClass::$invoice_details /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 155
+ERROR - 2025-05-28 00:30:01 --> Severity: Warning --> Undefined property: stdClass::$invoice_terms /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 159
+ERROR - 2025-05-28 00:32:42 --> Query error: Unknown column 'invoice_id' in 'order clause' - Invalid query: SELECT *
+FROM `tbl_invoice`
+ORDER BY `invoice_id` DESC
+ LIMIT 1
+ERROR - 2025-05-28 00:34:16 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-05-28 00:34:16 --> Severity: Warning --> Undefined property: stdClass::$invoice_date /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 49
+ERROR - 2025-05-28 00:34:16 --> Severity: Warning --> Undefined property: stdClass::$invoice_details /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 155
+ERROR - 2025-05-28 00:34:16 --> Severity: Warning --> Undefined property: stdClass::$invoice_terms /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 159

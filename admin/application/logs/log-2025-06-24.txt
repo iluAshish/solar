@@ -1,0 +1,6 @@
+ERROR - 2025-06-24 23:05:52 --> Severity: Warning --> Undefined variable $districts /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 114
+ERROR - 2025-06-24 23:07:36 --> Severity: Warning --> Undefined variable $fcode_like /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php 158
+ERROR - 2025-06-24 23:37:35 --> Severity: Warning --> Undefined variable $districts /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 114
+ERROR - 2025-06-24 23:37:40 --> Severity: Warning --> Undefined variable $data /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php 664
+ERROR - 2025-06-24 23:37:40 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php 664
+ERROR - 2025-06-24 23:37:40 --> Severity: Warning --> Attempt to read property "franchisee_code" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/User.php 664

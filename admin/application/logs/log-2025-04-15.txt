@@ -1,0 +1,21 @@
+ERROR - 2025-04-15 01:10:16 --> 404 Page Not Found: Franchisee/get_client
+ERROR - 2025-04-15 01:11:20 --> 404 Page Not Found: Users/get_client
+ERROR - 2025-04-15 01:12:30 --> 404 Page Not Found: Users/get_client
+ERROR - 2025-04-15 01:12:38 --> 404 Page Not Found: Users/get_client
+ERROR - 2025-04-15 01:14:02 --> 404 Page Not Found: Undefined/get_undefined
+ERROR - 2025-04-15 01:17:37 --> Severity: error --> Exception: explode(): Argument #2 ($string) must be of type string, array given /home3/riyominfotech/public_html/solar/admin/application/controllers/Quotation.php 108
+ERROR - 2025-04-15 01:18:08 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Quotation.php 156
+ERROR - 2025-04-15 01:18:08 --> Query error: Table 'riyominf_solar.tbl_quote_project' doesn't exist - Invalid query: INSERT INTO `tbl_quote_project` (`quote_id`, `project_id`, `size_range_id`, `qty`, `basic_rate`, `amount`) VALUES (2, '5', NULL, '2', '88500.00', '')
+ERROR - 2025-04-15 01:18:08 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-04-15 01:19:19 --> Query error: Table 'riyominf_solar.tbl_quote_project' doesn't exist - Invalid query: INSERT INTO `tbl_quote_project` (`quote_id`, `project_id`, `size_range_id`, `qty`, `basic_rate`, `amount`) VALUES (3, '5', '8', '2', '88500.00', '')
+ERROR - 2025-04-15 01:20:32 --> Query error: Unknown column 'project_id' in 'field list' - Invalid query: INSERT INTO `tbl_quote_projects` (`quote_id`, `project_id`, `size_range_id`, `qty`, `basic_rate`, `amount`) VALUES (4, '5', '8', '2', '88500.00', '')
+ERROR - 2025-04-15 01:40:34 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-04-15 01:40:34 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/quotation/view.php 63
+ERROR - 2025-04-15 01:40:34 --> Severity: Warning --> Undefined array key 0 /home3/riyominfotech/public_html/solar/admin/application/views/quotation/view.php 64
+ERROR - 2025-04-15 01:40:34 --> Severity: Warning --> Attempt to read property "qty" on null /home3/riyominfotech/public_html/solar/admin/application/views/quotation/view.php 64
+ERROR - 2025-04-15 01:40:34 --> Severity: Warning --> Attempt to read property "project_type" on null /home3/riyominfotech/public_html/solar/admin/application/views/quotation/view.php 65
+ERROR - 2025-04-15 01:40:34 --> Severity: Warning --> Undefined array key 0 /home3/riyominfotech/public_html/solar/admin/application/views/quotation/view.php 67
+ERROR - 2025-04-15 01:40:34 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/quotation/view.php 67
+ERROR - 2025-04-15 01:40:34 --> Severity: Warning --> Undefined array key 0 /home3/riyominfotech/public_html/solar/admin/application/views/quotation/view.php 68
+ERROR - 2025-04-15 01:40:34 --> Severity: Warning --> Attempt to read property "amount" on null /home3/riyominfotech/public_html/solar/admin/application/views/quotation/view.php 68
+ERROR - 2025-04-15 02:05:30 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429

@@ -1,0 +1,6 @@
+ERROR - 2025-06-12 08:30:36 --> Severity: Warning --> mysqli::real_connect(): (HY000/1040): Too many connections /home3/riyominfotech/public_html/solar/system/database/drivers/mysqli/mysqli_driver.php 211
+ERROR - 2025-06-12 08:30:36 --> Unable to connect to the database
+ERROR - 2025-06-12 08:30:37 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-06-12 08:30:46 --> Severity: Warning --> mysqli::real_connect(): (HY000/1040): Too many connections /home3/riyominfotech/public_html/solar/system/database/drivers/mysqli/mysqli_driver.php 211
+ERROR - 2025-06-12 08:30:46 --> Unable to connect to the database
+ERROR - 2025-06-12 08:30:46 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/core/Common.php 571

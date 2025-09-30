@@ -1,0 +1,32 @@
+ERROR - 2025-02-21 00:00:43 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 380
+ERROR - 2025-02-21 01:04:12 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 380
+ERROR - 2025-02-21 01:19:13 --> Severity: error --> Exception: Undefined constant "TBL_COMPANY" /home3/riyominfotech/public_html/solar/admin/application/controllers/Quotation.php 208
+ERROR - 2025-02-21 01:19:19 --> Severity: error --> Exception: Undefined constant "TBL_COMPANY" /home3/riyominfotech/public_html/solar/admin/application/controllers/Quotation.php 208
+ERROR - 2025-02-21 01:20:26 --> Severity: error --> Exception: Undefined constant "TBL_COMPANY" /home3/riyominfotech/public_html/solar/admin/application/controllers/Quotation.php 208
+ERROR - 2025-02-21 01:23:22 --> Severity: error --> Exception: Undefined constant "TBL_CLIENT" /home3/riyominfotech/public_html/solar/admin/application/controllers/Quotation.php 208
+ERROR - 2025-02-21 01:30:33 --> Severity: error --> Exception: Undefined constant "TBL_COMPANY" /home3/riyominfotech/public_html/solar/admin/application/controllers/Invoice.php 219
+ERROR - 2025-02-21 01:32:08 --> Query error: Unknown column 'q.franchisee_id' in 'on clause' - Invalid query: SELECT `invoice_id`, DATE_FORMAT(invoice_date, "%d-%m-%Y") as invoice_date, `invoice_no`, `fullname`, `client_name`, `total`
+FROM `tbl_invoice` `i`
+LEFT JOIN `tbl_users` `u` ON `u`.`id` = `q`.`franchisee_id`
+LEFT JOIN `tbl_franchisee_client` `c` ON `c`.`id` = `q`.`client_id`
+ORDER BY `invoice_id` ASC, `invoice_date` ASC
+ LIMIT 10
+ERROR - 2025-02-21 01:32:50 --> Query error: Unknown column 'q.franchisee_id' in 'on clause' - Invalid query: SELECT `invoice_id`, DATE_FORMAT(invoice_date, "%d-%m-%Y") as invoice_date, `invoice_no`, `fullname`, `client_name`, `total`
+FROM `tbl_invoice` `i`
+LEFT JOIN `tbl_users` `u` ON `u`.`id` = `q`.`franchisee_id`
+LEFT JOIN `tbl_franchisee_client` `c` ON `c`.`id` = `q`.`client_id`
+ORDER BY `invoice_id` ASC, `invoice_date` ASC
+ LIMIT 10
+ERROR - 2025-02-21 01:44:17 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 97
+ERROR - 2025-02-21 01:44:45 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/solar/admin/application/views/clients/form.php 90
+ERROR - 2025-02-21 01:46:36 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 380
+ERROR - 2025-02-21 23:00:59 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 112
+ERROR - 2025-02-21 23:01:34 --> Severity: Warning --> Undefined array key 2 /home3/riyominfotech/public_html/solar/admin/application/controllers/Franchisee.php 37
+ERROR - 2025-02-21 23:01:34 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 112
+ERROR - 2025-02-21 23:02:22 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 112
+ERROR - 2025-02-21 23:02:39 --> Severity: error --> Exception: Unsupported operand types: string + int /home3/riyominfotech/public_html/solar/admin/application/controllers/Franchisee.php 37
+ERROR - 2025-02-21 23:03:02 --> Severity: error --> Exception: Unsupported operand types: string + int /home3/riyominfotech/public_html/solar/admin/application/controllers/Franchisee.php 37
+ERROR - 2025-02-21 23:06:06 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 112
+ERROR - 2025-02-21 23:06:41 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 112
+ERROR - 2025-02-21 23:18:04 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 380
+ERROR - 2025-02-21 23:55:47 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 421

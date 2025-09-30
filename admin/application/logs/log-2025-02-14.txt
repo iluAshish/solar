@@ -1,0 +1,72 @@
+ERROR - 2025-02-14 01:30:05 --> 404 Page Not Found: Franchisee/get_clients
+ERROR - 2025-02-14 01:34:02 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`franchisee`' at line 3 - Invalid query: SELECT `id`, `client_name`
+FROM `tbl_franchisee_client`
+WHERE `franchisee_id` = `Select` `franchisee`
+ERROR - 2025-02-14 01:42:45 --> Severity: Warning --> Undefined array key "client_name" /home3/riyominfotech/public_html/solar/admin/application/controllers/Projects.php 92
+ERROR - 2025-02-14 01:42:45 --> Severity: 8192 --> preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated /home3/riyominfotech/public_html/solar/admin/application/models/Common.php 189
+ERROR - 2025-02-14 01:42:45 --> Query error: Unknown column 'client_name' in 'field list' - Invalid query: SELECT `client_name`
+FROM `tbl_solar_project`
+WHERE `client_name` = ''
+ERROR - 2025-02-14 01:42:45 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-02-14 01:43:21 --> Severity: Warning --> Undefined array key "client_name" /home3/riyominfotech/public_html/solar/admin/application/controllers/Projects.php 92
+ERROR - 2025-02-14 01:43:21 --> Severity: 8192 --> preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated /home3/riyominfotech/public_html/solar/admin/application/models/Common.php 189
+ERROR - 2025-02-14 01:43:21 --> Query error: Unknown column 'client_name' in 'field list' - Invalid query: SELECT `client_name`
+FROM `tbl_solar_project`
+WHERE `client_name` = ''
+ERROR - 2025-02-14 01:43:21 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-02-14 01:44:25 --> Query error: Unknown column 'user_id' in 'field list' - Invalid query: INSERT INTO `tbl_solar_project` (`project_name`, `franchisee_id`, `client_id`, `description`, `status`, `created_at`, `user_id`) VALUES ('solar project', '3', '1', 'solar project', 'Active', '2025-02-14 01:44:25', '1')
+ERROR - 2025-02-14 05:42:00 --> Query error: Table 'riyominf_solar.tbl_category' doesn't exist - Invalid query: SELECT `CategoryID`, `CategoryName`
+FROM `tbl_category`
+ORDER BY `CategoryName` ASC
+ LIMIT 10
+ERROR - 2025-02-14 05:42:42 --> Query error: Table 'riyominf_solar.tbl_category' doesn't exist - Invalid query: SELECT `CategoryID`, `CategoryName`
+FROM `tbl_category`
+ORDER BY `CategoryName` ASC
+ LIMIT 10
+ERROR - 2025-02-14 05:51:26 --> Query error: Unknown column 'status' in 'field list' - Invalid query: SELECT `status`
+FROM `tbl_product_category`
+WHERE `id` = 'c.id'
+ERROR - 2025-02-14 05:51:43 --> Query error: Unknown column 'status' in 'field list' - Invalid query: SELECT `status`
+FROM `tbl_product_category`
+WHERE `id` = 'c.id'
+ERROR - 2025-02-14 22:35:47 --> 404 Page Not Found: Products/index
+ERROR - 2025-02-14 22:45:05 --> Query error: Column 'id' in field list is ambiguous - Invalid query: SELECT `id`, `product_name`, `category`, `price`, `franchisee_price`, `warranty_years`
+FROM `tbl_solar_product` `p`
+LEFT JOIN `tbl_product_category` `c` ON `c`.`id` = `p`.`category_id`
+ORDER BY `id` ASC, `product_name` ASC
+ LIMIT 10
+ERROR - 2025-02-14 22:45:25 --> Query error: Column 'id' in field list is ambiguous - Invalid query: SELECT `id`, `product_name`, `category`, `price`, `franchisee_price`, `warranty_years`
+FROM `tbl_solar_product` `p`
+LEFT JOIN `tbl_product_category` `c` ON `c`.`id` = `p`.`category_id`
+ORDER BY `id` ASC, `product_name` ASC
+ LIMIT 10
+ERROR - 2025-02-14 22:46:25 --> Query error: Unknown column 'category' in 'field list' - Invalid query: SELECT `p`.`id`, `product_name`, `category`, `price`, `franchisee_price`, `warranty_years`
+FROM `tbl_solar_product` `p`
+LEFT JOIN `tbl_product_category` `c` ON `c`.`id` = `p`.`category_id`
+ORDER BY `p`.`id` ASC, `product_name` ASC
+ LIMIT 10
+ERROR - 2025-02-14 22:47:13 --> Query error: Table 'riyominf_solar.tbl_brand_master' doesn't exist - Invalid query: SELECT `brand_id`, `brand_name`
+FROM `tbl_brand_master`
+WHERE `is_active` = 1
+ERROR - 2025-02-14 22:47:17 --> Query error: Table 'riyominf_solar.tbl_brand_master' doesn't exist - Invalid query: SELECT `brand_id`, `brand_name`
+FROM `tbl_brand_master`
+WHERE `is_active` = 1
+ERROR - 2025-02-14 22:47:28 --> Query error: Table 'riyominf_solar.tbl_brand_master' doesn't exist - Invalid query: SELECT `brand_id`, `brand_name`
+FROM `tbl_brand_master`
+WHERE `is_active` = 1
+ERROR - 2025-02-14 22:49:43 --> Query error: Unknown column 'is_active' in 'where clause' - Invalid query: SELECT `id`, `category_name`
+FROM `tbl_product_category`
+WHERE `is_active` = 1
+ERROR - 2025-02-14 22:50:27 --> Severity: Warning --> Undefined variable $brands /home3/riyominfotech/public_html/solar/admin/application/views/product/form.php 3
+ERROR - 2025-02-14 22:50:27 --> Severity: error --> Exception: Unsupported operand types: array + null /home3/riyominfotech/public_html/solar/admin/application/views/product/form.php 3
+ERROR - 2025-02-14 22:52:24 --> Severity: Warning --> Undefined variable $brands /home3/riyominfotech/public_html/solar/admin/application/views/product/form.php 3
+ERROR - 2025-02-14 22:52:24 --> Severity: error --> Exception: Unsupported operand types: array + null /home3/riyominfotech/public_html/solar/admin/application/views/product/form.php 3
+ERROR - 2025-02-14 23:14:46 --> Severity: error --> Exception: Call to undefined method CI_Input::postavailability() /home3/riyominfotech/public_html/solar/admin/application/controllers/Products.php 75
+ERROR - 2025-02-14 23:14:58 --> Severity: error --> Exception: Call to undefined method CI_Input::postavailability() /home3/riyominfotech/public_html/solar/admin/application/controllers/Products.php 75
+ERROR - 2025-02-14 23:15:32 --> Query error: Unknown column 'category' in 'field list' - Invalid query: INSERT INTO `tbl_solar_product` (`category`, `product_name`, `price`, `franchisee_price`, `warranty_years`, `availability`, `description`, `created_at`) VALUES ('1', 'Solar1', '20000', '180000', NULL, 'IN STOCK', '40w', '2025-02-14 23:15:32')
+ERROR - 2025-02-14 23:15:51 --> Query error: Column 'warranty_years' cannot be null - Invalid query: INSERT INTO `tbl_solar_product` (`category_id`, `product_name`, `price`, `franchisee_price`, `warranty_years`, `availability`, `description`, `created_at`) VALUES ('1', 'Solar1', '20000', '180000', NULL, 'IN STOCK', '40w', '2025-02-14 23:15:51')
+ERROR - 2025-02-14 23:16:20 --> Query error: Unknown column 'status' in 'field list' - Invalid query: SELECT `status`
+FROM `tbl_solar_product`
+WHERE `id` = '1'
+ERROR - 2025-02-14 23:50:11 --> Severity: Warning --> Undefined property: stdClass::$staff_name /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 38
+ERROR - 2025-02-14 23:58:34 --> Severity: Warning --> Undefined property: stdClass::$state /home3/riyominfotech/public_html/solar/admin/application/controllers/Clients.php 43

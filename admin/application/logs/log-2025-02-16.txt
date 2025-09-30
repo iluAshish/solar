@@ -1,0 +1,9 @@
+ERROR - 2025-02-16 01:16:39 --> Severity: Warning --> Undefined variable $reposnse /home3/riyominfotech/public_html/solar/admin/application/controllers/Franchisee.php 189
+ERROR - 2025-02-16 01:16:39 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated /home3/riyominfotech/public_html/solar/admin/application/controllers/Franchisee.php 189
+ERROR - 2025-02-16 01:17:46 --> Severity: 8192 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated /home3/riyominfotech/public_html/solar/admin/application/controllers/Franchisee.php 189
+ERROR - 2025-02-16 01:21:39 --> Severity: Warning --> Undefined variable $reposnse /home3/riyominfotech/public_html/solar/admin/application/controllers/Franchisee.php 189
+ERROR - 2025-02-16 01:21:39 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Franchisee.php 189
+ERROR - 2025-02-16 01:21:39 --> Severity: Warning --> Undefined variable $reposnse /home3/riyominfotech/public_html/solar/admin/application/controllers/Franchisee.php 192
+ERROR - 2025-02-16 01:21:39 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Franchisee.php 192
+ERROR - 2025-02-16 01:22:30 --> Severity: error --> Exception: Cannot use object of type stdClass as array /home3/riyominfotech/public_html/solar/admin/application/controllers/Franchisee.php 189
+ERROR - 2025-02-16 01:23:15 --> Severity: error --> Exception: Cannot use object of type stdClass as array /home3/riyominfotech/public_html/solar/admin/application/controllers/Franchisee.php 192

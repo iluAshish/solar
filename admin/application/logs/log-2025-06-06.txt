@@ -1,0 +1,66 @@
+ERROR - 2025-06-06 00:01:13 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 00:02:17 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 00:03:30 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 00:04:57 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 00:10:20 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 00:12:25 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 00:34:04 --> Severity: error --> Exception: count(): Argument #1 ($value) must be of type Countable|array, null given /home3/riyominfotech/public_html/solar/admin/application/controllers/Invoice.php 156
+ERROR - 2025-06-06 00:34:45 --> Severity: error --> Exception: count(): Argument #1 ($value) must be of type Countable|array, null given /home3/riyominfotech/public_html/solar/admin/application/controllers/Invoice.php 156
+ERROR - 2025-06-06 00:38:57 --> Severity: error --> Exception: Call to undefined function uset() /home3/riyominfotech/public_html/solar/admin/application/controllers/Invoice.php 49
+ERROR - 2025-06-06 00:39:31 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 00:39:31 --> Severity: Warning --> Undefined property: stdClass::$id /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 12
+ERROR - 2025-06-06 00:39:31 --> Severity: Warning --> Undefined property: stdClass::$id /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 41
+ERROR - 2025-06-06 00:40:45 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 00:40:45 --> Severity: Warning --> Undefined property: stdClass::$id /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 41
+ERROR - 2025-06-06 00:41:45 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 00:42:56 --> Severity: error --> Exception: count(): Argument #1 ($value) must be of type Countable|array, string given /home3/riyominfotech/public_html/solar/admin/application/controllers/Invoice.php 180
+ERROR - 2025-06-06 00:46:36 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 00:47:47 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 00:48:23 --> Severity: Warning --> Array to string conversion /home3/riyominfotech/public_html/solar/system/database/DB_driver.php 1485
+ERROR - 2025-06-06 00:48:23 --> Query error: Unknown column 'Array' in 'field list' - Invalid query: INSERT INTO `tbl_invoice` (`invoice_no`, `franchisee_id`, `client_id`, `project_id`, `invoice_date`, `invoice_details`, `invoice_terms`, `updated_at`, `created_at`) VALUES ('0004', '3', '1', Array, '2025-06-06', '<p>test</p>', '<p>test</p>', '2025-06-06 00:48:23', '2025-06-06 00:48:23')
+ERROR - 2025-06-06 00:48:23 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-06-06 00:53:11 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Invoice.php 185
+ERROR - 2025-06-06 00:53:11 --> Query error: Unknown column 'size_range_id' in 'field list' - Invalid query: INSERT INTO `tbl_invoice_product` (`invoice_id`, `project_id`, `size_range_id`, `qty`, `basic_rate`, `amount`) VALUES (3, '1', NULL, '4', '63500', '254000.00')
+ERROR - 2025-06-06 00:53:11 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-06-06 01:02:27 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 06:17:20 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 06:18:34 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 06:20:20 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 06:21:29 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 06:33:53 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 06:34:43 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Invoice.php 186
+ERROR - 2025-06-06 06:34:43 --> Query error: Unknown column 'size_range_id' in 'field list' - Invalid query: INSERT INTO `tbl_invoice_product` (`invoice_id`, `project_id`, `size_range_id`, `qty`, `basic_rate`, `amount`) VALUES (4, '5', '8', NULL, '63500', '254000.00')
+ERROR - 2025-06-06 06:34:43 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-06-06 06:51:39 --> Query error: Unknown column 'i.user_id' in 'where clause' - Invalid query: SELECT `i`.`id`, DATE_FORMAT(invoice_date, "%d-%m-%Y") as invoice_date, `invoice_no`, `fullname`, `client_name`, `project_name`, `total`
+FROM `tbl_invoice` `i`
+LEFT JOIN `tbl_users` `u` ON `u`.`id` = `i`.`franchisee_id`
+LEFT JOIN `tbl_franchisee_client` `c` ON `c`.`id` = `i`.`client_id`
+LEFT JOIN `tbl_solar_project` `p` ON `p`.`id` = `i`.`project_id`
+WHERE `i`.`user_id` = '1'
+ORDER BY `i`.`id` ASC, `invoice_date` ASC
+ LIMIT 10
+ERROR - 2025-06-06 06:52:16 --> Query error: Unknown column 'i.user_id' in 'where clause' - Invalid query: SELECT `i`.`id`, DATE_FORMAT(invoice_date, "%d-%m-%Y") as invoice_date, `invoice_no`, `fullname`, `client_name`, `project_name`, `total`
+FROM `tbl_invoice` `i`
+LEFT JOIN `tbl_users` `u` ON `u`.`id` = `i`.`franchisee_id`
+LEFT JOIN `tbl_franchisee_client` `c` ON `c`.`id` = `i`.`client_id`
+LEFT JOIN `tbl_solar_project` `p` ON `p`.`id` = `i`.`project_id`
+WHERE `i`.`user_id` = '1'
+ORDER BY `i`.`id` ASC, `invoice_date` ASC
+ LIMIT 10
+ERROR - 2025-06-06 06:54:18 --> Severity: error --> Exception: Undefined constant "TBL_COMPANY" /home3/riyominfotech/public_html/solar/admin/application/controllers/Invoice.php 97
+ERROR - 2025-06-06 06:55:15 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 06:55:15 --> Severity: Warning --> Undefined property: stdClass::$work_scope /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 198
+ERROR - 2025-06-06 06:55:15 --> Severity: Warning --> Undefined property: stdClass::$specification /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 204
+ERROR - 2025-06-06 06:57:31 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 07:24:00 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 07:36:07 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 07:39:01 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 23:42:21 --> Severity: Warning --> Undefined property: stdClass::$consinee_id /home3/riyominfotech/public_html/solar/admin/application/controllers/Invoice.php 320
+ERROR - 2025-06-06 23:42:21 --> Severity: error --> Exception: Undefined constant "TBL_COMPANY" /home3/riyominfotech/public_html/solar/admin/application/controllers/Invoice.php 320
+ERROR - 2025-06-06 23:42:21 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-06-06 23:43:43 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 23:48:56 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-06 23:48:56 --> Severity: Warning --> Undefined property: stdClass::$reference_no /home3/riyominfotech/public_html/solar/admin/application/views/invoice/view.php 51
+ERROR - 2025-06-06 23:48:56 --> Severity: Warning --> Undefined property: stdClass::$qauote_date /home3/riyominfotech/public_html/solar/admin/application/views/invoice/view.php 52
+ERROR - 2025-06-06 23:48:56 --> Severity: 8192 --> strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated /home3/riyominfotech/public_html/solar/admin/application/views/invoice/view.php 52
+ERROR - 2025-06-06 23:50:15 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462

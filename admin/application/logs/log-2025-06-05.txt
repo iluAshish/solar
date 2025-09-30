@@ -1,0 +1,9 @@
+ERROR - 2025-06-05 00:15:37 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-05 01:39:11 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-05 02:14:22 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-05 06:35:14 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-05 23:49:07 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-05 23:49:07 --> Severity: error --> Exception: in_array(): Argument #2 ($haystack) must be of type array, string given /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 91
+ERROR - 2025-06-05 23:50:40 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462
+ERROR - 2025-06-05 23:50:40 --> Severity: error --> Exception: in_array(): Argument #2 ($haystack) must be of type array, string given /home3/riyominfotech/public_html/solar/admin/application/views/invoice/add.php 91
+ERROR - 2025-06-05 23:56:25 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 462

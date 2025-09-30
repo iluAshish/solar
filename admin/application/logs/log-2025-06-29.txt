@@ -1,0 +1,2 @@
+ERROR - 2025-06-29 00:30:11 --> Severity: Warning --> Undefined variable $districts /home3/riyominfotech/public_html/solar/admin/application/views/users/form.php 114
+ERROR - 2025-06-29 00:45:16 --> Severity: error --> Exception: Class "PHPMailer" not found /home3/riyominfotech/public_html/solar/admin/application/models/Common.php 228

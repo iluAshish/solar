@@ -1,0 +1,32 @@
+ERROR - 2025-03-15 00:50:28 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 02:02:45 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 02:02:45 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/quotation/view.php 57
+ERROR - 2025-03-15 02:02:45 --> Severity: Warning --> Undefined variable $quote_prod /home3/riyominfotech/public_html/solar/admin/application/views/quotation/view.php 83
+ERROR - 2025-03-15 02:02:45 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/quotation/view.php 83
+ERROR - 2025-03-15 02:03:46 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 02:03:46 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/quotation/view.php 57
+ERROR - 2025-03-15 02:03:46 --> Severity: Warning --> Attempt to read property "project_name" on null /home3/riyominfotech/public_html/solar/admin/application/views/quotation/view.php 57
+ERROR - 2025-03-15 02:03:46 --> Severity: Warning --> Undefined variable $product /home3/riyominfotech/public_html/solar/admin/application/views/quotation/view.php 57
+ERROR - 2025-03-15 02:03:46 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/quotation/view.php 57
+ERROR - 2025-03-15 02:03:46 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/quotation/view.php 83
+ERROR - 2025-03-15 02:04:12 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 02:04:12 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/views/quotation/view.php 57
+ERROR - 2025-03-15 02:04:12 --> Severity: Warning --> Attempt to read property "basic_rate" on null /home3/riyominfotech/public_html/solar/admin/application/views/quotation/view.php 57
+ERROR - 2025-03-15 02:04:12 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/quotation/view.php 83
+ERROR - 2025-03-15 02:04:31 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 02:05:14 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 02:09:42 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 02:10:40 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 02:13:43 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 02:14:11 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 02:15:03 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 02:21:09 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 06:03:25 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 06:18:49 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 06:20:47 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 06:22:44 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 06:23:21 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 06:30:43 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 06:31:15 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 06:31:34 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429
+ERROR - 2025-03-15 06:37:25 --> Severity: Warning --> Undefined property: stdClass::$contact_person /home3/riyominfotech/public_html/solar/admin/application/views/partials/menu.php 429

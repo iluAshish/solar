@@ -1,0 +1,59 @@
+ERROR - 2025-08-07 00:00:13 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-08-07 00:01:10 --> Severity: Warning --> Undefined variable $districts /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/users/form.php 114
+ERROR - 2025-08-07 00:04:24 --> Severity: Warning --> Undefined variable $districts /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/users/form.php 114
+ERROR - 2025-08-07 02:37:12 --> Severity: Warning --> Attempt to read property "is_view" on null /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/User.php 21
+ERROR - 2025-08-07 02:37:41 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 02:37:41 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 02:37:41 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 02:44:03 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 02:44:03 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 02:44:03 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 02:44:41 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 02:44:41 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 02:44:41 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 02:45:17 --> Severity: Warning --> Undefined variable $cities /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/clients/form.php 90
+ERROR - 2025-08-07 02:45:20 --> Severity: Warning --> Undefined variable $cities /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/clients/form.php 90
+ERROR - 2025-08-07 02:47:38 --> Severity: Warning --> Attempt to read property "is_view" on null /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/User.php 21
+ERROR - 2025-08-07 02:48:41 --> Severity: Warning --> Attempt to read property "is_view" on null /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/User.php 21
+ERROR - 2025-08-07 02:48:50 --> Severity: Warning --> Attempt to read property "is_view" on null /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/User.php 21
+ERROR - 2025-08-07 02:50:09 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 02:50:09 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 02:50:10 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 03:14:49 --> Severity: Warning --> Undefined variable $districts /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/users/form.php 114
+ERROR - 2025-08-07 03:17:21 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 03:17:21 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 03:17:21 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 03:29:25 --> Severity: Warning --> Undefined variable $districts /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/users/form.php 114
+ERROR - 2025-08-07 03:32:04 --> Severity: Warning --> Attempt to read property "is_view" on null /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/User.php 21
+ERROR - 2025-08-07 03:33:27 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 03:33:27 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 03:33:27 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 04:57:32 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 04:57:32 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 04:57:32 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 05:37:26 --> Severity: Warning --> Undefined array key "clients" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/Quotation.php 44
+ERROR - 2025-08-07 05:38:09 --> Severity: Warning --> Undefined array key "clients" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/Quotation.php 45
+ERROR - 2025-08-07 05:38:19 --> Severity: Warning --> Undefined array key "clients" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/Quotation.php 45
+ERROR - 2025-08-07 05:38:21 --> Severity: Warning --> Undefined array key "clients" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/Quotation.php 45
+ERROR - 2025-08-07 05:38:24 --> Severity: Warning --> Undefined array key "clients" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/Quotation.php 45
+ERROR - 2025-08-07 05:38:25 --> Severity: Warning --> Undefined array key "clients" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/Quotation.php 45
+ERROR - 2025-08-07 05:38:26 --> Severity: Warning --> Undefined array key "clients" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/Quotation.php 45
+ERROR - 2025-08-07 05:38:27 --> Severity: Warning --> Undefined array key "clients" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/Quotation.php 45
+ERROR - 2025-08-07 05:38:28 --> Severity: Warning --> Undefined array key "clients" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/Quotation.php 45
+ERROR - 2025-08-07 05:38:29 --> Severity: Warning --> Undefined array key "clients" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/Quotation.php 45
+ERROR - 2025-08-07 05:38:45 --> Severity: Warning --> Undefined array key "clients" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/Quotation.php 45
+ERROR - 2025-08-07 05:38:47 --> Severity: Warning --> Undefined array key "clients" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/Quotation.php 45
+ERROR - 2025-08-07 05:39:52 --> Severity: Warning --> Undefined array key "clients" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/Quotation.php 45
+ERROR - 2025-08-07 05:40:13 --> Severity: Warning --> Undefined array key "clients" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/Quotation.php 45
+ERROR - 2025-08-07 05:40:15 --> Severity: Warning --> Undefined array key "clients" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/Quotation.php 45
+ERROR - 2025-08-07 05:40:16 --> Severity: Warning --> Undefined array key "clients" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/Quotation.php 45
+ERROR - 2025-08-07 05:40:41 --> Severity: Warning --> Undefined array key "clients" /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/controllers/Quotation.php 44
+ERROR - 2025-08-07 05:43:42 --> Severity: Warning --> Undefined variable $cities /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/clients/form.php 90
+ERROR - 2025-08-07 05:48:24 --> Severity: Warning --> Undefined variable $cities /home/u923514998/domains/scopnixsolar.com/public_html/admin/application/views/clients/form.php 92
+ERROR - 2025-08-07 18:30:29 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2025-08-07 23:42:03 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 23:42:03 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 23:42:03 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 23:48:06 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 23:48:06 --> 404 Page Not Found: Metronic8/demo1
+ERROR - 2025-08-07 23:48:06 --> 404 Page Not Found: Metronic8/demo1

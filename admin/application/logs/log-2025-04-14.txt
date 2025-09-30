@@ -1,0 +1,12 @@
+ERROR - 2025-04-14 00:00:05 --> Severity: Warning --> Undefined variable $projects /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 146
+ERROR - 2025-04-14 00:00:05 --> Severity: Warning --> foreach() argument must be of type array|object, null given /home3/riyominfotech/public_html/solar/admin/application/views/quotation/add.php 146
+ERROR - 2025-04-14 00:34:55 --> Query error: Unknown column 'id' in 'field list' - Invalid query: SELECT `id`, `size_range`
+FROM `tbl_solar_project_price`
+WHERE `project_id` = 5
+ERROR - 2025-04-14 00:35:31 --> Query error: Unknown column 'id' in 'field list' - Invalid query: SELECT `id`, `size_range`
+FROM `tbl_solar_project_price`
+WHERE `project_id` = 4
+ERROR - 2025-04-14 00:36:05 --> Query error: Unknown column 'size_id' in 'field list' - Invalid query: SELECT `size_id`, `size_range`
+FROM `tbl_solar_project_price`
+WHERE `project_id` = 5
+ERROR - 2025-04-14 00:54:48 --> 404 Page Not Found: Undefined/get_size_price

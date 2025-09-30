@@ -1,0 +1,14 @@
+ERROR - 2024-05-02 01:43:49 --> Query error: Unknown column 'qauote_date' in 'field list' - Invalid query: SELECT `invoice_id`, `qauote_date`, `reference_no`, `company_name`, `cust_ref_no`
+FROM `tbl_invoice` `q`
+LEFT JOIN `tbl_customer` `c` ON `c`.`company_id` = `q`.`customer_id`
+ORDER BY `invoice_id` ASC, `qauote_date` ASC
+ LIMIT 10
+ERROR - 2024-05-02 01:48:51 --> Query error: Unknown column 'reference_no' in 'where clause' - Invalid query: SELECT *
+FROM `tbl_invoice`
+WHERE `reference_no` like "%2024%"
+ORDER BY `invoice_id` DESC
+ LIMIT 1
+ERROR - 2024-05-02 01:49:13 --> Severity: Warning --> Undefined variable $ref_no /home3/riyominfotech/public_html/crm/admin/application/views/invoice/add.php 61
+ERROR - 2024-05-02 02:27:33 --> Severity: Warning --> Undefined variable $dc_no /home3/riyominfotech/public_html/crm/admin/application/views/invoice/add.php 75
+ERROR - 2024-05-02 02:27:33 --> Severity: Warning --> Undefined variable $po_no /home3/riyominfotech/public_html/crm/admin/application/views/invoice/add.php 90
+ERROR - 2024-05-02 02:34:13 --> Severity: error --> Exception: Undefined constant "dc_no" /home3/riyominfotech/public_html/crm/admin/application/views/invoice/add.php 75

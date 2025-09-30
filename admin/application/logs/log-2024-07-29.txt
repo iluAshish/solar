@@ -1,0 +1,7 @@
+ERROR - 2024-07-29 00:47:37 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 160
+ERROR - 2024-07-29 00:48:07 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/crm/admin/application/views/quotation/view.php 3
+ERROR - 2024-07-29 00:58:02 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 3
+ERROR - 2024-07-29 01:02:50 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 3
+ERROR - 2024-07-29 01:04:08 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 3
+ERROR - 2024-07-29 08:16:51 --> Severity: Warning --> Undefined variable $users /home3/riyominfotech/public_html/crm/admin/application/views/report/invoices.php 40
+ERROR - 2024-07-29 08:17:02 --> 404 Page Not Found: Mail_settings/index

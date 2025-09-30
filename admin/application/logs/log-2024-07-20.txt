@@ -1,0 +1,13 @@
+ERROR - 2024-07-20 04:47:42 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 154
+ERROR - 2024-07-20 04:54:12 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/crm/admin/application/views/quotation/view.php 3
+ERROR - 2024-07-20 05:19:26 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/crm/admin/application/controllers/Quotation.php 148
+ERROR - 2024-07-20 05:19:26 --> Query error: Column 'basic_rate' cannot be null - Invalid query: INSERT INTO `tbl_quote_product` (`quote_id`, `product_id`, `qty`, `unit`, `basic_rate`, `gst`, `amount`) VALUES (7, '2', '5', 'Nos', NULL, '18.00', '265500.00')
+ERROR - 2024-07-20 05:19:26 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-07-20 05:20:53 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/crm/admin/application/views/quotation/view.php 3
+ERROR - 2024-07-20 05:28:04 --> 404 Page Not Found: Report/index
+ERROR - 2024-07-20 05:29:05 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 3
+ERROR - 2024-07-20 05:31:25 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 3
+ERROR - 2024-07-20 05:34:45 --> Severity: Warning --> Undefined property: stdClass::$product_name /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 119
+ERROR - 2024-07-20 05:34:58 --> Severity: Warning --> Undefined property: stdClass::$product_name /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 119
+ERROR - 2024-07-20 05:35:29 --> Severity: Warning --> Undefined property: stdClass::$product_name /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 119
+ERROR - 2024-07-20 05:36:20 --> 404 Page Not Found: Product/sent_mail

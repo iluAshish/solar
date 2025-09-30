@@ -1,0 +1,16 @@
+ERROR - 2024-07-28 00:58:24 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC, "d-m-Y") ASC
+ LIMIT 10' at line 4 - Invalid query: SELECT `quotation_id`, DATE_FORMAT(qauote_date, "d-m-Y"), `reference_no`, `company_name`, `cust_ref_no`
+FROM `tbl_quotation` `q`
+LEFT JOIN `tbl_company` `c` ON `c`.`company_id` = `q`.`customer_id`
+ORDER BY `quotation_id` ASC, DATE_FORMAT(qauote_date ASC, "d-m-Y") ASC
+ LIMIT 10
+ERROR - 2024-07-28 00:58:42 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC, "d-m-Y") ASC
+ LIMIT 10' at line 4 - Invalid query: SELECT `quotation_id`, DATE_FORMAT(qauote_date, "d-m-Y"), `reference_no`, `company_name`, `cust_ref_no`
+FROM `tbl_quotation` `q`
+LEFT JOIN `tbl_company` `c` ON `c`.`company_id` = `q`.`customer_id`
+ORDER BY `quotation_id` ASC, DATE_FORMAT(qauote_date ASC, "d-m-Y") ASC
+ LIMIT 10
+ERROR - 2024-07-28 01:18:05 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 160
+ERROR - 2024-07-28 01:23:18 --> Severity: Warning --> Undefined variable $users /home3/riyominfotech/public_html/crm/admin/application/views/report/invoices.php 40
+ERROR - 2024-07-28 23:08:44 --> Severity: Warning --> Undefined variable $cities /home3/riyominfotech/public_html/crm/admin/application/views/company/form.php 160
+ERROR - 2024-07-28 23:08:57 --> Severity: Warning --> Undefined variable $company_person /home3/riyominfotech/public_html/crm/admin/application/views/quotation/add.php 79

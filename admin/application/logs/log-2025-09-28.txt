@@ -1,0 +1,2 @@
+ERROR - 2025-09-28 23:55:18 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483
+ERROR - 2025-09-28 23:55:43 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 483

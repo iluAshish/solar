@@ -1,0 +1,112 @@
+ERROR - 2022-02-16 00:34:00 --> Severity: Notice --> Undefined variable: category D:\Projects\lapmo\admin\application\views\subcategory\form.php 5
+ERROR - 2022-02-16 00:34:00 --> Severity: error --> Exception: Unsupported operand types D:\Projects\lapmo\admin\application\views\subcategory\form.php 5
+ERROR - 2022-02-16 00:51:41 --> Severity: Warning --> Use of undefined constant DEFAULT_NO_EMAGE - assumed 'DEFAULT_NO_EMAGE' (this will throw an Error in a future version of PHP) D:\Projects\lapmo\admin\application\controllers\Banner.php 145
+ERROR - 2022-02-16 00:51:41 --> Severity: error --> Exception: Call to undefined method Datatables::order_by() D:\Projects\lapmo\admin\application\controllers\Banner.php 140
+ERROR - 2022-02-16 00:51:43 --> Severity: Warning --> Use of undefined constant DEFAULT_NO_EMAGE - assumed 'DEFAULT_NO_EMAGE' (this will throw an Error in a future version of PHP) D:\Projects\lapmo\admin\application\controllers\Banner.php 145
+ERROR - 2022-02-16 00:51:43 --> Severity: error --> Exception: Call to undefined method Datatables::order_by() D:\Projects\lapmo\admin\application\controllers\Banner.php 140
+ERROR - 2022-02-16 00:52:55 --> Severity: Warning --> Use of undefined constant DEFAULT_NO_EMAGE - assumed 'DEFAULT_NO_EMAGE' (this will throw an Error in a future version of PHP) D:\Projects\lapmo\admin\application\controllers\Banner.php 145
+ERROR - 2022-02-16 00:52:55 --> Severity: error --> Exception: Call to undefined method Datatables::order_by() D:\Projects\lapmo\admin\application\controllers\Banner.php 140
+ERROR - 2022-02-16 00:53:00 --> Severity: Warning --> Use of undefined constant DEFAULT_NO_EMAGE - assumed 'DEFAULT_NO_EMAGE' (this will throw an Error in a future version of PHP) D:\Projects\lapmo\admin\application\controllers\Banner.php 145
+ERROR - 2022-02-16 00:53:00 --> Severity: error --> Exception: Call to undefined method Datatables::order_by() D:\Projects\lapmo\admin\application\controllers\Banner.php 140
+ERROR - 2022-02-16 00:53:15 --> Severity: error --> Exception: Call to undefined method Datatables::order_by() D:\Projects\lapmo\admin\application\controllers\Banner.php 140
+ERROR - 2022-02-16 00:53:20 --> Severity: error --> Exception: Call to undefined method Datatables::order_by() D:\Projects\lapmo\admin\application\controllers\Banner.php 140
+ERROR - 2022-02-16 00:55:27 --> Severity: Notice --> Undefined variable: category_name D:\Projects\lapmo\admin\application\views\banner\form.php 53
+ERROR - 2022-02-16 01:21:02 --> 404 Page Not Found: Usr/index
+ERROR - 2022-02-16 01:21:12 --> Severity: error --> Exception: syntax error, unexpected '$this' (T_VARIABLE) D:\Projects\lapmo\admin\application\controllers\User.php 130
+ERROR - 2022-02-16 01:21:25 --> Severity: error --> Exception: syntax error, unexpected '$this' (T_VARIABLE) D:\Projects\lapmo\admin\application\controllers\User.php 130
+ERROR - 2022-02-16 01:26:49 --> Severity: Notice --> Undefined variable: category D:\Projects\lapmo\admin\application\views\user\form.php 5
+ERROR - 2022-02-16 01:26:49 --> Severity: error --> Exception: Unsupported operand types D:\Projects\lapmo\admin\application\views\user\form.php 5
+ERROR - 2022-02-16 01:41:01 --> Severity: Notice --> Undefined variable: category D:\Projects\lapmo\admin\application\views\user\form.php 5
+ERROR - 2022-02-16 01:41:01 --> Severity: error --> Exception: Unsupported operand types D:\Projects\lapmo\admin\application\views\user\form.php 5
+ERROR - 2022-02-16 03:47:58 --> Could not find the language line "form_validation_requiredis_unique"
+ERROR - 2022-02-16 03:54:13 --> Severity: error --> Exception: Too few arguments to function User::_send_email(), 4 passed in D:\Projects\lapmo\admin\application\controllers\User.php on line 81 and exactly 5 expected D:\Projects\lapmo\admin\application\controllers\User.php 143
+ERROR - 2022-02-16 03:54:18 --> Severity: error --> Exception: Too few arguments to function User::_send_email(), 4 passed in D:\Projects\lapmo\admin\application\controllers\User.php on line 81 and exactly 5 expected D:\Projects\lapmo\admin\application\controllers\User.php 143
+ERROR - 2022-02-16 03:54:35 --> Severity: error --> Exception: syntax error, unexpected 'password' (T_STRING) D:\Projects\lapmo\admin\application\views\email\welcome-html.php 22
+ERROR - 2022-02-16 03:58:02 --> Severity: error --> Exception: syntax error, unexpected 'password' (T_STRING) D:\Projects\lapmo\admin\application\views\email\welcome-html.php 22
+ERROR - 2022-02-16 03:58:48 --> Severity: error --> Exception: syntax error, unexpected 'password' (T_STRING) D:\Projects\lapmo\admin\application\views\email\welcome-html.php 27
+ERROR - 2022-02-16 03:59:14 --> Severity: error --> Exception: syntax error, unexpected 'password' (T_STRING) D:\Projects\lapmo\admin\application\views\email\welcome-html.php 27
+ERROR - 2022-02-16 04:04:26 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-html.php 3
+ERROR - 2022-02-16 04:04:26 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-html.php 10
+ERROR - 2022-02-16 04:04:26 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-html.php 11
+ERROR - 2022-02-16 04:04:26 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-html.php 12
+ERROR - 2022-02-16 04:04:26 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-html.php 14
+ERROR - 2022-02-16 04:04:26 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-html.php 26
+ERROR - 2022-02-16 04:04:26 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-txt.php 1
+ERROR - 2022-02-16 04:04:26 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-txt.php 3
+ERROR - 2022-02-16 04:04:26 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-txt.php 20
+ERROR - 2022-02-16 04:05:55 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-html.php 3
+ERROR - 2022-02-16 04:05:55 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-html.php 10
+ERROR - 2022-02-16 04:05:55 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-html.php 11
+ERROR - 2022-02-16 04:05:55 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-html.php 12
+ERROR - 2022-02-16 04:05:55 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-html.php 14
+ERROR - 2022-02-16 04:05:55 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-html.php 26
+ERROR - 2022-02-16 04:05:55 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-txt.php 1
+ERROR - 2022-02-16 04:05:55 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-txt.php 3
+ERROR - 2022-02-16 04:05:55 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-txt.php 20
+ERROR - 2022-02-16 04:18:25 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-html.php 3
+ERROR - 2022-02-16 04:18:25 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-html.php 10
+ERROR - 2022-02-16 04:18:25 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-html.php 11
+ERROR - 2022-02-16 04:18:25 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-html.php 12
+ERROR - 2022-02-16 04:18:25 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-html.php 14
+ERROR - 2022-02-16 04:18:25 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-html.php 26
+ERROR - 2022-02-16 04:18:25 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-txt.php 1
+ERROR - 2022-02-16 04:18:25 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-txt.php 3
+ERROR - 2022-02-16 04:18:25 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\welcome-txt.php 20
+ERROR - 2022-02-16 04:20:42 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\confirmation-txt.php 1
+ERROR - 2022-02-16 04:20:42 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\confirmation-txt.php 3
+ERROR - 2022-02-16 04:20:42 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\confirmation-txt.php 20
+ERROR - 2022-02-16 04:21:56 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\confirmation-txt.php 1
+ERROR - 2022-02-16 04:21:56 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\confirmation-txt.php 3
+ERROR - 2022-02-16 04:21:56 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\confirmation-txt.php 20
+ERROR - 2022-02-16 04:22:00 --> Query error: Unknown column 'passwordUser' in 'field list' - Invalid query: INSERT INTO `users` (`first_name`, `last_name`, `email`, `mobile_no`, `username`, `activated`, `roleid`, `created`, `password`, `passwordUser`) VALUES ('Bhavin', 'Gor', 'jaydeepb.aipl@gmail.com', '9638527415', 'Bhavin Gor', 1, 2, '2022-02-16 04:21:56', '$2a$08$AFdQbxtcqDXp7kACa9CcjOBccj7yYchZn0LctLFLLpDWAgU4vE5Rq', '2V0urG')
+ERROR - 2022-02-16 04:22:28 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\confirmation-txt.php 1
+ERROR - 2022-02-16 04:22:28 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\confirmation-txt.php 3
+ERROR - 2022-02-16 04:22:28 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\confirmation-txt.php 20
+ERROR - 2022-02-16 04:22:32 --> Query error: Unknown column 'passwordUser' in 'field list' - Invalid query: INSERT INTO `users` (`first_name`, `last_name`, `email`, `mobile_no`, `username`, `activated`, `roleid`, `created`, `password`, `passwordUser`) VALUES ('Jack', 'Patel', 'jaydeepb.aipl@gmail.com', '7069377183', 'Jack Patel', 1, 2, '2022-02-16 04:22:28', '$2a$08$RAustjj9jqrDu1O6GM57HuzWHIS9mODM7V.Tg8F49m2pK8PryWdJC', 'EXwhtz')
+ERROR - 2022-02-16 04:22:46 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\confirmation-txt.php 1
+ERROR - 2022-02-16 04:22:46 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\confirmation-txt.php 3
+ERROR - 2022-02-16 04:22:46 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\confirmation-txt.php 20
+ERROR - 2022-02-16 04:22:49 --> Query error: Unknown column 'passwordUser' in 'field list' - Invalid query: INSERT INTO `users` (`first_name`, `last_name`, `email`, `mobile_no`, `username`, `activated`, `roleid`, `created`, `password`, `passwordUser`) VALUES ('Jack', 'Patel', 'jaydeepb.aipl@gmail.com', '7069377183', 'Jack Patel', 1, 2, '2022-02-16 04:22:46', '$2a$08$bk85RY5wTX0CaLH6YR231OV.UaMmPWNGqeUiwA7YhoZO5Le21Ec2W', 'SkoeqS')
+ERROR - 2022-02-16 04:23:26 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\confirmation-txt.php 1
+ERROR - 2022-02-16 04:23:26 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\confirmation-txt.php 3
+ERROR - 2022-02-16 04:23:26 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\confirmation-txt.php 20
+ERROR - 2022-02-16 04:24:41 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\confirmation-txt.php 1
+ERROR - 2022-02-16 04:24:41 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\confirmation-txt.php 3
+ERROR - 2022-02-16 04:24:41 --> Severity: Notice --> Undefined variable: site_name D:\Projects\lapmo\admin\application\views\email\confirmation-txt.php 20
+ERROR - 2022-02-16 04:53:32 --> Severity: Warning --> Use of undefined constant COUPON_DIR - assumed 'COUPON_DIR' (this will throw an Error in a future version of PHP) D:\Projects\lapmo\admin\application\controllers\Promocode.php 75
+ERROR - 2022-02-16 04:53:32 --> Severity: Warning --> Use of undefined constant COUPON_DIR - assumed 'COUPON_DIR' (this will throw an Error in a future version of PHP) D:\Projects\lapmo\admin\application\controllers\Promocode.php 85
+ERROR - 2022-02-16 04:53:37 --> Severity: Warning --> Use of undefined constant COUPON_DIR - assumed 'COUPON_DIR' (this will throw an Error in a future version of PHP) D:\Projects\lapmo\admin\application\controllers\Promocode.php 75
+ERROR - 2022-02-16 04:53:37 --> Severity: Warning --> Use of undefined constant COUPON_DIR - assumed 'COUPON_DIR' (this will throw an Error in a future version of PHP) D:\Projects\lapmo\admin\application\controllers\Promocode.php 85
+ERROR - 2022-02-16 04:55:40 --> Query error: Unknown column 'id' in 'where clause' - Invalid query: SELECT `isActive`
+FROM `tbl_coupon`
+WHERE `id` = '1'
+ERROR - 2022-02-16 04:55:43 --> Query error: Unknown column 'id' in 'where clause' - Invalid query: SELECT `isActive`
+FROM `tbl_coupon`
+WHERE `id` = '1'
+ERROR - 2022-02-16 04:55:48 --> Query error: Unknown column 'id' in 'where clause' - Invalid query: SELECT `isActive`
+FROM `tbl_coupon`
+WHERE `id` = '1'
+ERROR - 2022-02-16 04:56:24 --> Severity: Notice --> Undefined property: stdClass::$Des D:\Projects\lapmo\admin\application\views\promocode\form.php 8
+ERROR - 2022-02-16 05:37:48 --> Severity: Warning --> Use of undefined constant PRODUCT - assumed 'PRODUCT' (this will throw an Error in a future version of PHP) D:\Projects\lapmo\admin\application\controllers\Product.php 146
+ERROR - 2022-02-16 05:37:59 --> Severity: Warning --> Use of undefined constant PRODUCT - assumed 'PRODUCT' (this will throw an Error in a future version of PHP) D:\Projects\lapmo\admin\application\controllers\Product.php 146
+ERROR - 2022-02-16 05:46:17 --> Severity: Notice --> Undefined variable: CouponName D:\Projects\lapmo\admin\application\views\product\form.php 67
+ERROR - 2022-02-16 06:01:57 --> Severity: Notice --> Undefined property: stdClass::$Details D:\Projects\lapmo\admin\application\views\product\form.php 22
+ERROR - 2022-02-16 06:01:57 --> Severity: Notice --> Undefined property: stdClass::$WebsiteImage D:\Projects\lapmo\admin\application\views\product\form.php 31
+ERROR - 2022-02-16 06:04:21 --> Severity: Notice --> Undefined property: stdClass::$SubcategoryID D:\Projects\lapmo\admin\application\controllers\Product.php 52
+ERROR - 2022-02-16 06:04:21 --> Severity: Notice --> Undefined property: stdClass::$Details D:\Projects\lapmo\admin\application\views\product\form.php 22
+ERROR - 2022-02-16 06:04:21 --> Severity: Notice --> Undefined property: stdClass::$WebsiteImage D:\Projects\lapmo\admin\application\views\product\form.php 31
+ERROR - 2022-02-16 06:04:38 --> Severity: Notice --> Undefined property: stdClass::$SubcategoryID D:\Projects\lapmo\admin\application\controllers\Product.php 52
+ERROR - 2022-02-16 06:04:38 --> Severity: Notice --> Undefined property: stdClass::$Details D:\Projects\lapmo\admin\application\views\product\form.php 22
+ERROR - 2022-02-16 06:05:07 --> Severity: Notice --> Undefined property: stdClass::$SubcategoryID D:\Projects\lapmo\admin\application\controllers\Product.php 52
+ERROR - 2022-02-16 06:05:07 --> Severity: Notice --> Undefined property: stdClass::$Details D:\Projects\lapmo\admin\application\views\product\form.php 22
+ERROR - 2022-02-16 06:05:22 --> Severity: Notice --> Undefined property: stdClass::$SubcategoryID D:\Projects\lapmo\admin\application\controllers\Product.php 52
+ERROR - 2022-02-16 06:06:24 --> Severity: Notice --> Undefined property: stdClass::$SubcategoryID D:\Projects\lapmo\admin\application\controllers\Product.php 50
+ERROR - 2022-02-16 06:06:46 --> Severity: Notice --> Undefined property: stdClass::$SubcategoryID D:\Projects\lapmo\admin\application\controllers\Product.php 51
+ERROR - 2022-02-16 06:06:59 --> Severity: Notice --> Undefined property: stdClass::$SubcategoryID D:\Projects\lapmo\admin\application\controllers\Product.php 51
+ERROR - 2022-02-16 06:11:04 --> Query error: Unknown column 'ProductID' in 'where clause' - Invalid query: DELETE FROM `tbl_coupon`
+WHERE `ProductID` = '1'
+ERROR - 2022-02-16 06:11:14 --> Query error: Unknown column 'ProductID' in 'where clause' - Invalid query: DELETE FROM `tbl_coupon`
+WHERE `ProductID` = '1'
+ERROR - 2022-02-16 23:52:58 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ D:\Projects\lapmo\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2022-02-16 23:52:58 --> Unable to connect to the database

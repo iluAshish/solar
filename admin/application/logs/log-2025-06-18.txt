@@ -1,0 +1,42 @@
+ERROR - 2025-06-18 00:35:06 --> 404 Page Not Found: Order/getQuotationData
+ERROR - 2025-06-18 00:36:25 --> 404 Page Not Found: Order/getQuotationData
+ERROR - 2025-06-18 00:40:24 --> Severity: Warning --> Undefined variable $user_id /home3/riyominfotech/public_html/solar/admin/application/controllers/Quotation.php 290
+ERROR - 2025-06-18 00:40:24 --> Severity: Warning --> Undefined variable $response /home3/riyominfotech/public_html/solar/admin/application/controllers/Quotation.php 299
+ERROR - 2025-06-18 00:40:24 --> Severity: Warning --> Attempt to read property "message" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Quotation.php 299
+ERROR - 2025-06-18 01:04:18 --> 404 Page Not Found: Payment/submitOrder
+ERROR - 2025-06-18 01:08:15 --> 404 Page Not Found: Payment/submitOrder
+ERROR - 2025-06-18 01:15:50 --> Severity: Warning --> Attempt to read property "total_amount" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 49
+ERROR - 2025-06-18 01:15:50 --> Severity: Warning --> Attempt to read property "quote_notes" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 52
+ERROR - 2025-06-18 01:15:50 --> Severity: Warning --> Attempt to read property "client_name" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 55
+ERROR - 2025-06-18 01:15:50 --> Severity: Warning --> Attempt to read property "client_email" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 56
+ERROR - 2025-06-18 01:15:50 --> Severity: Warning --> Attempt to read property "phone" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 57
+ERROR - 2025-06-18 01:23:59 --> Severity: Warning --> Attempt to read property "total_amount" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 49
+ERROR - 2025-06-18 01:23:59 --> Severity: Warning --> Attempt to read property "quote_notes" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 52
+ERROR - 2025-06-18 01:23:59 --> Severity: Warning --> Attempt to read property "client_name" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 55
+ERROR - 2025-06-18 01:23:59 --> Severity: Warning --> Attempt to read property "client_email" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 56
+ERROR - 2025-06-18 01:23:59 --> Severity: Warning --> Attempt to read property "phone" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 57
+ERROR - 2025-06-18 01:28:43 --> Severity: Warning --> Attempt to read property "total_amount" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 49
+ERROR - 2025-06-18 01:28:43 --> Severity: Warning --> Attempt to read property "quote_notes" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 52
+ERROR - 2025-06-18 01:28:43 --> Severity: Warning --> Attempt to read property "client_name" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 55
+ERROR - 2025-06-18 01:28:43 --> Severity: Warning --> Attempt to read property "client_email" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 56
+ERROR - 2025-06-18 01:28:43 --> Severity: Warning --> Attempt to read property "phone" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 57
+ERROR - 2025-06-18 01:30:33 --> Severity: Warning --> Attempt to read property "total_amount" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 49
+ERROR - 2025-06-18 01:30:33 --> Severity: Warning --> Attempt to read property "quote_notes" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 52
+ERROR - 2025-06-18 01:30:33 --> Severity: Warning --> Attempt to read property "client_name" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 55
+ERROR - 2025-06-18 01:30:33 --> Severity: Warning --> Attempt to read property "client_email" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 56
+ERROR - 2025-06-18 01:30:33 --> Severity: Warning --> Attempt to read property "phone" on null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 57
+ERROR - 2025-06-18 07:00:34 --> Severity: Warning --> Undefined array key 0 /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 85
+ERROR - 2025-06-18 07:00:34 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 85
+ERROR - 2025-06-18 07:00:34 --> Severity: Warning --> Undefined array key 0 /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 86
+ERROR - 2025-06-18 07:00:34 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 86
+ERROR - 2025-06-18 07:00:34 --> Severity: Warning --> Undefined array key 0 /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 87
+ERROR - 2025-06-18 07:00:34 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 87
+ERROR - 2025-06-18 07:00:34 --> Severity: Warning --> Undefined array key 0 /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 89
+ERROR - 2025-06-18 07:00:34 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 89
+ERROR - 2025-06-18 07:00:34 --> Severity: Warning --> Undefined array key 0 /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 90
+ERROR - 2025-06-18 07:00:34 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 90
+ERROR - 2025-06-18 07:00:34 --> Severity: Warning --> Undefined array key 0 /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 91
+ERROR - 2025-06-18 07:00:34 --> Severity: Warning --> Trying to access array offset on value of type null /home3/riyominfotech/public_html/solar/admin/application/controllers/Payments.php 91
+ERROR - 2025-06-18 07:00:34 --> Query error: Column 'transaction_id' cannot be null - Invalid query: INSERT INTO `tbl_payments` (`cf_order_id`, `transaction_id`, `quote_amount`, `status`, `payment_date`, `payment_amount`, `bank_reference`) VALUES ('order_1750244279', NULL, NULL, NULL, NULL, NULL, NULL)
+ERROR - 2025-06-18 07:00:34 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/solar/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/solar/system/core/Common.php 571
+ERROR - 2025-06-18 07:02:19 --> Severity: Warning --> Undefined variable $main_content /home3/riyominfotech/public_html/solar/admin/application/views/main_content.php 43

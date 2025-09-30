@@ -1,0 +1,53 @@
+ERROR - 2024-07-01 14:52:47 --> Severity: error --> Exception: Call to undefined function strototime() /home3/riyominfotech/public_html/crm/admin/application/views/quotation/view.php 91
+ERROR - 2024-07-01 15:10:03 --> Severity: error --> Exception: Unsupported operand types: array + stdClass /home3/riyominfotech/public_html/crm/admin/application/views/quotation/view.php 22
+ERROR - 2024-07-01 16:46:16 --> Query error: Unknown column 'qauote_date' in 'field list' - Invalid query: SELECT `invoice_id`, `qauote_date`, `reference_no`, `company_name`, `cust_ref_no`
+FROM `tbl_invoice` `q`
+LEFT JOIN `tbl_company` `c` ON `c`.`company_id` = `q`.`customer_id`
+ORDER BY `invoice_id` ASC, `qauote_date` ASC
+ LIMIT 10
+ERROR - 2024-07-01 16:46:57 --> Query error: Unknown column 'qauote_date' in 'field list' - Invalid query: SELECT `invoice_id`, `qauote_date`, `reference_no`, `company_name`, `cust_ref_no`
+FROM `tbl_invoice` `q`
+LEFT JOIN `tbl_company` `c` ON `c`.`company_id` = `q`.`customer_id`
+ORDER BY `invoice_id` ASC, `qauote_date` ASC
+ LIMIT 10
+ERROR - 2024-07-01 16:48:20 --> Query error: Unknown column 'reference_no' in 'field list' - Invalid query: SELECT `invoice_id`, `invoice_date`, `reference_no`, `company_name`, `cust_ref_no`
+FROM `tbl_invoice` `i`
+LEFT JOIN `tbl_company` `c` ON `c`.`company_id` = `i`.`customer_id`
+ORDER BY `invoice_id` ASC, `invoice_date` ASC
+ LIMIT 10
+ERROR - 2024-07-01 16:49:25 --> Query error: Unknown column 'i.customer_id' in 'on clause' - Invalid query: SELECT `invoice_id`, `invoice_date`, `invoice_no`, `company_name`, `total`
+FROM `tbl_invoice` `i`
+LEFT JOIN `tbl_company` `c` ON `c`.`company_id` = `i`.`customer_id`
+ORDER BY `invoice_id` ASC, `invoice_date` ASC
+ LIMIT 10
+ERROR - 2024-07-01 16:58:38 --> Severity: Warning --> Undefined array key "reference_no" /home3/riyominfotech/public_html/crm/admin/application/controllers/Invoice.php 97
+ERROR - 2024-07-01 16:58:38 --> Severity: 8192 --> preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated /home3/riyominfotech/public_html/crm/admin/application/models/Common.php 189
+ERROR - 2024-07-01 16:58:38 --> Query error: Unknown column 'reference_no' in 'field list' - Invalid query: SELECT `reference_no`
+FROM `tbl_invoice`
+WHERE `reference_no` = ''
+ERROR - 2024-07-01 16:58:38 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-07-01 16:59:26 --> Severity: Warning --> Undefined array key "reference_no" /home3/riyominfotech/public_html/crm/admin/application/controllers/Invoice.php 97
+ERROR - 2024-07-01 16:59:26 --> Severity: 8192 --> preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated /home3/riyominfotech/public_html/crm/admin/application/models/Common.php 189
+ERROR - 2024-07-01 16:59:26 --> Query error: Unknown column 'reference_no' in 'field list' - Invalid query: SELECT `reference_no`
+FROM `tbl_invoice`
+WHERE `reference_no` = ''
+ERROR - 2024-07-01 16:59:26 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-07-01 17:00:04 --> Query error: Unknown column 'modified_on' in 'field list' - Invalid query: INSERT INTO `tbl_invoice` (`consinee_id`, `invoice_no`, `dc_no`, `dc_date`, `po_no`, `po_date`, `invoice_date`, `dispatch_by`, `invoice_details`, `invoice_terms`, `is_active`, `modified_on`, `created_on`) VALUES ('3', '0001', '123', '01-07-2024', '123', '01-07-2024', '2024-07-01', 'Speed Post', 'this is test', '<p>this is test</p>', 1, '2024-07-01 17:00:04', '2024-07-01 17:00:04')
+ERROR - 2024-07-01 17:01:04 --> Severity: Warning --> Undefined property: stdClass::$customer_id /home3/riyominfotech/public_html/crm/admin/application/views/invoice/add.php 54
+ERROR - 2024-07-01 17:04:28 --> Severity: Warning --> Undefined property: stdClass::$customer_id /home3/riyominfotech/public_html/crm/admin/application/controllers/Invoice.php 253
+ERROR - 2024-07-01 17:04:28 --> Query error: Unknown table 'qp' - Invalid query: SELECT `qp`.*, `p`.`product_name`, `p`.`hsn_code`
+FROM `tbl_invoice_product` `ip`
+LEFT JOIN `tbl_product` `p` ON `ip`.`product_id`=`p`.`product_id`
+WHERE `invoice_id` = "1"
+ERROR - 2024-07-01 17:04:28 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home3/riyominfotech/public_html/crm/system/core/Exceptions.php:272) /home3/riyominfotech/public_html/crm/system/core/Common.php 571
+ERROR - 2024-07-01 17:04:50 --> Query error: Unknown table 'qp' - Invalid query: SELECT `qp`.*, `p`.`product_name`, `p`.`hsn_code`
+FROM `tbl_invoice_product` `ip`
+LEFT JOIN `tbl_product` `p` ON `ip`.`product_id`=`p`.`product_id`
+WHERE `invoice_id` = "1"
+ERROR - 2024-07-01 17:05:11 --> Severity: Warning --> Undefined variable $products /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 3
+ERROR - 2024-07-01 17:05:11 --> Severity: Warning --> Undefined property: stdClass::$reference_no /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 89
+ERROR - 2024-07-01 17:05:11 --> Severity: Warning --> Undefined property: stdClass::$cust_ref_no /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 95
+ERROR - 2024-07-01 17:05:11 --> Severity: Warning --> Undefined property: stdClass::$qauote_date /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 101
+ERROR - 2024-07-01 17:05:11 --> Severity: 8192 --> strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 101
+ERROR - 2024-07-01 17:05:11 --> Severity: Warning --> Undefined property: stdClass::$quote_notes /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 166
+ERROR - 2024-07-01 17:05:11 --> Severity: Warning --> Undefined property: stdClass::$quote_terms /home3/riyominfotech/public_html/crm/admin/application/views/invoice/view.php 171
