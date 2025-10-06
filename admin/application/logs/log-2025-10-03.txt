@@ -1,0 +1,442 @@
+ERROR - 2025-10-03 01:29:44 --> Query error: Unknown column 'p.id' in 'field list' - Invalid query: SELECT `p`.`id`, `project_name`, "price_data" as `price_data`
+FROM `tbl_solar_project_product` `p`
+ORDER BY `project_name` ASC
+ LIMIT 10
+ERROR - 2025-10-03 01:29:44 --> Severity: error --> Exception: Call to a member function result_array() on bool D:\CI\solar\admin\application\libraries\Datatables.php 372
+ERROR - 2025-10-03 01:35:25 --> Query error: Unknown column 'p.id' in 'field list' - Invalid query: SELECT `p`.`id`, `project_name`, "price_data" as `price_data`
+FROM `tbl_solar_project_product` `p`
+ORDER BY `project_name` ASC
+ LIMIT 10
+ERROR - 2025-10-03 01:35:25 --> Severity: error --> Exception: Call to a member function result_array() on bool D:\CI\solar\admin\application\libraries\Datatables.php 372
+ERROR - 2025-10-03 01:38:08 --> Query error: Unknown column 'p.id' in 'field list' - Invalid query: SELECT `p`.`id`, `project_name`, "price_data" as `price_data`
+FROM `tbl_solar_project_product` `p`
+ORDER BY `project_name` ASC
+ LIMIT 10
+ERROR - 2025-10-03 01:38:08 --> Severity: error --> Exception: Call to a member function result_array() on bool D:\CI\solar\admin\application\libraries\Datatables.php 372
+ERROR - 2025-10-03 01:40:41 --> Query error: Unknown column 'p.id' in 'field list' - Invalid query: SELECT `p`.`id`, `project_name`, "price_data" as `price_data`
+FROM `tbl_solar_project_product` `p`
+ORDER BY `project_name` ASC
+ LIMIT 10
+ERROR - 2025-10-03 01:40:41 --> Severity: error --> Exception: Call to a member function result_array() on bool D:\CI\solar\admin\application\libraries\Datatables.php 372
+ERROR - 2025-10-03 01:42:42 --> Query error: Unknown column 'p.id' in 'field list' - Invalid query: SELECT `p`.`id`, `project_name`, "price_data" as `price_data`
+FROM `tbl_solar_project_product` `p`
+ORDER BY `project_name` ASC
+ LIMIT 10
+ERROR - 2025-10-03 01:42:42 --> Severity: error --> Exception: Call to a member function result_array() on bool D:\CI\solar\admin\application\libraries\Datatables.php 372
+ERROR - 2025-10-03 01:43:55 --> Query error: Unknown column 'p.id' in 'field list' - Invalid query: SELECT `p`.`id`, `project_name`, "price_data" as `price_data`
+FROM `tbl_solar_project_product` `p`
+ORDER BY `project_name` ASC
+ LIMIT 10
+ERROR - 2025-10-03 01:43:55 --> Severity: error --> Exception: Call to a member function result_array() on bool D:\CI\solar\admin\application\libraries\Datatables.php 372
+ERROR - 2025-10-03 01:45:02 --> Query error: Unknown column 'p.id' in 'field list' - Invalid query: SELECT `p`.`id`, `project_name`, "price_data" as `price_data`
+FROM `tbl_solar_project_product` `p`
+ORDER BY `project_name` ASC
+ LIMIT 10
+ERROR - 2025-10-03 01:45:02 --> Severity: error --> Exception: Call to a member function result_array() on bool D:\CI\solar\admin\application\libraries\Datatables.php 372
+ERROR - 2025-10-03 01:50:24 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-03 01:57:47 --> Query error: Table 'u923514998_solar_admin.projects' doesn't exist - Invalid query: SELECT `p`.`id` as `id`, `p`.`product_name`, `p`.`brand_name`, `p`.`warranty`, `p`.`description`, `p`.`quantity`, `p`.`watt_volt`, `pr`.`project_name`, `pr`.`brand_name` as `project_brand`, `pr`.`description` as `project_description`, `pp`.`product_name` as `pro_product_name`, `pp`.`brand_name` as `pro_product_brand`
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `projects` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `pro_products` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+ORDER BY `id` ASC
+ LIMIT 10
+ERROR - 2025-10-03 01:57:47 --> Query error: Table 'u923514998_solar_admin.projects' doesn't exist - Invalid query: SELECT *
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `projects` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `pro_products` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+ERROR - 2025-10-03 01:57:47 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\libraries\Datatables.php 430
+ERROR - 2025-10-03 02:06:49 --> Query error: Table 'u923514998_solar_admin.projects' doesn't exist - Invalid query: SELECT `p`.`id` as `id`, `p`.`product_name`, `p`.`brand_name`, `p`.`warranty`, `p`.`description`, `p`.`quantity`, `p`.`watt_volt`, `-- project fields pr`.`project_name` as `project_name`, `pr`.`brand_name` as `project_brand`, `pr`.`description` as `project_description`, `-- pro_product fields pp`.`product_name` as `pro_product_name`, `pp`.`brand_name` as `pro_product_brand`, `pp`.`warranty` as `pro_product_warranty`
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `projects` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `pro_products` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+ORDER BY `id` ASC
+ LIMIT 10
+ERROR - 2025-10-03 02:06:49 --> Query error: Table 'u923514998_solar_admin.projects' doesn't exist - Invalid query: SELECT *
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `projects` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `pro_products` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+ERROR - 2025-10-03 02:06:49 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\libraries\Datatables.php 430
+ERROR - 2025-10-03 02:08:00 --> Query error: Table 'u923514998_solar_admin.projects' doesn't exist - Invalid query: SELECT `p`.`id` as `id`, `p`.`product_name`, `p`.`brand_name`, `p`.`warranty`, `p`.`description`, `p`.`quantity`, `p`.`watt_volt`, `-- project fields pr`.`project_name` as `project_name`, `pr`.`brand_name` as `project_brand`, `pr`.`description` as `project_description`, `-- pro_product fields pp`.`product_name` as `pro_product_name`, `pp`.`brand_name` as `pro_product_brand`, `pp`.`warranty` as `pro_product_warranty`
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `projects` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `pro_products` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+ORDER BY `id` ASC
+ LIMIT 10
+ERROR - 2025-10-03 02:08:00 --> Query error: Table 'u923514998_solar_admin.projects' doesn't exist - Invalid query: SELECT *
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `projects` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `pro_products` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+ERROR - 2025-10-03 02:08:00 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\libraries\Datatables.php 430
+ERROR - 2025-10-03 02:11:44 --> Query error: Table 'u923514998_solar_admin.projects' doesn't exist - Invalid query: SELECT `p`.`id` as `id`, `p`.`product_name`, `p`.`brand_name`, `p`.`warranty`, `p`.`description`, `p`.`quantity`, `p`.`watt_volt`, `-- project fields pr`.`project_name` as `project_name`, `pr`.`brand_name` as `project_brand`, `pr`.`description` as `project_description`, `-- pro_product fields pp`.`product_name` as `pro_product_name`, `pp`.`warranty_years` as `pro_product_warranty`
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `projects` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `pro_products` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+ORDER BY `id` ASC
+ LIMIT 10
+ERROR - 2025-10-03 02:11:44 --> Query error: Table 'u923514998_solar_admin.projects' doesn't exist - Invalid query: SELECT *
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `projects` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `pro_products` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+ERROR - 2025-10-03 02:11:44 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\libraries\Datatables.php 430
+ERROR - 2025-10-03 02:12:02 --> Query error: Table 'u923514998_solar_admin.projects' doesn't exist - Invalid query: SELECT `p`.`id` as `id`, `p`.`product_name`, `p`.`brand_name`, `p`.`warranty`, `p`.`description`, `p`.`quantity`, `p`.`watt_volt`
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `projects` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `pro_products` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+ORDER BY `id` ASC
+ LIMIT 10
+ERROR - 2025-10-03 02:12:02 --> Query error: Table 'u923514998_solar_admin.projects' doesn't exist - Invalid query: SELECT *
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `projects` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `pro_products` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+ERROR - 2025-10-03 02:12:02 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\libraries\Datatables.php 430
+ERROR - 2025-10-03 02:20:10 --> Query error: Unknown column '-- project fields pr.project_name' in 'field list' - Invalid query: SELECT `p`.`id` as `id`, `p`.`product_name`, `p`.`brand_name`, `p`.`warranty`, `p`.`description`, `p`.`quantity`, `p`.`watt_volt`, `-- project fields pr`.`project_name` as `project_name`, `pr`.`brand_name` as `project_brand`, `pr`.`description` as `project_description`, `-- pro_product fields pp`.`product_name` as `pro_product_name`, `pp`.`warranty_years` as `pro_product_warranty`
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_project` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_product` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+ORDER BY `id` ASC
+ LIMIT 10
+ERROR - 2025-10-03 02:20:10 --> Severity: error --> Exception: Call to a member function result_array() on bool D:\CI\solar\admin\application\libraries\Datatables.php 372
+ERROR - 2025-10-03 02:20:29 --> Query error: Unknown column '-- project fields pr.project_name' in 'field list' - Invalid query: SELECT `p`.`id` as `id`, `p`.`product_name`, `p`.`brand_name`, `p`.`warranty`, `p`.`description`, `p`.`quantity`, `p`.`watt_volt`, `-- project fields pr`.`project_name` as `project_name`, `pr`.`brand_name` as `project_brand`, `pr`.`description` as `project_description`, `-- pro_product fields pp`.`product_name` as `pro_product_name`, `pp`.`warranty_years` as `pro_product_warranty`
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_project` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_product` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+ORDER BY `id` ASC
+ LIMIT 10
+ERROR - 2025-10-03 02:20:29 --> Severity: error --> Exception: Call to a member function result_array() on bool D:\CI\solar\admin\application\libraries\Datatables.php 372
+ERROR - 2025-10-03 02:22:50 --> Query error: Unknown column '-- project fields pr.project_name' in 'field list' - Invalid query: SELECT `p`.`id` as `id`, `p`.`product_name`, `p`.`brand_name`, `p`.`warranty`, `p`.`description`, `p`.`quantity`, `p`.`watt_volt`, `-- project fields pr`.`project_name` as `project_name`, `pr`.`brand_name` as `project_brand`, `pr`.`description` as `project_description`
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_project` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_product` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+ORDER BY `id` ASC
+ LIMIT 10
+ERROR - 2025-10-03 02:22:50 --> Severity: error --> Exception: Call to a member function result_array() on bool D:\CI\solar\admin\application\libraries\Datatables.php 372
+ERROR - 2025-10-03 02:23:05 --> Query error: Unknown column '-- project fields pr.project_name' in 'field list' - Invalid query: SELECT `p`.`id` as `id`, `p`.`product_name`, `p`.`brand_name`, `p`.`warranty`, `p`.`description`, `p`.`quantity`, `p`.`watt_volt`, `-- project fields pr`.`project_name` as `project_name`
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_project` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_product` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+ORDER BY `id` ASC
+ LIMIT 10
+ERROR - 2025-10-03 02:23:05 --> Severity: error --> Exception: Call to a member function result_array() on bool D:\CI\solar\admin\application\libraries\Datatables.php 372
+ERROR - 2025-10-03 02:24:13 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`project_name`, `pr`.`project_type`
+FROM `tbl_solar_project_product` `p`
+LEF...' at line 1 - Invalid query: SELECT `p`.`id` as `id`, `p`.`product_name`, `p`.`brand_name`, `p`.`warranty`, `p`.`description`, `p`.`quantity`, `p`.`watt_volt`, `-- project fields` `pr`.`project_name`, `pr`.`project_type`
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_project` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_product` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+ORDER BY `id` ASC
+ LIMIT 10
+ERROR - 2025-10-03 02:24:13 --> Severity: error --> Exception: Call to a member function result_array() on bool D:\CI\solar\admin\application\libraries\Datatables.php 372
+ERROR - 2025-10-03 02:25:06 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`project_name`, `pr`.`project_type`
+FROM `tbl_solar_project_product` `p`
+LEF...' at line 1 - Invalid query: SELECT `p`.`id` as `id`, `p`.`product_name`, `p`.`brand_name`, `p`.`warranty`, `p`.`description`, `p`.`quantity`, `p`.`watt_volt`, `-- project fields` `pr`.`project_name`, `pr`.`project_type`
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_projectpr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_productpp` ON `pp`.`id` = `p`.`pro_product_id`
+ORDER BY `id` ASC
+ LIMIT 10
+ERROR - 2025-10-03 02:25:06 --> Query error: Table 'u923514998_solar_admin.tbl_solar_projectpr' doesn't exist - Invalid query: SELECT *
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_projectpr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_productpp` ON `pp`.`id` = `p`.`pro_product_id`
+ERROR - 2025-10-03 02:25:06 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\libraries\Datatables.php 430
+ERROR - 2025-10-03 02:31:51 --> Query error: Unknown column 'status' in 'field list' - Invalid query: SELECT `status`
+FROM `tbl_solar_project_product`
+WHERE `id` = 'p.id'
+ERROR - 2025-10-03 02:31:51 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 64
+ERROR - 2025-10-03 02:33:08 --> Query error: Unknown column 'status' in 'field list' - Invalid query: SELECT `status`
+FROM `tbl_solar_project_product`
+WHERE `id` = 'p.id'
+ERROR - 2025-10-03 02:33:08 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 64
+ERROR - 2025-10-03 02:33:20 --> Query error: Unknown column 'status' in 'field list' - Invalid query: SELECT `status`
+FROM `tbl_solar_project_product`
+WHERE `id` = 'p.id'
+ERROR - 2025-10-03 02:33:20 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 64
+ERROR - 2025-10-03 02:33:47 --> Query error: Table 'u923514998_solar_admin.tbl_solar_projectpr' doesn't exist - Invalid query: SELECT `p`.`id` as `id`, `p`.`product_name`, `p`.`brand_name`, `p`.`warranty`, `p`.`description`, `p`.`quantity`, `p`.`watt_volt`, `-- project` `fields`
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_projectpr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_productpp` ON `pp`.`id` = `p`.`pro_product_id`
+ORDER BY `id` ASC
+ LIMIT 10
+ERROR - 2025-10-03 02:33:47 --> Query error: Table 'u923514998_solar_admin.tbl_solar_projectpr' doesn't exist - Invalid query: SELECT *
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_projectpr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_productpp` ON `pp`.`id` = `p`.`pro_product_id`
+ERROR - 2025-10-03 02:33:47 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\libraries\Datatables.php 430
+ERROR - 2025-10-03 02:34:16 --> Query error: Table 'u923514998_solar_admin.tbl_solar_projectpr' doesn't exist - Invalid query: SELECT `p`.`id` as `id`, `p`.`product_name`, `p`.`brand_name`, `p`.`warranty`, `p`.`description`, `p`.`quantity`, `p`.`watt_volt`, `-- project` `fields`
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_projectpr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_productpp` ON `pp`.`id` = `p`.`pro_product_id`
+ORDER BY `id` ASC
+ LIMIT 10
+ERROR - 2025-10-03 02:34:16 --> Query error: Table 'u923514998_solar_admin.tbl_solar_projectpr' doesn't exist - Invalid query: SELECT *
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_projectpr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_productpp` ON `pp`.`id` = `p`.`pro_product_id`
+ERROR - 2025-10-03 02:34:16 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\libraries\Datatables.php 430
+ERROR - 2025-10-03 02:34:45 --> Query error: Table 'u923514998_solar_admin.tbl_solar_projectpr' doesn't exist - Invalid query: SELECT `p`.`id` as `id`, `p`.`product_name`, `p`.`brand_name`, `p`.`warranty`, `p`.`description`, `p`.`quantity`, `p`.`watt_volt`, `pr`.`project_name`, `pr`.`project_type`
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_projectpr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_productpp` ON `pp`.`id` = `p`.`pro_product_id`
+ORDER BY `id` ASC
+ LIMIT 10
+ERROR - 2025-10-03 02:34:45 --> Query error: Table 'u923514998_solar_admin.tbl_solar_projectpr' doesn't exist - Invalid query: SELECT *
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_projectpr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_productpp` ON `pp`.`id` = `p`.`pro_product_id`
+ERROR - 2025-10-03 02:34:45 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\libraries\Datatables.php 430
+ERROR - 2025-10-03 02:36:58 --> Query error: Unknown column 'status' in 'field list' - Invalid query: SELECT `status`
+FROM `tbl_solar_project_product`
+WHERE `id` = 'p.id'
+ERROR - 2025-10-03 02:36:58 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 64
+ERROR - 2025-10-03 02:38:54 --> Query error: Unknown column 'status' in 'field list' - Invalid query: SELECT `status`
+FROM `tbl_solar_project_product`
+WHERE `id` = 'p.id'
+ERROR - 2025-10-03 02:38:54 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 64
+ERROR - 2025-10-03 02:40:00 --> Severity: error --> Exception: Call to undefined method Datatables::last_query() D:\CI\solar\admin\application\controllers\ProjectProducts.php 269
+ERROR - 2025-10-03 02:49:28 --> Query error: Unknown column 'pp.warranty' in 'field list' - Invalid query: SELECT `p`.`id` as `id`, `p`.`product_name`, `p`.`brand_name`, `p`.`warranty`, `p`.`description`, `p`.`quantity`, `p`.`watt_volt`, `pr`.`project_name`, `pr`.`project_type`, `pp`.`product_name` as `pro_product_name`, `pp`.`id` as `pro_product_id`, `pp`.`category_id` as `pro_category_id`, `pp`.`brand_id` as `pro_brand_id`, `pp`.`warranty` as `pro_warranty`, `pp`.`description` as `pro_description`
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_project` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_product` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+ORDER BY `id` ASC
+ LIMIT 10
+ERROR - 2025-10-03 02:49:28 --> Severity: error --> Exception: Call to a member function result_array() on bool D:\CI\solar\admin\application\libraries\Datatables.php 372
+ERROR - 2025-10-03 02:58:55 --> Query error: Unknown column 'pp.brand' in 'field list' - Invalid query: SELECT `p`.`id` as `id`, `p`.`product_name`, `p`.`brand_name`, `p`.`warranty`, `p`.`description`, `p`.`quantity`, `p`.`watt_volt`, `pr`.`project_name`, `pr`.`project_type`, `pp`.`product_name` as `pro_product_name`, `pp`.`warranty_years` as `pro_warranty`, `pp`.`brand` as `pro_brand`
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_project` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_product` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+LEFT JOIN `tbl_brand` `b` ON `b`.`id` = `p`.`brand_id`
+ORDER BY `id` ASC
+ LIMIT 10
+ERROR - 2025-10-03 02:58:55 --> Query error: Unknown column 'p.brand_id' in 'on clause' - Invalid query: SELECT *
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_project` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_product` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+LEFT JOIN `tbl_brand` `b` ON `b`.`id` = `p`.`brand_id`
+ERROR - 2025-10-03 02:58:55 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\libraries\Datatables.php 430
+ERROR - 2025-10-03 02:59:53 --> Query error: Unknown column 'p.brand_id' in 'on clause' - Invalid query: SELECT `p`.`id` as `id`, `p`.`product_name`, `p`.`brand_name`, `p`.`warranty`, `p`.`description`, `p`.`quantity`, `p`.`watt_volt`, `pr`.`project_name`, `pr`.`project_type`, `pp`.`product_name` as `pro_product_name`, `pp`.`warranty_years` as `pro_warranty`, `b`.`brand_name` as `brand_name`
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_project` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_product` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+LEFT JOIN `tbl_brand` `b` ON `b`.`id` = `p`.`brand_id`
+ORDER BY `id` ASC
+ LIMIT 10
+ERROR - 2025-10-03 02:59:53 --> Query error: Unknown column 'p.brand_id' in 'on clause' - Invalid query: SELECT *
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_project` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_product` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+LEFT JOIN `tbl_brand` `b` ON `b`.`id` = `p`.`brand_id`
+ERROR - 2025-10-03 02:59:53 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\libraries\Datatables.php 430
+ERROR - 2025-10-03 03:13:44 --> Query error: Unknown column 'status' in 'field list' - Invalid query: SELECT `status`
+FROM `tbl_solar_project_product`
+WHERE `id` = 'p.id'
+ERROR - 2025-10-03 03:13:44 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 64
+ERROR - 2025-10-03 03:17:30 --> Query error: Unknown column 'status' in 'field list' - Invalid query: SELECT `status`
+FROM `tbl_solar_project_product`
+WHERE `id` = 'p.id'
+ERROR - 2025-10-03 03:17:30 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 64
+ERROR - 2025-10-03 03:20:39 --> Severity: error --> Exception: Too few arguments to function active_row(), 1 passed in D:\CI\solar\admin\application\libraries\Datatables.php on line 471 and exactly 4 expected D:\CI\solar\admin\application\helpers\custom_helper.php 101
+ERROR - 2025-10-03 04:00:51 --> Query error: Unknown column 'p.project_id' in 'on clause' - Invalid query: SELECT *
+FROM `tbl_solar_project_product`
+LEFT JOIN `tbl_solar_project` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_product` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+LEFT JOIN `tbl_brand` `b` ON `b`.`id` = `pp`.`brand_id`
+ERROR - 2025-10-03 04:00:51 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\libraries\Datatables.php 430
+ERROR - 2025-10-03 04:02:15 --> Query error: Not unique table/alias: 'p' - Invalid query: SELECT `p`.`id` as `id`, `p`.`product_name`, `p`.`brand_name`, `p`.`warranty`, `p`.`description`, `p`.`quantity`, `p`.`watt_volt`, `pr`.`project_name`, `pr`.`project_type`, `pp`.`product_name` as `pro_product_name`, `pp`.`warranty_years` as `pro_warranty`, `b`.`brand_name` as `brand_name`, `b`.`id` as `brand_id`
+FROM (`tbl_solar_project_product` `p`, `tbl_solar_project_product` `p`)
+LEFT JOIN `tbl_solar_project` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_product` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+LEFT JOIN `tbl_brand` `b` ON `b`.`id` = `pp`.`brand_id`
+ORDER BY `p`.`product_name` ASC
+ LIMIT 10
+ERROR - 2025-10-03 04:02:15 --> Severity: error --> Exception: Call to a member function result_array() on bool D:\CI\solar\admin\application\libraries\Datatables.php 372
+ERROR - 2025-10-03 04:06:57 --> Query error: Not unique table/alias: 'p' - Invalid query: SELECT `p`.`id` as `id`, `p`.`product_name`, `p`.`brand_name`, `p`.`warranty`, `p`.`description`, `p`.`quantity`, `p`.`watt_volt`, `pr`.`project_name`, `pr`.`project_type`, `pp`.`product_name` as `pro_product_name`, `pp`.`warranty_years` as `pro_warranty`, `b`.`brand_name` as `brand_name`, `b`.`id` as `brand_id`
+FROM (`tbl_solar_project_product` `p`, `tbl_solar_project_product` `p`)
+LEFT JOIN `tbl_solar_project` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_product` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+LEFT JOIN `tbl_brand` `b` ON `b`.`id` = `pp`.`brand_id`
+ORDER BY `id` ASC
+ LIMIT 10
+ERROR - 2025-10-03 04:06:57 --> Severity: error --> Exception: Call to a member function result_array() on bool D:\CI\solar\admin\application\libraries\Datatables.php 372
+ERROR - 2025-10-03 04:17:30 --> Query error: Unknown column 'pr.product_name' in 'field list' - Invalid query: SELECT `pp`.`product_name` as `pro_product_name`, `pr`.`product_name`, `b`.`brand_name` as `brand_name`, `p`.`quantity`
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_project` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_product` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+LEFT JOIN `tbl_brand` `b` ON `b`.`id` = `pp`.`brand_id`
+ORDER BY `pro_product_name` ASC
+ LIMIT 10
+ERROR - 2025-10-03 04:17:30 --> Severity: error --> Exception: Call to a member function result_array() on bool D:\CI\solar\admin\application\libraries\Datatables.php 372
+ERROR - 2025-10-03 04:47:13 --> Query error: Unknown column 'p.project_id' in 'on clause' - Invalid query: SELECT *
+FROM `tbl_solar_project_product`
+LEFT JOIN `tbl_solar_project` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_product` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+LEFT JOIN `tbl_brand` `b` ON `b`.`id` = `pp`.`brand_id`
+ERROR - 2025-10-03 04:47:13 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\libraries\Datatables.php 430
+ERROR - 2025-10-03 04:47:43 --> Query error: Not unique table/alias: 'p' - Invalid query: SELECT `pp`.`product_name` as `pro_product_name`, `pr`.`project_name` as `project_name`, `b`.`brand_name` as `brand_name`, `p`.`quantity`
+FROM (`tbl_solar_project_product` `p`, `tbl_solar_project_product` `p`)
+LEFT JOIN `tbl_solar_project` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_product` `pp` ON `pp`.`id` = `p`.`pro_product_id`
+LEFT JOIN `tbl_brand` `b` ON `b`.`id` = `pp`.`brand_id`
+ORDER BY `pro_product_name` ASC
+ LIMIT 10
+ERROR - 2025-10-03 04:47:43 --> Severity: error --> Exception: Call to a member function result_array() on bool D:\CI\solar\admin\application\libraries\Datatables.php 372
+ERROR - 2025-10-03 05:13:32 --> Severity: Warning --> Undefined variable $hiddenID D:\CI\solar\admin\application\views\projectproducts\form.php 20
+ERROR - 2025-10-03 05:13:35 --> Severity: Warning --> Undefined variable $hiddenID D:\CI\solar\admin\application\views\projectproducts\form.php 20
+ERROR - 2025-10-03 05:30:46 --> Severity: Warning --> Undefined variable $data_info D:\CI\solar\admin\application\views\projectproducts\form.php 19
+ERROR - 2025-10-03 05:30:51 --> Severity: Warning --> Undefined variable $data_info D:\CI\solar\admin\application\views\projectproducts\form.php 19
+ERROR - 2025-10-03 05:55:10 --> Query error: Unknown column 'name' in 'field list' - Invalid query: SELECT `id`, `project_name`, `name`
+FROM `tbl_solar_project`
+ERROR - 2025-10-03 05:55:10 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 150
+ERROR - 2025-10-03 05:56:01 --> Query error: Unknown column 'product_name' in 'field list' - Invalid query: SELECT `id`, `product_name`
+FROM `tbl_solar_project`
+ERROR - 2025-10-03 05:56:01 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 150
+ERROR - 2025-10-03 05:56:07 --> Query error: Unknown column 'product_name' in 'field list' - Invalid query: SELECT `id`, `product_name`
+FROM `tbl_solar_project`
+ERROR - 2025-10-03 05:56:07 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 150
+ERROR - 2025-10-03 05:56:08 --> Query error: Unknown column 'product_name' in 'field list' - Invalid query: SELECT `id`, `product_name`
+FROM `tbl_solar_project`
+ERROR - 2025-10-03 05:56:08 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 150
+ERROR - 2025-10-03 06:10:01 --> Severity: error --> Exception: Call to undefined method Common::insert_info() D:\CI\solar\admin\application\controllers\ProjectProducts.php 102
+ERROR - 2025-10-03 06:12:55 --> Severity: error --> Exception: Call to undefined method Common::insert_info() D:\CI\solar\admin\application\controllers\ProjectProducts.php 102
+ERROR - 2025-10-03 06:14:58 --> Severity: error --> Exception: print_r(): Argument #2 ($return) must be of type bool, array given D:\CI\solar\admin\application\controllers\ProjectProducts.php 94
+ERROR - 2025-10-03 06:17:08 --> Severity: error --> Exception: Call to undefined method Common::insert_info() D:\CI\solar\admin\application\controllers\ProjectProducts.php 105
+ERROR - 2025-10-03 06:17:34 --> Severity: error --> Exception: Call to undefined method Common::insert_info() D:\CI\solar\admin\application\controllers\ProjectProducts.php 105
+ERROR - 2025-10-03 06:21:54 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-03 06:22:42 --> Query error: Unknown column '$project_id' in 'where clause' - Invalid query: SELECT `p`.*
+FROM `tbl_solar_project_product` `p`
+WHERE `project_id` = `$project_id`
+ERROR - 2025-10-03 06:22:42 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 107
+ERROR - 2025-10-03 06:25:54 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-03 06:26:15 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-03 06:26:15 --> Severity: Warning --> Undefined variable $role D:\CI\solar\admin\application\views\quotation\add.php 62
+ERROR - 2025-10-03 06:26:15 --> Severity: Warning --> Undefined variable $role D:\CI\solar\admin\application\views\quotation\add.php 62
+ERROR - 2025-10-03 06:26:15 --> Severity: Warning --> Undefined variable $role D:\CI\solar\admin\application\views\quotation\add.php 62
+ERROR - 2025-10-03 06:45:54 --> Query error: Unknown column 'pr.project_name' in 'field list' - Invalid query: SELECT `p`.*, `pr`.`project_name`, `pp`.`product_name` as `pro_product_name`, `b`.`brand_name`
+FROM `tbl_solar_project_product` `p`
+WHERE `p`.`project_id` = 14
+ERROR - 2025-10-03 06:45:54 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 106
+ERROR - 2025-10-03 06:47:14 --> Severity: error --> Exception: trim(): Argument #1 ($string) must be of type string, array given D:\CI\solar\admin\system\database\DB_query_builder.php 297
+ERROR - 2025-10-03 06:47:16 --> Severity: error --> Exception: trim(): Argument #1 ($string) must be of type string, array given D:\CI\solar\admin\system\database\DB_query_builder.php 297
+ERROR - 2025-10-03 06:47:26 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 06:52:29 --> Severity: error --> Exception: trim(): Argument #1 ($string) must be of type string, array given D:\CI\solar\admin\system\database\DB_query_builder.php 297
+ERROR - 2025-10-03 06:52:41 --> Severity: error --> Exception: trim(): Argument #1 ($string) must be of type string, array given D:\CI\solar\admin\system\database\DB_query_builder.php 297
+ERROR - 2025-10-03 06:53:50 --> Severity: error --> Exception: trim(): Argument #1 ($string) must be of type string, array given D:\CI\solar\admin\system\database\DB_query_builder.php 297
+ERROR - 2025-10-03 06:53:51 --> Severity: error --> Exception: trim(): Argument #1 ($string) must be of type string, array given D:\CI\solar\admin\system\database\DB_query_builder.php 297
+ERROR - 2025-10-03 06:54:00 --> Severity: error --> Exception: trim(): Argument #1 ($string) must be of type string, array given D:\CI\solar\admin\system\database\DB_query_builder.php 297
+ERROR - 2025-10-03 06:55:47 --> Severity: error --> Exception: trim(): Argument #1 ($string) must be of type string, array given D:\CI\solar\admin\system\database\DB_query_builder.php 297
+ERROR - 2025-10-03 06:55:48 --> Severity: error --> Exception: trim(): Argument #1 ($string) must be of type string, array given D:\CI\solar\admin\system\database\DB_query_builder.php 297
+ERROR - 2025-10-03 06:55:56 --> Severity: error --> Exception: trim(): Argument #1 ($string) must be of type string, array given D:\CI\solar\admin\system\database\DB_query_builder.php 297
+ERROR - 2025-10-03 06:59:09 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 06:59:58 --> Query error: Unknown column 'p.product_id' in 'on clause' - Invalid query: SELECT `p`.*, `pd`.*, `b`.*
+FROM `tbl_solar_project_product` `p`
+LEFT JOIN `tbl_solar_project` `pr` ON `pr`.`id` = `p`.`project_id`
+LEFT JOIN `tbl_product` `pd` ON `pd`.`id` = `p`.`product_id`
+LEFT JOIN `tbl_brand` `b` ON `b`.`id` = `pd`.`brand_id`
+WHERE `p`.`id` = '12'
+ERROR - 2025-10-03 06:59:58 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 64
+ERROR - 2025-10-03 07:00:35 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:02:20 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:26:26 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:26:44 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:27:40 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:27:54 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:28:06 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:28:17 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:30:59 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:32:43 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:36:14 --> 404 Page Not Found: Quotation/quotation
+ERROR - 2025-10-03 07:37:44 --> 404 Page Not Found: Quotation/quotation
+ERROR - 2025-10-03 07:37:44 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:37:47 --> 404 Page Not Found: Quotation/quotation
+ERROR - 2025-10-03 07:37:47 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:37:51 --> 404 Page Not Found: Quotation/quotation
+ERROR - 2025-10-03 07:38:00 --> 404 Page Not Found: Quotation/quotation
+ERROR - 2025-10-03 07:38:20 --> 404 Page Not Found: Quotation/quotation
+ERROR - 2025-10-03 07:38:20 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:38:49 --> 404 Page Not Found: Quotation/quotation
+ERROR - 2025-10-03 07:38:49 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:39:13 --> 404 Page Not Found: Quotation/quotation
+ERROR - 2025-10-03 07:39:13 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:39:30 --> 404 Page Not Found: Quotation/quotation
+ERROR - 2025-10-03 07:39:30 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:39:37 --> 404 Page Not Found: Quotation/quotation
+ERROR - 2025-10-03 07:39:37 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:40:27 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:41:21 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:42:52 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:44:00 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:44:18 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:44:45 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:45:48 --> Severity: error --> Exception: syntax error, unexpected variable "$fieldss" D:\CI\solar\admin\application\controllers\Quotation.php 351
+ERROR - 2025-10-03 07:46:20 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:47:55 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:49:45 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:49:58 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-03 07:49:58 --> Severity: error --> Exception: count(): Argument #1 ($value) must be of type Countable|array, null given D:\CI\solar\admin\application\views\quotation\view.php 373
+ERROR - 2025-10-03 07:50:43 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-03 07:50:43 --> Severity: error --> Exception: count(): Argument #1 ($value) must be of type Countable|array, null given D:\CI\solar\admin\application\views\quotation\view.php 373
+ERROR - 2025-10-03 07:50:54 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:51:25 --> Severity: Warning --> foreach() argument must be of type array|object, string given D:\CI\solar\admin\application\models\Common.php 36
+ERROR - 2025-10-03 07:51:25 --> Severity: error --> Exception: trim(): Argument #1 ($string) must be of type string, array given D:\CI\solar\admin\system\database\DB_query_builder.php 1140
+ERROR - 2025-10-03 07:52:10 --> Severity: Warning --> foreach() argument must be of type array|object, string given D:\CI\solar\admin\application\models\Common.php 36
+ERROR - 2025-10-03 07:52:10 --> Severity: error --> Exception: trim(): Argument #1 ($string) must be of type string, array given D:\CI\solar\admin\system\database\DB_query_builder.php 1140
+ERROR - 2025-10-03 07:52:35 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:52:46 --> Severity: error --> Exception: trim(): Argument #1 ($string) must be of type string, array given D:\CI\solar\admin\system\database\DB_query_builder.php 297
+ERROR - 2025-10-03 07:53:35 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:53:37 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:53:37 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:53:37 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:53:37 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:53:38 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:53:38 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:53:38 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:53:38 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:53:38 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:53:38 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:53:38 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:53:38 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:54:30 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:54:40 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:54:58 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:56:50 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:56:53 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:57:24 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:57:28 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:57:30 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 07:57:47 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-03 07:57:47 --> Severity: error --> Exception: count(): Argument #1 ($value) must be of type Countable|array, null given D:\CI\solar\admin\application\views\quotation\view.php 373
+ERROR - 2025-10-03 07:58:58 --> Severity: Warning --> Undefined variable $db_config D:\CI\solar\admin\application\controllers\Quotation.php 357
+ERROR - 2025-10-03 07:58:58 --> Severity: Warning --> Undefined property: Quotation::$ D:\CI\solar\admin\application\controllers\Quotation.php 357
+ERROR - 2025-10-03 07:58:58 --> Severity: error --> Exception: Call to a member function last_query() on null D:\CI\solar\admin\application\controllers\Quotation.php 357
+ERROR - 2025-10-03 08:00:25 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 08:02:45 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 08:03:14 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 08:05:50 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 08:10:57 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 08:12:17 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 08:15:15 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 08:18:35 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-03 08:19:33 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-03 08:19:33 --> Severity: Warning --> Attempt to read property "productName" on array D:\CI\solar\admin\application\views\quotation\view.php 377
+ERROR - 2025-10-03 08:19:33 --> Severity: Warning --> Attempt to read property "brandName" on array D:\CI\solar\admin\application\views\quotation\view.php 378
+ERROR - 2025-10-03 08:19:33 --> Severity: Warning --> Attempt to read property "warranty" on array D:\CI\solar\admin\application\views\quotation\view.php 379
+ERROR - 2025-10-03 08:19:33 --> Severity: Warning --> Attempt to read property "warranty" on array D:\CI\solar\admin\application\views\quotation\view.php 380
+ERROR - 2025-10-03 08:19:33 --> Severity: Warning --> Attempt to read property "warranty" on array D:\CI\solar\admin\application\views\quotation\view.php 381
+ERROR - 2025-10-03 08:19:33 --> Severity: Warning --> Attempt to read property "productName" on array D:\CI\solar\admin\application\views\quotation\view.php 377
+ERROR - 2025-10-03 08:19:33 --> Severity: Warning --> Attempt to read property "brandName" on array D:\CI\solar\admin\application\views\quotation\view.php 378
+ERROR - 2025-10-03 08:19:33 --> Severity: Warning --> Attempt to read property "warranty" on array D:\CI\solar\admin\application\views\quotation\view.php 379
+ERROR - 2025-10-03 08:19:33 --> Severity: Warning --> Attempt to read property "warranty" on array D:\CI\solar\admin\application\views\quotation\view.php 380
+ERROR - 2025-10-03 08:19:33 --> Severity: Warning --> Attempt to read property "warranty" on array D:\CI\solar\admin\application\views\quotation\view.php 381
+ERROR - 2025-10-03 08:21:37 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-03 08:21:37 --> Severity: Warning --> Attempt to read property "brandName" on array D:\CI\solar\admin\application\views\quotation\view.php 378
+ERROR - 2025-10-03 08:21:37 --> Severity: Warning --> Attempt to read property "warranty" on array D:\CI\solar\admin\application\views\quotation\view.php 379
+ERROR - 2025-10-03 08:21:37 --> Severity: Warning --> Attempt to read property "warranty" on array D:\CI\solar\admin\application\views\quotation\view.php 380
+ERROR - 2025-10-03 08:21:37 --> Severity: Warning --> Attempt to read property "warranty" on array D:\CI\solar\admin\application\views\quotation\view.php 381
+ERROR - 2025-10-03 08:21:37 --> Severity: Warning --> Attempt to read property "brandName" on array D:\CI\solar\admin\application\views\quotation\view.php 378
+ERROR - 2025-10-03 08:21:37 --> Severity: Warning --> Attempt to read property "warranty" on array D:\CI\solar\admin\application\views\quotation\view.php 379
+ERROR - 2025-10-03 08:21:37 --> Severity: Warning --> Attempt to read property "warranty" on array D:\CI\solar\admin\application\views\quotation\view.php 380
+ERROR - 2025-10-03 08:21:37 --> Severity: Warning --> Attempt to read property "warranty" on array D:\CI\solar\admin\application\views\quotation\view.php 381
+ERROR - 2025-10-03 08:22:42 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-03 08:24:44 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-03 08:25:15 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-03 08:50:11 --> Severity: Warning --> Undefined property: stdClass::$product_id D:\CI\solar\admin\application\views\projectproducts\form.php 49
+ERROR - 2025-10-03 08:52:18 --> Severity: Warning --> Undefined property: stdClass::$product_id D:\CI\solar\admin\application\views\projectproducts\form.php 49

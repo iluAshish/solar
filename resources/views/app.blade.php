@@ -241,13 +241,13 @@
 	<footer class="main-footer">
 		<!-- Footer Contact Start -->
 		<div class="footer-contact">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-lg-4">
+					<div class="col-lg-3">
 						<!-- Footer Contact Box Start -->
-						<div class="footer-contact-box wow fadeInUp" data-wow-delay="0.25s">
+						<div class="footer-contact-box wow fadeInUp" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInUp;">
 							<div class="contact-icon-box">
-								<img src="{{ url('public/assets/images/icon-location.svg') }}" alt="">
+								<img src="https://scopnixsolar.com/public/assets/images/icon-location.svg" alt="">
 							</div>
 
 							<div class="footer-contact-info">
@@ -258,11 +258,11 @@
 						<!-- Footer Contact Box End -->
 					</div>
 
-					<div class="col-lg-4">
+					<div class="col-lg-3">
 						<!-- Footer Contact Box Start -->
-						<div class="footer-contact-box wow fadeInUp" data-wow-delay="0.5s">
+						<div class="footer-contact-box wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
 							<div class="contact-icon-box">
-								<img src="{{ url('public/assets/images/icon-location.svg') }}" alt="">
+								<img src="https://scopnixsolar.com/public/assets/images/icon-location.svg" alt="">
 							</div>
 
 							<div class="footer-contact-info">
@@ -273,16 +273,31 @@
 						<!-- Footer Contact Box End -->
 					</div>
 
-					<div class="col-lg-4">
+					<div class="col-lg-3">
 						<!-- Footer Contact Box Start -->
-						<div class="footer-contact-box wow fadeInUp" data-wow-delay="0.75s">
+						<div class="footer-contact-box wow fadeInUp" data-wow-delay="0.75s" style="visibility: visible; animation-delay: 0.75s; animation-name: fadeInUp;">
 							<div class="contact-icon-box">
-								<img src="{{ url('public/assets/images/icon-location.svg') }}" alt="">
+								<img src="https://scopnixsolar.com/public/assets/images/icon-location.svg" alt="">
 							</div>
 
 							<div class="footer-contact-info">
 								<h3>Office 2</h3>
 								<p> C17/E, City center, Sector 4, Bokaro Steel C, Jharkhand</p>
+							</div>
+						</div>
+						<!-- Footer Contact Box End -->
+					</div>
+
+                    <div class="col-lg-3">
+						<!-- Footer Contact Box Start -->
+						<div class="footer-contact-box wow fadeInUp" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInUp;">
+							<div class="contact-icon-box">
+								<img src="https://scopnixsolar.com/public/assets/images/icon-location.svg" alt="">
+							</div>
+
+							<div class="footer-contact-info">
+								<h3>Head Quarters</h3>
+								<p>Huahaotai Industrial zone,Longhua, Shenzhen,China - 518040</p>
 							</div>
 						</div>
 						<!-- Footer Contact Box End -->

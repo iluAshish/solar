@@ -241,38 +241,50 @@ class Quotation extends CI_Controller {
     }
 
 
-    function action_row($id) {
+   function action_row($id) {
         $action = <<<EOF
-			<a class="btn btn-icon btn-secondary payment-btn w-30px h-30px me-3 " href="javascript:;" data-id="{$id}" data-original-title="Edit {$this->title}" data-control={$this->controllers}>
-				<i class="fas fa-rupee-sign"></i>
-			</a>
+            <a class="btn btn-icon btn-secondary payment-btn w-30px h-30px me-3 " href="javascript:;" data-id="{$id}" data-original-title="Edit {$this->title}" data-control={$this->controllers}>
+                <i class="fas fa-rupee-sign"></i>
+            </a>
             
-			<a class="btn btn-icon btn-secondary w-30px h-30px me-3 " href="invoice/create/{$id}" data-id="{$id}" data-original-title="Edit {$this->title}" data-control={$this->controllers}>
-				<i class="fas fa-file-lines"></i>
-			</a>
+            <a class="btn btn-icon btn-secondary w-30px h-30px me-3 " href="invoice/create/{$id}" data-id="{$id}" data-original-title="Edit {$this->title}" data-control={$this->controllers}>
+                <i class="fas fa-file-lines"></i>
+            </a>
 
-			<a class="btn btn-icon btn-success w-30px h-30px me-3 " href="quotation/view/{$id}" data-id="{$id}" data-original-title="Edit {$this->title}" data-control={$this->controllers}>
-				<i class="fa fa-eye"></i>
-			</a>
-			<a class="btn btn-icon btn-primary w-30px h-30px me-3 " href="quotation/edit/{$id}" data-id="{$id}" data-original-title="Edit {$this->title}" data-control={$this->controllers}>
-				<i class="ki-duotone ki-setting-3 fs-3">
-					<span class="path1"></span>
-					<span class="path2"></span>
-					<span class="path3"></span>
-					<span class="path4"></span>
-					<span class="path5"></span>
-				</i>
-			</a>
-			<button class="btn btn-icon btn-danger w-30px h-30px remove-item-btn delete_btn" data-original-title="Remove {$this->title}" data-method=remove data-table="{$this->table_name}" data-column="{$this->PrimaryKey}" data-id="{$id}">
-				<i class="ki-duotone ki-trash fs-3">
-					<span class="path1"></span>
-					<span class="path2"></span>
-					<span class="path3"></span>
-					<span class="path4"></span>
-					<span class="path5"></span>
-				</i>
-			</button>
-EOF;
+            <a class="btn btn-icon btn-success w-30px h-30px me-3 " href="quotation/view/{$id}" data-id="{$id}" data-original-title="Edit {$this->title}" data-control={$this->controllers}">
+                <i class="fa fa-eye"></i>
+            </a>
+
+            <a class="btn btn-icon btn-primary w-30px h-30px me-3 " href="quotation/edit/{$id}" data-id="{$id}" data-original-title="Edit {$this->title}" data-control={$this->controllers}">
+                <i class="ki-duotone ki-setting-3 fs-3">
+                    <span class="path1"></span>
+                    <span class="path2"></span>
+                    <span class="path3"></span>
+                    <span class="path4"></span>
+                    <span class="path5"></span>
+                </i>
+            </a>
+
+            <!-- Download Button -->
+            <a class="btn btn-icon btn-info w-30px h-30px me-3" href="quotation/download/{$id}" data-id="{$id}" data-original-title="Download {$this->title}" data-control={$this->controllers}">
+                <i class="fas fa-download"></i>
+            </a>
+
+            <!-- WhatsApp Share Button -->
+            <!-- <a class="btn btn-icon btn-success w-30px h-30px me-3" href="quotation/share/{$id}" data-original-title="Share on WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a> -->
+
+            <button class="btn btn-icon btn-danger w-30px h-30px remove-item-btn delete_btn" data-original-title="Remove {$this->title}" data-method=remove data-table="{$this->table_name}" data-column="{$this->PrimaryKey}" data-id="{$id}">
+                <i class="ki-duotone ki-trash fs-3">
+                    <span class="path1"></span>
+                    <span class="path2"></span>
+                    <span class="path3"></span>
+                    <span class="path4"></span>
+                    <span class="path5"></span>
+                </i>
+            </button>
+    EOF;
         return $action;
     }
     
@@ -313,18 +325,22 @@ EOF;
                 $join = array(array("table" => TBL_PRODUCT . " p", "on" => "qp.product_id=p.id", "type" => "left"),); 
                 $data['quote_prod'] = $this->Common->get_all_info('',TBL_QUOTATION_PRODUCT.' qp','','quote_id = "'.$id.'"','qp.*,p.product_name,p.making,p.description',false, $join);
 
-                $project_id = $data['project']->quote_project_id ?? 0;
+                $project_id = $data['project']->project_id ?? 0;
 
-                if(strpos(strtolower($data['project']->project_name),strtolower('ONGRID')) !== false) {
-                    $data['products'] = $this->Common->get_all_info('',TBL_PROJECT_PRODUCT.' p','','project_id = 2','p.*',false);
-                }  else if(strpos(strtolower($data['project']->project_name),strtolower('Offgrid')) !== false) {
-                    $data['products'] = $this->Common->get_all_info('',TBL_PROJECT_PRODUCT.' p','','project_id = 5','p.*',false);
-                } else {
-                    $data['products'] = $this->Common->get_all_info('',TBL_PROJECT_PRODUCT.' p','','project_id = 6','p.*',false);
-                }
+                $sql = "
+                SELECT  p.*, pr.*, pd.product_name as productName, b.brand_name as brandName
+                FROM    tbl_solar_project_product  p
+                LEFT JOIN tbl_solar_project pr ON pr.id = p.project_id
+                LEFT JOIN tbl_product         pd ON pd.id = p.pro_product_id
+                LEFT JOIN tbl_brand           b  ON b.id  = pd.brand_id
+                WHERE   p.project_id = ?
+                ";
+
+                $data['products'] = $this->db->query($sql, [$project_id])->result();
 
                 $data["data_info"] = $data_obj;
                 $data_found = 1;
+               
             }
         }
         // echo "<pre>";
@@ -375,6 +391,180 @@ EOF;
         }
         echo json_encode($response);
         die;
+    }
+
+    /* =========================================================
+    *  DOWNLOAD  –  generate PDF and force browser download
+    * ========================================================= */
+    public function download($id)
+    {
+        $data_found = 0;
+        $data['settings'] = $this->Common->get_info(1, TBL_SETTINGS, 'setting_id');
+        if ($id > 0) {
+            $data_obj = $this->Common->get_info($id, $this->table_name, $this->PrimaryKey);
+            if (is_object($data_obj) && count((array) $data_obj) > 0) {
+
+                $data['franchisee'] = $this->Common->get_info($data_obj->franchisee_id, TBL_USERS, 'id');
+                $data['client'] = $this->Common->get_info($data_obj->client_id, TBL_CLIENTS, 'id');
+                // vendor data prepration with state name
+                $fields = 'v.*,'.TBL_STATES.'.name as state_name';
+                $vendorJoin = array(
+                    'table' => TBL_STATES,
+                    'on'    => 'v.state_id = '.TBL_STATES.'.id',
+                    'type'  => 'left'
+                );
+
+                $data['vendor'] = $this->Common->get_info(
+                    $data_obj->vendor_id,
+                    TBL_VENDORS.' v',          // alias added
+                    'v.id',                    // <— fully qualified
+                    '',
+                    $fields,
+                    $vendorJoin
+                );
+                $join = array(
+                    array("table" => TBL_PROJECT_PRICE . " sp","on" => "pr.size_range_id=sp.price_id","type" => "LEFT"),
+                    array("table" => TBL_PROJECTS . " p","on" => "pr.project_id = p.id","type" => "LEFT"),
+                );
+                $data['project'] = $this->Common->get_info($id, TBL_QUOTATION_PROJECT.' pr', 'quote_id',false,'pr.*,p.project_name,p.project_image,p.project_type',$join);
+
+               
+
+                $join = array(array("table" => TBL_PRODUCT . " p", "on" => "qp.product_id=p.id", "type" => "left"),); 
+                $data['quote_prod'] = $this->Common->get_all_info('',TBL_QUOTATION_PRODUCT.' qp','','quote_id = "'.$id.'"','qp.*,p.product_name,p.making,p.description',false, $join);
+
+                $project_id = $data['project']->project_id ?? 0;
+
+                $sql = "
+                SELECT  p.*, pr.*, pd.product_name as productName, b.brand_name as brandName
+                FROM    tbl_solar_project_product  p
+                LEFT JOIN tbl_solar_project pr ON pr.id = p.project_id
+                LEFT JOIN tbl_product         pd ON pd.id = p.pro_product_id
+                LEFT JOIN tbl_brand           b  ON b.id  = pd.brand_id
+                WHERE   p.project_id = ?
+                ";
+
+                $data['products'] = $this->db->query($sql, [$project_id])->result();
+
+                $data["data_info"] = $data_obj;
+                $data_found = 1;
+               
+            }
+        }
+        // echo "<pre>";
+
+        // print_r($data);
+        // echo "</pre>";
+        // exit;
+        if ($data_found == 0) {
+            redirect('/');
+        }
+
+        /* ---------- 2. HTML ---------- */
+        $html = $this->load->view($this->view_name . '/pdf_temp', $data, true);
+        
+
+        /* ---------- 3. Dompdf 2 ---------- */
+        $autoload = APPPATH.'third_party/dompdf/vendor/autoload.php';
+        if (!file_exists($autoload)) show_error('Dompdf not found: '.$autoload);
+        require_once $autoload;
+
+        $options = new \Dompdf\Options();
+        $options->set('isRemoteEnabled', true)
+                ->set('isHtml5ParserEnabled', true)
+                ->set('defaultFont', 'DejaVu Sans');
+        $dompdf = new \Dompdf\Dompdf($options);
+        $dompdf->loadHtml($html);
+        $dompdf->setPaper('A4', 'portrait');
+        $dompdf->render();
+
+        /* ---------- 4. stream (download) ---------- */
+        $fileName = 'Quotation_'.preg_replace('/[^A-Za-z0-9\-]/','_',$data['data_info']->reference_no).'.pdf';
+        $dompdf->stream($fileName, ['Attachment' => true]);
+    }
+
+    
+    function share($id) {
+        if ($id <= 0) {
+            show_404();
+        }
+        // --- Same logic as view() starts here ---
+        $data_found = 0;
+        $data['settings'] = $this->Common->get_info(1, TBL_SETTINGS, 'setting_id');
+        $data_obj = $this->Common->get_info($id, $this->table_name, $this->PrimaryKey);
+
+        if (!is_object($data_obj) || count((array)$data_obj) == 0) {
+            show_404();
+        }
+
+        $data['franchisee'] = $this->Common->get_info($data_obj->franchisee_id, TBL_USERS, 'id');
+        $data['client'] = $this->Common->get_info($data_obj->client_id, TBL_CLIENTS, 'id');
+
+        $fields = 'v.*,' . TBL_STATES . '.name as state_name';
+        $vendorJoin = [
+            'table' => TBL_STATES,
+            'on'    => 'v.state_id = ' . TBL_STATES . '.id',
+            'type'  => 'left'
+        ];
+        $data['vendor'] = $this->Common->get_info($data_obj->vendor_id, TBL_VENDORS . ' v', 'v.id', '', $fields, $vendorJoin);
+
+        $join = [
+            ["table" => TBL_PROJECT_PRICE . " sp", "on" => "pr.size_range_id=sp.price_id", "type" => "LEFT"],
+            ["table" => TBL_PROJECTS . " p", "on" => "pr.project_id = p.id", "type" => "LEFT"],
+        ];
+        $data['project'] = $this->Common->get_info($id, TBL_QUOTATION_PROJECT . ' pr', 'quote_id', false, 'pr.*,p.project_name,p.project_image,p.project_type', $join);
+
+        $join = [["table" => TBL_PRODUCT . " p", "on" => "qp.product_id=p.id", "type" => "left"]];
+        $data['quote_prod'] = $this->Common->get_all_info('', TBL_QUOTATION_PRODUCT . ' qp', '', 'quote_id = "' . $id . '"', 'qp.*,p.product_name,p.making,p.description', false, $join);
+
+        $project_id = $data['project']->project_id ?? 0;
+        $sql = "
+            SELECT  p.*, pr.*, pd.product_name as productName, b.brand_name as brandName
+            FROM    tbl_solar_project_product  p
+            LEFT JOIN tbl_solar_project pr ON pr.id = p.project_id
+            LEFT JOIN tbl_product         pd ON pd.id = p.pro_product_id
+            LEFT JOIN tbl_brand           b  ON b.id  = pd.brand_id
+            WHERE   p.project_id = ?
+        ";
+        $data['products'] = $this->db->query($sql, [$project_id])->result();
+        $data["data_info"] = $data_obj;
+
+        // --- Capture HTML ---
+        $html = $this->load->view($this->view_name . '/whatsapp', $data, true);
+        
+        /* ---------- Dompdf load ---------- */
+        $autoload = APPPATH . 'third_party/dompdf/vendor/autoload.php';   
+        if (!file_exists($autoload)) {
+            show_error('Dompdf manual install missing. File not found: ' . $autoload);
+        }
+        require_once $autoload;
+
+        /* ---------- 3. Render ---------- */
+        $dompdf = new \Dompdf\Dompdf();
+        $dompdf->loadHtml($html);
+        $dompdf->setPaper('A4', 'portrait');
+        $dompdf->render();
+
+        /* ---------- 4. temp folder ---------- */
+        $tempDir = FCPATH . 'temp';
+        if (!is_dir($tempDir)) {
+            @mkdir($tempDir, 0777, true);
+        }
+
+        /* ---------- save ---------- */
+        $safe_name  = preg_replace('/[\/:*?"<>|]/', '_', $data['data_info']->reference_no);
+        $file_name  = 'Quotation_' . $safe_name . '.pdf';
+        $file_path  = $tempDir . DIRECTORY_SEPARATOR . $file_name;
+        file_put_contents($file_path, $dompdf->output());
+
+        /* ---------- WhatsApp ---------- */
+        $pdf_url  = base_url('temp/' . $file_name);
+        $message  = "Hello *{$data['client']->client_name}*,\n\n"
+                . "Please find your quotation *{$data['data_info']->reference_no}* attached.\n\n"
+                . "Download PDF: $pdf_url";
+
+        $whatsapp_url = 'https://wa.me/?text=' . rawurlencode($message);
+        redirect($whatsapp_url);
     }
 
 }

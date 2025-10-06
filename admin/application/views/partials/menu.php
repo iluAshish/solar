@@ -302,6 +302,20 @@ $user_img =  ($user_data->profilepic != '' && file_exists(UPLOAD_DIR.USERS.$user
 					</a>
 					<!--end:Menu link-->
 				</div>
+				<!-- manage project products -->
+				<div data-kt-menu-trigger="click" class="menu-item">
+					<!--begin:Menu link-->
+					<a class="menu-link" href="<?php echo base_url();?>projectproducts">
+						<span class="menu-icon">
+							<i class="fas fa-cart-shopping fs-2">
+								<span class="path1"></span>
+								<span class="path2"></span>
+							</i>
+						</span>
+						<span class="menu-title">Manage Project Products</span>
+					</a>
+					<!--end:Menu link-->
+				</div>
 				<!--end:Menu item-->
 				<!--begin:Menu item-->
 				<div class="menu-item pt-5">

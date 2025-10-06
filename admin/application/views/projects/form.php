@@ -53,16 +53,18 @@ $form_attr = array('class' => 'default_form needs-validation', 'id' => 'course_f
                             <input type="text" id="project_name" name="project_name" class="form-control" placeholder="Enter Project name" required value = '<?php echo (isset($data_info) && $data_info->project_name != "") ? $data_info->project_name : set_value('project_name') ?>'/>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-6">
+                    <!-- project type  -->
+                    <div class="col-lg-6">
                         <div>
                             <label for="project_type" class="form-label">Project Type</label>
                             <select class="form-select" name="project_type" id="project_type">
                                 <option>Select Type</option>
-                                <option value="RESIDENTIAL" <?php echo (isset($data_info) && $data_info->project_type == "RESIDENTIAL") ? 'selected' : ''; ?> >RESIDENTIAL</option>
-                                <option value="COMMERCIAL" <?php echo (isset($data_info) && $data_info->project_type == "COMMERCIAL") ? 'selected' : ''; ?>>COMMERCIAL</option>
+                                <option value="ONGRID" <?php echo (isset($data_info) && $data_info->project_type == "ONGRID") ? 'selected' : ''; ?> >ONGRID</option>
+                                <option value="OFFGRID" <?php echo (isset($data_info) && $data_info->project_type == "OFFGRID") ? 'selected' : ''; ?> >OFFGRID</option>
+                                <option value="HYBRID" <?php echo (isset($data_info) && $data_info->project_type == "HYBRID") ? 'selected' : ''; ?> >HYBRID</option>
                             </select>
                         </div>
-                    </div> -->
+                    </div>
                     
                     <div class="col-lg-6">
                         <div>

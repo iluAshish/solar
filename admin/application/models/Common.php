@@ -26,7 +26,19 @@ class Common extends CI_Model {
 //     }
 
 
-     function get_info($id = "", $table = "", $field = "id", $whereCon = "", $all_field = '*', $join = false, $GroupBy = false, $OrderBy = false,$limit = false, $having = false, $db_config = 'db') {
+    function get_info(
+        $id = "", 
+        $table = "", 
+        $field = "id", 
+        $whereCon = "", 
+        $all_field = '*', 
+        $join = false, 
+        $GroupBy = false, 
+        $OrderBy = false,
+        $limit = false, 
+        $having = false, 
+        $db_config = 'db'
+    ) {
         if (!empty($id) && !empty($table)) {
             $this->$db_config->select($all_field);
             if ($join) {
@@ -60,7 +72,6 @@ class Common extends CI_Model {
             }
             $query = $this->$db_config->get($table);
            // echo $this->$db_config->last_query(); die;
-            
             if ($query->num_rows() > 0) {
                 return $query->row();
             }

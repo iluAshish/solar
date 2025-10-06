@@ -61,7 +61,7 @@ class Projects extends CI_Controller {
     }
 
     function submit_form() {
-        echo "<pre>"; print_r($this->input->post()); echo "</pre>"; die;
+        // echo "<pre>"; print_r($this->input->post()); echo "</pre>"; die;
         if ($this->input->post()) {
 
             $response = array("status" => "error", "heading" => "Unknown Error", "message" => "There was an unknown error that occurred. You will need to refresh the page to continue working.");

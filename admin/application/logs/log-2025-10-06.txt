@@ -1,0 +1,74 @@
+ERROR - 2025-10-06 00:44:08 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-06 01:25:25 --> 404 Page Not Found: Quotation/download
+ERROR - 2025-10-06 01:25:25 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-06 01:28:25 --> Severity: error --> Exception: syntax error, unexpected token "use" D:\CI\solar\admin\application\controllers\Quotation.php 425
+ERROR - 2025-10-06 01:28:27 --> Severity: error --> Exception: syntax error, unexpected token "use" D:\CI\solar\admin\application\controllers\Quotation.php 425
+ERROR - 2025-10-06 01:30:57 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-06 01:36:34 --> Unable to load the requested class: Dompdf_gen
+ERROR - 2025-10-06 01:36:34 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-06 01:41:32 --> Severity: Warning --> require_once(D:\CI\solar\admin\vendor/autoload.php): Failed to open stream: No such file or directory D:\CI\solar\admin\application\controllers\Quotation.php 492
+ERROR - 2025-10-06 01:41:32 --> Severity: error --> Exception: Failed opening required 'D:\CI\solar\admin\vendor/autoload.php' (include_path='D:\xampp\php\PEAR') D:\CI\solar\admin\application\controllers\Quotation.php 492
+ERROR - 2025-10-06 01:41:33 --> Severity: Warning --> require_once(D:\CI\solar\admin\vendor/autoload.php): Failed to open stream: No such file or directory D:\CI\solar\admin\application\controllers\Quotation.php 492
+ERROR - 2025-10-06 01:41:33 --> Severity: error --> Exception: Failed opening required 'D:\CI\solar\admin\vendor/autoload.php' (include_path='D:\xampp\php\PEAR') D:\CI\solar\admin\application\controllers\Quotation.php 492
+ERROR - 2025-10-06 01:42:10 --> Unable to load the requested class: Dompdf_gen
+ERROR - 2025-10-06 01:42:10 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-06 01:42:25 --> Severity: error --> Exception: Class "Dompdf\Dompdf" not found D:\CI\solar\admin\application\controllers\Quotation.php 495
+ERROR - 2025-10-06 01:42:26 --> Severity: error --> Exception: Class "Dompdf\Dompdf" not found D:\CI\solar\admin\application\controllers\Quotation.php 495
+ERROR - 2025-10-06 01:45:27 --> Severity: Warning --> require_once(D:\CI\solar\admin\vendor/autoload.php): Failed to open stream: No such file or directory D:\CI\solar\admin\application\controllers\Quotation.php 491
+ERROR - 2025-10-06 01:45:27 --> Severity: error --> Exception: Failed opening required 'D:\CI\solar\admin\vendor/autoload.php' (include_path='D:\xampp\php\PEAR') D:\CI\solar\admin\application\controllers\Quotation.php 491
+ERROR - 2025-10-06 01:45:48 --> Severity: Warning --> require_once(D:\CI\solar\admin\vendor/autoload.php): Failed to open stream: No such file or directory D:\CI\solar\admin\application\controllers\Quotation.php 491
+ERROR - 2025-10-06 01:45:48 --> Severity: error --> Exception: Failed opening required 'D:\CI\solar\admin\vendor/autoload.php' (include_path='D:\xampp\php\PEAR') D:\CI\solar\admin\application\controllers\Quotation.php 491
+ERROR - 2025-10-06 01:45:49 --> Severity: Warning --> require_once(D:\CI\solar\admin\vendor/autoload.php): Failed to open stream: No such file or directory D:\CI\solar\admin\application\controllers\Quotation.php 491
+ERROR - 2025-10-06 01:45:49 --> Severity: error --> Exception: Failed opening required 'D:\CI\solar\admin\vendor/autoload.php' (include_path='D:\xampp\php\PEAR') D:\CI\solar\admin\application\controllers\Quotation.php 491
+ERROR - 2025-10-06 01:45:50 --> Severity: Warning --> require_once(D:\CI\solar\admin\vendor/autoload.php): Failed to open stream: No such file or directory D:\CI\solar\admin\application\controllers\Quotation.php 491
+ERROR - 2025-10-06 01:45:50 --> Severity: error --> Exception: Failed opening required 'D:\CI\solar\admin\vendor/autoload.php' (include_path='D:\xampp\php\PEAR') D:\CI\solar\admin\application\controllers\Quotation.php 491
+ERROR - 2025-10-06 01:45:50 --> Severity: Warning --> require_once(D:\CI\solar\admin\vendor/autoload.php): Failed to open stream: No such file or directory D:\CI\solar\admin\application\controllers\Quotation.php 491
+ERROR - 2025-10-06 01:45:50 --> Severity: error --> Exception: Failed opening required 'D:\CI\solar\admin\vendor/autoload.php' (include_path='D:\xampp\php\PEAR') D:\CI\solar\admin\application\controllers\Quotation.php 491
+ERROR - 2025-10-06 01:45:59 --> Severity: Warning --> require_once(D:\CI\solar\admin\vendor/autoload.php): Failed to open stream: No such file or directory D:\CI\solar\admin\application\controllers\Quotation.php 491
+ERROR - 2025-10-06 01:45:59 --> Severity: error --> Exception: Failed opening required 'D:\CI\solar\admin\vendor/autoload.php' (include_path='D:\xampp\php\PEAR') D:\CI\solar\admin\application\controllers\Quotation.php 491
+ERROR - 2025-10-06 01:46:00 --> Severity: Warning --> require_once(D:\CI\solar\admin\vendor/autoload.php): Failed to open stream: No such file or directory D:\CI\solar\admin\application\controllers\Quotation.php 491
+ERROR - 2025-10-06 01:46:00 --> Severity: error --> Exception: Failed opening required 'D:\CI\solar\admin\vendor/autoload.php' (include_path='D:\xampp\php\PEAR') D:\CI\solar\admin\application\controllers\Quotation.php 491
+ERROR - 2025-10-06 01:49:00 --> Severity: Warning --> Undefined variable $autoload D:\CI\solar\admin\application\controllers\Quotation.php 493
+ERROR - 2025-10-06 01:49:02 --> Severity: Warning --> Undefined variable $autoload D:\CI\solar\admin\application\controllers\Quotation.php 493
+ERROR - 2025-10-06 01:55:24 --> Severity: Warning --> require_once(D:\CI\solar\admin\admin/application/third_party/dompdf/autoload.inc.php): Failed to open stream: No such file or directory D:\CI\solar\admin\application\controllers\Quotation.php 493
+ERROR - 2025-10-06 01:55:24 --> Severity: error --> Exception: Failed opening required 'D:\CI\solar\admin\admin/application/third_party/dompdf/autoload.inc.php' (include_path='D:\xampp\php\PEAR') D:\CI\solar\admin\application\controllers\Quotation.php 493
+ERROR - 2025-10-06 01:55:25 --> Severity: Warning --> require_once(D:\CI\solar\admin\admin/application/third_party/dompdf/autoload.inc.php): Failed to open stream: No such file or directory D:\CI\solar\admin\application\controllers\Quotation.php 493
+ERROR - 2025-10-06 01:55:25 --> Severity: error --> Exception: Failed opening required 'D:\CI\solar\admin\admin/application/third_party/dompdf/autoload.inc.php' (include_path='D:\xampp\php\PEAR') D:\CI\solar\admin\application\controllers\Quotation.php 493
+ERROR - 2025-10-06 01:55:52 --> Severity: Warning --> require_once(D:\CI\solar\admin\admin/application/third_party/dompdf/autoload.inc.php): Failed to open stream: No such file or directory D:\CI\solar\admin\application\controllers\Quotation.php 492
+ERROR - 2025-10-06 01:55:52 --> Severity: error --> Exception: Failed opening required 'D:\CI\solar\admin\admin/application/third_party/dompdf/autoload.inc.php' (include_path='D:\xampp\php\PEAR') D:\CI\solar\admin\application\controllers\Quotation.php 492
+ERROR - 2025-10-06 01:55:54 --> Severity: Warning --> require_once(D:\CI\solar\admin\admin/application/third_party/dompdf/autoload.inc.php): Failed to open stream: No such file or directory D:\CI\solar\admin\application\controllers\Quotation.php 492
+ERROR - 2025-10-06 01:55:54 --> Severity: error --> Exception: Failed opening required 'D:\CI\solar\admin\admin/application/third_party/dompdf/autoload.inc.php' (include_path='D:\xampp\php\PEAR') D:\CI\solar\admin\application\controllers\Quotation.php 492
+ERROR - 2025-10-06 01:56:00 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-06 01:56:29 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-06 01:58:02 --> Severity: Warning --> file_put_contents(D:\CI\solar\admin\temp/Quotation_SITPL/SE/00008/2025.pdf): Failed to open stream: No such file or directory D:\CI\solar\admin\application\controllers\Quotation.php 514
+ERROR - 2025-10-06 01:58:28 --> 404 Page Not Found: Temp/Quotation_SITPL
+ERROR - 2025-10-06 01:58:28 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-10-06 01:59:35 --> Severity: Warning --> file_put_contents(D:\CI\solar\admin\temp/Quotation_SITPL/SE/00008/2025.pdf): Failed to open stream: No such file or directory D:\CI\solar\admin\application\controllers\Quotation.php 514
+ERROR - 2025-10-06 01:59:44 --> 404 Page Not Found: Temp/Quotation_SITPL
+ERROR - 2025-10-06 01:59:59 --> Severity: Warning --> file_put_contents(D:\CI\solar\admin\temp/Quotation_SITPL/SE/000002/2025.pdf): Failed to open stream: No such file or directory D:\CI\solar\admin\application\controllers\Quotation.php 514
+ERROR - 2025-10-06 02:00:09 --> 404 Page Not Found: Temp/Quotation_SITPL
+ERROR - 2025-10-06 02:07:25 --> Severity: Warning --> file_put_contents(D:\CI\solar\admin\temp/Quotation_SITPL/SE/00008/2025.pdf): Failed to open stream: No such file or directory D:\CI\solar\admin\application\controllers\Quotation.php 514
+ERROR - 2025-10-06 02:07:27 --> 404 Page Not Found: Temp/Quotation_SITPL
+ERROR - 2025-10-06 02:22:19 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-06 02:26:37 --> 404 Page Not Found: Temp/Quotation_SITPL_SE_00008_2025.pdf
+ERROR - 2025-10-06 02:32:14 --> Severity: Warning --> Undefined variable $row D:\CI\solar\admin\application\controllers\Quotation.php 275
+ERROR - 2025-10-06 02:32:14 --> Severity: Warning --> Attempt to read property "id" on null D:\CI\solar\admin\application\controllers\Quotation.php 275
+ERROR - 2025-10-06 02:44:06 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-06 02:57:24 --> Severity: Warning --> Undefined variable $page_title D:\CI\solar\admin\application\views\main_content.php 22
+ERROR - 2025-10-06 02:57:24 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-06 02:57:24 --> Severity: Warning --> Undefined variable $page_title D:\CI\solar\admin\application\views\partials\topbar.php 41
+ERROR - 2025-10-06 02:57:24 --> Severity: Warning --> Undefined variable $main_content D:\CI\solar\admin\application\views\main_content.php 43
+ERROR - 2025-10-06 02:58:03 --> Severity: error --> Exception: Call to undefined function Termwind\render() D:\CI\solar\admin\application\controllers\Quotation.php 439
+ERROR - 2025-10-06 02:58:07 --> Severity: error --> Exception: Call to undefined function Termwind\render() D:\CI\solar\admin\application\controllers\Quotation.php 439
+ERROR - 2025-10-06 03:03:07 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-06 03:05:25 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-06 03:14:08 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-06 03:15:39 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-06 03:17:37 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-06 03:20:11 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-06 03:22:55 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-06 03:23:25 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-06 03:23:51 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-06 03:24:19 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-06 03:24:40 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-10-06 03:25:11 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497

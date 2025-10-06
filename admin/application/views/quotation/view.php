@@ -66,7 +66,7 @@
 							<!-- ========================================================= -->
 							<div class="row pagebreak" 
 								style="position:relative; width:210mm; height:297mm; margin:0 auto 10mm; page-break-before:always;
-										background-image: url('<?php echo base_url()?>assets/media/qutation-design/1.jpg');
+										background-image: url('<?php echo base_url()?>assets/media/qt_design/1.jpg');
 										background-size: cover;
 										background-position: center;
 										background-repeat: no-repeat;">
@@ -216,6 +216,9 @@
 															overflow: hidden;
 															text-overflow: ellipsis;">
 													<?php echo $vendor->account_number ?? '________ ';
+													 echo $vendor->ifsc_code ? ' / '.$vendor->ifsc_code : '';
+													 echo $vendor->bank_name ? ' / '.$vendor->bank_name : '';
+													 echo $vendor->account_holder ? ' / '.$vendor->account_holder : '';
 													?>
 												</td>
 											</tr>
@@ -228,7 +231,7 @@
 							<!--  PAGE 2  –– full-page background project description      -->
 							<!-- ========================================================= -->
 							<div class="row pagebreak" style="position:relative;width:210mm;height:297mm;margin:0 auto 10mm;page-break-before:always;">
-								<img src="<?php echo base_url()?>assets/media/qutation-design/2.jpg"
+								<img src="<?php echo base_url()?>assets/media/qt_design/2.jpg"
 									style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
 								<!-- =====  put your custom content here  ===== -->
 								<table class="text-muted table-responsive table" style="width:100%;">
@@ -244,7 +247,7 @@
 									<!-- Project Size  -->
 									<tr>
 										<td style="position: relative; z-index: 2;
-													padding: 9px 1px 669px 185px;
+													padding: 10px 0px 722px 159px;
 													color: black;
 													font-size: 15px;">
 											<?php echo $project->qty.'KW' ?? '_________';?> 
@@ -257,7 +260,7 @@
 													padding: 0 1px 0 194px;
 													color: black;
 													font-size: 15px;">
-											<div style="position: relative; top: -663px;">
+											<div style="position: relative; top: -716px;">
 											<?php echo $project->project_type ??' ________'; ?>
 											</div>
 										</td>
@@ -268,7 +271,7 @@
 													padding: 0 1px 0 194px;
 													color: black;
 													font-size: 15px;">
-											<div style="position: relative; top: -643px;">
+											<div style="position: relative; top: -697px;">
 											<?php echo $project->basic_rate??'______'; ?>
 											</div>
 										</td>
@@ -279,7 +282,7 @@
 													padding: 0 1px 0 214px;
 													color: black;
 													font-size: 15px;">
-											<div style="position: relative; top: -634px;">
+											<div style="position: relative; top: -687px;">
 											<?php echo $project->amount??'_______'; ?>
 											</div>
 										</td>
@@ -290,7 +293,7 @@
 													padding: 1px 1px 0 188px;
 													color: black;
 													font-size: 15px;">
-											<div style="position: relative; top: -617px;">
+											<div style="position: relative; top: -671px;">
 											<?php echo $data_info->work_scope??' NA'; ?>
 											</div>
 										</td>
@@ -302,7 +305,7 @@
 													padding: 1px 1px 0 240px;
 													color: black;
 													font-size: 15px;">
-											<div style="position: relative; top: -594px;">
+											<div style="position: relative; top: -628px;">
 											<?php echo $data_info->specification?? 'NA'; ?>
 											</div>
 										</td>
@@ -314,7 +317,7 @@
 							<!--  PAGE 3  –– full-page background  (xyz.png)             -->
 							<!-- ========================================================= -->
 							<div class="row pagebreak" style="position:relative;width:210mm;height:297mm;margin:0 auto 10mm;page-break-before:always;">
-								<img src="<?php echo base_url()?>assets/media/qutation-design/3.jpg"
+								<img src="<?php echo base_url()?>assets/media/qt_design/3.jpg"
 									style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
 								<!-- =====  put your custom content here  ===== -->
 							</div>
@@ -326,7 +329,7 @@
 								style="position:relative;width:210mm;height:297mm;margin:0 auto 10mm;page-break-before:always;">
 
 								<!-- background image -->
-								<img src="<?php echo base_url()?>assets/media/qutation-design/4.jpg"
+								<img src="<?php echo base_url()?>assets/media/qt_design/4.jpg"
 									style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;z-index:1;">
 
 								<!-- =====  put your custom content here  ===== -->
@@ -374,11 +377,11 @@
 												foreach ($products as $product) { ?>
 													<tr>
 														<td style="padding:4px 6px;font-size:11px;"><?php echo $i; ?></td>
-														<td style="padding:4px 6px;font-size:11px;"><?php echo $product->product_name; ?></td>
-														<td style="padding:4px 6px;font-size:11px;"><?php echo $product->brand_name; ?></td>
+														<td style="padding:4px 6px;font-size:11px;"><?php echo $product->productName; ?></td>
+														<td style="padding:4px 6px;font-size:11px;"><?php echo $product->brandName; ?></td>
 														<td style="padding:4px 6px;font-size:11px;"><?php echo $product->warranty; ?></td>
-														<td style="padding:4px 6px;font-size:11px;">NA</td>
-														<td style="padding:4px 6px;font-size:11px;">NA</td>
+														<td style="padding:4px 6px;font-size:11px;"><?php echo $product->quantity; ?></td>
+														<td style="padding:4px 6px;font-size:11px;"><?php echo $product->watt_volt.'W'; ?></td>
 													</tr>
 													<?php $i++;
 												}
@@ -392,7 +395,7 @@
 							<!--  PAGE 5  –– full-page background  (xyzLast.jpg)         -->
 							<!-- ========================================================= -->
 							<div class="row pagebreak" style="position:relative;width:210mm;height:297mm;margin:0 auto;page-break-before:always;">
-								<img src="<?php echo base_url()?>assets/media/qutation-design/5.jpg"
+								<img src="<?php echo base_url()?>assets/media/qt_design/5.jpg"
 									style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
 								<!-- =====  put your custom content here  ===== -->
 							</div>

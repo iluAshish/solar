@@ -127,7 +127,7 @@ $(document).ready(function () {
 
 
     $(document).on("click", ".btn.open_my_form_form", function (event) {
-        
+        debugger;
         var data_id = $(this).attr('data-id');
         var controller = $(this).attr('data-control');
         var $url = 'add';
@@ -145,7 +145,7 @@ $(document).ready(function () {
                 $('#add_edit_form').show();
             },
             success: function (returnData) {
-                
+                console.log(returnData);
                 setTimeout(function(){ 
                     $('#display_update_form').html(returnData);
                     $('#display_update_form select').select2();
