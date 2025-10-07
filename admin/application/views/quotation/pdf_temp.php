@@ -47,22 +47,22 @@
         <table style="width:100%;">
             <tr>
                 <td style="padding: 249px 0px 0px 110px;"><?php echo date('d-m-Y', strtotime($data_info->qauote_date)); ?></td>
-                <td style="padding: 236px 0 0 490px;"><?php echo $data_info->reference_no ?? '________'; ?></td>
+                <td style="padding: 246px 0 0 165px;"><?php echo $data_info->reference_no ?? '________'; ?></td>
             </tr>
             <tr>
-                <td style="padding: 8px 0 0 143px;"><?php echo $franchisee->franchisee_code ?? '_______'; ?></td>
+                <td style="padding: 11px 0 0 170px;"><?php echo $franchisee->franchisee_code ?? '______'; ?></td>
             </tr>
             <tr>
-                <td style="padding: 100px 0 0 98px;"><?php echo $client->client_name ?? '_________'; ?></td>
+                <td style="padding: 104px 0 0 140px;"><?php echo $client->client_name ?? '_________'; ?></td>
             </tr>
             <tr>
-                <td style="padding: 9px 0 0 113px;"><?php echo $client->client_email ?? '________'; ?></td>
+                <td style="padding: 3px 0 0 140px;"><?php echo $client->client_email ?? '________'; ?></td>
             </tr>
             <tr>
-                <td style="padding: 8px 0 0 163px;"><?php echo $client->phone ?? '________'; ?></td>
+                <td style="padding: 3px 0 0 185px;"><?php echo $client->phone ?? '________'; ?></td>
             </tr>
             <tr>
-                <td style="padding: 6px 0 0 143px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                <td style="padding: 1px 0 0 150px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
                     <?php echo $client->address ?? '________'; ?>
                 </td>
             </tr>
@@ -70,16 +70,34 @@
                 <td style="padding: 108px 0 0 172px;"><?php echo $vendor->vendor_name ?? '________'; ?></td>
             </tr>
             <tr>
-                <td style="padding: 21px 0 0 172px;"><?php echo $vendor->state_name ?? '________'; ?></td>
+                <td style="padding: 13px 0 0 185px;"><?php echo $vendor->state_name ?? '________'; ?></td>
             </tr>
             <tr>
-                <td style="padding: 14px 0 0 172px;"><?php echo $vendor->address ?? '_______'; ?></td>
+                <td style=" position: relative; z-index: 2;
+                            padding: 11px 0 0 160px;
+                            color: black;
+                            font-size: 15px;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            "><?php echo $vendor->address ?? '_______'; ?></td>
             </tr>
             <tr>
-                <td style="padding: 27px 0 0 172px;"><?php echo $vendor->gstin_number ?? '_______'; ?></td>
+                <td style="padding: 18px 0 0 190px;"><?php echo $vendor->gstin_number ?? '_______'; ?></td>
             </tr>
             <tr>
-                <td style="padding: 25px 0 0 232px;"><?php echo $vendor->account_number ?? '________'; ?></td>
+                <td style="position: relative; z-index: 2;
+                            padding: 20px 0 0 245px;
+                            color: black;
+                            font-size: 15px;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;">
+                    <?= ($vendor->account_number  ?? '________') .
+                        ($vendor->ifsc_code  ? ' / '.$vendor->ifsc_code  : '') .
+                        ($vendor->bank_name  ? ' / '.$vendor->bank_name  : '') .
+                        ($vendor->account_holder ? ' / '.$vendor->account_holder : '') ?>
+                </td>
             </tr>
         </table>
     </div>
@@ -91,25 +109,25 @@
     <div class="content">
         <table style="width:100%;">
             <tr>
-                <td style="padding: 257px 0 0 126px;"><?php echo $project->project_name ?? '________________________________'; ?></td>
+                <td style="padding: 233px 0 0 126px;"><?php echo $project->project_name ?? '________________________________'; ?></td>
             </tr>
             <tr>
-                <td style="padding: 9px 0 0 185px;"><?php echo $project->qty.' KW' ?? '_________'; ?></td>
+                <td style="padding: 3px 0 0 160px;"><?php echo $project->qty.' KW' ?? '_________'; ?></td>
             </tr>
             <tr>
-                <td style="padding: 0 0 0 194px;"><?php echo $project->project_type ?? '________'; ?></td>
+                <td style="padding: 2px 0 0 194px;"><?php echo $project->project_type ?? '________'; ?></td>
             </tr>
             <tr>
-                <td style="padding: 0 0 0 194px;"><?php echo $project->basic_rate ?? '______'; ?></td>
+                <td style="padding: 13px 0 0 150px;"><?php echo $project->basic_rate ?? '______'; ?></td>
             </tr>
             <tr>
-                <td style="padding: 0 0 0 214px;"><?php echo $project->amount ?? '_______'; ?></td>
+                <td style="padding: 5px 0 0 214px;"><?php echo $project->amount ?? '_______'; ?></td>
             </tr>
             <tr>
-                <td style="padding: 1px 0 0 188px;"><?php echo $data_info->work_scope ?? 'NA'; ?></td>
+                <td style="padding: 13px 0 0 180px;"><?php echo $data_info->work_scope ?? 'NA'; ?></td>
             </tr>
             <tr>
-                <td style="padding: 1px 0 0 240px;"><?php echo $data_info->specification ?? 'NA'; ?></td>
+                <td style="padding: 13px 0 0 220px;"><?php echo $data_info->specification ?? 'NA'; ?></td>
             </tr>
         </table>
     </div>
@@ -126,15 +144,15 @@
     <div class="content">
         <table style="width:100%;">
             <tr>
-                <td style="padding: 282px 0 0 163px;"><?php echo $project->project_type ?? '________'; ?></td>
+                <td style="padding: 256px 0 0 163px;"><?php echo $project->project_type ?? '________'; ?></td>
             </tr>
             <tr>
-                <td style="padding: 10px 0 0 168px;"><?php echo $products[0]->product_type ?? 'My-type'; ?></td>
+                <td style="padding: 6px 0 0 168px;"><?php echo $products[0]->product_type ?? 'My-type'; ?></td>
             </tr>
         </table>
 
         <!-- Product Table -->
-        <div style="position:absolute; top:423px; left:0; right:0;">
+        <div style="position:absolute; top:380px; left:0; right:0;">
             <table style="width:100%; font-size:11px;">
                 <thead>
                     <tr>

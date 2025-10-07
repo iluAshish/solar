@@ -451,11 +451,7 @@ class Quotation extends CI_Controller {
                
             }
         }
-        // echo "<pre>";
-
-        // print_r($data);
-        // echo "</pre>";
-        // exit;
+        
         if ($data_found == 0) {
             redirect('/');
         }
