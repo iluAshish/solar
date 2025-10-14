@@ -271,9 +271,9 @@ class Quotation extends CI_Controller {
             </a>
 
             <!-- WhatsApp Share Button -->
-            <!-- <a class="btn btn-icon btn-success w-30px h-30px me-3" href="quotation/share/{$id}" data-original-title="Share on WhatsApp">
+            <a class="btn btn-icon btn-success w-30px h-30px me-3" href="quotation/share/{$id}" data-original-title="Share on WhatsApp">
                 <i class="fab fa-whatsapp"></i>
-            </a> -->
+            </a>
 
             <button class="btn btn-icon btn-danger w-30px h-30px remove-item-btn delete_btn" data-original-title="Remove {$this->title}" data-method=remove data-table="{$this->table_name}" data-column="{$this->PrimaryKey}" data-id="{$id}">
                 <i class="ki-duotone ki-trash fs-3">
@@ -526,7 +526,7 @@ class Quotation extends CI_Controller {
         $data["data_info"] = $data_obj;
 
         // --- Capture HTML ---
-        $html = $this->load->view($this->view_name . '/whatsapp', $data, true);
+        $html = $this->load->view($this->view_name . '/pdf_temp', $data, true);
         
         /* ---------- Dompdf load ---------- */
         $autoload = APPPATH . 'third_party/dompdf/vendor/autoload.php';   
@@ -536,7 +536,11 @@ class Quotation extends CI_Controller {
         require_once $autoload;
 
         /* ---------- 3. Render ---------- */
-        $dompdf = new \Dompdf\Dompdf();
+        $dompdf = new \Dompdf\Dompdf(
+            [
+                'enableRemote' => true, 
+            ]
+        );
         $dompdf->loadHtml($html);
         $dompdf->setPaper('A4', 'portrait');
         $dompdf->render();
