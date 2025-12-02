@@ -43,6 +43,7 @@ class Quotation extends CI_Controller {
         $data['projects'] = $this->Common->get_list(TBL_PROJECTS,'id','project_name',"status = 'ACTIVE'");
         $data['vendors'] = $this->Common->get_list(TBL_VENDORS,'id','vendor_name',"status = 'ACTIVE'");
         $data['products'] = $this->Common->get_list(TBL_PRODUCT,'id','product_name','status = "ACTIVE"');
+        $data['projectsizes'] = $this->Common->get_list(TBL_PROJECT_SIZE, 'id', 'size_name', 'status = "Active"');
         $data['settings'] = $this->Common->get_info(1, TBL_SETTINGS, 'setting_id');
         $quote = $this->Common->get_info(1, $this->table_name, '','reference_no like "%'.date('Y').'%"','*','','',array('field'=>'id','order'=>'desc'),1);
         if($quote) {
@@ -75,6 +76,7 @@ class Quotation extends CI_Controller {
                 $data['vendors'] = $this->Common->get_list(TBL_VENDORS,'id','vendor_name',"status = 'ACTIVE'");
                 $data['products'] = $this->Common->get_list(TBL_PRODUCT,'id','product_name','status = "ACTIVE"');
                 $data['settings'] = $this->Common->get_info(1, TBL_SETTINGS, 'setting_id');
+                $data['projectsizes'] = $this->Common->get_list(TBL_PROJECT_SIZE, 'id', 'size_name', 'status = "Active"');
                 $join = array(
                     array("table" => TBL_PROJECTS . " p","on" => "p.id=qp.project_id",
                         "type" => "LEFT"),
@@ -128,6 +130,9 @@ class Quotation extends CI_Controller {
                     "total_amount" => $this->input->post('amount')[0],
                     "vendor_id" => $this->input->post('vendor_id'),
                     "project_id" => $this->input->post('project_id')[0],
+                    "size_id" => $this->input->post('size_id')[0],
+
+
                 );
                 if ($this->Common->check_is_exists($this->table_name, $post_data['reference_no'], "reference_no", $id, $field = $this->PrimaryKey)):
                     $response['heading'] = $this->title.' Name details already exists';
@@ -144,7 +149,9 @@ class Quotation extends CI_Controller {
                             $prod_data = array(
                                 "quote_id" => $id,
                                 "project_id" => $this->input->post('project_id')[$i],
-                                "size_range_id" => $this->input->post('project_prices')[$i],
+                                "size_id" => $this->input->post('size_id')[$i],
+                                // "size_range_id" => $this->input->post('project_prices')[$i],
+
                                 "qty" => $this->input->post('qty')[$i],
                                 //"unit" => $this->input->post('unit')[$i],
                                 "basic_rate" => $this->input->post('rate')[$i],
@@ -169,7 +176,8 @@ class Quotation extends CI_Controller {
                             $prod_data = array(
                                 "quote_id" => $id,
                                 "project_id" => $this->input->post('project_id')[$i],
-                                "size_range_id" => $this->input->post('project_prices')[$i],
+                                "size_id" => $this->input->post('size_id')[$i],
+                                // "size_range_id" => $this->input->post('project_prices')[$i],
                                 "qty" => $this->input->post('qty')[$i],
                                 "basic_rate" => $this->input->post('rate')[$i],
                                 "amount" => $this->input->post('amount')[$i]
@@ -291,7 +299,10 @@ class Quotation extends CI_Controller {
 
     function view($id) {
         $data_found = 0;
+         
+
         $data['settings'] = $this->Common->get_info(1, TBL_SETTINGS, 'setting_id');
+       
         if ($id > 0) {
             $data_obj = $this->Common->get_info($id, $this->table_name, $this->PrimaryKey);
             if (is_object($data_obj) && count((array) $data_obj) > 0) {
@@ -313,41 +324,78 @@ class Quotation extends CI_Controller {
                     '',
                     $fields,
                     $vendorJoin
-                );
-                $join = array(
-                    array("table" => TBL_PROJECT_PRICE . " sp","on" => "pr.size_range_id=sp.price_id","type" => "LEFT"),
-                    array("table" => TBL_PROJECTS . " p","on" => "pr.project_id = p.id","type" => "LEFT"),
-                );
-                $data['project'] = $this->Common->get_info($id, TBL_QUOTATION_PROJECT.' pr', 'quote_id',false,'pr.*,p.project_name,p.project_image,p.project_type',$join);
+                );               
 
-               
+                $join = array(
+                    array(
+                        'table' => TBL_PROJECTS . ' p',
+                        'on'    => 'pr.project_id = p.id',
+                        'type'  => 'LEFT'
+                    ),
+                    array(
+                        'table' => TBL_PROJECT_SIZE . ' psize',
+                        'on'    => 'pr.size_id = psize.id',
+                        'type'  => 'LEFT'
+                    )
+                );
+
+                $data['project'] = $this->Common->get_info(
+                    $id,
+                    TBL_QUOTATION_PROJECT . ' pr',
+                    'quote_id',
+                    false,
+                    'pr.*, 
+                    p.project_name,
+                    p.scope_of_work,
+                    p.project_specification,
+                    p.project_image,
+                    p.project_type,
+                    psize.size_name',
+                    $join
+                );
+
 
                 $join = array(array("table" => TBL_PRODUCT . " p", "on" => "qp.product_id=p.id", "type" => "left"),); 
                 $data['quote_prod'] = $this->Common->get_all_info('',TBL_QUOTATION_PRODUCT.' qp','','quote_id = "'.$id.'"','qp.*,p.product_name,p.making,p.description',false, $join);
 
                 $project_id = $data['project']->project_id ?? 0;
 
-                $sql = "
-                SELECT  p.*, pr.*, pd.product_name as productName, b.brand_name as brandName
-                FROM    tbl_solar_project_product  p
-                LEFT JOIN tbl_solar_project pr ON pr.id = p.project_id
-                LEFT JOIN tbl_product         pd ON pd.id = p.pro_product_id
-                LEFT JOIN tbl_brand           b  ON b.id  = pd.brand_id
-                WHERE   p.project_id = ?
+                $size_id = $data['project']->size_id ?? 0;
+
+                print_r($project_id);
+
+                $sql = "SELECT  
+                        p.*, 
+                        pr.project_name,
+                        ps.size_name,
+                        pd.product_name,
+                        pd.brand_id,
+                        b.brand_name
+                    FROM ".TBL_PROJECT_PRODUCT." p
+                    
+                    LEFT JOIN ".TBL_PROJECTS." pr 
+                        ON pr.id = p.project_id
+
+                    LEFT JOIN ".TBL_PROJECT_SIZE." ps
+                        ON ps.id = p.size_id
+
+                    LEFT JOIN ".TBL_PRODUCT." pd 
+                        ON pd.id = p.pro_product_id
+
+                    LEFT JOIN ".TBL_BRAND." b
+                        ON b.id = pd.brand_id
+
+                    WHERE p.project_id = ?
+                    AND p.size_id = ?
                 ";
 
-                $data['products'] = $this->db->query($sql, [$project_id])->result();
-
+                $data['products'] = $this->db->query($sql, [$project_id, $size_id])->result();
                 $data["data_info"] = $data_obj;
                 $data_found = 1;
                
             }
         }
-        // echo "<pre>";
 
-        // print_r($data);
-        // echo "</pre>";
-        // exit;
         if ($data_found == 0) {
             redirect('/');
         }
@@ -421,31 +469,70 @@ class Quotation extends CI_Controller {
                     '',
                     $fields,
                     $vendorJoin
-                );
-                $join = array(
-                    array("table" => TBL_PROJECT_PRICE . " sp","on" => "pr.size_range_id=sp.price_id","type" => "LEFT"),
-                    array("table" => TBL_PROJECTS . " p","on" => "pr.project_id = p.id","type" => "LEFT"),
-                );
-                $data['project'] = $this->Common->get_info($id, TBL_QUOTATION_PROJECT.' pr', 'quote_id',false,'pr.*,p.project_name,p.project_image,p.project_type',$join);
+                );               
 
-               
+                $join = array(
+                    array(
+                        'table' => TBL_PROJECTS . ' p',
+                        'on'    => 'pr.project_id = p.id',
+                        'type'  => 'LEFT'
+                    ),
+                    array(
+                        'table' => TBL_PROJECT_SIZE . ' psize',
+                        'on'    => 'pr.size_id = psize.id',
+                        'type'  => 'LEFT'
+                    )
+                );
+
+                $data['project'] = $this->Common->get_info(
+                    $id,
+                    TBL_QUOTATION_PROJECT . ' pr',
+                    'quote_id',
+                    false,
+                    'pr.*, 
+                    p.project_name,
+                    p.scope_of_work,
+                    p.project_specification,
+                    p.project_image,
+                    p.project_type,
+                    psize.size_name',
+                    $join
+                );
+
 
                 $join = array(array("table" => TBL_PRODUCT . " p", "on" => "qp.product_id=p.id", "type" => "left"),); 
                 $data['quote_prod'] = $this->Common->get_all_info('',TBL_QUOTATION_PRODUCT.' qp','','quote_id = "'.$id.'"','qp.*,p.product_name,p.making,p.description',false, $join);
 
                 $project_id = $data['project']->project_id ?? 0;
 
-                $sql = "
-                SELECT  p.*, pr.*, pd.product_name as productName, b.brand_name as brandName
-                FROM    tbl_solar_project_product  p
-                LEFT JOIN tbl_solar_project pr ON pr.id = p.project_id
-                LEFT JOIN tbl_product         pd ON pd.id = p.pro_product_id
-                LEFT JOIN tbl_brand           b  ON b.id  = pd.brand_id
-                WHERE   p.project_id = ?
+                $size_id = $data['project']->size_id ?? 0;
+
+                $sql = "SELECT  
+                        p.*, 
+                        pr.project_name,
+                        ps.size_name,
+                        pd.product_name,
+                        pd.brand_id,
+                        b.brand_name
+                    FROM ".TBL_PROJECT_PRODUCT." p
+                    
+                    LEFT JOIN ".TBL_PROJECTS." pr 
+                        ON pr.id = p.project_id
+
+                    LEFT JOIN ".TBL_PROJECT_SIZE." ps
+                        ON ps.id = p.size_id
+
+                    LEFT JOIN ".TBL_PRODUCT." pd 
+                        ON pd.id = p.pro_product_id
+
+                    LEFT JOIN ".TBL_BRAND." b
+                        ON b.id = pd.brand_id
+
+                    WHERE p.project_id = ?
+                    AND p.size_id = ?
                 ";
 
-                $data['products'] = $this->db->query($sql, [$project_id])->result();
-
+                $data['products'] = $this->db->query($sql, [$project_id, $size_id])->result();
                 $data["data_info"] = $data_obj;
                 $data_found = 1;
                
@@ -495,36 +582,86 @@ class Quotation extends CI_Controller {
 
         $data['franchisee'] = $this->Common->get_info($data_obj->franchisee_id, TBL_USERS, 'id');
         $data['client'] = $this->Common->get_info($data_obj->client_id, TBL_CLIENTS, 'id');
-
-        $fields = 'v.*,' . TBL_STATES . '.name as state_name';
-        $vendorJoin = [
+        // vendor data prepration with state name
+        $fields = 'v.*,'.TBL_STATES.'.name as state_name';
+        $vendorJoin = array(
             'table' => TBL_STATES,
-            'on'    => 'v.state_id = ' . TBL_STATES . '.id',
+            'on'    => 'v.state_id = '.TBL_STATES.'.id',
             'type'  => 'left'
-        ];
-        $data['vendor'] = $this->Common->get_info($data_obj->vendor_id, TBL_VENDORS . ' v', 'v.id', '', $fields, $vendorJoin);
+        );
 
-        $join = [
-            ["table" => TBL_PROJECT_PRICE . " sp", "on" => "pr.size_range_id=sp.price_id", "type" => "LEFT"],
-            ["table" => TBL_PROJECTS . " p", "on" => "pr.project_id = p.id", "type" => "LEFT"],
-        ];
-        $data['project'] = $this->Common->get_info($id, TBL_QUOTATION_PROJECT . ' pr', 'quote_id', false, 'pr.*,p.project_name,p.project_image,p.project_type', $join);
+        $data['vendor'] = $this->Common->get_info(
+            $data_obj->vendor_id,
+            TBL_VENDORS.' v',          // alias added
+            'v.id',                    // <— fully qualified
+            '',
+            $fields,
+            $vendorJoin
+        );               
 
-        $join = [["table" => TBL_PRODUCT . " p", "on" => "qp.product_id=p.id", "type" => "left"]];
-        $data['quote_prod'] = $this->Common->get_all_info('', TBL_QUOTATION_PRODUCT . ' qp', '', 'quote_id = "' . $id . '"', 'qp.*,p.product_name,p.making,p.description', false, $join);
+        $join = array(
+            array(
+                'table' => TBL_PROJECTS . ' p',
+                'on'    => 'pr.project_id = p.id',
+                'type'  => 'LEFT'
+            ),
+            array(
+                'table' => TBL_PROJECT_SIZE . ' psize',
+                'on'    => 'pr.size_id = psize.id',
+                'type'  => 'LEFT'
+            )
+        );
+
+        $data['project'] = $this->Common->get_info(
+            $id,
+            TBL_QUOTATION_PROJECT . ' pr',
+            'quote_id',
+            false,
+            'pr.*, 
+            p.project_name,
+            p.scope_of_work,
+            p.project_specification,
+            p.project_image,
+            p.project_type,
+            psize.size_name',
+            $join
+        );
+
+
+        $join = array(array("table" => TBL_PRODUCT . " p", "on" => "qp.product_id=p.id", "type" => "left"),); 
+        $data['quote_prod'] = $this->Common->get_all_info('',TBL_QUOTATION_PRODUCT.' qp','','quote_id = "'.$id.'"','qp.*,p.product_name,p.making,p.description',false, $join);
 
         $project_id = $data['project']->project_id ?? 0;
-        $sql = "
-            SELECT  p.*, pr.*, pd.product_name as productName, b.brand_name as brandName
-            FROM    tbl_solar_project_product  p
-            LEFT JOIN tbl_solar_project pr ON pr.id = p.project_id
-            LEFT JOIN tbl_product         pd ON pd.id = p.pro_product_id
-            LEFT JOIN tbl_brand           b  ON b.id  = pd.brand_id
-            WHERE   p.project_id = ?
-        ";
-        $data['products'] = $this->db->query($sql, [$project_id])->result();
-        $data["data_info"] = $data_obj;
 
+        $size_id = $data['project']->size_id ?? 0;
+
+        $sql = "SELECT  
+                p.*, 
+                pr.project_name,
+                ps.size_name,
+                pd.product_name,
+                pd.brand_id,
+                b.brand_name
+            FROM ".TBL_PROJECT_PRODUCT." p
+            
+            LEFT JOIN ".TBL_PROJECTS." pr 
+                ON pr.id = p.project_id
+
+            LEFT JOIN ".TBL_PROJECT_SIZE." ps
+                ON ps.id = p.size_id
+
+            LEFT JOIN ".TBL_PRODUCT." pd 
+                ON pd.id = p.pro_product_id
+
+            LEFT JOIN ".TBL_BRAND." b
+                ON b.id = pd.brand_id
+
+            WHERE p.project_id = ?
+            AND p.size_id = ?
+        ";
+
+        $data['products'] = $this->db->query($sql, [$project_id, $size_id])->result();
+        $data["data_info"] = $data_obj;
         // --- Capture HTML ---
         $html = $this->load->view($this->view_name . '/pdf_temp', $data, true);
         

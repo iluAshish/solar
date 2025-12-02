@@ -1,0 +1,43 @@
+ERROR - 2025-11-28 03:55:26 --> Severity: Warning --> Undefined variable $cities D:\CI\solar\admin\application\views\clients\form.php 92
+ERROR - 2025-11-28 03:57:46 --> Severity: Warning --> Undefined variable $cities D:\CI\solar\admin\application\views\clients\form.php 92
+ERROR - 2025-11-28 04:04:29 --> Severity: Warning --> Undefined variable $cities D:\CI\solar\admin\application\views\clients\form.php 92
+ERROR - 2025-11-28 04:04:46 --> Severity: Warning --> Undefined variable $franchisees D:\CI\solar\admin\application\views\clients\form.php 32
+ERROR - 2025-11-28 04:04:46 --> Severity: Warning --> foreach() argument must be of type array|object, null given D:\CI\solar\admin\application\views\clients\form.php 32
+ERROR - 2025-11-28 04:04:46 --> Severity: Warning --> Undefined variable $cities D:\CI\solar\admin\application\views\clients\form.php 92
+ERROR - 2025-11-28 04:06:11 --> Severity: Warning --> Undefined variable $cities D:\CI\solar\admin\application\views\clients\form.php 92
+ERROR - 2025-11-28 04:25:46 --> Severity: Warning --> Undefined variable $franchisees D:\CI\solar\admin\application\views\clients\form.php 32
+ERROR - 2025-11-28 04:25:46 --> Severity: Warning --> foreach() argument must be of type array|object, null given D:\CI\solar\admin\application\views\clients\form.php 32
+ERROR - 2025-11-28 04:25:46 --> Severity: Warning --> Undefined variable $cities D:\CI\solar\admin\application\views\clients\form.php 92
+ERROR - 2025-11-28 04:25:46 --> Severity: Warning --> Undefined variable $franchisees D:\CI\solar\admin\application\views\clients\form.php 106
+ERROR - 2025-11-28 04:25:46 --> Severity: Warning --> foreach() argument must be of type array|object, null given D:\CI\solar\admin\application\views\clients\form.php 106
+ERROR - 2025-11-28 06:32:11 --> Severity: Warning --> Undefined variable $cities D:\CI\solar\admin\application\views\clients\form.php 92
+ERROR - 2025-11-28 06:32:11 --> Severity: Warning --> Undefined variable $franchisees D:\CI\solar\admin\application\views\clients\form.php 106
+ERROR - 2025-11-28 06:32:11 --> Severity: Warning --> foreach() argument must be of type array|object, null given D:\CI\solar\admin\application\views\clients\form.php 106
+ERROR - 2025-11-28 06:32:40 --> Severity: Warning --> Undefined variable $cities D:\CI\solar\admin\application\views\clients\form.php 80
+ERROR - 2025-11-28 06:32:40 --> Severity: Warning --> Undefined variable $franchisees D:\CI\solar\admin\application\views\clients\form.php 94
+ERROR - 2025-11-28 06:32:40 --> Severity: Warning --> foreach() argument must be of type array|object, null given D:\CI\solar\admin\application\views\clients\form.php 94
+ERROR - 2025-11-28 06:32:44 --> 404 Page Not Found: Clients/get_client
+ERROR - 2025-11-28 06:33:49 --> Severity: Warning --> Undefined variable $cities D:\CI\solar\admin\application\views\clients\form.php 80
+ERROR - 2025-11-28 06:33:49 --> Severity: Warning --> Undefined variable $franchisees D:\CI\solar\admin\application\views\clients\form.php 94
+ERROR - 2025-11-28 06:33:49 --> Severity: Warning --> foreach() argument must be of type array|object, null given D:\CI\solar\admin\application\views\clients\form.php 94
+ERROR - 2025-11-28 06:34:00 --> 404 Page Not Found: Clients/get_undefined
+ERROR - 2025-11-28 06:34:49 --> Severity: Warning --> Undefined variable $cities D:\CI\solar\admin\application\views\clients\form.php 80
+ERROR - 2025-11-28 06:34:49 --> Severity: Warning --> Undefined variable $franchisees D:\CI\solar\admin\application\views\clients\form.php 94
+ERROR - 2025-11-28 06:34:49 --> Severity: Warning --> foreach() argument must be of type array|object, null given D:\CI\solar\admin\application\views\clients\form.php 94
+ERROR - 2025-11-28 06:34:55 --> 404 Page Not Found: Clients/get_undefined
+ERROR - 2025-11-28 06:36:38 --> Severity: Warning --> Undefined variable $cities D:\CI\solar\admin\application\views\clients\form.php 80
+ERROR - 2025-11-28 06:36:38 --> Severity: Warning --> Undefined variable $franchisees D:\CI\solar\admin\application\views\clients\form.php 94
+ERROR - 2025-11-28 06:36:38 --> Severity: Warning --> foreach() argument must be of type array|object, null given D:\CI\solar\admin\application\views\clients\form.php 94
+ERROR - 2025-11-28 06:36:46 --> 404 Page Not Found: Clients/get_undefined
+ERROR - 2025-11-28 06:37:33 --> Severity: Warning --> Undefined variable $cities D:\CI\solar\admin\application\views\clients\form.php 80
+ERROR - 2025-11-28 06:37:33 --> Severity: Warning --> Undefined variable $franchisees D:\CI\solar\admin\application\views\clients\form.php 94
+ERROR - 2025-11-28 06:37:33 --> Severity: Warning --> foreach() argument must be of type array|object, null given D:\CI\solar\admin\application\views\clients\form.php 94
+ERROR - 2025-11-28 06:37:41 --> 404 Page Not Found: Clients/get_undefined
+ERROR - 2025-11-28 06:38:33 --> Severity: Warning --> Undefined variable $cities D:\CI\solar\admin\application\views\clients\form.php 80
+ERROR - 2025-11-28 06:38:33 --> Severity: Warning --> Undefined variable $franchisees D:\CI\solar\admin\application\views\clients\form.php 94
+ERROR - 2025-11-28 06:38:33 --> Severity: Warning --> foreach() argument must be of type array|object, null given D:\CI\solar\admin\application\views\clients\form.php 94
+ERROR - 2025-11-28 06:38:41 --> 404 Page Not Found: Clients/get_undefined
+ERROR - 2025-11-28 06:39:42 --> Severity: Warning --> Undefined variable $cities D:\CI\solar\admin\application\views\clients\form.php 80
+ERROR - 2025-11-28 06:39:42 --> Severity: Warning --> Undefined variable $franchisees D:\CI\solar\admin\application\views\clients\form.php 94
+ERROR - 2025-11-28 06:39:42 --> Severity: Warning --> foreach() argument must be of type array|object, null given D:\CI\solar\admin\application\views\clients\form.php 94
+ERROR - 2025-11-28 06:39:47 --> 404 Page Not Found: Clients/get_undefined

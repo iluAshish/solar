@@ -168,8 +168,8 @@
                     <?php $i = 1; foreach ($products as $p): ?>
                     <tr>
                         <td style="border:1px solid #ccc; padding:4px;"><?php echo $i++; ?></td>
-                        <td style="border:1px solid #ccc; padding:4px;"><?php echo $p->productName; ?></td>
-                        <td style="border:1px solid #ccc; padding:4px;"><?php echo $p->brandName; ?></td>
+                        <td style="border:1px solid #ccc; padding:4px;"><?php echo $p->product_name; ?></td>
+                        <td style="border:1px solid #ccc; padding:4px;"><?php echo $p->brand_name; ?></td>
                         <td style="border:1px solid #ccc; padding:4px;"><?php echo $p->warranty; ?></td>
                         <td style="border:1px solid #ccc; padding:4px;"><?php echo $p->watt_volt.'W'; ?></td>
                         <td style="border:1px solid #ccc; padding:4px;"><?php echo $p->quantity; ?></td>

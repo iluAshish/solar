@@ -127,7 +127,7 @@ $(document).ready(function () {
 
 
     $(document).on("click", ".btn.open_my_form_form", function (event) {
-        debugger;
+        // debugger;
         var data_id = $(this).attr('data-id');
         var controller = $(this).attr('data-control');
         var $url = 'add';
@@ -616,11 +616,118 @@ $(document).ready(function () {
         return false;
     });
     
+    // this is only for qutation 
+
+    $(document).on("change", ".size-ranges-qutation", function () {
+
+        var this_e = $(this);
+        var row = this_e.closest("tr");  // <-- GET CURRENT ROW
+
+        var project_id = row.find("select[name='project_id[]']").val();  // <-- GET PROJECT ID
+        var size_id    = this_e.val();  // <-- GET SIZE ID
+
+        var controll = this_e.attr('data-control');
+        var name = this_e.attr('data-name');
+
+        if (!project_id) {
+            alert("Please select project first");
+            return false;
+        }
+
+        $.ajax({
+            type: 'POST',
+            url: BASE_URL + controll + '/get_size_price_qutation',
+            data: {
+                project_id: project_id,   // <-- SEND BOTH
+                size_id: size_id
+            },
+            dataType: 'json',
+
+            success: function (returnData) {
+                if (returnData.status == "ok") {
+                    this_e.parent().next().find('.rate').val(returnData.price);
+                    this_e.parent().next().find('.rate').attr("data-rate",returnData.price);
+
+                     let amountField = this_e.closest("tr").find(".amount");
+                        amountField.val(returnData.total);
+                        amountField.attr("data-amount", returnData.total);
+                    
+                    this_e.parent().next().next().find('.quantity').prop('min',returnData.from_size);
+                    this_e.parent().next().next().find('.quantity').prop('max',returnData.to_size);
+                    
+                }
+            },
+            error: function (xhr, textStatus, errorThrown) {
+                alert('There was an unknown error that occurred. You will need to refresh the page to continue working.');
+            },
+            complete: function () {
+                $('input[type="submit"]').val('Submit').removeAttr('disabled');
+            }
+        });
+
+        return false;
+    });
+
+    $(document).on("change", ".change-state-selection", function () {
+        var $el = $(this);
+        var state_id = $el.val();
+        var controll = $el.attr('data-control'); // must exist
+        var url = BASE_URL + controll + '/get_franchisees_by_state';
+
+        console.log({ state_id, controll, url });
+
+        if(!controll) {
+            console.error('data-control attribute missing on the select element');
+            return;
+        }
+
+        if(state_id === "") {
+            $(".franchisee-wrapper").hide();
+            $("#franchisee_id").html('<option>Select franchisee</option>');
+            return;
+        }
+
+        $(".franchisee-wrapper").show();
+
+        $.ajax({
+            url: url,
+            type: "POST", // ensure server route accepts POST
+            data: { state_id: state_id },
+            dataType: "json",
+            beforeSend: function(xhr) {
+                // If your framework needs CSRF token in header:
+                if (typeof CSRF_TOKEN !== 'undefined') {
+                    xhr.setRequestHeader('X-CSRF-Token', CSRF_TOKEN);
+                }
+            },
+            success: function(res) {
+                if (res.status) {
+                    let html = '<option>Select franchisee</option>';
+                    $.each(res.data, function(key, value){
+                        html += '<option value="'+key+'">'+value+'</option>';
+                    });
+                    $("#franchisee_id").html(html);
+                } else {
+                    console.warn('Response status false', res);
+                }
+            },
+            error: function(xhr, status, err) {
+                console.error('AJAX error', status, err, xhr.responseText);
+                // show server response for debugging
+                alert('Server returned error: ' + xhr.status + ' — see console for details');
+            }
+        });
+
+        return false;
+    });
+
+
 
     $(document).on("change", ".size-ranges", function (event) {
         var controll = $(this).attr('data-control');
-        console.log(controll);
-        debugger;
+       
+        // var project_id = $row.find("select[name='project_id[]']").val();
+
         var name = $(this).attr('data-name');
         var id = $(this).val();
         var this_e = $(this);

@@ -40,4 +40,7 @@ define("TBL_CITIES", "tbl_cities");
 define("TBL_STATES", "tbl_states");
 define("TBL_DISTRICTS", "tbl_districts");
 define("TBL_WALLET_TRANSACTION", "tbl_wallet_transaction");
+
+// new defination table
+define("TBL_PROJECT_SIZE", "tbl_project_size");
 ?>

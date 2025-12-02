@@ -450,3 +450,71 @@ if ((viewobj != '') && (options == "edit-invoice")) {
 
 }
 
+// new product insert here 
+function new_link_product() {
+	const tbody = document.getElementById('newlink');
+	const rowCountInput = document.getElementById('row-count');
+	const nextIndex = rowCountInput ? (parseInt(rowCountInput.value || '0') + 1) : (tbody.children.length + 1);
+
+	const tpl = document.getElementById('product-row-template');
+	if (!tpl) {
+		console.error('product-row-template not found');
+		return;
+	}
+
+	// Clone template content (deep clone)
+	const clone = tpl.content.cloneNode(true);
+	const newRow = clone.querySelector('tr');
+	if (!newRow) {
+		console.error('template does not contain a <tr>');
+		return;
+	}
+
+	// mark row id
+	newRow.id = 'row_' + nextIndex;
+	newRow.classList.add('product');
+
+	// Append cloned row to tbody
+	tbody.appendChild(clone);
+
+	// Initialize select2 on the newly added select(s)
+	const sel = tbody.querySelector('#' + newRow.id + " select[name='product_id[]']") || newRow.querySelector("select[name='product_id[]']");
+	// Fallback: find the last select in the tbody
+	let $sel = null;
+	if (sel && typeof window.jQuery !== 'undefined') {
+		$sel = window.jQuery(sel);
+	} else if (typeof window.jQuery !== 'undefined') {
+		const lastSel = window.jQuery(tbody).find("select[name='product_id[]']").last();
+		if (lastSel.length) $sel = lastSel;
+	}
+
+	if ($sel && typeof $sel.select2 === 'function') {
+		try {
+			if ($sel.data('select2')) $sel.select2('destroy');
+			var $dropdownParent = window.jQuery('#display_update_form');
+			if ($dropdownParent.length === 0) $dropdownParent = window.jQuery(document.body);
+			$sel.select2({ dropdownParent: $dropdownParent, width: 'resolve' });
+		} catch (err) {
+			console.warn('select2 init failed for dynamic product select', err);
+		}
+	}
+
+	if (rowCountInput) rowCountInput.value = nextIndex;
+}
+
+// ✅ Remove row
+document.addEventListener("click", function(e) {
+    if (e.target.closest(".remove-row")) {
+        e.target.closest("tr").remove();
+    }
+});
+
+// ✅ Before submit: Remove blank product rows (so product_id[] never sends empty)
+document.addEventListener("submit", function(e) {
+    const selects = document.querySelectorAll("select[name='product_id[]']");
+    selects.forEach(select => {
+        if (select.value === "" || select.value === null) {
+            select.closest("tr").remove();
+        }
+    });
+}, true);

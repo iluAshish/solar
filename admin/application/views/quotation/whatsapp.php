@@ -253,8 +253,8 @@
                     foreach ($products as $product) { ?>
                         <tr>
                             <td><?php echo $i++; ?></td>
-                            <td><?php echo $product->productName; ?></td>
-                            <td><?php echo $product->brandName; ?></td>
+                            <td><?php echo $product->product_name; ?></td>
+                            <td><?php echo $product->brand_name; ?></td>
                             <td><?php echo $product->warranty; ?></td>
                             <td><?php echo $product->watt_volt . 'W'; ?></td>
                             <td><?php echo $product->quantity; ?></td>

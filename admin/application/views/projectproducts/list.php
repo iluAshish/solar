@@ -40,10 +40,10 @@
 					<table class="table align-middle table-row-dashed fs-6 gy-5 common_datatable" data-control="projectproducts" data-mathod="manage">
 						<thead>
 							<tr class="text-start text-muted fw-bold fs-7 text-uppercase gs-0">
-								<th class="min-w-125px">Product Name</th>
 								<th class="min-w-125px">Project Name</th>
-								<th class="min-w-125px">Brand Name</th>
-								<th class="min-w-125px">Quantity</th>
+								<th class="min-w-125px">Size(KW)</th>
+								<th class="min-w-125px">Number of Products</th>
+								<th class="min-w-125px">Project Price</th>
 								<!-- <th class="min-w-125px">Status</th> -->
 								<th class="text-end min-w-100px">Actions</th>
 							</tr>

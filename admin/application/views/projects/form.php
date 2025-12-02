@@ -72,6 +72,20 @@ $form_attr = array('class' => 'default_form needs-validation', 'id' => 'course_f
                             <input type="text" id="description" name="description" class="form-control" placeholder="Enter description" required  value = '<?php echo (isset($data_info) && $data_info->description != "") ? $data_info->description : set_value('description') ?>'/>
                         </div>
                     </div>
+
+                    <div class="col-lg-6">
+                        <div>
+                            <label for="scope_of_work" class="form-label">Scope of Works</label>
+                            <input type="text" id="scope_of_work" name="scope_of_work" class="form-control" placeholder="Enter scope of work" required  value = '<?php echo (isset($data_info) && $data_info->scope_of_work != "") ? $data_info->scope_of_work : set_value('scope_of_work') ?>'/>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div>
+                            <label for="project_specification" class="form-label">Project Specification</label>
+                            <input type="text" id="project_specification" name="project_specification" class="form-control" placeholder="Enter project specification" required  value = '<?php echo (isset($data_info) && $data_info->project_specification != "") ? $data_info->project_specification : set_value('project_specification') ?>'/>
+                        </div>
+                    </div>
                     <!-- <div class="col-lg-6">
                         <div>
                             <label for="project_status" class="form-label">Project Status</label>

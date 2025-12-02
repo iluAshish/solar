@@ -1,0 +1,28 @@
+ERROR - 2025-11-27 03:00:18 --> 404 Page Not Found: Blastcore/index
+ERROR - 2025-11-27 03:00:18 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-27 04:12:24 --> 404 Page Not Found: Blastcore/index
+ERROR - 2025-11-27 04:12:25 --> 404 Page Not Found: Blastcore/index
+ERROR - 2025-11-27 04:12:25 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-27 04:12:32 --> 404 Page Not Found: Blastcore/index
+ERROR - 2025-11-27 04:12:32 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-27 04:12:34 --> 404 Page Not Found: Blastcore/index
+ERROR - 2025-11-27 04:12:34 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-27 04:12:34 --> 404 Page Not Found: Blastcore/index
+ERROR - 2025-11-27 04:12:34 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-27 04:12:34 --> 404 Page Not Found: Blastcore/index
+ERROR - 2025-11-27 04:12:34 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-27 04:12:34 --> 404 Page Not Found: Blastcore/index
+ERROR - 2025-11-27 04:12:34 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-27 04:12:34 --> 404 Page Not Found: Blastcore/index
+ERROR - 2025-11-27 04:12:34 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-27 04:13:25 --> 404 Page Not Found: Blastcore/index
+ERROR - 2025-11-27 04:13:26 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-27 04:13:50 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it D:\CI\solar\admin\system\database\drivers\mysqli\mysqli_driver.php 211
+ERROR - 2025-11-27 04:13:50 --> Unable to connect to the database
+ERROR - 2025-11-27 04:13:54 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it D:\CI\solar\admin\system\database\drivers\mysqli\mysqli_driver.php 211
+ERROR - 2025-11-27 04:13:54 --> Unable to connect to the database
+ERROR - 2025-11-27 04:13:58 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it D:\CI\solar\admin\system\database\drivers\mysqli\mysqli_driver.php 211
+ERROR - 2025-11-27 04:13:58 --> Unable to connect to the database
+ERROR - 2025-11-27 04:13:58 --> Query error: No connection could be made because the target machine actively refused it - Invalid query: SELECT `role_id`, `role_name`
+FROM `tbl_user_role`
+ERROR - 2025-11-27 04:13:58 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 161

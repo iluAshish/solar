@@ -23,19 +23,7 @@ $form_attr = array('class' => 'default_form needs-validation', 'id' => 'course_f
             </div>
             <div class="card-body">
                 <div class="row g-3">
-                    <?php if($role != 4) { ?>
-                    <div class="col-lg-6">
-                        <div>
-                            <label for="staff_id" class="form-label">Franchisee</label>
-                            <select class="form-select" name="franchisee_id" id="franchisee_id">
-                                <option>Select franchisee</option>
-                                <?php foreach($franchisees as $key=>$value) { ?>
-                                <option value="<?php echo $key;?>" <?php echo (isset($data_info) && $data_info->franchisee_id == $key) ? 'selected' : ''; ?>><?php echo $value;?></option>
-                                <?php } ?>
-                            </select>
-                        </div>
-                    </div>  
-                    <?php } ?>
+                   
                     <div class="col-lg-6">
                         <div>
                             <label for="staff_name" class="form-label">Client Name</label>
@@ -75,7 +63,7 @@ $form_attr = array('class' => 'default_form needs-validation', 'id' => 'course_f
                     <div class="col-lg-6">
                         <div>
                             <label for="state_id" class="form-label">State</label>
-                            <select class="form-select select-change" id="state_id" name="state_id" data-control="clients" data-name="city">
+                            <select class="form-select select-change change-state-selection" id="state_id" name="state_id" data-control="clients" data-name="city">
         						<option value="">Select State</option>
                                 <?php foreach($states as $key=>$value) { ?>
         						<option value="<?php echo $key;?>" <?php echo (isset($data_info) && $data_info->state_id != "" && $data_info->state_id == $key) ? 'selected' : '' ?>><?php echo $value;?></option>
@@ -97,6 +85,21 @@ $form_attr = array('class' => 'default_form needs-validation', 'id' => 'course_f
         					</select>
                         </div>
                     </div>
+                    <div class="col-lg-6 franchisee-wrapper" style="<?php echo (isset($data_info) && !empty($data_info->state_id)) ? '' : 'display:none;'; ?>">
+                        <div>
+                            <label for="staff_id" class="form-label">Franchisee</label>
+                            <select class="form-select" name="franchisee_id" id="franchisee_id" data-preselected="<?php echo isset($data_info->franchisee_id) ? $data_info->franchisee_id : ''; ?>">
+                                <option value="">Select franchisee</option>
+                                <?php 
+                                // optional: if you already pass $franchisees in edit mode, show them.
+                                if (!empty($franchisees) && is_array($franchisees)) {
+                                    foreach($franchisees as $key=>$value) { ?>
+                                    <option value="<?php echo $key;?>" <?php echo (isset($data_info) && $data_info->franchisee_id == $key) ? 'selected' : ''; ?>><?php echo $value;?></option>
+                                    <?php }
+                                } ?>
+                            </select>
+                        </div>
+                    </div>  
                     
                 </div>
             </div>

@@ -1,0 +1,375 @@
+ERROR - 2025-11-22 02:27:30 --> Severity: Warning --> Attempt to read property "size_range" on null D:\CI\solar\admin\application\controllers\Projects.php 173
+ERROR - 2025-11-22 02:40:17 --> Query error: Column 'work_scope' cannot be null - Invalid query: INSERT INTO `tbl_quotation` (`reference_no`, `franchisee_id`, `client_id`, `product_ids`, `qauote_date`, `work_scope`, `specification`, `quote_notes`, `quote_terms`, `total_amount`, `vendor_id`, `project_id`, `size_id`, `modified_on`, `created_on`, `user_id`) VALUES ('SITPL/SE/00011/2025', '2', '3', '', '2025-11-28', NULL, NULL, '', '<p>1. Payment Terms: [e.g., 90% advance, 10% on completion]<br>2. Warranty: [e.g., 30 years for panels]<br>3. Delivery &amp; Installation: [e.g., Within 7-15 working days]<br>4. Validity: This quotation is valid for [e.g., 30 days].<br>5. GST, Infrastructure, Installation, Transportation and Guarantee inculded in Total Price<br>6. Prices can be up and down due to changes in project accurate size.<br>7. Terms and conditions will be applicable as per the product, project and brand.</p>', '221760', '4', '12', '1', '2025-11-22 02:40:17', '2025-11-22 02:40:17', '1')
+ERROR - 2025-11-22 02:42:49 --> Query error: Column 'work_scope' cannot be null - Invalid query: INSERT INTO `tbl_quotation` (`reference_no`, `franchisee_id`, `client_id`, `product_ids`, `qauote_date`, `work_scope`, `specification`, `quote_notes`, `quote_terms`, `total_amount`, `vendor_id`, `project_id`, `size_id`, `modified_on`, `created_on`, `user_id`) VALUES ('SITPL/SE/00011/2025', '2', '3', '', '2025-11-28', NULL, NULL, '', '<p>1. Payment Terms: [e.g., 90% advance, 10% on completion]<br>2. Warranty: [e.g., 30 years for panels]<br>3. Delivery &amp; Installation: [e.g., Within 7-15 working days]<br>4. Validity: This quotation is valid for [e.g., 30 days].<br>5. GST, Infrastructure, Installation, Transportation and Guarantee inculded in Total Price<br>6. Prices can be up and down due to changes in project accurate size.<br>7. Terms and conditions will be applicable as per the product, project and brand.</p>', '221760', '4', '12', '1', '2025-11-22 02:42:49', '2025-11-22 02:42:49', '1')
+ERROR - 2025-11-22 02:43:39 --> Query error: Column 'work_scope' cannot be null - Invalid query: INSERT INTO `tbl_quotation` (`reference_no`, `franchisee_id`, `client_id`, `product_ids`, `qauote_date`, `work_scope`, `specification`, `quote_notes`, `quote_terms`, `total_amount`, `vendor_id`, `project_id`, `size_id`, `modified_on`, `created_on`, `user_id`) VALUES ('SITPL/SE/00011/2025', '2', '3', '', '2025-11-28', NULL, NULL, '', '<p>1. Payment Terms: [e.g., 90% advance, 10% on completion]<br>2. Warranty: [e.g., 30 years for panels]<br>3. Delivery &amp; Installation: [e.g., Within 7-15 working days]<br>4. Validity: This quotation is valid for [e.g., 30 days].<br>5. GST, Infrastructure, Installation, Transportation and Guarantee inculded in Total Price<br>6. Prices can be up and down due to changes in project accurate size.<br>7. Terms and conditions will be applicable as per the product, project and brand.</p>', '221760', '4', '12', '1', '2025-11-22 02:43:39', '2025-11-22 02:43:39', '1')
+ERROR - 2025-11-22 05:09:41 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-11-22 05:09:41 --> Severity: Warning --> Undefined variable $role D:\CI\solar\admin\application\views\quotation\add.php 71
+ERROR - 2025-11-22 05:09:41 --> Severity: Warning --> Undefined variable $role D:\CI\solar\admin\application\views\quotation\add.php 71
+ERROR - 2025-11-22 05:09:41 --> Severity: Warning --> Undefined variable $role D:\CI\solar\admin\application\views\quotation\add.php 71
+ERROR - 2025-11-22 05:27:43 --> Query error: Table 'u923514998_solar_admin.tbl_solar_project_size' doesn't exist - Invalid query: 
+                    SELECT  
+                        p.*, 
+                        pr.project_name,
+                        ps.size_name,
+                        pd.product_name,
+                        b.brand_name
+                    FROM tbl_solar_project_product p
+                    
+                    LEFT JOIN tbl_solar_project pr 
+                        ON pr.id = p.project_id
+
+                    LEFT JOIN tbl_solar_project_size ps
+                        ON ps.id = p.size_id
+
+                    LEFT JOIN tbl_product pd 
+                        ON pd.id = p.pro_product_id
+
+                    LEFT JOIN tbl_brand b  
+                        ON b.id = pd.brand_id
+
+                    WHERE p.project_id = '14'
+                    AND p.size_id = 0
+                
+ERROR - 2025-11-22 05:27:43 --> Severity: error --> Exception: Call to a member function result() on bool D:\CI\solar\admin\application\controllers\Quotation.php 365
+ERROR - 2025-11-22 05:28:35 --> Query error: Table 'u923514998_solar_admin.tbl_solar_project_size' doesn't exist - Invalid query: 
+                    SELECT  
+                        p.*, 
+                        pr.project_name,
+                        ps.size_name,
+                        pd.product_name,
+                        b.brand_name
+                    FROM tbl_solar_project_product p
+                    
+                    LEFT JOIN tbl_solar_project pr 
+                        ON pr.id = p.project_id
+
+                    LEFT JOIN tbl_solar_project_size ps
+                        ON ps.id = p.size_id
+
+                    LEFT JOIN tbl_product pd 
+                        ON pd.id = p.pro_product_id
+
+                    LEFT JOIN tbl_brand b  
+                        ON b.id = pd.brand_id
+
+                    WHERE p.project_id = '12'
+                    AND p.size_id = '1'
+                
+ERROR - 2025-11-22 05:28:35 --> Severity: error --> Exception: Call to a member function result() on bool D:\CI\solar\admin\application\controllers\Quotation.php 365
+ERROR - 2025-11-22 05:33:36 --> Query error: Unknown column 'sp.size_id' in 'field list' - Invalid query: SELECT `pr`.*, `p`.`project_name`, `p`.`scope_of_work`, `p`.`project_specification`, `p`.`project_image`, `p`.`project_type`, `sp`.`price`, `sp`.`size_id` AS `price_size_id`
+FROM `tbl_quote_projects` `pr`
+LEFT JOIN `tbl_solar_project_price` `sp` ON `pr`.`project_id` = `sp`.`project_id` AND `pr`.`size_id` = `sp`.`size_id`
+LEFT JOIN `tbl_solar_project` `p` ON `pr`.`project_id` = `p`.`id`
+WHERE `quote_id` = '14'
+ERROR - 2025-11-22 05:33:36 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 75
+ERROR - 2025-11-22 05:33:42 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:34:57 --> Severity: Warning --> Undefined array key "products" D:\CI\solar\admin\application\controllers\Quotation.php 389
+ERROR - 2025-11-22 05:34:57 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:37:25 --> Severity: Warning --> Undefined array key "products" D:\CI\solar\admin\application\controllers\Quotation.php 390
+ERROR - 2025-11-22 05:37:25 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:39:48 --> Severity: Warning --> Undefined array key "products" D:\CI\solar\admin\application\controllers\Quotation.php 396
+ERROR - 2025-11-22 05:39:48 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:40:12 --> Severity: Warning --> Undefined array key "products" D:\CI\solar\admin\application\controllers\Quotation.php 396
+ERROR - 2025-11-22 05:40:12 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:40:13 --> Severity: Warning --> Undefined array key "products" D:\CI\solar\admin\application\controllers\Quotation.php 396
+ERROR - 2025-11-22 05:40:13 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:40:13 --> Severity: Warning --> Undefined array key "products" D:\CI\solar\admin\application\controllers\Quotation.php 396
+ERROR - 2025-11-22 05:40:14 --> Severity: Warning --> Undefined array key "products" D:\CI\solar\admin\application\controllers\Quotation.php 396
+ERROR - 2025-11-22 05:40:14 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:40:14 --> Severity: Warning --> Undefined array key "products" D:\CI\solar\admin\application\controllers\Quotation.php 396
+ERROR - 2025-11-22 05:40:14 --> Severity: Warning --> Undefined array key "products" D:\CI\solar\admin\application\controllers\Quotation.php 396
+ERROR - 2025-11-22 05:40:14 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:40:14 --> Severity: Warning --> Undefined array key "products" D:\CI\solar\admin\application\controllers\Quotation.php 396
+ERROR - 2025-11-22 05:40:15 --> Severity: Warning --> Undefined array key "products" D:\CI\solar\admin\application\controllers\Quotation.php 396
+ERROR - 2025-11-22 05:40:15 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:40:15 --> Severity: Warning --> Undefined array key "products" D:\CI\solar\admin\application\controllers\Quotation.php 396
+ERROR - 2025-11-22 05:40:15 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:40:15 --> Severity: Warning --> Undefined array key "products" D:\CI\solar\admin\application\controllers\Quotation.php 396
+ERROR - 2025-11-22 05:40:15 --> Severity: Warning --> Undefined array key "products" D:\CI\solar\admin\application\controllers\Quotation.php 396
+ERROR - 2025-11-22 05:40:15 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:40:15 --> Severity: Warning --> Undefined array key "products" D:\CI\solar\admin\application\controllers\Quotation.php 396
+ERROR - 2025-11-22 05:41:15 --> Severity: Warning --> Undefined array key "products" D:\CI\solar\admin\application\controllers\Quotation.php 398
+ERROR - 2025-11-22 05:41:16 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:41:18 --> Severity: Warning --> Undefined array key "products" D:\CI\solar\admin\application\controllers\Quotation.php 398
+ERROR - 2025-11-22 05:41:18 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:41:26 --> Severity: Warning --> Undefined array key "products" D:\CI\solar\admin\application\controllers\Quotation.php 398
+ERROR - 2025-11-22 05:41:26 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:41:53 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:42:20 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:42:40 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:43:13 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:44:16 --> Query error: Unknown column 'sp.size_id' in 'on clause' - Invalid query: SELECT `pr`.*, `p`.`project_name`, `p`.`scope_of_work`, `p`.`project_specification`, `p`.`project_image`, `p`.`project_type`, `sp`.*
+FROM `tbl_quote_projects` `pr`
+LEFT JOIN `tbl_solar_project_price` `sp` ON `pr`.`project_id` = `sp`.`project_id` AND `pr`.`size_id` = `sp`.`size_id`
+LEFT JOIN `tbl_solar_project` `p` ON `pr`.`project_id` = `p`.`id`
+WHERE `quote_id` = '14'
+ERROR - 2025-11-22 05:44:16 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 75
+ERROR - 2025-11-22 05:44:33 --> Query error: Unknown column 'sp.size_id' in 'on clause' - Invalid query: SELECT `pr`.*, `p`.`project_name`, `p`.`scope_of_work`, `p`.`project_specification`, `p`.`project_image`, `p`.`project_type`, `sp`.*
+FROM `tbl_quote_projects` `pr`
+LEFT JOIN `tbl_solar_project_price` `sp` ON `pr`.`project_id` = `sp`.`project_id` AND `pr`.`size_id` = `sp`.`size_id`
+LEFT JOIN `tbl_solar_project` `p` ON `pr`.`project_id` = `p`.`id`
+WHERE `quote_id` = '14'
+ERROR - 2025-11-22 05:44:34 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 75
+ERROR - 2025-11-22 05:45:10 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:47:54 --> Query error: Table 'u923514998_solar_admin.tbl_solar_project_size' doesn't exist - Invalid query: 
+                    SELECT  
+                        p.*, 
+                        pr.project_name,
+                        ps.size_name,
+                        pd.product_name,
+                        b.brand_name
+                    FROM tbl_solar_project_product p
+                    
+                    LEFT JOIN tbl_solar_project pr 
+                        ON pr.id = p.project_id
+
+                    LEFT JOIN tbl_solar_project_size ps
+                        ON ps.id = p.size_id
+
+                    LEFT JOIN tbl_product pd 
+                        ON pd.id = p.pro_product_id
+
+                    LEFT JOIN tbl_brand b  
+                        ON b.id = pd.brand_id
+
+                    WHERE p.project_id = '12'
+                    AND p.size_id = '1'
+                
+ERROR - 2025-11-22 05:47:54 --> Severity: error --> Exception: Call to a member function result() on bool D:\CI\solar\admin\application\controllers\Quotation.php 388
+ERROR - 2025-11-22 05:47:54 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:49:19 --> Query error: Table 'u923514998_solar_admin.tbl_solar_project_size' doesn't exist - Invalid query: 
+                    SELECT  
+                        p.*, 
+                        pr.project_name,
+                        ps.size_name,
+                        pd.product_name,
+                        b.brand_name
+                    FROM tbl_solar_project_product p
+                    
+                    LEFT JOIN tbl_solar_project pr 
+                        ON pr.id = p.project_id
+
+                    LEFT JOIN tbl_solar_project_size ps
+                        ON ps.id = p.size_id
+
+                    LEFT JOIN tbl_product pd 
+                        ON pd.id = p.pro_product_id
+
+                    LEFT JOIN tbl_brand b  
+                        ON b.id = pd.brand_id
+
+                    WHERE p.project_id = '12'
+                    AND p.size_id = '1'
+                
+ERROR - 2025-11-22 05:49:19 --> Severity: error --> Exception: Call to a member function result() on bool D:\CI\solar\admin\application\controllers\Quotation.php 390
+ERROR - 2025-11-22 05:49:20 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:49:45 --> Query error: Table 'u923514998_solar_admin.tbl_solar_project_size' doesn't exist - Invalid query: 
+                    SELECT  
+                        p.*, 
+                        pr.project_name,
+                        ps.size_name,
+                        pd.product_name,
+                        b.brand_name
+                    FROM tbl_solar_project_product p
+                    
+                    LEFT JOIN tbl_solar_project pr 
+                        ON pr.id = p.project_id
+
+                    LEFT JOIN tbl_solar_project_size ps
+                        ON ps.id = p.size_id
+
+                    LEFT JOIN tbl_product pd 
+                        ON pd.id = p.pro_product_id
+
+                    LEFT JOIN tbl_brand b  
+                        ON b.id = pd.brand_id
+
+                    WHERE p.project_id = '12'
+                    AND p.size_id = '1'
+                
+ERROR - 2025-11-22 05:49:45 --> Severity: error --> Exception: Call to a member function result() on bool D:\CI\solar\admin\application\controllers\Quotation.php 388
+ERROR - 2025-11-22 05:51:02 --> Query error: Table 'u923514998_solar_admin.tbl_solar_project_size' doesn't exist - Invalid query: SELECT  
+                        p.*, 
+                        pr.project_name,
+                        ps.size_name,
+                        pd.product_name,
+                        b.brand_name
+                    FROM tbl_solar_project_product p
+                    
+                    LEFT JOIN tbl_solar_project pr 
+                        ON pr.id = p.project_id
+
+                    LEFT JOIN tbl_solar_project_size ps
+                        ON ps.id = p.size_id
+
+                    LEFT JOIN tbl_product pd 
+                        ON pd.id = p.pro_product_id
+
+                    LEFT JOIN tbl_brand b  
+                        ON b.id = pd.brand_id
+
+                    WHERE p.project_id = '12'
+                    AND p.size_id = '1'
+                
+ERROR - 2025-11-22 05:51:02 --> Severity: error --> Exception: Call to a member function result() on bool D:\CI\solar\admin\application\controllers\Quotation.php 389
+ERROR - 2025-11-22 05:51:25 --> Query error: Table 'u923514998_solar_admin.tbl_solar_project_size' doesn't exist - Invalid query: SELECT  
+                        p.*, 
+                        pr.project_name,
+                        ps.size_name,
+                        pd.product_name,
+                        b.brand_name
+                    FROM tbl_solar_project_product p
+                    
+                    LEFT JOIN tbl_solar_project pr 
+                        ON pr.id = p.project_id
+
+                    LEFT JOIN tbl_solar_project_size ps
+                        ON ps.id = p.size_id
+
+                    LEFT JOIN tbl_product pd 
+                        ON pd.id = p.pro_product_id
+
+                    LEFT JOIN tbl_brand b  
+                        ON b.id = pd.brand_id
+
+                    WHERE p.project_id = '12'
+                    AND p.size_id = '1'
+                
+ERROR - 2025-11-22 05:51:25 --> Severity: error --> Exception: Call to a member function result() on bool D:\CI\solar\admin\application\controllers\Quotation.php 389
+ERROR - 2025-11-22 05:51:26 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:54:58 --> Query error: Table 'u923514998_solar_admin.tbl_solar_project_size' doesn't exist - Invalid query: SELECT  
+                        p.*, 
+                        pr.project_name,
+                        ps.size_name,
+                        pd.product_name,
+                        b.brand_name
+                    FROM tbl_solar_project_product p
+                    
+                    LEFT JOIN tbl_solar_project pr 
+                        ON pr.id = p.project_id
+
+                    LEFT JOIN tbl_solar_project_size ps
+                        ON ps.id = p.size_id
+
+                    LEFT JOIN tbl_product pd 
+                        ON pd.id = p.pro_product_id
+
+                    LEFT JOIN tbl_brand b  
+                        ON b.id = pd.brand_id
+
+                    WHERE p.project_id = '12'
+                    AND p.size_id = '1'
+                
+ERROR - 2025-11-22 05:54:58 --> Severity: error --> Exception: Call to a member function result() on bool D:\CI\solar\admin\application\controllers\Quotation.php 389
+ERROR - 2025-11-22 05:54:59 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 05:55:13 --> Query error: Table 'u923514998_solar_admin.tbl_solar_project_size' doesn't exist - Invalid query: SELECT  
+                        p.*, 
+                        pr.project_name,
+                        ps.size_name,
+                        pd.product_name,
+                        b.brand_name
+                    FROM tbl_solar_project_product p
+                    
+                    LEFT JOIN tbl_solar_project pr 
+                        ON pr.id = p.project_id
+
+                    LEFT JOIN tbl_solar_project_size ps
+                        ON ps.id = p.size_id
+
+                    LEFT JOIN tbl_product pd 
+                        ON pd.id = p.pro_product_id
+
+                    LEFT JOIN tbl_brand b  
+                        ON b.id = pd.brand_id
+
+                    WHERE p.project_id = '12'
+                    AND p.size_id = '1'
+                
+ERROR - 2025-11-22 05:55:13 --> Severity: error --> Exception: Call to a member function result() on bool D:\CI\solar\admin\application\controllers\Quotation.php 389
+ERROR - 2025-11-22 05:55:23 --> Query error: Table 'u923514998_solar_admin.tbl_solar_project_size' doesn't exist - Invalid query: SELECT  
+                        p.*, 
+                        pr.project_name,
+                        ps.size_name,
+                        pd.product_name,
+                        b.brand_name
+                    FROM tbl_solar_project_product p
+                    
+                    LEFT JOIN tbl_solar_project pr 
+                        ON pr.id = p.project_id
+
+                    LEFT JOIN tbl_solar_project_size ps
+                        ON ps.id = p.size_id
+
+                    LEFT JOIN tbl_product pd 
+                        ON pd.id = p.pro_product_id
+
+                    LEFT JOIN tbl_brand b  
+                        ON b.id = pd.brand_id
+
+                    WHERE p.project_id = '12'
+                    AND p.size_id = '1'
+                
+ERROR - 2025-11-22 05:55:23 --> Severity: error --> Exception: Call to a member function result() on bool D:\CI\solar\admin\application\controllers\Quotation.php 389
+ERROR - 2025-11-22 05:55:24 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 06:01:35 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 06:02:10 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 06:05:33 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 06:10:28 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-11-22 06:10:28 --> Severity: Warning --> Undefined property: stdClass::$productName D:\CI\solar\admin\application\views\quotation\view.php 380
+ERROR - 2025-11-22 06:10:28 --> Severity: Warning --> Undefined property: stdClass::$brandName D:\CI\solar\admin\application\views\quotation\view.php 381
+ERROR - 2025-11-22 06:10:28 --> Severity: Warning --> Undefined property: stdClass::$productName D:\CI\solar\admin\application\views\quotation\view.php 380
+ERROR - 2025-11-22 06:10:28 --> Severity: Warning --> Undefined property: stdClass::$brandName D:\CI\solar\admin\application\views\quotation\view.php 381
+ERROR - 2025-11-22 06:10:30 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 06:12:57 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-11-22 06:12:57 --> Severity: Warning --> Undefined property: stdClass::$productName D:\CI\solar\admin\application\views\quotation\view.php 380
+ERROR - 2025-11-22 06:12:57 --> Severity: Warning --> Undefined property: stdClass::$brandName D:\CI\solar\admin\application\views\quotation\view.php 381
+ERROR - 2025-11-22 06:12:57 --> Severity: Warning --> Undefined property: stdClass::$productName D:\CI\solar\admin\application\views\quotation\view.php 380
+ERROR - 2025-11-22 06:12:57 --> Severity: Warning --> Undefined property: stdClass::$brandName D:\CI\solar\admin\application\views\quotation\view.php 381
+ERROR - 2025-11-22 06:12:58 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 06:13:22 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 06:14:35 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-11-22 06:14:35 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 06:17:40 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-11-22 06:17:41 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 06:17:58 --> Severity: Warning --> Undefined property: stdClass::$productName D:\CI\solar\admin\application\views\quotation\pdf_temp.php 171
+ERROR - 2025-11-22 06:17:58 --> Severity: Warning --> Undefined property: stdClass::$brandName D:\CI\solar\admin\application\views\quotation\pdf_temp.php 172
+ERROR - 2025-11-22 06:17:58 --> Severity: Warning --> Undefined property: stdClass::$productName D:\CI\solar\admin\application\views\quotation\pdf_temp.php 171
+ERROR - 2025-11-22 06:17:58 --> Severity: Warning --> Undefined property: stdClass::$brandName D:\CI\solar\admin\application\views\quotation\pdf_temp.php 172
+ERROR - 2025-11-22 06:18:49 --> Severity: Warning --> Undefined property: stdClass::$productName D:\CI\solar\admin\application\views\quotation\pdf_temp.php 171
+ERROR - 2025-11-22 06:18:49 --> Severity: Warning --> Undefined property: stdClass::$brandName D:\CI\solar\admin\application\views\quotation\pdf_temp.php 172
+ERROR - 2025-11-22 06:18:49 --> Severity: Warning --> Undefined property: stdClass::$productName D:\CI\solar\admin\application\views\quotation\pdf_temp.php 171
+ERROR - 2025-11-22 06:18:49 --> Severity: Warning --> Undefined property: stdClass::$brandName D:\CI\solar\admin\application\views\quotation\pdf_temp.php 172
+ERROR - 2025-11-22 06:19:38 --> Severity: Warning --> Undefined property: stdClass::$productName D:\CI\solar\admin\application\views\quotation\pdf_temp.php 171
+ERROR - 2025-11-22 06:19:38 --> Severity: Warning --> Undefined property: stdClass::$brandName D:\CI\solar\admin\application\views\quotation\pdf_temp.php 172
+ERROR - 2025-11-22 06:19:38 --> Severity: Warning --> Undefined property: stdClass::$productName D:\CI\solar\admin\application\views\quotation\pdf_temp.php 171
+ERROR - 2025-11-22 06:19:38 --> Severity: Warning --> Undefined property: stdClass::$brandName D:\CI\solar\admin\application\views\quotation\pdf_temp.php 172
+ERROR - 2025-11-22 06:20:01 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-11-22 06:46:50 --> Query error: Unknown column 'project_specification' in 'field list' - Invalid query: INSERT INTO `tbl_solar_project_price` (`project_id`, `size_range`, `price`, `project_specification`, `scope_of_work`, `description`) VALUES (17, '', '', 'THis is the scope of work specification', 'THis is the scope of work', '')
+ERROR - 2025-11-22 06:48:30 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-11-22 06:48:31 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 08:10:36 --> 404 Page Not Found: Well_known/appspecific
+ERROR - 2025-11-22 09:17:06 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-11-22 09:17:07 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 09:17:15 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-11-22 09:17:15 --> Severity: Warning --> Undefined variable $role D:\CI\solar\admin\application\views\quotation\add.php 71
+ERROR - 2025-11-22 09:17:15 --> Severity: Warning --> Undefined variable $role D:\CI\solar\admin\application\views\quotation\add.php 71
+ERROR - 2025-11-22 09:17:15 --> Severity: Warning --> Undefined variable $role D:\CI\solar\admin\application\views\quotation\add.php 71
+ERROR - 2025-11-22 09:17:30 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-11-22 09:17:30 --> Severity: Warning --> Undefined variable $role D:\CI\solar\admin\application\views\quotation\add.php 71
+ERROR - 2025-11-22 09:17:30 --> Severity: Warning --> Undefined variable $role D:\CI\solar\admin\application\views\quotation\add.php 71
+ERROR - 2025-11-22 09:17:30 --> Severity: Warning --> Undefined variable $role D:\CI\solar\admin\application\views\quotation\add.php 71
+ERROR - 2025-11-22 09:21:51 --> Query error: Unknown column 'size_id' in 'where clause' - Invalid query: SELECT *
+FROM `tbl_project_size`
+WHERE `size_id` = '2'
+ERROR - 2025-11-22 09:21:51 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 75
+ERROR - 2025-11-22 09:21:55 --> Query error: Unknown column 'size_id' in 'where clause' - Invalid query: SELECT *
+FROM `tbl_project_size`
+WHERE `size_id` = '1'
+ERROR - 2025-11-22 09:21:55 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 75
+ERROR - 2025-11-22 09:22:07 --> Query error: Unknown column 'size_id' in 'where clause' - Invalid query: SELECT *
+FROM `tbl_project_size`
+WHERE `size_id` = '2'
+ERROR - 2025-11-22 09:22:07 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 75
+ERROR - 2025-11-22 09:22:49 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-11-22 09:30:50 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-11-22 09:30:51 --> 404 Page Not Found: Faviconico/index

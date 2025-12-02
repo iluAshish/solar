@@ -250,7 +250,7 @@
 													padding: 10px 0px 722px 159px;
 													color: black;
 													font-size: 15px;">
-											<?php echo $project->qty.'KW' ?? '_________';?> 
+											<?php echo $project->size_name ?? '_________';?> 
 										</td>
 									</tr>
 
@@ -294,7 +294,7 @@
 													color: black;
 													font-size: 15px;">
 											<div style="position: relative; top: -671px;">
-											<?php echo $data_info->work_scope??' NA'; ?>
+											<?php echo $project->scope_of_work??' NA'; ?>
 											</div>
 										</td>
 									</tr>
@@ -306,7 +306,7 @@
 													color: black;
 													font-size: 15px;">
 											<div style="position: relative; top: -628px;">
-											<?php echo $data_info->specification?? 'NA'; ?>
+											<?php echo $project->project_specification?? 'NA'; ?>
 											</div>
 										</td>
 									</tr>
@@ -377,11 +377,12 @@
 												foreach ($products as $product) { ?>
 													<tr>
 														<td style="padding:4px 6px;font-size:11px;"><?php echo $i; ?></td>
-														<td style="padding:4px 6px;font-size:11px;"><?php echo $product->productName; ?></td>
-														<td style="padding:4px 6px;font-size:11px;"><?php echo $product->brandName; ?></td>
+														<td style="padding:4px 6px;font-size:11px;"><?php echo $product->product_name; ?></td>
+														<td style="padding:4px 6px;font-size:11px;"><?php echo $product->brand_name; ?></td>
 														<td style="padding:4px 6px;font-size:11px;"><?php echo $product->warranty; ?></td>
-														<td style="padding:4px 6px;font-size:11px;"><?php echo $product->quantity; ?></td>
 														<td style="padding:4px 6px;font-size:11px;"><?php echo $product->watt_volt.'W'; ?></td>
+														<td style="padding:4px 6px;font-size:11px;"><?php echo $product->quantity; ?></td>
+														
 													</tr>
 													<?php $i++;
 												}

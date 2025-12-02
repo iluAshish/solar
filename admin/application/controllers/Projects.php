@@ -85,6 +85,8 @@ class Projects extends CI_Controller {
                     "description" => $this->input->post('description'),
                     //"project_type" => $this->input->post('project_type'),
                     "status" => 'Active',
+                    "scope_of_work" => $this->input->post('scope_of_work'),
+                    "project_specification" => $this->input->post('project_specification'),
                     //"project_status" => $this->input->post('project_status'),
                 );
                 if (!empty($_FILES['Image']['name'])) {
@@ -113,6 +115,8 @@ class Projects extends CI_Controller {
                                 "project_id" => $id,
                                 "size_range" => $this->input->post('size')[$i],
                                 "price" => $this->input->post('price')[$i],
+                                "project_specification" => $this->input->post('project_specification'),
+                                "scope_of_work" => $this->input->post('scope_of_work'),
                                 "description" => $this->input->post('specification')[$i]
                             );
                             $this->Common->add_info(TBL_PROJECT_PRICE, $price_data);
@@ -130,6 +134,8 @@ class Projects extends CI_Controller {
                                 "project_id" => $id,
                                 "size_range" => $this->input->post('size')[$i],
                                 "price" => $this->input->post('price')[$i],
+                                "project_specification" => $this->input->post('project_specification'),
+                                "scope_of_work" => $this->input->post('scope_of_work'),
                                 "description" => $this->input->post('specification')[$i]
                             );
                             $this->Common->add_info(TBL_PROJECT_PRICE, $price_data);

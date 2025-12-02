@@ -1,0 +1,2 @@
+ERROR - 2025-11-17 04:46:21 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-11-17 08:21:55 --> 404 Page Not Found: Well_known/appspecific

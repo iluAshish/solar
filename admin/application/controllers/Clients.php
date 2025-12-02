@@ -28,15 +28,37 @@ class Clients extends CI_Controller {
         $this->load->view('main_content', $data);
     }
 
+    function get_franchisees_by_state()
+    {
+        $state_id = $this->input->post('state_id');
+
+        if (!$state_id) {
+            echo json_encode(['status' => false, 'message' => 'State ID required']);
+            return;
+        }
+
+        $condition = "(role = '3' OR role = '4') AND activated = 1 AND franchisee_level = 'State' AND state_id = ".$state_id;
+        
+
+        $data['franchisees'] = $this->Common->get_list(TBL_USERS, 'id', 'fullname', $condition);
+
+        echo json_encode([
+            'status' => true,
+            'data'   => $data['franchisees']
+        ]);
+    }
+
+
     function add() {
         $user_id = $this->tank_auth->get_user_id();
         $role = $this->session->userdata('role_id');
         $data['role'] = $role;
-        if($role == 1 or $role == 2 or $role == 5) {
-            $data['franchisees'] = $this->Common->get_list(TBL_USERS,'id','fullname',"(role ='3' or role ='4') and activated = 1");
-        } else if($role == 3){
-            $data['franchisees'] = $this->Common->get_list(TBL_USERS,'id','fullname',"(role ='3' or role ='4') and activated = 1 and parent_id = '".$user_id."'");
-        } 
+        // $data['franchisees'] = $this->Common->get_list(TBL_USERS,'id','fullname',"(role ='3' or role ='4') and activated = 1");
+        // if($role == 1 or $role == 2 or $role == 5) {
+        //     $data['franchisees'] = $this->Common->get_list(TBL_USERS,'id','fullname',"(role ='3' or role ='4') and activated = 1");
+        // } else if($role == 3){
+        //     $data['franchisees'] = $this->Common->get_list(TBL_USERS,'id','fullname',"(role ='3' or role ='4') and activated = 1 and parent_id = '".$user_id."'");
+        // } 
         
         
         //$data['designations'] = $this->Common->get_list(TBL_DESIGNATION,'designation_id','designation_name','is_active = 1');
