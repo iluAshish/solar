@@ -1,0 +1,9 @@
+ERROR - 2025-12-08 04:01:14 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'u923514998_solar_admin' D:\CI\solar\admin\system\database\drivers\mysqli\mysqli_driver.php 211
+ERROR - 2025-12-08 04:01:14 --> Unable to connect to the database
+ERROR - 2025-12-08 04:01:14 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'u923514998_solar_admin' D:\CI\solar\admin\system\database\drivers\mysqli\mysqli_driver.php 211
+ERROR - 2025-12-08 04:01:14 --> Unable to connect to the database
+ERROR - 2025-12-08 04:01:15 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'u923514998_solar_admin' D:\CI\solar\admin\system\database\drivers\mysqli\mysqli_driver.php 211
+ERROR - 2025-12-08 04:01:15 --> Unable to connect to the database
+ERROR - 2025-12-08 04:01:15 --> Query error: Unknown database 'u923514998_solar_admin' - Invalid query: SELECT `role_id`, `role_name`
+FROM `tbl_user_role`
+ERROR - 2025-12-08 04:01:15 --> Severity: error --> Exception: Call to a member function num_rows() on boolean D:\CI\solar\admin\application\models\Common.php 161

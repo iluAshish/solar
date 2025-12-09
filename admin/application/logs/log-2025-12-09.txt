@@ -1,0 +1,42 @@
+ERROR - 2025-12-09 00:59:14 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it D:\CI\solar\admin\system\database\drivers\mysqli\mysqli_driver.php 211
+ERROR - 2025-12-09 00:59:14 --> Unable to connect to the database
+ERROR - 2025-12-09 02:23:16 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-09 02:23:45 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-09 02:24:00 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-09 02:24:22 --> Severity: error --> Exception: Call to undefined method Tank_auth::get_state_id() D:\CI\solar\admin\application\controllers\Quotation.php 33
+ERROR - 2025-12-09 02:24:52 --> Severity: error --> Exception: Object of class Tank_auth could not be converted to string D:\CI\solar\admin\application\controllers\Quotation.php 34
+ERROR - 2025-12-09 02:24:54 --> Severity: error --> Exception: Object of class Tank_auth could not be converted to string D:\CI\solar\admin\application\controllers\Quotation.php 34
+ERROR - 2025-12-09 02:25:18 --> Severity: Warning --> Array to string conversion D:\CI\solar\admin\application\controllers\Quotation.php 34
+ERROR - 2025-12-09 02:25:18 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-09 02:25:33 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-09 02:29:25 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-09 02:29:51 --> Query error: Unknown column 'name' in 'field list' - Invalid query: SELECT id = '33', `name`
+FROM `tbl_users`
+ERROR - 2025-12-09 02:29:51 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 161
+ERROR - 2025-12-09 02:30:11 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-09 02:30:21 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-09 02:30:48 --> Severity: Warning --> Attempt to read property "state_id" on array D:\CI\solar\admin\application\controllers\Quotation.php 40
+ERROR - 2025-12-09 02:30:48 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-09 02:30:59 --> Severity: Warning --> Attempt to read property "state_id" on array D:\CI\solar\admin\application\controllers\Quotation.php 40
+ERROR - 2025-12-09 02:31:00 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-09 02:31:34 --> Severity: Warning --> Undefined array key 0 D:\CI\solar\admin\application\controllers\Quotation.php 40
+ERROR - 2025-12-09 02:31:34 --> Severity: Warning --> Attempt to read property "state_id" on null D:\CI\solar\admin\application\controllers\Quotation.php 40
+ERROR - 2025-12-09 02:31:34 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-09 02:31:36 --> Severity: Warning --> Undefined array key 0 D:\CI\solar\admin\application\controllers\Quotation.php 40
+ERROR - 2025-12-09 02:31:36 --> Severity: Warning --> Attempt to read property "state_id" on null D:\CI\solar\admin\application\controllers\Quotation.php 40
+ERROR - 2025-12-09 02:31:36 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-09 02:33:04 --> Severity: Warning --> Undefined array key 0 D:\CI\solar\admin\application\controllers\Quotation.php 43
+ERROR - 2025-12-09 02:33:04 --> Severity: Warning --> Attempt to read property "state_id" on null D:\CI\solar\admin\application\controllers\Quotation.php 43
+ERROR - 2025-12-09 02:33:04 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-09 02:33:10 --> Severity: Warning --> Undefined array key 0 D:\CI\solar\admin\application\controllers\Quotation.php 43
+ERROR - 2025-12-09 02:33:10 --> Severity: Warning --> Attempt to read property "state_id" on null D:\CI\solar\admin\application\controllers\Quotation.php 43
+ERROR - 2025-12-09 02:33:10 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-09 02:33:30 --> Severity: Warning --> Undefined array key 0 D:\CI\solar\admin\application\controllers\Quotation.php 44
+ERROR - 2025-12-09 02:33:30 --> Severity: Warning --> Attempt to read property "state_id" on null D:\CI\solar\admin\application\controllers\Quotation.php 44
+ERROR - 2025-12-09 02:33:30 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-09 02:33:45 --> Severity: Warning --> Undefined array key 0 D:\CI\solar\admin\application\controllers\Quotation.php 40
+ERROR - 2025-12-09 02:33:45 --> Severity: Warning --> Undefined array key 0 D:\CI\solar\admin\application\controllers\Quotation.php 44
+ERROR - 2025-12-09 02:33:45 --> Severity: Warning --> Attempt to read property "state_id" on null D:\CI\solar\admin\application\controllers\Quotation.php 44
+ERROR - 2025-12-09 02:33:45 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-09 02:46:32 --> Severity: Warning --> Undefined variable $districts D:\CI\solar\admin\application\views\users\form.php 114
+ERROR - 2025-12-09 02:46:59 --> Severity: Warning --> Undefined variable $districts D:\CI\solar\admin\application\views\users\form.php 114

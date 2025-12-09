@@ -30,6 +30,15 @@ class Quotation extends CI_Controller {
 
     function add() {
         $user_id = $this->tank_auth->get_user_id();
+
+        $user_state = $this->Common->get_list(
+            TBL_USERS,
+            'id',
+            'state_id',
+            "id = '".$user_id."'"
+        );
+        
+
         //$where = ($this->session->userdata('role') != 'SuperAdmin') ? 'and user_id = "'.$user_id.'"' : '';
         $role = $this->session->userdata('role_id');
         $data['role'] = $role;
@@ -40,8 +49,14 @@ class Quotation extends CI_Controller {
         } else if($role == 4){
             $data['clients'] = $this->Common->get_list(TBL_CLIENTS,'id','client_name',"status = 'ACTIVE' and franchisee_id = '".$user_id."'"); 
         }
+        if($role == 4) {
+            $data['vendors'] = $this->Common->get_list(TBL_VENDORS,'id','vendor_name',"status = 'ACTIVE' and state_id = '".$user_state."'");
+        }else {
+            $data['vendors'] = $this->Common->get_list(TBL_VENDORS,'id','vendor_name',"status = 'ACTIVE'"); 
+        }
+        
         $data['projects'] = $this->Common->get_list(TBL_PROJECTS,'id','project_name',"status = 'ACTIVE'");
-        $data['vendors'] = $this->Common->get_list(TBL_VENDORS,'id','vendor_name',"status = 'ACTIVE'");
+       
         $data['products'] = $this->Common->get_list(TBL_PRODUCT,'id','product_name','status = "ACTIVE"');
         $data['projectsizes'] = $this->Common->get_list(TBL_PROJECT_SIZE, 'id', 'size_name', 'status = "Active"');
         $data['settings'] = $this->Common->get_info(1, TBL_SETTINGS, 'setting_id');

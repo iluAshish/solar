@@ -648,7 +648,7 @@ $(document).ready(function () {
                     this_e.parent().next().find('.rate').val(returnData.price);
                     this_e.parent().next().find('.rate').attr("data-rate",returnData.price);
 
-                     let amountField = this_e.closest("tr").find(".amount");
+                    let amountField = this_e.closest("tr").find(".amount");
                         amountField.val(returnData.total);
                         amountField.attr("data-amount", returnData.total);
                     
