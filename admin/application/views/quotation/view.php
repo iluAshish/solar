@@ -104,7 +104,12 @@
 													<div style="position: relative; top: -4px;
 																color: black;
 																font-size: 13px;">
-													<?php echo $franchisee->franchisee_code?? "_______"; ?>
+													<?php 
+                                                        $code = $user->franchisee_code ?? "_______";
+                                                        $name = $user->fullname ?? "No Name";
+                                                        
+                                                        echo "<b>{$code} ({$name})</b>";
+                                                    ?>
 													</div>
 												</td>
 											</tr>
@@ -209,17 +214,18 @@
 											</tr>
 											<tr>
 												<td style="position: relative; z-index: 2;
-															padding: 25px 0px 0px 232px;
-															color: black;
-															font-size: 15px;
-															white-space: nowrap;
-															overflow: hidden;
-															text-overflow: ellipsis;">
-													<?php echo $vendor->account_number ?? '________ ';
-													 echo $vendor->ifsc_code ? ' / '.$vendor->ifsc_code : '';
-													 echo $vendor->bank_name ? ' / '.$vendor->bank_name : '';
-													 echo $vendor->account_holder ? ' / '.$vendor->account_holder : '';
-													?>
+														padding: 47px 0px 0px 27px;
+														color: black;
+														font-size: 15px;
+														white-space: nowrap;
+														overflow: hidden;
+														text-overflow: ellipsis;">
+												    <?php
+                                                        echo "<b>Account Number:</b> " . ($vendor->account_number ?? '________') . "<br>";
+                                                        echo "<b>IFSC Code:</b> " . ($vendor->ifsc_code ? $vendor->ifsc_code : '') . "<br>";
+                                                        echo "<b>Bank Name:</b> " . ($vendor->bank_name ? $vendor->bank_name : '') . "<br>";
+                                                        echo "<b>Account Holder:</b> " . ($vendor->account_holder ? $vendor->account_holder : '') . "<br>";
+                                                    ?>
 												</td>
 											</tr>
 										</table>
@@ -272,7 +278,9 @@
 													color: black;
 													font-size: 15px;">
 											<div style="position: relative; top: -697px;">
-											<?php echo $project->basic_rate??'______'; ?>
+											<?php echo ($project->basic_rate ? $project->basic_rate . '/KW' : '______'); ?>
+
+
 											</div>
 										</td>
 									</tr>
@@ -350,7 +358,7 @@
 												color: black;
 												font-size: 15px;">
 												<div style="position: relative; top: 10px;">
-													<?php echo $products[0]->product_type ?? 'My-type';?>
+													<?php echo $project->project_name??'__________';?>
 												</div>
 											
 										</td>

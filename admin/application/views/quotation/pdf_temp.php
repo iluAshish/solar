@@ -50,7 +50,14 @@
                 <td style="padding: 246px 0 0 165px;"><?php echo $data_info->reference_no ?? '________'; ?></td>
             </tr>
             <tr>
-                <td style="padding: 11px 0 0 170px;"><?php echo $franchisee->franchisee_code ?? '______'; ?></td>
+                <td style="padding: 11px 0 0 170px;">
+                    <?php 
+                        $code = $user->franchisee_code ?? "_______";
+                        $name = $user->fullname ?? "No Name";
+                        
+                        echo "<b>{$code} ({$name})</b>";
+                    ?>
+                </td>
             </tr>
             <tr>
                 <td style="padding: 104px 0 0 140px;"><?php echo $client->client_name ?? '_________'; ?></td>
@@ -87,16 +94,18 @@
             </tr>
             <tr>
                 <td style="position: relative; z-index: 2;
-                            padding: 20px 0 0 245px;
+                            padding: 50px 0 0 50px;
                             color: black;
                             font-size: 15px;
                             white-space: nowrap;
                             overflow: hidden;
                             text-overflow: ellipsis;">
-                    <?= ($vendor->account_number  ?? '________') .
-                        ($vendor->ifsc_code  ? ' / '.$vendor->ifsc_code  : '') .
-                        ($vendor->bank_name  ? ' / '.$vendor->bank_name  : '') .
-                        ($vendor->account_holder ? ' / '.$vendor->account_holder : '') ?>
+                    <?php
+                        echo "<b>Account Number:</b> " . ($vendor->account_number ?? '________') . "<br>";
+                        echo "<b>IFSC Code:</b> " . ($vendor->ifsc_code ? $vendor->ifsc_code : '') . "<br>";
+                        echo "<b>Bank Name:</b> " . ($vendor->bank_name ? $vendor->bank_name : '') . "<br>";
+                        echo "<b>Account Holder:</b> " . ($vendor->account_holder ? $vendor->account_holder : '') . "<br>";
+                    ?>
                 </td>
             </tr>
         </table>

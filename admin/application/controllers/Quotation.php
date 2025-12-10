@@ -37,8 +37,8 @@ class Quotation extends CI_Controller {
             'state_id',
             "id = '".$user_id."'"
         );
+        $state_id =  reset($user_state);
         
-
         //$where = ($this->session->userdata('role') != 'SuperAdmin') ? 'and user_id = "'.$user_id.'"' : '';
         $role = $this->session->userdata('role_id');
         $data['role'] = $role;
@@ -49,8 +49,9 @@ class Quotation extends CI_Controller {
         } else if($role == 4){
             $data['clients'] = $this->Common->get_list(TBL_CLIENTS,'id','client_name',"status = 'ACTIVE' and franchisee_id = '".$user_id."'"); 
         }
+        
         if($role == 4) {
-            $data['vendors'] = $this->Common->get_list(TBL_VENDORS,'id','vendor_name',"status = 'ACTIVE' and state_id = '".$user_state."'");
+            $data['vendors'] = $this->Common->get_list(TBL_VENDORS,'id','vendor_name',"status = 'ACTIVE' and state_id = '".$state_id."'");
         }else {
             $data['vendors'] = $this->Common->get_list(TBL_VENDORS,'id','vendor_name',"status = 'ACTIVE'"); 
         }
@@ -78,17 +79,28 @@ class Quotation extends CI_Controller {
 
 
     function edit($id) {
+        $role = $this->session->userdata('role_id');
         $data_found = 0;
         $user_id = $this->tank_auth->get_user_id();
         $where = ($this->session->userdata('role') != 'SuperAdmin') ? 'user_id = "'.$user_id.'"' : '';
-
+        $user_state = $this->Common->get_list(
+            TBL_USERS,
+            'id',
+            'state_id',
+            "id = '".$user_id."'"
+        );
+        $state_id =  reset($user_state);
         if ($id > 0) {
             $data_obj = $this->Common->get_info($id, $this->table_name, $this->PrimaryKey,$where);
             if (is_object($data_obj) && count((array) $data_obj) > 0) {
                 $data['franchisees'] = $this->Common->get_list(TBL_USERS,'id','fullname',"role='Franchisee' and activated = 1");
                 $data['clients'] = $this->Common->get_list(TBL_CLIENTS,'id','client_name',"status = 'ACTIVE'");
                 $data['projects'] = $this->Common->get_list(TBL_PROJECTS,'id','project_name',"status = 'ACTIVE'");
-                $data['vendors'] = $this->Common->get_list(TBL_VENDORS,'id','vendor_name',"status = 'ACTIVE'");
+                if($role == 4) {
+                    $data['vendors'] = $this->Common->get_list(TBL_VENDORS,'id','vendor_name',"status = 'ACTIVE' and state_id = '".$state_id."'");
+                }else {
+                    $data['vendors'] = $this->Common->get_list(TBL_VENDORS,'id','vendor_name',"status = 'ACTIVE'"); 
+                }
                 $data['products'] = $this->Common->get_list(TBL_PRODUCT,'id','product_name','status = "ACTIVE"');
                 $data['settings'] = $this->Common->get_info(1, TBL_SETTINGS, 'setting_id');
                 $data['projectsizes'] = $this->Common->get_list(TBL_PROJECT_SIZE, 'id', 'size_name', 'status = "Active"');
@@ -320,7 +332,10 @@ class Quotation extends CI_Controller {
        
         if ($id > 0) {
             $data_obj = $this->Common->get_info($id, $this->table_name, $this->PrimaryKey);
+            
             if (is_object($data_obj) && count((array) $data_obj) > 0) {
+                $user_id = $data_obj->user_id; // example
+                $data['user'] = $this->Common->get_info($user_id, TBL_USERS, 'id');
 
                 $data['franchisee'] = $this->Common->get_info($data_obj->franchisee_id, TBL_USERS, 'id');
                 $data['client'] = $this->Common->get_info($data_obj->client_id, TBL_CLIENTS, 'id');
@@ -466,6 +481,7 @@ class Quotation extends CI_Controller {
         if ($id > 0) {
             $data_obj = $this->Common->get_info($id, $this->table_name, $this->PrimaryKey);
             if (is_object($data_obj) && count((array) $data_obj) > 0) {
+                $data['user'] = $this->Common->get_info($data_obj->user_id, TBL_USERS, 'id');
 
                 $data['franchisee'] = $this->Common->get_info($data_obj->franchisee_id, TBL_USERS, 'id');
                 $data['client'] = $this->Common->get_info($data_obj->client_id, TBL_CLIENTS, 'id');
@@ -594,7 +610,7 @@ class Quotation extends CI_Controller {
         if (!is_object($data_obj) || count((array)$data_obj) == 0) {
             show_404();
         }
-
+        $data['user'] = $this->Common->get_info($data_obj->user_id, TBL_USERS, 'id');
         $data['franchisee'] = $this->Common->get_info($data_obj->franchisee_id, TBL_USERS, 'id');
         $data['client'] = $this->Common->get_info($data_obj->client_id, TBL_CLIENTS, 'id');
         // vendor data prepration with state name
