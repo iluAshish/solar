@@ -302,6 +302,21 @@ class ProjectProducts extends CI_Controller {
         ]);
     }
 
+    function get_project_sizes_by_project() {
+        $project_id = $this->input->post('project_id');
+
+        // TBL_PROJECT_PRODUCT
+        $GetSizes = $this->Common->get_list(TBL_PROJECT_SIZE, "id", "size_name", "id IN (SELECT DISTINCT size_id FROM " . TBL_PROJECT_PRODUCT . " WHERE project_id = $project_id)");
+       
+        if (!empty($GetSizes)) {
+            $response = array("status" => "ok", "data" => $GetSizes);
+        } else {
+            $response = array("status" => "error");
+        }
+        echo json_encode($response);
+        die;
+    }
+
 
     function get_cities() {
         $state_id = $this->input->post('state_id');

@@ -62,11 +62,11 @@
 							<!--  PAGE 1  –– full-page background  (xyz.png)             -->
 							<!-- ========================================================= -->
 							<!-- ========================================================= -->
-							<!--  PAGE 1  –– full-page background  (0.jpg)               -->
+							<!--  PAGE 1  –– full-page background  (0.png)               -->
 							<!-- ========================================================= -->
 							<div class="row pagebreak" 
-								style="position:relative; width:210mm; height:297mm; margin:0 auto 10mm; page-break-before:always;
-										background-image: url('<?php echo base_url()?>assets/media/qt_design/1.jpg');
+								style="position:relative; width:auto; height:auto; margin:0 auto 10mm; page-break-before:always;
+										background-image: url('<?php echo base_url()?>assets/media/qt_design/1.png');
 										background-size: cover;
 										background-position: center;
 										background-repeat: no-repeat;">
@@ -228,6 +228,7 @@
                                                     ?>
 												</td>
 											</tr>
+
 										</table>
 									</div>
 								</div>
@@ -237,7 +238,7 @@
 							<!--  PAGE 2  –– full-page background project description      -->
 							<!-- ========================================================= -->
 							<div class="row pagebreak" style="position:relative;width:210mm;height:297mm;margin:0 auto 10mm;page-break-before:always;">
-								<img src="<?php echo base_url()?>assets/media/qt_design/2.jpg"
+								<img src="<?php echo base_url()?>assets/media/qt_design/2.png"
 									style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
 								<!-- =====  put your custom content here  ===== -->
 								<table class="text-muted table-responsive table" style="width:100%;">
@@ -325,7 +326,7 @@
 							<!--  PAGE 3  –– full-page background  (xyz.png)             -->
 							<!-- ========================================================= -->
 							<div class="row pagebreak" style="position:relative;width:210mm;height:297mm;margin:0 auto 10mm;page-break-before:always;">
-								<img src="<?php echo base_url()?>assets/media/qt_design/3.jpg"
+								<img src="<?php echo base_url()?>assets/media/qt_design/3.png"
 									style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
 								<!-- =====  put your custom content here  ===== -->
 							</div>
@@ -337,7 +338,7 @@
 								style="position:relative;width:210mm;height:297mm;margin:0 auto 10mm;page-break-before:always;">
 
 								<!-- background image -->
-								<img src="<?php echo base_url()?>assets/media/qt_design/4.jpg"
+								<img src="<?php echo base_url()?>assets/media/qt_design/4.png"
 									style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;z-index:1;">
 
 								<!-- =====  put your custom content here  ===== -->
@@ -401,10 +402,10 @@
 							</div>
 
 							<!-- ========================================================= -->
-							<!--  PAGE 5  –– full-page background  (xyzLast.jpg)         -->
+							<!--  PAGE 5  –– full-page background  (xyzLast.png)         -->
 							<!-- ========================================================= -->
 							<div class="row pagebreak" style="position:relative;width:210mm;height:297mm;margin:0 auto;page-break-before:always;">
-								<img src="<?php echo base_url()?>assets/media/qt_design/5.jpg"
+								<img src="<?php echo base_url()?>assets/media/qt_design/5.png"
 									style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
 								<!-- =====  put your custom content here  ===== -->
 							</div>

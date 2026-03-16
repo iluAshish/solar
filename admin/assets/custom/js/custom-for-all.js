@@ -721,6 +721,53 @@ $(document).ready(function () {
         return false;
     });
 
+    $(document).on("change", "#project_id", function () {
+        var $el = $(this);
+        var project_id = $el.val();
+        var controll = $el.attr('data-control'); // must exist
+        // debugger;
+        var url = BASE_URL + controll + '/get_project_sizes_by_project';
+
+        console.log({ project_id, controll, url });
+
+        if(!controll) {
+            console.error('data-control attribute missing on the select element');
+            return;
+        }
+
+        $.ajax({
+            url: url,
+            type: "POST", // ensure server route accepts POST
+            data: { project_id: project_id },
+            dataType: "json",
+            beforeSend: function(xhr) {
+                // If your framework needs CSRF token in header:
+                if (typeof CSRF_TOKEN !== 'undefined') {
+                    xhr.setRequestHeader('X-CSRF-Token', CSRF_TOKEN);
+                }
+            },
+            success: function(res) {
+                console.log(res);
+                if (res.status) {
+                    let html = '<option>Select size</option>';
+                    $.each(res.data, function(key, value){
+                        html += '<option value="'+key+'">'+value+'</option>';
+                    });
+                    $("#franchisee_id").html(html);
+                } else {
+                    console.warn('Response status false', res);
+                }
+            },
+            error: function(xhr, status, err) {
+                console.error('AJAX error', status, err, xhr.responseText);
+                // show server response for debugging
+                alert('Server returned error: ' + xhr.status + ' — see console for details');
+            }
+        });
+
+        return false;
+    });
+
 
 
     $(document).on("change", ".size-ranges", function (event) {

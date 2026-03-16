@@ -148,7 +148,7 @@ $form_attr = array('class' => 'default_form needs-validation', 'id' => 'course_f
                                         <input type="hidden" name="row_id[]" value="<?php echo isset($prod_data->id) ? $prod_data->id : ''; ?>">
 
                                         <td style="padding-left:0px;">
-                                            <select class="form-select" name="project_id[]">
+                                            <select class="form-select" name="project_id[]" id="project_id" data-control="Projectproducts">
                                                 <option value="">Select Project</option>
                                                 <?php
                                                 if (isset($projects) && is_array($projects)) {
@@ -200,7 +200,7 @@ $form_attr = array('class' => 'default_form needs-validation', 'id' => 'course_f
                                     <tr data-row="1" class="product-row">
                                         <input type="hidden" name="row_id[]" value="">
                                         <td style="padding-left:0px;">
-                                            <select class="form-select" name="project_id[]">
+                                            <select class="form-select" name="project_id[]" id="project_id" data-control="Projectproducts">
                                                 <option value="">Select Project</option>
                                                 <?php foreach ($projects as $key => $value) {
                                                     echo '<option value="'.htmlspecialchars($key).'">'.htmlspecialchars($value).'</option>';

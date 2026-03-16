@@ -42,7 +42,7 @@
 
 <!-- ========= PAGE 1 ========= -->
 <div class="page">
-    <img src="<?php echo base_url('assets/media/qt_design/1.jpg'); ?>" class="bg">
+    <img src="<?php echo base_url('assets/media/qt_design/1.png'); ?>" class="bg">
     <div class="content">
         <table style="width:100%;">
             <tr>
@@ -114,7 +114,7 @@
 
 <!-- ========= PAGE 2 ========= -->
 <div class="page">
-    <img src="<?php echo base_url('assets/media/qt_design/2.jpg'); ?>" class="bg">
+    <img src="<?php echo base_url('assets/media/qt_design/2.png'); ?>" class="bg">
     <div class="content">
         <table style="width:100%;">
             <tr>
@@ -144,12 +144,12 @@
 
 <!-- ========= PAGE 3 ========= -->
 <div class="page">
-    <img src="<?php echo base_url('assets/media/qt_design/3.jpg'); ?>" class="bg">
+    <img src="<?php echo base_url('assets/media/qt_design/3.png'); ?>" class="bg">
 </div>
 
 <!-- ========= PAGE 4 ========= -->
 <div class="page">
-    <img src="<?php echo base_url('assets/media/qt_design/4.jpg'); ?>" class="bg">
+    <img src="<?php echo base_url('assets/media/qt_design/4.png'); ?>" class="bg">
     <div class="content">
         <table style="width:100%;">
             <tr>
@@ -192,7 +192,7 @@
 
 <!-- ========= PAGE 5 ========= -->
 <div class="page">
-    <img src="<?php echo base_url('assets/media/qt_design/5.jpg'); ?>" class="bg">
+    <img src="<?php echo base_url('assets/media/qt_design/5.png'); ?>" class="bg">
 </div>
 
 </body>

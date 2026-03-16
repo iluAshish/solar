@@ -1,0 +1,4 @@
+ERROR - 2025-12-10 05:40:18 --> Query error: Unknown column 'project_id' in 'where clause' - Invalid query: SELECT `id`, `size_name`
+FROM `tbl_project_size`
+WHERE `project_id` = 12
+ERROR - 2025-12-10 05:40:18 --> Severity: error --> Exception: Call to a member function num_rows() on bool D:\CI\solar\admin\application\models\Common.php 161

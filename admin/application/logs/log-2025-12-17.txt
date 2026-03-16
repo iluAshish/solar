@@ -1,0 +1,43 @@
+ERROR - 2025-12-17 02:28:53 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-12-17 02:28:53 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-17 02:34:12 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-12-17 02:34:13 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-17 02:40:43 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-12-17 02:40:44 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-17 02:45:14 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-12-17 02:45:16 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-17 02:45:31 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-12-17 02:45:55 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-12-17 02:45:56 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-17 02:51:40 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-12-17 02:51:45 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-12-17 02:51:46 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-17 02:52:59 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-12-17 02:53:01 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-17 02:54:04 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-12-17 02:54:39 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-12-17 02:54:40 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-17 02:54:56 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-12-17 02:54:57 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-17 02:55:31 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-12-17 02:55:32 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-17 03:21:43 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-12-17 03:21:44 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-17 03:28:25 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-12-17 05:27:40 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-12-17 05:27:40 --> 404 Page Not Found: Assets/media
+ERROR - 2025-12-17 05:27:40 --> 404 Page Not Found: Assets/media
+ERROR - 2025-12-17 05:27:40 --> 404 Page Not Found: Assets/media
+ERROR - 2025-12-17 05:27:40 --> 404 Page Not Found: Assets/media
+ERROR - 2025-12-17 05:27:40 --> 404 Page Not Found: Assets/media
+ERROR - 2025-12-17 05:27:41 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-17 05:27:45 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-12-17 05:27:45 --> 404 Page Not Found: Assets/media
+ERROR - 2025-12-17 05:27:45 --> 404 Page Not Found: Assets/media
+ERROR - 2025-12-17 05:27:45 --> 404 Page Not Found: Assets/media
+ERROR - 2025-12-17 05:27:45 --> 404 Page Not Found: Assets/media
+ERROR - 2025-12-17 05:27:46 --> 404 Page Not Found: Assets/media
+ERROR - 2025-12-17 05:27:46 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-17 05:28:55 --> Severity: Warning --> Undefined property: stdClass::$contact_person D:\CI\solar\admin\application\views\partials\menu.php 497
+ERROR - 2025-12-17 05:28:56 --> 404 Page Not Found: Faviconico/index
+ERROR - 2025-12-17 05:35:04 --> 404 Page Not Found: Faviconico/index
